@@ -24,7 +24,7 @@
             <ul class="nav navbar-nav">
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span> Lingua <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="https://www.cristalensi.com">Inglese</a></li>
+                        <li><a href="https://www.cristalensi.com">Italiano</a></li>
                         <li><a href="https://www.cristalensi.com/de/">Tedesco</a></li>
                     </ul>
                 </li>
