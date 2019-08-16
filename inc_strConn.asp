@@ -152,5 +152,5 @@ End Function
 	if idsession="" then idsession=0
 	'response.write("idsession:"&idsession)
 
-	dominio="IT"
+	dominio="COM"
 %>
