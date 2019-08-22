@@ -56,12 +56,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/1ng-lampade-da-interno.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-interno.jpg)" title="Lampade da interno e illuminazione interni"><img alt="Lampade da interno" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/1ng-lampade-da-interno.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-interno.jpg)" title="Indoor Lighting and Interior Lamps"><img alt="Indoor lighting" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/1ng-lampade-da-interno.asp" title="Lampade da interno e illuminazione interni"><h3>Lampade da interno</h3></a>
+                                    <a href="/illuminazione-interni-ed-esterni/1ng-lampade-da-interno.asp" title="Indoor Lighting and Interior Lamps"><h3>Indoor lighting</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +70,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/illuminazione-interni-ed-esterni/2ng-lampade-da-esterno.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-esterno.jpg)" title="Lampade da esterno e illuminazione esterni"><img alt="Lampade da esterno" src="images/blank.png"></a>
+                            <a href="/illuminazione-interni-ed-esterni/2ng-lampade-da-esterno.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-esterno.jpg)" title="Outdoor Lighting and Exterior Lamps"><img alt="Outdoor Lighting" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/2ng-lampade-da-esterno.asp" title="Lampade da esterno e illuminazione esterni"><h3>Lampade da esterno</h3></a>
+                                    <a href="/illuminazione-interni-ed-esterni/2ng-lampade-da-esterno.asp" title="Outdoor Lighting and Exterior Lamps"><h3>Outdoor Lighting</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -84,12 +84,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/illuminazione-interni-ed-esterni/3ng-ventilatori.asp" class="prod-img-replace" style="background-image: url(images/home-ventilatori.jpg)" title="Ventilatori"><img alt="Ventilatori" src="images/blank.png"></a>
+                            <a href="/illuminazione-interni-ed-esterni/3ng-ventilatori.asp" class="prod-img-replace" style="background-image: url(images/home-ventilatori.jpg)" title="Cooling fans"><img alt="Cooling fans" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/3ng-ventilatori.asp" title="Ventilatori"><h3>Ventilatori</h3></a>
+                                    <a href="/illuminazione-interni-ed-esterni/3ng-ventilatori.asp" title="Cooling fans"><h3>Cooling fans</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -98,12 +98,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/illuminazione-interni-ed-esterni/4ng-lampadine-componenti-illuminazione.asp" class="prod-img-replace" style="background-image: url(images/home-lampadine.jpg)" title="Lampadine"><img alt="Lampadine" src="images/blank.png"></a>
+                            <a href="/illuminazione-interni-ed-esterni/4ng-lampadine-componenti-illuminazione.asp" class="prod-img-replace" style="background-image: url(images/home-lampadine.jpg)" title="Light bulbs, Drivers and Led Strip Bar"><img alt="Lampadine" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/4ng-lampadine-componenti-illuminazione.asp" title="Lampadine"><h3>Lampadine, driver e strisce</h3></a>
+                                    <a href="/illuminazione-interni-ed-esterni/4ng-lampadine-componenti-illuminazione.asp" title="Light bulbs, Drivers and Led Strip Bar"><h3>Light bulbs, Drivers and Led Strip Bar</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -333,9 +333,12 @@
             <div class="row top-buffer hidden-xs" itemscope itemtype="http://schema.org/WebSite">
               <link itemprop="url" href="https://www.cristalensi.it/"/>
                 <div class="col-md-8">
-                    <h2 class="slogan">Cristalensi, italian online store of lamps<br />Showroom of lamps for over 50 years!</h2>
+                    <h2 class="slogan">Cristalensi, online store of lights<br />Showroom of lamps for over 50 years!</h2>
                     <p class="main-description">
-                        At just a click away, a vast and refined assortment of italian lighting products for inside and out... Take a look around our on-line Store of lights or visit our Showroom of lamps, we can satisfy all your style requirements, classical or modern.
+                        At just a click away, a vast and refined assortment of italian lighting products for inside and out... Take a look around our on-line Store of lights or visit our Showroom of lamps, we can satisfy all your style requirements: classic or modern chandeliers, wall lamps, ceiling lights and floor lamps, spotlights or fans with lights.
+                        We also have a large catalog of outdoor lamps, both modern and classic, and specific items for children, bedrooms and all other rooms in the house.
+                        There are also lamps for offices, shops, clubs, businesses and professional environments.
+                        Furthermore, a friendly and professional staff is ready to advise you on the purchase that best suits your needs.
                     </p>
                 </div>
                 <%

@@ -2,14 +2,14 @@
     <div class="container">
         <div class="row no-gutters">
             <div class="col-xs-12 col-sm-4" style="text-align: center">
-                <a class="header-logo" href="/" title="Cristalensi, vendita lampadari online">Cristalensi</a>
+                <a class="header-logo" href="/" title="Cristalensi, online store lamps">Cristalensi</a>
             </div>
             <div class="col-md-8">
                 <form action="/ricerca_avanzata_elenco.asp" class="navbar-form pull-right search-bar" role="search" name="ricerca_modulo">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Nome o codice prodotto" name="testo_ricerca" id="testo_ricerca">
+                        <input type="text" class="form-control" placeholder="Name or Code of product" name="testo_ricerca" id="testo_ricerca">
                         <div class="input-group-btn">
-                            <button class="btn btn-warning" type="submit"><i class="glyphicon glyphicon-search"></i><span class="hidden-xs"> Ricerca </span></button>
+                            <button class="btn btn-warning" type="submit"><i class="glyphicon glyphicon-search"></i><span class="hidden-xs"> Search </span></button>
                         </div>
                     </div>
                 </form>
@@ -28,7 +28,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav nav-justified main-menu">
-                    <li class="nav-user home"><a href="/" title="Cristalensi, vendita lampadari online"><span class="glyphicon glyphicon-home"></span></a></li>
+                    <li class="nav-user home"><a href="/" title="Cristalensi, online store lamps"><span class="glyphicon glyphicon-home"></span></a></li>
                     <li class="nav-user dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Interno <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
                             <li>
@@ -36,7 +36,7 @@
                                     <div class="row">
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                           <li class="subcategory">
-                                              <a href="/illuminazione-interni-ed-esterni/1nt-lampadari.asp" title="Lampadari, Sospensioni e Lampade a sospensione"><h4><strong>Lampadari</strong></h4></a>
+                                              <a href="/illuminazione-interni-ed-esterni/1nt-lampadari.asp" title="Chandeliers, Pendant Lamps and Suspended Lights"><h4><strong>Chandeliers</strong></h4></a>
                                               <ul class="list-unstyled lampadari">
                                                   <li><a href="/illuminazione-interni-ed-esterni/1nc-lampadari-moderni.asp" title="Lampadari moderni">Lampadari <b>moderni</b></a></li>
                                                   <li><a href="/illuminazione-interni-ed-esterni/2nc-lampadari-a-led.asp" title="Lampadari a LED">Lampadari <b>a LED</b></a></li>
@@ -52,7 +52,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/illuminazione-interni-ed-esterni/3nt-plafoniere.asp" title="Plafoniere e lampade a soffitto"><h4><strong>Plafoniere</strong></h4></a>
+                                                <a href="/illuminazione-interni-ed-esterni/3nt-plafoniere.asp" title="Ceiling lamps and Overhead lights"><h4><strong>Ceiling lamps</strong></h4></a>
                                                 <ul class="list-unstyled plafoniere">
                                                     <li><a href="/illuminazione-interni-ed-esterni/13nc-plafoniere-moderne.asp" title="Plafoniere moderne">Plafoniere <b>moderne</b></a></li>
                                                     <li><a href="/illuminazione-interni-ed-esterni/14nc-plafoniere-a-led.asp" title="Plafoniere a LED">Plafoniere <b>a LED</b></a></li>
@@ -68,7 +68,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/illuminazione-interni-ed-esterni/6nt-lampade-da-tavolo.asp" title="Illuminazione e lampade da tavolo"><h4><strong>Lampade da tavolo</strong></h4></a>
+                                                <a href="/illuminazione-interni-ed-esterni/6nt-lampade-da-tavolo.asp" title="Table Lamps and Table Lighting"><h4><strong>Table Lamps</strong></h4></a>
                                                 <ul class="list-unstyled lampade-tavolo">
                                                     <li><a href="/illuminazione-interni-ed-esterni/41nc-lampade-da-tavolo-moderne.asp" title="Lampade da tavolo moderne">Lampade da tavolo <b>moderne</b></a></li>
                                                     <li><a href="/illuminazione-interni-ed-esterni/42nc-lampade-da-tavolo-a-led.asp" title="Lampade da tavolo a LED">Lampade da tavolo <b>a LED</b></a></li>
@@ -84,7 +84,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/illuminazione-interni-ed-esterni/5nt-piantane.asp" title="Piantane, luci, illuminazione e lampade da terra"><h4><strong>Piantane</strong></h4></a>
+                                                <a href="/illuminazione-interni-ed-esterni/5nt-piantane.asp" title="Floor Lamps and Floor Lights"><h4><strong>Floor lamps</strong></h4></a>
                                                 <ul class="list-unstyled piantane">
                                                     <li><a href="/illuminazione-interni-ed-esterni/32nc-piantane-moderne.asp" title="Piantane moderne">Piantane <b>moderne</b></a></li>
                                                     <li><a href="/illuminazione-interni-ed-esterni/33nc-piantane-a-led.asp" title="Piantane a LED">Piantane <b>a LED</b></a></li>
@@ -100,7 +100,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/illuminazione-interni-ed-esterni/2nt-lampadari-a-bracci.asp" title="Lampadari a bracci e sospensioni con bracci"><h4><strong>Lampadari a bracci</strong></h4></a>
+                                                <a href="/illuminazione-interni-ed-esterni/2nt-lampadari-a-bracci.asp" title="Chandeliers with arms and Suspended Lights"><h4><strong>Chandeliers with arms</strong></h4></a>
                                                 <ul class="list-unstyled lampadari">
                                                     <li><a href="/illuminazione-interni-ed-esterni/10nc-lampadari-a-bracci-moderni.asp" title="Lampadari a bracci moderni">Lampadari a bracci <b>moderni</b></a></li>
                                                     <li><a href="/illuminazione-interni-ed-esterni/11nc-lampadari-a-bracci-classici.asp" title="Lampadari a bracci classici">Lampadari a bracci <b>classici</b></a></li>
@@ -109,7 +109,7 @@
                                                 </ul>
                                             </li>
                                             <li class="subcategory">
-                                                <a href="/illuminazione-interni-ed-esterni/8nt-lampade-allo-specchio.asp" title="Applique, Luci, Lampade allo specchio"><h4><strong>Lampade allo specchio</strong></h4></a>
+                                                <a href="/illuminazione-interni-ed-esterni/8nt-lampade-allo-specchio.asp" title="Mirror Lights for Bathroom and Mirror Applique"><h4><strong>Mirror Lights</strong></h4></a>
                                                 <ul class="list-unstyled lampade-specchio">
                                                     <li><a href="/illuminazione-interni-ed-esterni/54nc-lampade-allo-specchio-moderne.asp" title="Lampade allo specchio moderne e classiche">Applique <b>moderne e classiche</b></a></li>
                                                     <li><a href="/illuminazione-interni-ed-esterni/55nc-lampade-led-allo-specchio.asp" title="Lampade LED allo specchio">Applique <b>LED</b> allo specchio</a></li>
@@ -119,7 +119,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/illuminazione-interni-ed-esterni/4nt-applique.asp" title="Applique e lampade a parete"><h4><strong>Applique</strong></h4></a>
+                                                <a href="/illuminazione-interni-ed-esterni/4nt-applique.asp" title="Wall Lamps and Wall Lights"><h4><strong>Wall Lamps</strong></h4></a>
                                                 <ul class="list-unstyled applique">
                                                     <li><a href="/illuminazione-interni-ed-esterni/22nc-applique-moderne.asp" title="Applique moderne">Applique <b>moderne</b></a></li>
                                                     <li><a href="/illuminazione-interni-ed-esterni/23nc-applique-a-led.asp" title="Applique a LED">Applique <b>a LED</b></a></li>
@@ -136,7 +136,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/illuminazione-interni-ed-esterni/7nt-faretti-incassi.asp" title="Faretti, incassi e binari, illuminazione a muro"><h4><strong>Faretti, incassi e binari</strong></h4></a>
+                                                <a href="/illuminazione-interni-ed-esterni/7nt-faretti-incassi.asp" title="Spotlights, Recessed Lights and Ceiling Track Lights"><h4><strong>Spotlights & Recessed Lights</strong></h4></a>
                                                 <ul class="list-unstyled faretti">
                                                     <li><a href="/illuminazione-interni-ed-esterni/50nc-faretti-da-incasso.asp" title="Faretti da incasso">Faretti <b>da incasso</b></a></li>
                                                     <li><a href="/illuminazione-interni-ed-esterni/53nc-faretti-led-da-incasso.asp" title="Faretti LED da incasso">Faretti <b>LED da incasso</b></a></li>
