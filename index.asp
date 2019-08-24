@@ -56,12 +56,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/1ng-lampade-da-interno.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-interno.jpg)" title="Indoor Lighting and Interior Lamps"><img alt="Indoor lighting" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-interno.jpg)" title="Indoor Lighting and Interior Lamps"><img alt="Indoor lighting" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/1ng-lampade-da-interno.asp" title="Indoor Lighting and Interior Lamps"><h3>Indoor lighting</h3></a>
+                                    <a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" title="Indoor Lighting and Interior Lamps"><h3>Indoor lighting</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +70,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/illuminazione-interni-ed-esterni/2ng-lampade-da-esterno.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-esterno.jpg)" title="Outdoor Lighting and Exterior Lamps"><img alt="Outdoor Lighting" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-esterno.jpg)" title="Outdoor Lighting and Exterior Lamps"><img alt="Outdoor Lighting" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/2ng-lampade-da-esterno.asp" title="Outdoor Lighting and Exterior Lamps"><h3>Outdoor Lighting</h3></a>
+                                    <a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" title="Outdoor Lighting and Exterior Lamps"><h3>Outdoor Lighting</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -84,12 +84,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/illuminazione-interni-ed-esterni/3ng-ventilatori.asp" class="prod-img-replace" style="background-image: url(images/home-ventilatori.jpg)" title="Cooling fans"><img alt="Cooling fans" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(images/home-ventilatori.jpg)" title="Cooling fans"><img alt="Cooling fans" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/3ng-ventilatori.asp" title="Cooling fans"><h3>Cooling fans</h3></a>
+                                    <a href="/interior-exterior-lighting/3ng-cooling-fans.asp" title="Cooling fans"><h3>Cooling fans</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -98,12 +98,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/illuminazione-interni-ed-esterni/4ng-lampadine-componenti-illuminazione.asp" class="prod-img-replace" style="background-image: url(images/home-lampadine.jpg)" title="Light bulbs, Drivers and Led Strip Bar"><img alt="Lampadine" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(images/home-lampadine.jpg)" title="Light bulbs, Drivers and Led Strip Bar"><img alt="Lampadine" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/4ng-lampadine-componenti-illuminazione.asp" title="Light bulbs, Drivers and Led Strip Bar"><h3>Light bulbs, Drivers and Led Strip Bar</h3></a>
+                                    <a href="/interior-exterior-lighting/4ng-light-bulbs.asp" title="Light bulbs, Drivers and Led Strip Bar"><h3>Light bulbs, Drivers and Led Strip Bar</h3></a>
                                 </div>
                             </div>
                         </div>
