@@ -36,7 +36,7 @@
                                     <div class="row">
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                           <li class="subcategory">
-                                              <a href="/interior-exterior-lighting/1nt-lampadari.asp" title="Chandeliers, Pendant Lamps and Suspended Lights"><h4><strong>Chandeliers</strong></h4></a>
+                                              <a href="/interior-exterior-lighting/1nt-chandeliers.asp" title="Chandeliers, Pendant Lamps and Suspended Lights"><h4><strong>Chandeliers</strong></h4></a>
                                               <ul class="list-unstyled lampadari">
                                                   <li><a href="/interior-exterior-lighting/1nc-lampadari-moderni.asp" title="Modern suspended lamps">Modern suspended lamps</a></li>
                                                   <li><a href="/interior-exterior-lighting/2nc-lampadari-a-led.asp" title="Suspended lamps with LED">Suspended lamps with LED</a></li>
@@ -52,7 +52,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/3nt-plafoniere.asp" title="Ceiling lamps and Overhead lights"><h4><strong>Ceiling lamps</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/3nt-ceiling-lamps.asp" title="Ceiling lamps and Overhead lights"><h4><strong>Ceiling lamps</strong></h4></a>
                                                 <ul class="list-unstyled plafoniere">
                                                     <li><a href="/interior-exterior-lighting/13nc-plafoniere-moderne.asp" title="Modern overhead lights">Modern overhead lights</a></li>
                                                     <li><a href="/interior-exterior-lighting/14nc-plafoniere-a-led.asp" title="Overhead LED lights">Overhead LED lights</a></li>
@@ -68,7 +68,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/6nt-lampade-da-tavolo.asp" title="Table Lamps and Table Lighting"><h4><strong>Table Lamps</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/6nt-table-lamps.asp" title="Table Lamps and Table Lighting"><h4><strong>Table Lamps</strong></h4></a>
                                                 <ul class="list-unstyled lampade-tavolo">
                                                     <li><a href="/interior-exterior-lighting/41nc-lampade-da-tavolo-moderne.asp" title="Modern table lamps">Modern table lamps</a></li>
                                                     <li><a href="/interior-exterior-lighting/42nc-lampade-da-tavolo-a-led.asp" title="LED lamps table">LED lamps table</a></li>
@@ -84,7 +84,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/5nt-piantane.asp" title="Floor Lamps and Floor Lights"><h4><strong>Floor lamps</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/5nt-floor-lamps.asp" title="Floor Lamps and Floor Lights"><h4><strong>Floor lamps</strong></h4></a>
                                                 <ul class="list-unstyled piantane">
                                                     <li><a href="/interior-exterior-lighting/32nc-piantane-moderne.asp" title="Modern floor lamps">Modern floor lamps</a></li>
                                                     <li><a href="/interior-exterior-lighting/33nc-piantane-a-led.asp" title="Led lamps floor">Led lamps floor</a></li>
@@ -100,7 +100,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/2nt-lampadari-a-bracci.asp" title="Chandeliers with arms and Suspended Lights"><h4><strong>Chandeliers with arms</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/2nt-chandeliers-with-arms.asp" title="Chandeliers with arms and Suspended Lights"><h4><strong>Chandeliers with arms</strong></h4></a>
                                                 <ul class="list-unstyled lampadari">
                                                     <li><a href="/interior-exterior-lighting/10nc-lampadari-a-bracci-moderni.asp" title="Lampadari a bracci moderni">Modern chandeliers with arms</a></li>
                                                     <li><a href="/interior-exterior-lighting/11nc-lampadari-a-bracci-classici.asp" title="Lampadari a bracci classici">Classical chandeliers with arms</a></li>
@@ -109,7 +109,7 @@
                                                 </ul>
                                             </li>
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/8nt-lampade-allo-specchio.asp" title="Mirror Lights for Bathroom and Mirror Applique"><h4><strong>Mirror Lights</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/8nt-mirror-lights.asp" title="Mirror Lights for Bathroom and Mirror Applique"><h4><strong>Mirror Lights</strong></h4></a>
                                                 <ul class="list-unstyled lampade-specchio">
                                                     <li><a href="/interior-exterior-lighting/54nc-lampade-allo-specchio-moderne.asp" title="Bathrooms mirror lights">Bathrooms mirror lights</a></li>
                                                     <li><a href="/interior-exterior-lighting/55nc-lampade-led-allo-specchio.asp" title="Mirror LED applique">Mirror LED applique</a></li>
@@ -119,7 +119,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/4nt-applique.asp" title="Wall Lamps and Wall Lights"><h4><strong>Wall Lamps</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/4nt-wall-lamps.asp" title="Wall Lamps and Wall Lights"><h4><strong>Wall Lamps</strong></h4></a>
                                                 <ul class="list-unstyled applique">
                                                     <li><a href="/interior-exterior-lighting/22nc-applique-moderne.asp" title="Modern wall lights">Modern wall lights</a></li>
                                                     <li><a href="/interior-exterior-lighting/23nc-applique-a-led.asp" title="Wall LED lamps">Wall LED lamps</a></li>
@@ -136,7 +136,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/7nt-faretti-incassi.asp" title="Spotlights, Recessed Lights and Ceiling Track Lights"><h4><strong>Spotlights & Recessed Lights</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/7nt-spotlights-and-recessed-lights.asp" title="Spotlights, Recessed Lights and Ceiling Track Lights"><h4><strong>Spotlights & Recessed Lights</strong></h4></a>
                                                 <ul class="list-unstyled faretti">
                                                     <li><a href="/interior-exterior-lighting/50nc-faretti-da-incasso.asp" title="Recessed Lights">Recessed Lights</a></li>
                                                     <li><a href="/interior-exterior-lighting/53nc-faretti-led-da-incasso.asp" title="Recessed spotlights with LED">Recessed spotlights with LED</a></li>
@@ -173,7 +173,7 @@
                                     <div class="row">
                                         <ul class="col-sm-6 col-lg-4 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/10nt-lampade-da-terra-per-esterni.asp" title="External Floor Lamps and Lighting"><h4><strong>External Floor Lamps</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/10nt-external-floor-lamps.asp" title="External Floor Lamps and Lighting"><h4><strong>External Floor Lamps</strong></h4></a>
                                                 <ul class="list-unstyled piantane">
                                                     <li><a href="/interior-exterior-lighting/68nc-pali-e-lampioni-da-giardino-moderni.asp" title="Modern outside floor lamps">Modern outside floor lamps</a></li>
                                                     <li><a href="/interior-exterior-lighting/67nc-lampade-led-da-terra-per-esterni.asp" title="Lampade LED da terra per esterni">Modern outside LED Floor</a></li>
@@ -193,7 +193,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-4 col-same-height list-unstyled">
                                           <li class="subcategory">
-                                              <a href="/interior-exterior-lighting/11nt-applique-da-esterno.asp" title="Outdoor Wall Lamps and Exterior Wall Lights"><h4><strong>Outdoor Wall Lamps</strong></h4></a>
+                                              <a href="/interior-exterior-lighting/11nt-outdoor-wall-lamps.asp" title="Outdoor Wall Lamps and Exterior Wall Lights"><h4><strong>Outdoor Wall Lamps</strong></h4></a>
                                               <ul class="list-unstyled applique">
                                                   <li><a href="/interior-exterior-lighting/70nc-luci-esterne-a-parete-moderne.asp" title="Modern external wall lamps">Modern external wall lamps</a></li>
                                                   <li><a href="/interior-exterior-lighting/65nc-applique-led-per-esterni.asp" title="Modern external wall lamps Led">Modern external wall lamps Led</a></li>
@@ -203,7 +203,7 @@
                                           </li>
 
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/13nt-faretti-incassi-da-esterno.asp" title="Exterior Recessed Lights"><h4><strong>Exterior Recessed Lights</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/13nt-exterior-recessed-lights.asp" title="Exterior Recessed Lights"><h4><strong>Exterior Recessed Lights</strong></h4></a>
                                                 <ul class="list-unstyled faretti">
                                                     <li><a href="/interior-exterior-lighting/71nc-lampade-da-incasso-e-faretti-da-esterno.asp" title="Modern embedded lamps for external use">Modern embedded lamps for external use</a></li>
                                                     <li>&nbsp;</li>
@@ -213,7 +213,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-4 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/12nt-plafoniere-sospensioni-per-esterni.asp" title="Exterior Ceiling Lights"><h4><strong>Exterior Ceiling Lights</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/12nt-exterior-ceiling-lights.asp" title="Exterior Ceiling Lights"><h4><strong>Exterior Ceiling Lights</strong></h4></a>
                                                 <ul class="list-unstyled plafoniere">
                                                     <li><a href="/interior-exterior-lighting/69nc-plafoniere-esterne-moderne.asp" title="Modern exterior ceiling lights">Modern exterior ceiling lights</a></li>
                                                     <li><a href="/interior-exterior-lighting/74nc-lampade-esterne-classiche-a-soffitto.asp" title="Classical ceiling lights for external use">Classical ceiling lights for external use</a></li>
@@ -232,7 +232,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-4 list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/interior-exterior-lighting/15nt-lampade-con-pannello-solare.asp" title="Exterior Lamps with Solar Panel"><h4><strong>Exterior Lamps with Solar Panel</strong></h4></a>
+                                                <a href="/interior-exterior-lighting/15nt-exterior-lamps-with-solar-panel.asp" title="Exterior Lamps with Solar Panel"><h4><strong>Exterior Lamps with Solar Panel</strong></h4></a>
                                                 <ul class="list-unstyled piantane">
                                                     <li><a href="/interior-exterior-lighting/66nc-lampade-led-con-pannello-solare.asp" title="Exterior lamp LED with Solar Panel">Exterior lamp LED with Solar Panel</a></li>
                                                     <li>&nbsp;</li>
@@ -257,14 +257,14 @@
                     <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Cooling fans <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
                             <li class="dropdown dropdown-submenu">
-                                <a href="/interior-exterior-lighting/16nt-ventilatori-a-soffitto-con-luce.asp" class="dropdown-toggle" title="Ceiling fans with Lights">Ceiling fans with Lights</a>
+                                <a href="/interior-exterior-lighting/16nt-ceiling-fans-with-lights.asp" class="dropdown-toggle" title="Ceiling fans with Lights">Ceiling fans with Lights</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="/interior-exterior-lighting/57nc-ventilatori-a-soffitto-moderni-con-luce.asp" title="Modern ceiling fans with light">Modern ceiling fans with light</a></li>
                                     <li><a href="/interior-exterior-lighting/58nc-ventilatori-a-soffitto-classici-con-luce.asp" title="Classic ceiling fans with light">Classic ceiling fans with light</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown dropdown-submenu">
-                                <a href="/interior-exterior-lighting/17nt-ventilatori-senza-luce.asp" class="dropdown-toggle" title="Fans without Lights">Fans without Lights</a>
+                                <a href="/interior-exterior-lighting/17nt-fans-without-lights.asp" class="dropdown-toggle" title="Fans without Lights">Fans without Lights</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="/interior-exterior-lighting/59nc-ventilatori-a-soffitto-senza-luce.asp" title="Ceiling fans without light">Ceiling fans without light</a></li>
                                     <li><a href="/interior-exterior-lighting/60nc-ventilatori-da-terra-e-da-tavolo.asp" title="Table and floor fans">Table and floor fans</a></li>
@@ -275,14 +275,14 @@
                     <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Light bulbs <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
                             <li class="dropdown dropdown-submenu">
-                                <a href="/interior-exterior-lighting/18nt-lampadine-led-alogene.asp" class="dropdown-toggle">Led Lights and Halogen Lighting</a>
+                                <a href="/interior-exterior-lighting/18nt-led-and-halogen-lights.asp" class="dropdown-toggle">Led Lights and Halogen Lighting</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="/interior-exterior-lighting/61nc-lampadine-led.asp">Led lights</a></li>
                                     <li><a href="/interior-exterior-lighting/62nc-lampadine-alogene.asp">Halogen lighting</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown dropdown-submenu">
-                                <a href="/interior-exterior-lighting/19nt-componenti-illuminazione.asp" class="dropdown-toggle">Lighting components</a>
+                                <a href="/interior-exterior-lighting/19nt-lighting-components.asp" class="dropdown-toggle">Lighting components</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="/interior-exterior-lighting/64nc-strisce-led.asp">Led strip bar</a></li>
                                     <li><a href="/interior-exterior-lighting/63nc-driver-per-led.asp">Drivers for Led</a></li>
@@ -292,35 +292,35 @@
                     </li>
                     <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Styles <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/interior-exterior-lighting/1ns-lampade-moderne-per-interni.asp" title="Modern interior lamps">Modern interior lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/2ns-lampade-led-da-interni.asp" title="Internal Led Lamps">Internal Led Lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/3ns-lampade-classiche-da-interni.asp" title="Classic indoor lamps">Classic indoor lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/4ns-lampade-rustiche.asp" title="Rustic Lamps">Rustic Lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/5ns-lampade-vintage.asp" title="Vintage lamps">Vintage lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/6ns-lampade-tiffany.asp" title="Tiffany lamps">Tiffany lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/7ns-lampade-murano.asp" title="Murano lamps">Murano lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/8ns-lampade-in-cristallo.asp" title="Crystal Lamps">Crystal Lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/9ns-lampade-in-gesso.asp" title="Gypsum lamps">Gypsum lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/10ns-lampade-per-bambini.asp" title="Lamps for kids">Lamps for kids</a></li>
-                            <li><a href="/interior-exterior-lighting/11ns-lampade-moderne-per-esterni.asp" title="Outside modern lights">Outside modern lights</a></li>
-                            <li><a href="/interior-exterior-lighting/12ns-lampade-led-per-esterni.asp" title="Modern external lamps Led">Modern external lamps Led</a></li>
-                            <li><a href="/interior-exterior-lighting/13ns-lampade-classiche-per-esterni.asp" title="Outside classic lights">Outside classic lights</a></li>
+                            <li><a href="/interior-exterior-lighting/1ns-modern-interior-lamps.asp" title="Modern interior lamps">Modern interior lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/2ns-internal-led-lamps.asp" title="Internal Led Lamps">Internal Led Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/3ns-classic-indoor-lamps.asp" title="Classic indoor lamps">Classic indoor lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/4ns-rustic-lamps.asp" title="Rustic Lamps">Rustic Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/5ns-vintage-lamps.asp" title="Vintage lamps">Vintage lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/6ns-tiffany-lamps.asp" title="Tiffany lamps">Tiffany lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/7ns-murano-lamps.asp" title="Murano lamps">Murano lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/8ns-crystal-lamps.asp" title="Crystal Lamps">Crystal Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/9ns-gypsum-lamps.asp" title="Gypsum lamps">Gypsum lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/10ns-lamps-for-kids.asp" title="Lamps for kids">Lamps for kids</a></li>
+                            <li><a href="/interior-exterior-lighting/11ns-outside-modern-lights.asp" title="Outside modern lights">Outside modern lights</a></li>
+                            <li><a href="/interior-exterior-lighting/12ns-modern-external-lamps-led.asp" title="Modern external lamps Led">Modern external lamps Led</a></li>
+                            <li><a href="/interior-exterior-lighting/13ns-outside-classic-lights.asp" title="Outside classic lights">Outside classic lights</a></li>
                         </ul>
                     </li>
                     <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Rooms <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/interior-exterior-lighting/1na-lampade-soggiorno.asp" title="Living Room Lamps">Living Room Lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/2na-lampade-cucina.asp" title="Kitchen Lamps">Kitchen Lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/3na-lampade-camera-da-letto.asp" title="Lamps for the Bedroom">Lamps for the Bedroom</a></li>
-                            <li><a href="/interior-exterior-lighting/4na-lampade-cameretta.asp" title="Lamps for the Children's room">Lamps for the Children's room</a></li>
-                            <li><a href="/interior-exterior-lighting/5na-lampade-bagno.asp" title="Bathroom Lamps">Bathroom Lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/6na-lampade-ingresso.asp" title="Entrance Lamps">Entrance Lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/7na-lampade-corridoio-scale.asp" title="Lamps for stairs">Lamps for stairs</a></li>
-                            <li><a href="/interior-exterior-lighting/8na-lampade-ufficio-studio.asp" title="Office and Study Lamps">Office and Study Lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/9na-lampade-taverna.asp" title="Lamps for the Tavern">Lamps for the Tavern</a></li>
-                            <li><a href="/interior-exterior-lighting/10na-lampade-giardino.asp" title="Garden Lamps">Garden Lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/11na-lampade-terrazzo.asp" title="Terrace Lamps">Terrace Lamps</a></li>
-                            <li><a href="/interior-exterior-lighting/12na-lampade-loggiato.asp" title="Porch Lamps">Porch Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/1na-living-room-lamps.asp" title="Living Room Lamps">Living Room Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/2na-kitchen-lamps.asp" title="Kitchen Lamps">Kitchen Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/3na-lamps-for-the-bedroom.asp" title="Lamps for the Bedroom">Lamps for the Bedroom</a></li>
+                            <li><a href="/interior-exterior-lighting/4na-lamps-for-the-childrens-room.asp" title="Lamps for the Children's room">Lamps for the Children's room</a></li>
+                            <li><a href="/interior-exterior-lighting/5na-bathroom-lamps.asp" title="Bathroom Lamps">Bathroom Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/6na-entrance-lamps.asp" title="Entrance Lamps">Entrance Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/7na-lamps-for-stairs.asp" title="Lamps for stairs">Lamps for stairs</a></li>
+                            <li><a href="/interior-exterior-lighting/8na-office-and-study-lamps.asp" title="Office and Study Lamps">Office and Study Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/9na-lamps-for-the-tavern.asp" title="Lamps for the Tavern">Lamps for the Tavern</a></li>
+                            <li><a href="/interior-exterior-lighting/10na-garden-lamps.asp" title="Garden Lamps">Garden Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/11na-terrace-lamps.asp" title="Terrace Lamps">Terrace Lamps</a></li>
+                            <li><a href="/interior-exterior-lighting/12na-porch-lamps.asp" title="Porch Lamps">Porch Lamps</a></li>
                         </ul>
                     </li>
                     <li class="nav-user"><a href="/produttori.asp" title="Brands and Producers of lights">Brands</a></li>
