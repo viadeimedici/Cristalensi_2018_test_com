@@ -241,12 +241,11 @@
 <html>
 
 <head>
-    <title>Cristalensi - Carrello E-commerce vendita lampadari</title>
+    <title>Cristalensi - Cart Online Shop Lamps</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Cristalensi.">
-    <meta name="keywords" content="">
+    <meta name="description" content="Cristalensi - Cart Online Shop Lamps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Cristalensi.">
+    <meta property="og:description" content="Cristalensi - Cart Online Shop Lamps.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -315,7 +314,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Carrello</div>
+                    <div class="bs-wizard-info text-center">Cart</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">2</div>
@@ -323,7 +322,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Accedi / Iscriviti</div>
+                    <div class="bs-wizard-info text-center">Autentication / Registration</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">3</div>
@@ -331,7 +330,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Indirizzo di spedizione</div>
+                    <div class="bs-wizard-info text-center">Shipping address</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">4</div>
@@ -339,7 +338,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Pagamento &amp; Fatturazione</div>
+                    <div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">5</div>
@@ -347,7 +346,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Conferma dell'ordine</div>
+                    <div class="bs-wizard-info text-center">Order confirmation</div>
                 </div>
             </div>
         </div>
@@ -355,17 +354,17 @@
             <div class="col-md-8">
                 <div class="row">
                     <div class="title">
-                        <h4><span class="visible-xs" style="padding-top: 20px;">Carrello - Passo 1 di 5</span></h4>
+                        <h4><span class="visible-xs" style="padding-top: 20px;">Cart - 1 of 5</span></h4>
                     </div>
                     <div class="col-md-12">
                         <div class="top-buffer">
                             <table id="cart" class="table table-hover table-condensed table-cart">
                                 <thead>
                                     <tr>
-                                        <th style="width:45%">Prodotto</th>
-																				<th style="width:15%">Quantit&agrave;</th>
-                                        <th style="width:15%" class="text-right">Prezzo</th>
-                                        <th style="width:15%" class="text-right hidden-xs">Totale Pr.</th>
+                                        <th style="width:45%">Product</th>
+																				<th style="width:15%">Quantity</th>
+                                        <th style="width:15%" class="text-right">Price</th>
+                                        <th style="width:15%" class="text-right hidden-xs">Total Pr.</th>
                                         <th style="width:10%"></th>
                                     </tr>
                                 </thead>
@@ -378,10 +377,10 @@
 																		Do while not rs.EOF
 
 																		Set url_prodotto_rs = Server.CreateObject("ADODB.Recordset")
-																		sql = "SELECT PkId, NomePagina, FkProduttore FROM Prodotti where PkId="&rs("FkProdotto")&""
+																		sql = "SELECT PkId, NomePagina_en, FkProduttore FROM Prodotti where PkId="&rs("FkProdotto")&""
 																		url_prodotto_rs.Open sql, conn, 1, 1
 
-																		NomePagina=url_prodotto_rs("NomePagina")
+																		NomePagina=url_prodotto_rs("NomePagina_en")
 																		if Len(NomePagina)>0 then
 																			NomePagina="/public/pagine/"&NomePagina
 																		else
@@ -402,9 +401,9 @@
                                                 <div class="col-sm-12">
                                                     <h6 class="nomargin"><a href="<%=NomePagina%>" title="Scheda del prodotto: <%=NomePagina%>"><%=rs("titolo")%></a></h6>
 																										<p>
-																											<strong>Codice: <%=rs("codicearticolo")%></strong>
-                                                    	<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Lamp.: <%=rs("lampadina")%><%end if%><%end if%>
-																											<%if FkProduttore=59 then%><br /><span style="color:#a01010;"><strong><em>Sconti Extra non applicabili</em></strong></span><%end if%>
+																											<strong>Code: <%=rs("codicearticolo")%></strong>
+                                                    	<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Light: <%=rs("lampadina")%><%end if%><%end if%>
+																											<%if FkProduttore=59 then%><br /><span style="color:#a01010;"><strong><em>Extra discounts not applicable</em></strong></span><%end if%>
 																										</p>
                                                 </div>
                                             </div>
@@ -428,20 +427,20 @@
 																	<%if ss.recordcount>0 then%>
 	                                <tfoot>
 	                                    <tr>
-																					<td class="text-right" colspan="3">Totale Carrello</td>
+																					<td class="text-right" colspan="3">Total Cart</td>
 																					<td class="text-right"><%if ss("TotaleCarrello")<>0 then%>
 												  								<%=FormatNumber(ss("TotaleCarrello"),2)%><%else%>0<%end if%>&nbsp&euro;</td>
 																					<td class="hidden-xs"></td>
 	                                    </tr>
 																			<tr>
-																					<td class="text-right" colspan="3"><strong>Sconto Extra</strong></td>
+																					<td class="text-right" colspan="3"><strong>Extra Discount</strong></td>
 																					<td class="text-right"><strong><%if ss("Sconto")<>0 then%>
 												  								-<%=FormatNumber(ss("Sconto"),2)%><%else%>0,00<%end if%>&nbsp&euro;</strong></td>
 																					<td class="hidden-xs"></td>
 	                                    </tr>
 	                                    <tr>
-	                                        <td><a href="/" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continua gli acquisti</a></td>
-	                                        <td class="text-right" colspan="2"><strong>Totale Generale</strong></td>
+	                                        <td><a href="/" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+	                                        <td class="text-right" colspan="2"><strong>Total Purchase</strong></td>
 																					<td class="text-right"><strong><%if ss("TotaleGenerale")<>0 then%>
 												  								<%=FormatNumber(ss("TotaleGenerale"),2)%><%else%>0<%end if%>&nbsp&euro;</strong></td>
 																					<td class="hidden-xs"></td>
@@ -454,7 +453,7 @@
 																			<td data-th="Product" class="cart-product">
 																					<div class="row">
 																							<div class="col-sm-12">
-																									<h5 class="nomargin"><br>Nessun prodotto nel carrello</h5>
+																									<h5 class="nomargin"><br>Cart is empty</h5>
 																							</div>
 																			</td>
 																	</tr>
@@ -473,11 +472,11 @@
 								<div class="panel panel-default user-comment">
 										<!-- Default panel contents -->
 										<div class="panel-heading">
-												<h5><i class="glyphicon glyphicon-warning-sign"></i> Eventuali annotazioni</h5>
+												<h5><i class="glyphicon glyphicon-warning-sign"></i> Any notes</h5>
 										</div>
 										<ul class="list-group">
 												<li class="list-group-item">
-												<p>Potete usare questo spazio per inserire eventuali comunicazioni in relazione ai prodotti acquistati.</p>
+												<p>You can use this space to enter any notes or communications in relation to the products purchased.</p>
 												<textarea name="NoteCliente" style="width: 100%" rows="2" id="NoteCliente"><%=ss("NoteCliente")%></textarea>
 												</li>
 										</ul>
@@ -506,14 +505,14 @@
 								<div class="panel panel-default" style="box-shadow: 0 3px 5px #ccc;">
                     <ul class="list-group text-center">
                         <li class="list-group-item" style="padding-top: 20px">
-                            <p>Totale Generale:<br />
+                            <p>Total Purchase:<br />
                                 <span class="price-new"><%if ss("TotaleGenerale")<>0 then%>
 								<%=FormatNumber(ss("TotaleGenerale"),2)%><%else%>0<%end if%> &euro;</span>
                             </p>
                         </li>
                     </ul>
                     <div class="panel-footer">
-                        <a href="#" class="btn btn-danger btn-block" style="padding: 10px 0px;" onClick="NoteCliente();">COMPLETA L'ACQUISTO <i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="btn btn-danger btn-block" style="padding: 10px 0px;" onClick="NoteCliente();">COMPLETE PURCHASE <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 								<%end if%>

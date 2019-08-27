@@ -118,7 +118,7 @@
                 <%
                 'random prodotti in offerta
                 Set prod_rs = Server.CreateObject("ADODB.Recordset")
-                sql = "SELECT pkid,codicearticolo,titolo,prezzoprodotto,prezzolistino,nomepagina,offerta,fkproduttore FROM Prodotti WHERE Offerta=1 OR Offerta=2 ORDER BY Titolo ASC"
+                sql = "SELECT pkid,codicearticolo,titolo_EN,prezzoprodotto,prezzolistino,nomepagina_EN,offerta,fkproduttore FROM Prodotti WHERE Offerta=1 OR Offerta=2 ORDER BY Titolo_EN ASC"
                 prod_rs.open sql,conn, 1, 1
 
                 Randomize()
@@ -182,7 +182,7 @@
   							%>
                 <div class="col-xs-12 col-sm-4 col-md-3">
                   <article class="col-item">
-                      <%if spedizionegratis=1 then%><div class="options">SPEDIZIONE<br />GRATUITA</div><%end if%>
+                      <%if dominio="IT" then%><%if spedizionegratis=1 then%><div class="options">SPEDIZIONE<br />GRATUITA</div><%end if%><%end if%>
                       <div class="photo">
                           <a href="/<%=NomePagina%>" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/<%=file_img%>)" title="<%=titolo_prodotto%>"><img alt="<%=titolo_prodotto%>" src="/images/blank.png"></a>
                       </div>
@@ -190,24 +190,24 @@
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>codice: <b><%=codicearticolo%></b></span><span>produttore: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>producer: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
                                       <%if prezzoarticolo<>0 then%>
                                         <span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
-                                        <%if prezzolistino<>0 then%><span class="price-old">invece di  <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                        <%if prezzolistino<>0 then%><span class="price-old">instead of  <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%else%>
                                         <span class="price-new">&nbsp;<br /></span>
-                                        <span class="price-old">Prezzo di listino: <b><%=prezzolistino%> &euro;</b></span>
+                                        <span class="price-old">List Price: <b><%=prezzolistino%> &euro;</b></span>
                                       <%end if%>
                                   </div>
                               </div>
                           </div>
                           <div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Aggiungi ai preferiti"><i class="fa fa-heart"></i></a>
+                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
-                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="vedi ed aggiungi al carrello">vedi scheda <i class="fa fa-chevron-right"></i></a>
+                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="See the details and Add to cart">details <i class="fa fa-chevron-right"></i></a>
                               </p>
                           </div>
                           <div class=""></div>
@@ -230,15 +230,15 @@
             %>
             <div class="row top-buffer">
                 <div class="col-xl-12 clearfix">
-                    <h4 class="subtitle"><div class="dot"></div><span>The latest lamps e lights arrived</span></h4> <a href="/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section pull-right hidden-xs" title="Novit&Agrave; illuminazione e ultimi arrivi">See all new products  <i class="fa fa-chevron-right"></i></a>
+                    <h4 class="subtitle"><div class="dot"></div><span>The latest lamps e lights arrived</span></h4> <a href="/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section pull-right hidden-xs" title="The latest lamps e lights arrived">See all new products  <i class="fa fa-chevron-right"></i></a>
                     <a href="/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section btn-block hidden visible-xs bottom-buffer" style="">see all <i class="fa fa-chevron-right"></i></a>
                 </div>
                 <%
                 Do while not prod_rs.EOF
 
                   id=prod_rs("pkid")
-                  titolo_prodotto=prod_rs("titolo")
-                  NomePagina=prod_rs("NomePagina")
+                  titolo_prodotto=prod_rs("titolo_en")
+                  NomePagina=prod_rs("NomePagina_en")
                   if Len(NomePagina)>0 then
                     NomePagina="public/pagine/"&NomePagina
                     'NomePagina="/public/pagine/scheda_prodotto.asp?id="&id
@@ -284,7 +284,7 @@
                 %>
                 <div class="col-xs-12 col-sm-4 col-md-3">
                   <article class="col-item">
-                        <%if spedizionegratis=1 then%><div class="options">SPEDIZIONE<br />GRATUITA</div><%end if%>
+                        <%if dominio="IT" then%><%if spedizionegratis=1 then%><div class="options">SPEDIZIONE<br />GRATUITA</div><%end if%><%end if%>
                       <div class="photo">
                           <a href="/<%=NomePagina%>" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/<%=file_img%>)" title="<%=titolo_prodotto%>"><img alt="<%=titolo_prodotto%>" src="/images/blank.png"></a>
                       </div>
@@ -292,29 +292,29 @@
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>codice: <b><%=codicearticolo%></b></span><span>produttore: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>producer: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
                                       <%if prezzoarticolo<>0 then%>
                                         <%if idsession=0 and prezzoprodottosoloclienti="si" then%>
-                                          <em><span class="price-new" style="color: #000;">SCONTO PER ISCRITTI</span></em><br />
-                                          <%if prezzolistino<>0 then%><span class="price-old">Prezzo di listino: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                          <em><span class="price-new" style="color: #000;">DISCOUNT FOR CLIENTS</span></em><br />
+                                          <%if prezzolistino<>0 then%><span class="price-old">List Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                         <%else%>
                                           <span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
-                                          <%if prezzolistino<>0 then%><span class="price-old">invece di  <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                          <%if prezzolistino<>0 then%><span class="price-old">instead of <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                         <%end if%>
                                       <%else%>
                                         <span class="price-new">&nbsp;<br /></span>
-                                        <%if prezzolistino<>0 then%><span class="price-old">Prezzo di listino: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                        <%if prezzolistino<>0 then%><span class="price-old">List Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%end if%>
                                   </div>
                               </div>
                           </div>
                           <div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Aggiungi ai preferiti"><i class="fa fa-heart"></i></a>
+                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
-                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="vedi ed aggiungi al carrello">vedi scheda <i class="fa fa-chevron-right"></i></a>
+                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="See the details and Add to cart">details <i class="fa fa-chevron-right"></i></a>
                               </p>
                           </div>
                           <div class=""></div>
@@ -351,7 +351,7 @@
                     <div class="panel panel-default user-comment" itemprop="review" itemscope itemtype="http://schema.org/Review">
                         <!-- Default panel contents -->
                         <div class="panel-heading">
-                            <h5><i class="fa fa-users"></i> Comments...</h5>
+                            <h5><i class="fa fa-users"></i> Reviews...</h5>
                         </div>
                         <ul class="list-group">
                             <%Do While not com_rs.EOF%>
@@ -364,13 +364,13 @@
                             end if
                             cr_rs.close
                             %>
-                            <li class="list-group-item"><i class="fa fa-user"></i> <em><span itemprop="description"><%=Left(NoHTML(com_rs("Testo")), 90)%>...</span><span itemprop="author" style="display: none;"><%=NomeIscritto%></span> <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">Voto: <meta itemprop="worstRating" content = "1"><span itemprop="ratingValue"><%=com_rs("Valutazione")%></span>/<span itemprop="bestRating">5</span></span></em></li>
+                            <li class="list-group-item"><i class="fa fa-user"></i> <em><span itemprop="description"><%=Left(NoHTML(com_rs("Testo")), 90)%>...</span><span itemprop="author" style="display: none;"><%=NomeIscritto%></span> <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">Raiting: <meta itemprop="worstRating" content = "1"><span itemprop="ratingValue"><%=com_rs("Valutazione")%></span>/<span itemprop="bestRating">5</span></span></em></li>
                             <%
                             com_rs.movenext
                             loop
-                            %>read all comments
+                            %>
                         </ul>
-                        <div class="panel-footer"><a href="commenti_elenco.asp" class="btn btn-default">read all comments <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="panel-footer"><a href="commenti_elenco.asp" class="btn btn-default">read all reviews <i class="fa fa-chevron-right"></i></a></div>
                     </div>
                 </div>
                 <%
