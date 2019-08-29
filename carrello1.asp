@@ -399,7 +399,7 @@
                                         <td data-th="Product" class="cart-product">
                                             <div class="row">
                                                 <div class="col-sm-12">
-                                                    <h6 class="nomargin"><a href="<%=NomePagina%>" title="Scheda del prodotto: <%=NomePagina%>"><%=rs("titolo")%></a></h6>
+                                                    <h6 class="nomargin"><a href="<%=NomePagina%>" title="Details of the product: <%=NomePagina%>"><%=rs("titolo")%></a></h6>
 																										<p>
 																											<strong>Code: <%=rs("codicearticolo")%></strong>
                                                     	<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Light: <%=rs("lampadina")%><%end if%><%end if%>
@@ -418,7 +418,7 @@
                                     </tr>
 																		</form>
 																		<%
-																		ProdottiCarrello=ProdottiCarrello & "<br>" & rs("titolo") & " - " & rs("codicearticolo") & " - Pezzi: " & quantita
+																		ProdottiCarrello=ProdottiCarrello & "<br>" & rs("titolo") & " - " & rs("codicearticolo") & " - Pieces: " & quantita
 
 																		rs.movenext
 																		loop
@@ -506,8 +506,13 @@
                     <ul class="list-group text-center">
                         <li class="list-group-item" style="padding-top: 20px">
                             <p>Total Purchase:<br />
-                                <span class="price-new"><%if ss("TotaleGenerale")<>0 then%>
-								<%=FormatNumber(ss("TotaleGenerale"),2)%><%else%>0<%end if%> &euro;</span>
+                                <span class="price-new">
+																<%if ss("TotaleGenerale")<>0 then%>
+																<%=FormatNumber(ss("TotaleGenerale"),2)%>
+																<%else%>
+																0
+																<%end if%> &euro;
+																</span>
                             </p>
                         </li>
                     </ul>
@@ -519,7 +524,7 @@
 
 								<div class="clearfix"></div>
 								<div class="panel panel-default" style="margin: 10px 0px 30px 0px;">
-									<a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn launch btn-warning btn-block" style="white-space: normal; padding: 10px 0px;"><i class="fa fa-info-circle"></i>   Domande e dubbi? Contattaci!!!</a>
+									<a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn launch btn-warning btn-block" style="white-space: normal; padding: 10px 0px;"><i class="fa fa-info-circle"></i>   Questions and doubt? Contact us!!!</a>
 								</div>
 								<div class="clearfix"></div>
 								<div class="banner_2 banner_a">
@@ -540,42 +545,42 @@
 					<div class="col-md-6" style="clear: both;">
 						<div class="panel panel-default payment-list">
 							<div class="panel-heading">
-								<h5>Spedizioni</h5>
+								<h5>Shipping</h5>
 							</div>
 							<ul class="list-group">
-								<li class="list-group-item"><strong>SPEDIZIONE ASSICURATA IN TUTTA ITALIA</strong></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>Per ordini superiori a 250&euro;:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>Per ordini fino a  250&euro;:</em><div style="float: right;"><em><strong>10&euro;</strong></em></div></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>Ritiro in sede:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
+								<li class="list-group-item"><strong>Insured Shipping in Italy</strong></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>For orders over 250&euro;:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>For orders under 250&euro;:</em><div style="float: right;"><em><strong>10&euro;</strong></em></div></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>Pick up in the store:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
 							</ul>
 						</div>
 						<div class="panel panel-default payment-list">
 							<div class="panel-heading">
-								<h5>Condizioni di recesso</h5>
+								<h5>Conditions for the return of goods: </h5>
 							</div>
 							<ul class="list-group">
-								<li class="list-group-item"><strong>Diritto di recesso entro 14 giorni come da legge</strong></li>
+								<li class="list-group-item"><strong>Right to return goods within 14 days as law</strong></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="panel panel-default payment-list">
 							<div class="panel-heading">
-								<h5>Pagamenti</h5>
+								<h5>Payment</h5>
 							</div>
 							<ul class="list-group">
-								<li class="list-group-item"><strong>PAGAMENTI SICURI E PROTETTI</strong></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>Bonifico:</em><div style="float: right;"><em><strong>-2%</strong></em></div></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>Carte di credito, Prepagate e PostePay:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>Contrassegno (ordine inferiore a 500&euro;):</em><div style="float: right;"><em><strong>6&euro;</strong></em></div></li>
+								<li class="list-group-item"><strong>SECURE PAYMENT</strong></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>Bank transfer:</em><div style="float: right;"><em><strong>-2%</strong></em></div></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>Credit cards:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>Cash on delivery (only for Italy and order under 500&euro;):</em><div style="float: right;"><em><strong>6&euro;</strong></em></div></li>
 							</ul>
 						</div>
 						<div class="panel panel-default payment-list">
 							<div class="panel-heading">
-								<h5>Preventivi personalizzati</h5>
+								<h5>Custom quote</h5>
 							</div>
 							<ul class="list-group">
-								<li class="list-group-item"><strong>Per importi oltre 1500&euro; preventivi e sconti personalizzati</strong></li>
+								<li class="list-group-item"><strong>For orders over 1500&uro; quotes and personalized discounts</strong></li>
 							</ul>
 						</div>
 					</div>

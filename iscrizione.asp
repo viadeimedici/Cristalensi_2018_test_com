@@ -130,8 +130,8 @@ if mode=1 then
 			HTML1 = HTML1 & "<table width='553' border='0' cellspacing='0' cellpadding='0'>"
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Complimenti "&nome&" "&nominativo&"! La tua iscrizione a Cristalensi.it &egrave; avvenuta correttamente.<br>Da adesso potrai ordinare i nostri prodotti senza dover inserire nuovamente i tuoi dati.</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti per l'accesso ai servizi di Cristalensi.it:<br>Nome e Cognome: <b>"&nome&" "&nominativo&"</b><br>Login: <b>"&email&"</b><br>Password: <b>"&password&"</b></font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Congratulations "&nome&" "&nominativo&"! Your subscription to Cristalensi.com was successful. <br> From now you can order our products without having to re-enter your information.</font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Sensitive data and determining access to services Cristalensi.com:<br>Name and Surname: <b>"&nome&" "&nominativo&"</b><br>Login: <b>"&email&"</b><br>Password: <b>"&password&"</b></font><br>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -140,7 +140,7 @@ if mode=1 then
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = email
-			Oggetto = "Iscrizione al sito Cristalensi.it"
+			Oggetto = "Subscription to site Cristalensi.com"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -192,7 +192,7 @@ if mode=1 then
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
 			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Nuova registrazione al sito internet.</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti per l'accesso ai servizi di Cristalensi.it:<br>Nome e Cognome: <b>"&nome&" "&nominativo&"</b><br>Login: <b>"&email&"</b><br>Password: <b>"&password&"</b><br>Codice cliente: <b>"&pkid_iscritto&"</b></font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti per l'accesso ai servizi di Cristalensi.com (inglese):<br>Nome e Cognome: <b>"&nome&" "&nominativo&"</b><br>Login: <b>"&email&"</b><br>Password: <b>"&password&"</b><br>Codice cliente: <b>"&pkid_iscritto&"</b></font><br>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -201,7 +201,7 @@ if mode=1 then
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "info@cristalensi.it"
-			Oggetto = "Nuova iscrizione al sito Cristalensi.it"
+			Oggetto = "Nuova iscrizione al sito Cristalensi.com (inglse)"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -462,7 +462,7 @@ end if
 			HTML1 = HTML1 & "<table width='553' border='0' cellspacing='0' cellpadding='0'>"
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Spett.le "&nome&" "&nominativo&", la password inserita al momento dell'iscrizione a Cristalensi.it &egrave; la seguente:<br><br></font>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dear "&nome&" "&nominativo&", the password entered when registering for Cristalensi.com is the following:<br><br></font>"
 			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Password: <b>"&password&"</b><br>Login: <b>"&email&"</b></font><br>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
@@ -472,7 +472,7 @@ end if
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = email
-			Oggetto = "Recupero password dal sito Cristalensi.it"
+			Oggetto = "Password recovery for Cristalensi.com"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -523,7 +523,7 @@ end if
 			HTML1 = HTML1 & "<table width='553' border='0' cellspacing='0' cellpadding='0'>"
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>E' stata fatta una richiesta di recupero password dal seguente cliente: "&nome&" "&nominativo&"<br> La password inserita al momento dell'iscrizione a Cristalensi.it &egrave; la seguente:<br></font>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>E' stata fatta una richiesta di recupero password dal seguente cliente: "&nome&" "&nominativo&"<br> La password inserita al momento dell'iscrizione a Cristalensi.com (inglese) &egrave; la seguente:<br></font>"
 			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Password: <b>"&password&"</b><br>Login: <b>"&email&"</b></font><br>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
@@ -533,7 +533,7 @@ end if
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "info@cristalensi.it"
-			Oggetto = "Richiesta recupero password dal sito Cristalensi.it"
+			Oggetto = "Richiesta recupero password dal sito Cristalensi.com (inglese)"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -627,31 +627,31 @@ end if
       password=document.newsform.password.value;
 
       if (nome==""){
-        alert("Non  e\' stato compilato il campo \"Nome\".");
+        alert("It has not been filled in the field \"Name\".");
         return false;
       }
       if (nominativo==""){
-        alert("Non  e\' stato compilato il campo \"Cognome\".");
+        alert("It has not been filled in the field \"Cognome\".");
         return false;
       }
       if (email==""){
-        alert("Non  e\' stato compilato il campo \"Email\".");
+        alert("It has not been filled in the field \"Email\".");
         return false;
       }
       if (email.indexOf("@")==-1 || email.indexOf(".")==-1){
-      alert("ATTENZIONE! \"e-mail\" non valida.");
+      alert("ATTENTION! \"e-mail\" is not correct.");
       return false;
       }
       if (email!=conferma){
-        alert("\"Email\" e \"Conferma Email\" devono essere identiche.");
+        alert("\"Email\" e \"Repeat Email\" must be the same.");
         return false;
       }
       if (password==""){
-        alert("Non  e\' stato compilato il campo \"Password\".");
+        alert("It has not been filled in the field \"Password\".");
         return false;
       }
 			if (password.indexOf("ì")!=-1 || password.indexOf("é")!=-1 || password.indexOf("è")!=-1 || password.indexOf("ò")!=-1 || password.indexOf("à")!=-1 || password.indexOf("ù")!=-1){
-      alert("ATTENZIONE! La \"Password\" non deve contenere caratteri accentati.");
+      alert("ATTENTION! \"Password\" must not contain accented characters.");
       return false;
       }
 
@@ -691,7 +691,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/carrello1.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Carrello.</div>
+                    <div class="bs-wizard-info text-center">Cart</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step active">
                     <div class="text-center bs-wizard-stepnum">2</div>
@@ -699,7 +699,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Accedi / Iscriviti</div>
+                    <div class="bs-wizard-info text-center">Autentication / Registration</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">3</div>
@@ -707,7 +707,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Indirizzo di spedizione</div>
+                    <div class="bs-wizard-info text-center">Shipping address</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">4</div>
@@ -715,7 +715,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Pagamento &amp; fatturazione</div>
+                    <div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">5</div>
@@ -723,7 +723,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Conferma dell'ordine</div>
+                    <div class="bs-wizard-info text-center">Order confirmation</div>
                 </div>
             </div>
         </div>
@@ -731,7 +731,7 @@ end if
 				<div class="col-xl-12">
             <ol class="breadcrumb">
                 <li><a href="/"><i class="fa fa-home"></i></a></li>
-                <li class="active">Accesso e Iscrizione</li>
+                <li class="active">Autentication &amp; Registration</li>
             </ol>
         </div>
 				<%end if%>
@@ -742,9 +742,9 @@ end if
                         <h4>Accedi</h4>
                     </div>
                     <div class="col-md-12">
-                        <p class="description">Se sei gi&agrave; iscritto, e quindi hai gi&agrave; Login (Email) e Password, non &egrave; necessario che ti iscriva nuovamente, &egrave; sufficiente inserire i dati di accesso qu&iacute; sotto e sarai riconosciuto immediatamente.
+                        <p class="description">If you have already signed in, and therefore already have Login (Email) and Password, it is not necessary to sign on again, it is sufficient that you enter the access data here.
                         </p>
-												<%if errore=2 then%><p><strong>ATTENZIONE! LOGIN O PASSWORD ERRATE. RIPROVATE, GRAZIE.</strong></p><%end if%>
+												<%if errore=2 then%><p><strong>Warning! E-mail or Password is not correct.</strong></p><%end if%>
                         <form class="form-horizontal" method="post" action="/iscrizione.asp?mode=2" name="newsform2">
 												<input type="hidden" name="prov" value="<%=prov%>">
                             <div class="form-group">
@@ -762,24 +762,24 @@ end if
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-4 col-sm-8">
-                                    <button type="submit" class="btn btn-danger">Accedi</button>
+                                    <button type="submit" class="btn btn-danger">Sign in</button>
                                 </div>
                             </div>
                         </form>
                     </div>
 										<p>&nbsp;<br>&nbsp;</p>
 										<div class="title">
-                        <h4>Recupero Password</h4>
+                        <h4>Password Recovery</h4>
                     </div>
                     <div class="col-md-12">
 											<%if mode=4 then%>
-												<p class="description"><strong>La password di accesso a Cristalensi.it &egrave; stata inviata regolarmente al tuo indirizzo e-mail:<br><%=email%><br>Controllandolo puoi recuperare i dati di accesso al sito internet.</strong>
+												<p class="description"><strong>The access password to Cristalensi.com has been successfully sent your e-mail address: <br><%=email%><br>checking it you will be able to recovery the access data for the internet site.</strong>
 												</p>
 											<%else%>
-												<p class="description">Se sei gi&agrave; iscritto, puoi richiedere la password inserita al momento della registrazione a Cristalensi.<br>
-				Informazione importante: &egrave; necessario che l'indirizzo <strong>Email</strong> inserito sia lo stesso usato per l'iscrizione. La password ti sar&aacute; inviata automaticamente.
+												<p class="description">If you have already signed in, you can obtain the <strong>password</strong> used at the moment of <strong>your registration</strong> with Cristalensi<br>
+				<strong>Important information</strong>:  it is necessary that the <strong>e-mail</strong> you use be the same as that used at registration.
                         </p>
-												<%if errore=5 then%><p><strong>ATTENZIONE! EMAIL ERRATA. RIPROVATE, GRAZIE.</strong></p><%end if%>
+												<%if errore=5 then%><p><strong>Attention! The e-mail inserted is not correct</strong></p><%end if%>
                         <form class="form-horizontal" method="post" action="/iscrizione.asp?mode=4" name="newsform3">
 												<input type="hidden" name="prov" value="<%=prov%>">
                             <div class="form-group">
@@ -791,7 +791,7 @@ end if
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-4 col-sm-8">
-                                    <button type="submit" class="btn btn-danger">Richiedi</button>
+                                    <button type="submit" class="btn btn-danger">Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -815,23 +815,21 @@ end if
 								%>
                 <div class="col-lg-6">
                     <div class="title">
-                        <h4><%if pkid>0 then%>Modifica<%else%>Iscriviti<%end if%></h4>
+                        <h4><%if pkid>0 then%>Changing client data<%else%>Client registration<%end if%></h4>
                     </div>
                     <div class="col-md-12">
-                        <p class="description">In questa pagina puoi inserire i tuoi dati per registrarti a Cristalensi.<br> Informazione importante: &egrave; necessario che l'indirizzo Email sia un'indirizzo funzionante e che usi normalmente, in quanto ti verranno spedite
-                            comunicazioni relativamente agli ordini e ai prodotti.<br>Ti ricordiamo inoltre che l'indirizzo Email lo dovrai utilizzare come Login per accedere ai tuoi futuri ordini.
-                        </p>
-												<%if errore=1 then%><p><strong>ATTENZIONE! I DATI INSERITI NON POSSONO ESSERE ACCETTATI. RIPROVATE, GRAZIE.</strong></p><%end if%>
+                        <p class="description">On this page please insert your data to register with Cristalensi.<br> Important intormation:  it is necessary that the <strong>Email address</strong> be in function and that it is one that you use frequently given that you will be sent information regarding the state of your order.<br>We remind you moreover that the <strong>Email address</strong> will be your <strong>Login</strong> to place future orders.</p>
+												<%if errore=1 then%><p><strong>Warning! The e-mail or password is not acceptable</strong></p><%end if%>
                         <form class="form-horizontal" method="post" action="/iscrizione.asp?mode=1&amp;pkid=<%=pkid%>" name="newsform" id="newsform" onSubmit="return verifica();">
 												<input type="hidden" name="prov" value="<%=prov%>">
                             <div class="form-group">
-                                <label for="nome" class="col-sm-4 control-label">Nome</label>
+                                <label for="nome" class="col-sm-4 control-label">Name</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" id="nome" name="nome" value="<% if pkid > 0 then %><%=nome%><%else%><%if mode=3 then%><%=nome%><%end if%><%end if%>">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="nominativo" class="col-sm-4 control-label">Cognome</label>
+                                <label for="nominativo" class="col-sm-4 control-label">Surname</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" id="nominativo" name="nominativo" value="<% if pkid > 0 then %><%=nominativo%><%else%><%if mode=3 then%><%=nominativo%><%end if%><%end if%>">
                                 </div>
@@ -844,7 +842,7 @@ end if
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="conferma" class="col-sm-4 control-label">Conferma email</label>
+                                <label for="conferma" class="col-sm-4 control-label">Repeat Email</label>
                                 <div class="col-sm-8">
                                     <input type="email" class="form-control" id="conferma" name="conferma" value="<% if pkid > 0 then %><%=email%><%else%><%if mode=3 then%><%=email%><%end if%><%end if%>">
                                 </div>
@@ -857,9 +855,9 @@ end if
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-4 col-sm-8">
-                                    <span>Autorizzazione a ricevere email</span>
+                                    <span>Authorization to receive Email</span>
                                     <div class="radio">
-                                        <label><input type="radio" name="aut_email" value=True <% if pkid > 0 then %><%if aut_email=True then%> checked<%end if %><%else%> checked<%end if%>> si</label>
+                                        <label><input type="radio" name="aut_email" value=True <% if pkid > 0 then %><%if aut_email=True then%> checked<%end if %><%else%> checked<%end if%>> yes</label>
                                         <label><input type="radio" name="aut_email" value=False <% if pkid > 0 then %><%if aut_email=False then%> checked<%end if %><%end if%>> no</label>
                                     </div>
                                 </div>
@@ -884,13 +882,13 @@ Ottenere l'aggiornamento, la rettifica o l'integrazione dei dati;
 Ottenere l'attestazione che la cancellazione, l'aggiornamento, la rettifica o l'integrazione siano portate a conoscenza di coloro che abbiano avuto comunicazione dei dati;
 Opporsi gratuitamente al trattamento dei dati che lo riguardano.</textarea>
                                     <div class="checkbox">
-                                        <label><input name="chekka" type="checkbox" onClick="accetta(this)" /> Accetto le condizioni</label>
+                                        <label><input name="chekka" type="checkbox" onClick="accetta(this)" /> Accept the conditions</label>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-4 col-sm-8">
-                                    <button type="submit" class="btn btn-danger" name="Submit" disabled>Iscriviti</button> (*) campo obbligatorio
+                                    <button type="submit" class="btn btn-danger" name="Submit" disabled>Submit</button> (*) this space must be filled
                                 </div>
                             </div>
                         </form>
