@@ -580,13 +580,13 @@ end if
 <html>
 
 <head>
-    <title>Cristalensi</title>
+    <title>CRISTALENSI Client Authentication Lamps Online Shop</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta charset="utf-8">
-    <meta name="description" content="Cristalensi.">
+    <meta name="description" content="CRISTALENSI Client Authentication Lamps Online Shop.">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Cristalensi.">
+    <meta property="og:description" content="CRISTALENSI Client Authentication Lamps Online Shop.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">

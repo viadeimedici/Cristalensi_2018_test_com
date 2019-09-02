@@ -162,27 +162,27 @@
 		 nazione_sp=document.modulocarrello.nazione_sp.value;
 
 		 if (nominativo_sp==""){
-			 alert("Non  e\' stato compilato il campo \"Nominativo\".");
+			 alert("It has not been filled in the field \"Nominative\".");
 			 return false;
 		 }
 		 if (telefono_sp==""){
-			 alert("Non  e\' stato compilato il campo \"Telefono\".");
+			 alert("It has not been filled in the field \"Phone\".");
 			 return false;
 		 }
 		 if (indirizzo_sp.length<4){
-			 alert("Non  e\' stato compilato il campo \"Indirizzo\".");
+			 alert("It has not been filled in the field \"Address\".");
 			 return false;
 		 }
 		 if (cap_sp==""){
-			 alert("Non  e\' stato compilato il campo \"CAP\".");
+			 alert("It has not been filled in the field \"Zip code\".");
 			 return false;
 		 }
 		 if (citta_sp==""){
-			 alert("Non  e\' stato compilato il campo \"Città\".");
+			 alert("It has not been filled in the field \"City\".");
 			 return false;
 		 }
 		 if (nazione_sp==""){
-			 alert("Non  e\' stato selezioanata la \"Nazione\".");
+			 alert("It has not been selected the \"Nation\".");
 			 return false;
 		 }
 
@@ -212,27 +212,27 @@
 		 nazione_sp=document.modulocarrello.nazione_sp.value;
 
 		 if (nominativo_sp==""){
-			 alert("Non  e\' stato compilato il campo \"Nominativo\".");
+			 alert("It has not been filled in the field \"Nominative\".");
 			 return false;
 		 }
 		 if (telefono_sp==""){
-			 alert("Non  e\' stato compilato il campo \"Telefono\".");
+			 alert("It has not been filled in the field \"Phone\".");
 			 return false;
 		 }
 		 if (indirizzo_sp.length<4){
-			 alert("Non  e\' stato compilato il campo \"Indirizzo\".");
+			 alert("It has not been filled in the field \"Address\".");
 			 return false;
 		 }
 		 if (cap_sp==""){
-			 alert("Non  e\' stato compilato il campo \"CAP\".");
+			 alert("It has not been filled in the field \"Zip code\".");
 			 return false;
 		 }
 		 if (citta_sp==""){
-			 alert("Non  e\' stato compilato il campo \"Città\".");
+			 alert("It has not been filled in the field \"City\".");
 			 return false;
 		 }
 		 if (nazione_sp==""){
-			 alert("Non  e\' stato selezioanata la \"Nazione\".");
+			 alert("It has not been selected the \"Nation\".");
 			 return false;
 		 }
 
@@ -293,7 +293,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/carrello1.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Carrello</div>
+                    <div class="bs-wizard-info text-center">Cart</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step complete">
                     <div class="text-center bs-wizard-stepnum">2</div>
@@ -301,7 +301,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/iscrizione.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Accedi / Iscriviti</div>
+                    <div class="bs-wizard-info text-center">Autentication / Registration</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step active">
                     <div class="text-center bs-wizard-stepnum">3</div>
@@ -309,7 +309,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Indirizzo di spedizione</div>
+                    <div class="bs-wizard-info text-center">Shipping address</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">4</div>
@@ -317,7 +317,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Pagamento &amp; Fatturazione</div>
+                    <div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">5</div>
@@ -325,24 +325,24 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Conferma dell'ordine</div>
+                    <div class="bs-wizard-info text-center">Order confirmation</div>
                 </div>
             </div>
         </div>
 				<form name="modulocarrello" id="modulocarrello" class="form-horizontal" method="post">
         <div class="col-md-12">
             <div class="title">
-                <h4><span class="visible-xs" style="padding-top: 20px;">Dati di spedizione - Passo 3 di 5</span></h4>
+                <h4><span class="visible-xs" style="padding-top: 20px;">Payment data - 3 of 5</span></h4>
             </div>
             <div class="col-md-12">
                 <div class="top-buffer">
                     <table id="cart" class="table table-hover table-condensed table-cart">
                         <thead>
                             <tr>
-                                <th style="width:60%">Prodotto</th>
-																<th style="width:10%" class="text-center">Quantit&agrave;</th>
-																<th style="width:15%" class="text-right">Prezzo</th>
-                                <th style="width:15%" class="text-right hidden-xs">Totale Prodotto</th>
+                                <th style="width:60%">Product</th>
+																<th style="width:10%" class="text-center">Quantity</th>
+																<th style="width:15%" class="text-right">Price</th>
+                                <th style="width:15%" class="text-right hidden-xs">Total Pr.</th>
                             </tr>
                         </thead>
 												<%if rs.recordcount>0 then%>
@@ -374,9 +374,9 @@
                                         <div class="col-sm-12">
                                             <h5 class="nomargin"><%=rs("titolo")%></h5>
 																						<p>
-																							<strong>Codice: <%=rs("codicearticolo")%></strong>
-																							<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Lamp.: <%=rs("lampadina")%><%end if%><%end if%>
-																							<%if FkProduttore=59 then%><br /><span style="color:#a01010;"><strong><em>Sconti Extra non applicabili</em></strong></span><%end if%>
+																							<strong>Code: <%=rs("codicearticolo")%></strong>
+																							<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Light: <%=rs("lampadina")%><%end if%><%end if%>
+																							<%if FkProduttore=59 then%><br /><span style="color:#a01010;"><strong><em>Extra discounts not applicable</em></strong></span><%end if%>
 																						</p>
                                         </div>
                                     </div>
@@ -395,21 +395,21 @@
 												<tfoot>
 														<tr>
 																<td class="hidden-xs"></td>
-																<td class="text-right" colspan="2">Totale Carrello</td>
+																<td class="text-right" colspan="2">Total Cart</td>
 																<td class="text-right"><%if ss("TotaleCarrello")<>0 then%>
 																<%=FormatNumber(ss("TotaleCarrello"),2)%><%else%>0<%end if%>&nbsp&euro;</td>
 														</tr>
 														<tr>
 																<td class="hidden-xs"></td>
-																<td class="text-right" colspan="2"><strong>Sconto Extra</strong></td>
+																<td class="text-right" colspan="2"><strong>Extra Discount</strong></td>
 																<td class="text-right"><strong><%if ss("Sconto")<>0 then%>
 																-<%=FormatNumber(ss("Sconto"),2)%><%else%>0,00<%end if%>&nbsp&euro;</strong></td>
 														</tr>
                         </tfoot>
 												<%end if%>
                     </table>
-                    <h5>Eventuali annotazioni</h5>
-                    <p>Potete usare questo spazio per inserire eventuali annotazioni o comunicazioni in relazione ai prodotti</p>
+                    <h5>Any notes</h5>
+                    <p>You can use this space to enter any notes or communications in relation to the products purchased.</p>
                     <textarea class="form-control" rows="2" name="NoteCliente" id="NoteCliente"><%=NoteCliente%></textarea>
 										<p>&nbsp;</p>
                 </div>
@@ -419,7 +419,7 @@
             <div class="row top-buffer">
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>modalit&agrave; di spedizione</h4>
+                        <h4>Shipment method</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <table id="cart" class="table table-hover table-condensed table-cart">
@@ -430,9 +430,9 @@
 														%>
 														<thead>
                                 <tr>
-                                    <th style="width:70%">Modalit&agrave; di spedizione</th>
-                                    <th style="width:15%">Costo</th>
-                                    <th style="width:15%" class="hidden-xs">Totale</th>
+                                    <th style="width:70%">Shipment method</th>
+                                    <th style="width:15%">Cost</th>
+                                    <th style="width:15%" class="hidden-xs">Total</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -460,7 +460,7 @@
                                     </td>
                                     <td data-th="Price">
 																		<%if TipoCosto=10 then%>
-                                      	DA DEFINIRE
+                                      	NOT DEFINED
                                     <%else%>
 																				<%=FormatNumber(CostoSpedizione,2)%><%if TipoCosto=1 then%>&#8364;<%end if%><%if TipoCosto=2 then%>%<%end if%>
                                     <%end if%>
@@ -473,9 +473,9 @@
 															loop
 														%>
 																<tr>
-                                    <td data-th="Product"><h5>Costo spedizione:</h5></td>
+                                    <td data-th="Product"><h5>Shipping Cost:</h5></td>
                                     <td data-th="Price" class="hidden-xs"></td>
-                                    <td data-th="Subtotal"><h5><%if TipoTrasportoScelto=4 and CostoSpedizioneTotale=0 then%>DA DEFINIRE<%else%><%=FormatNumber(CostoSpedizioneTotale,2)%>&#8364;<%end if%></h5></td>
+                                    <td data-th="Subtotal"><h5><%if TipoTrasportoScelto=4 and CostoSpedizioneTotale=0 then%>NOT DEFINED<%else%><%=FormatNumber(CostoSpedizioneTotale,2)%>&#8364;<%end if%></h5></td>
                                 </tr>
 														<%end if%>
                             </tbody>
@@ -485,43 +485,43 @@
                 </div>
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Indirizzo di spedizione</h4>
+                        <h4>Mailing address</h4>
                     </div>
                     <div class="col-md-12">
 						<%if TipoTrasportoScelto>0 and TipoTrasportoScelto<>2 then%>
-							<p class="description">E' necessario indicare esattamente un indirizzo dove recapitare i prodotti ordinati oltre ad un numero di telefono per essere eventualmente contattati dal corriere.</p>
+							<p class="description">You have to indicate the exact address where you want to receive the products.</p>
 							<div class="form-group clearfix">
-                                <label for="nominativo_sp" class="col-sm-4 control-label">Nome e Cognome oppure Azienda</label>
+                                <label for="nominativo_sp" class="col-sm-4 control-label">Nominative</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" name="nominativo_sp" id="nominativo_sp" value="<%=nominativo_sp%>" maxlength="100">
                                 </div>
                             </div>
 							<div class="form-group clearfix">
-                                <label for="telefono_sp" class="col-sm-4 control-label">Telefono</label>
+                                <label for="telefono_sp" class="col-sm-4 control-label">Phone</label>
                                 <div class="col-sm-8">
                                     <input type="number" class="form-control" name="telefono_sp" id="telefono_sp" value="<%=telefono_sp%>" maxlength="50">
                                 </div>
                             </div>
                             <div class="form-group clearfix">
-                                <label for="indirizzo_sp" class="col-sm-4 control-label">Indirizzo</label>
+                                <label for="indirizzo_sp" class="col-sm-4 control-label">Address</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" name="indirizzo_sp" id="indirizzo_sp" value="<%=indirizzo_sp%>" maxlength="100">
                                 </div>
                             </div>
                             <div class="form-group clearfix">
-                                <label for="citta_sp" class="col-sm-4 control-label">Citt&agrave;</label>
+                                <label for="citta_sp" class="col-sm-4 control-label">City</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" name="citta_sp" id="citta_sp" value="<%=citta_sp%>" maxlength="50">
                                 </div>
                             </div>
                             <div class="form-group clearfix">
-                                <label for="cap_sp" class="col-sm-4 control-label">CAP</label>
+                                <label for="cap_sp" class="col-sm-4 control-label">Zip code</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" name="cap_sp" id="cap_sp" value="<%=cap_sp%>" maxlength="5">
                                 </div>
                             </div>
                             <div class="form-group clearfix">
-																<label for="provincia_sp" class="col-sm-4 control-label">Provincia</label>
+																<label for="provincia_sp" class="col-sm-4 control-label">Province</label>
 																<div class="col-sm-8">
 
 									<%
@@ -531,7 +531,7 @@
 									if prov_rs.recordcount>0 then
 									%>
 									<select class="selectpicker show-menu-arrow  show-tick" data-size="7" title="Provincia" name="provincia_sp" id="provincia_sp">
-										<option title="" value="">Selezionare una provincia (solo per l'ITALIA)</option>
+										<option title="" value="">Select a province (only for ITALY)</option>
 										<%
 										Do While Not prov_rs.EOF
 										%>
@@ -548,7 +548,7 @@
                                 </div>
                             </div>
 														<div class="form-group clearfix">
-																<label for="nazione_sp" class="col-sm-4 control-label">Nazione</label>
+																<label for="nazione_sp" class="col-sm-4 control-label">Nation</label>
 																<div class="col-sm-8">
 
 																		<%if TipoTrasportoScelto<4 then%>
@@ -562,7 +562,7 @@
 																				if naz_rs.recordcount>0 then
 																				%>
 																				<select class="selectpicker show-menu-arrow  show-tick" data-size="7" title="Nazione" name="nazione_sp" id="nazione_sp">
-																					<option title="" value="">Selezionare una Nazione</option>
+																					<option title="" value="">Select a Nation</option>
 																					<%
 																					Do While Not naz_rs.EOF
 
@@ -596,7 +596,7 @@
             <div class="col-md-12">
                 <div class="bg-primary">
 
-                    <p style="font-size: 1.2em; text-align: right; padding: 10px 15px; color: #000;">Totale Generale: <b>
+                    <p style="font-size: 1.2em; text-align: right; padding: 10px 15px; color: #000;">Total order: <b>
 										<%if ss("TotaleGenerale")<>0 then%>
 									  	<%=FormatNumber(ss("TotaleGenerale"),2)%>
                     <%else%>
@@ -606,8 +606,8 @@
 
 								</div>
 								<%if rs.recordcount>0 then%>
-                <a href="/carrello1.asp" class="btn btn-danger pull-left" style="margin-top: 10px;"><i class="glyphicon glyphicon-chevron-left"></i> Passo precedente</a>
-                <%if TipoTrasportoScelto>0 then%><a href="#" class="btn btn-danger pull-right" onClick="Continua();" style="margin-top: 10px;">clicca qui per completare l'acquisto <i class="glyphicon glyphicon-chevron-right"></i></a><%end if%>
+                <a href="/carrello1.asp" class="btn btn-danger pull-left" style="margin-top: 10px;"><i class="glyphicon glyphicon-chevron-left"></i> Previous step</a>
+                <%if TipoTrasportoScelto>0 then%><a href="#" class="btn btn-danger pull-right" onClick="Continua();" style="margin-top: 10px;">Click here to continue the order <i class="glyphicon glyphicon-chevron-right"></i></a><%end if%>
 								<%end if%>
             </div>
 						<%end if%>
