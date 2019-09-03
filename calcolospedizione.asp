@@ -28,8 +28,8 @@
 			HTML1 = HTML1 & "<table width='553' border='0' cellspacing='0' cellpadding='0'>"
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Grazie "&nominativo_email&" per aver scelto i nostri prodotti!<br>Questa &egrave; un email di conferma per la richiesta di calcolo dei costi di spedizione per proseguire l'ordine n&deg; "&idordine&".<br> Nelle prossime ore (max 24h) ricever&agrave; una comunicazione della possibilit&agrave; di completare l'ordine. A questo punto &egrave; necessario inserire Login e Password nell'Area clienti della Home Page, cliccare sul link ""I miei ordini"" e cliccare sull'ordine iniziato. Per completare l'ordine dovr&agrave; scegliere la modalit&agrave; di pagamento (Bonifico bancario oppure pagamento con carte di credito o prepagate).</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Cordiali Saluti, lo staff di Cristalensi</font>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Thank you "&nominativo_email&" for having chosen our products!<br>This email is confirmation that we have received your request for the mailing costs necessary to continue with your order n&deg; "&idordine&"/COM.<br> In the next few hours (max 24) you will recieve our reply indicating that the order can be completed. At this point it will be necessary to insert your Login and Password in the Client area of the Home Page, click on the link ""my orders"" and then click on the order in question. To complete the order you will need to  choose the method of payment (bank transfer or credit card).</font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Best regards, from the staff of Cristalensi</font>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -38,7 +38,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = email
-			Oggetto = "Conferma richiesta calcolo costi di spedizione ordine n "&idordine&", Cristalensi.it"
+			Oggetto = "Confirmation of request for mailing costs of order n. "&idordine&", Cristalensi.com"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -99,7 +99,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "info@cristalensi.it"
-			Oggetto = "Richiesta calcolo costi di spedizione ordine n "&idordine&""
+			Oggetto = "Richiesta calcolo costi di spedizione ordine n "&idordine&"/COM (inglese)"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -141,7 +141,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "viadeimedici@gmail.com"
-			Oggetto = "Richiesta calcolo costi di spedizione ordine n "&idordine&""
+			Oggetto = "Richiesta calcolo costi di spedizione ordine n "&idordine&"/COM (inglese)"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -239,7 +239,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/carrello1.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Carrello</div>
+                    <div class="bs-wizard-info text-center">Cart</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step complete">
                     <div class="text-center bs-wizard-stepnum">2</div>
@@ -247,7 +247,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/iscrizione.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Accedi / Iscriviti</div>
+                    <div class="bs-wizard-info text-center">Autentication / Registration</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step active">
                     <div class="text-center bs-wizard-stepnum">3</div>
@@ -255,7 +255,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Indirizzo di spedizione</div>
+                    <div class="bs-wizard-info text-center">Shipping address</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">4</div>
@@ -263,7 +263,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Pagamento &amp; fatturazione</div>
+                    <div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">5</div>
@@ -271,25 +271,24 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Conferma dell'ordine</div>
+                    <div class="bs-wizard-info text-center">Order confirmation</div>
                 </div>
             </div>
         </div>
         <div class="col-md-12">
             <div class="title">
-                <h4>Costi di spedizione/ritiro prodotti</h4>
+                <h4>Shipment costs</h4>
             </div>
             <div class="col-md-12">
                 <div class="top-buffer">
 
                     <p>
-										Grazie per aver scelto i nostri prodotti,<br />
-			&egrave; stata inoltrata al nostro staff una richiesta di calcolo dei costi di spedizione<br />
-			per poter proseguire l'ordine n&deg;: <%=idordine%><br />
-			<br />
-		 Nelle prossime ore (max 24h) ricever&agrave; una comunicazione via email per farle completare l'ordine.<br />A questo punto sar&agrave; necessario inserire Login e Password nell'Area clienti della Home Page, cliccare sul link "I miei ordini" e cliccare sull'ordine iniziato.<br />Per completare l'ordine dovr&agrave; solo scegliere la modalit&agrave; di pagamento.<br />
-			<br /><br /><br />
-		Cordiali saluti, lo staff di Cristalensi
+											Thank you for having chosen our products,<br />
+							    a request has been made for the calculation of the shipment cost<br />
+							    in order to continue order n&deg;: <%=idordine%><br />
+							    <br>
+							    In the next few hours (max 24h) you will receive an email which will  allow you to complete the order.<br>To  continue you will need to insert the Login and Password in the client area of the Home Page.<br>To complete the order you must choose a method of payment (bank transfer or credit card).<br /><br /><br />
+							    Best wishes from the staff of Cristalensi
 										</p>
 										<p>&nbsp;</p>
                 </div>

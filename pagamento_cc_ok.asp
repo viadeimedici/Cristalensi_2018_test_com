@@ -38,8 +38,8 @@ if idsession>0 then
   HTML1 = HTML1 & "<table width='553' border='0' cellspacing='0' cellpadding='0'>"
   HTML1 = HTML1 & "<tr>"
   HTML1 = HTML1 & "<td>"
-  HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Grazie "&nominativo_email&" per aver scelto i nostri prodotti!<br>Questa &egrave; un email di conferma per il completamento dell'ordine n&deg; "&idordine&".<br> Il nostro staff avr&agrave; cura di spedirti la merce appena l'amministrazione avr&agrave; notificato il pagamento.</font>"
-  HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Cordiali Saluti, lo staff di Cristalensi</font>"
+  HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Thank you "&nominativo_email&" for having chosen our products!<br>This e-mail is a confirmation of the completion of order n. "&idordine&"/COM.<br> It will be the care of our staff to send the merchandise to you the moment our bank is notified of payment with Credit Card.</font>"
+  HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Best wishes from the staff of Cristalensi</font>"
   HTML1 = HTML1 & "</td>"
   HTML1 = HTML1 & "</tr>"
   HTML1 = HTML1 & "</table>"
@@ -48,7 +48,7 @@ if idsession>0 then
 
   Mittente = "info@cristalensi.it"
   Destinatario = email
-  Oggetto = "Conferma pagamento ordine n "&idordine&" con Carta di Credito a Cristalensi.it"
+  Oggetto = "Confirmation payment order n "&idordine&"/COM with Credit Card to Cristalensi.com"
   Testo = HTML1
 
   Set eMail_cdo = CreateObject("CDO.Message")
@@ -100,7 +100,7 @@ if idsession>0 then
   HTML1 = HTML1 & "<tr>"
   HTML1 = HTML1 & "<td>"
   HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Nuovo ordine con pagamento con Carta di Credito dal sito internet.</font><br>"
-  HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti del nuovo ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&FkCliente&"</b><br>Codice ordine: <b>"&idordine&"</b></font><br>"
+  HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti del nuovo ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&FkCliente&"</b><br>Codice ordine: <b>"&idordine&"/COM</b></font><br>"
   HTML1 = HTML1 & "</td>"
   HTML1 = HTML1 & "</tr>"
   HTML1 = HTML1 & "</table>"
@@ -109,7 +109,7 @@ if idsession>0 then
 
   Mittente = "info@cristalensi.it"
   Destinatario = "info@cristalensi.it"
-  Oggetto = "Conferma pagamento ordine n "&idordine&" con Carta di Credito a Cristalensi.it"
+  Oggetto = "Conferma pagamento ordine n "&idordine&"/COM (inglese) con Carta di Credito a Cristalensi.com"
   Testo = HTML1
 
   Set eMail_cdo = CreateObject("CDO.Message")
@@ -160,7 +160,7 @@ if idsession>0 then
   HTML1 = HTML1 & "<tr>"
   HTML1 = HTML1 & "<td>"
   HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Nuovo ordine con pagamento da Carta di Credito dal sito internet.</font><br>"
-  HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti del nuovo ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&FkCliente&"</b><br>Codice ordine: <b>"&idordine&"</b></font><br>"
+  HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti del nuovo ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&FkCliente&"</b><br>Codice ordine: <b>"&idordine&"/COM</b></font><br>"
   HTML1 = HTML1 & "</td>"
   HTML1 = HTML1 & "</tr>"
   HTML1 = HTML1 & "</table>"
@@ -171,7 +171,7 @@ if idsession>0 then
 
   Mittente = "info@cristalensi.it"
   Destinatario = "viadeimedici@gmail.com"
-  Oggetto = "Conferma pagamento ordine n "&idordine&" con Carta di Credito a Cristalensi.it"
+  Oggetto = "Conferma pagamento ordine n "&idordine&"/COM (inglese) con Carta di Credito a Cristalensi.com"
   Testo = HTML1
 
   Set eMail_cdo = CreateObject("CDO.Message")
@@ -278,7 +278,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/carrello1.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Carrello</div>
+                    <div class="bs-wizard-info text-center">Cart</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step complete">
                     <div class="text-center bs-wizard-stepnum">2</div>
@@ -286,7 +286,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/iscrizione.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Accedi / Iscriviti</div>
+                    <div class="bs-wizard-info text-center">Autentication / Registration</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step complete">
                     <div class="text-center bs-wizard-stepnum">3</div>
@@ -294,7 +294,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/carrello2.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Indirizzo di spedizione</div>
+                    <div class="bs-wizard-info text-center">Shipping address</div>
                 </div>
 								<div class="col-sm-5 bs-wizard-step complete">
 										<div class="text-center bs-wizard-stepnum">4</div>
@@ -302,7 +302,7 @@ end if
 												<div class="progress-bar"></div>
 										</div>
 										<a href="/carrello3.asp" class="bs-wizard-dot"></a>
-										<div class="bs-wizard-info text-center">Pagamento &amp; fatturazione</div>
+										<div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
 								</div>
 								<div class="col-sm-5 bs-wizard-step active">
 										<div class="text-center bs-wizard-stepnum">5</div>
@@ -310,7 +310,7 @@ end if
 												<div class="progress-bar"></div>
 										</div>
 										<a href="#" class="bs-wizard-dot"></a>
-										<div class="bs-wizard-info text-center">Conferma dell'ordine</div>
+										<div class="bs-wizard-info text-center">Order confirmation</div>
 								</div>
             </div>
         </div>
@@ -320,13 +320,13 @@ end if
 							</div>
 							<div class="col-md-12 hidden-print">
 									<p class="description">
-									La procedura di pagamento con Carta di Credito &egrave; stata completata e riceverai un'email di conferma sull'esito dell'operazione.<br>
+									The Credit Card payment procedure has been completed correctly.<br>
 													<br>
-											L'ordine sar&agrave; messo in lavorazione al momento che l'amministrazione notificher&agrave; il pagamento.<br>
-											<br>
-											Potrai seguire lo stato del tuo ordine direttamente dalla Tua <a href="/areaprivata.asp">Area Clienti</a> da dove potrai anche stamparlo; comunque sar&agrave; cura del nostro staff informarti per email dell'invio dei prodotti ordinati.
-											<br><br>
-											Cordiali saluti, lo staff di Cristalensi
+                          The order will be taken over as soon as our bank receives payment.<br>
+    							  <br>
+    							  You can follow the state of your order directly in the client area, but  in any case it will be the care of our staff to inform you by e-mail once your  goods have been dispatched.
+    							  <br>
+    							  Best regards, the staff of Cristalensi
 											<br>
 											<br>
 									</p>

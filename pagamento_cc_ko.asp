@@ -40,7 +40,7 @@ if idsession>0 then
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
 			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>L'ordine n&deg; "&idordine&" con pagamento con Carta di Credito dal sito internet &egrave; stato annullato.</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti dell'ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&idsession&"</b></font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti dell'ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&idsession&"/COM</b></font><br>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -49,7 +49,7 @@ if idsession>0 then
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "info@cristalensi.it"
-			Oggetto = "Pagamento con Carta di Credito annullato"
+			Oggetto = "Pagamento con Carta di Credito annullato (inglese)"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -89,7 +89,7 @@ if idsession>0 then
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "viadeimedici@gmail.com"
-			Oggetto = "Pagamento con Carta di Credito annullato"
+			Oggetto = "Pagamento con Carta di Credito annullato (inglese)"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -183,62 +183,61 @@ end if
         <div class="col-sm-12">
             <div class="row bs-wizard">
 
-                <div class="col-sm-5 bs-wizard-step complete">
-                    <div class="text-center bs-wizard-stepnum">1</div>
-                    <div class="progress">
-                        <div class="progress-bar"></div>
-                    </div>
-                    <a href="/carrello1.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Carrello</div>
-                </div>
-                <div class="col-sm-5 bs-wizard-step complete">
-                    <div class="text-center bs-wizard-stepnum">2</div>
-                    <div class="progress">
-                        <div class="progress-bar"></div>
-                    </div>
-                    <a href="/iscrizione.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Accedi / Iscriviti</div>
-                </div>
-                <div class="col-sm-5 bs-wizard-step complete">
-                    <div class="text-center bs-wizard-stepnum">3</div>
-                    <div class="progress">
-                        <div class="progress-bar"></div>
-                    </div>
-                    <a href="/carrello2.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Indirizzo di spedizione</div>
-                </div>
-								<div class="col-sm-5 bs-wizard-step complete">
-										<div class="text-center bs-wizard-stepnum">4</div>
-										<div class="progress">
-												<div class="progress-bar"></div>
-										</div>
-										<a href="/carrello3.asp" class="bs-wizard-dot"></a>
-										<div class="bs-wizard-info text-center">Pagamento &amp; fatturazione</div>
-								</div>
-								<div class="col-sm-5 bs-wizard-step active">
-										<div class="text-center bs-wizard-stepnum">5</div>
-										<div class="progress">
-												<div class="progress-bar"></div>
-										</div>
-										<a href="#" class="bs-wizard-dot"></a>
-										<div class="bs-wizard-info text-center">Annullamento dell'ordine</div>
-								</div>
+              <div class="col-sm-5 bs-wizard-step complete">
+                  <div class="text-center bs-wizard-stepnum">1</div>
+                  <div class="progress">
+                      <div class="progress-bar"></div>
+                  </div>
+                  <a href="/carrello1.asp" class="bs-wizard-dot"></a>
+                  <div class="bs-wizard-info text-center">Cart</div>
+              </div>
+              <div class="col-sm-5 bs-wizard-step complete">
+                  <div class="text-center bs-wizard-stepnum">2</div>
+                  <div class="progress">
+                      <div class="progress-bar"></div>
+                  </div>
+                  <a href="/iscrizione.asp" class="bs-wizard-dot"></a>
+                  <div class="bs-wizard-info text-center">Autentication / Registration</div>
+              </div>
+              <div class="col-sm-5 bs-wizard-step complete">
+                  <div class="text-center bs-wizard-stepnum">3</div>
+                  <div class="progress">
+                      <div class="progress-bar"></div>
+                  </div>
+                  <a href="/carrello2.asp" class="bs-wizard-dot"></a>
+                  <div class="bs-wizard-info text-center">Shipping address</div>
+              </div>
+              <div class="col-sm-5 bs-wizard-step complete">
+                  <div class="text-center bs-wizard-stepnum">4</div>
+                  <div class="progress">
+                      <div class="progress-bar"></div>
+                  </div>
+                  <a href="/carrello3.asp" class="bs-wizard-dot"></a>
+                  <div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
+              </div>
+              <div class="col-sm-5 bs-wizard-step active">
+                  <div class="text-center bs-wizard-stepnum">5</div>
+                  <div class="progress">
+                      <div class="progress-bar"></div>
+                  </div>
+                  <a href="#" class="bs-wizard-dot"></a>
+                  <div class="bs-wizard-info text-center">Order cancellation</div>
+              </div>
             </div>
         </div>
         <div class="col-md-12">
 						<div class="col-md-12 hidden-print" style="text-align: center;">
 
 								<p class="description">
-								La procedura di pagamento con Carta di Credito non &egrave; stata completata<br>
-								oppure ci sono stati errori nel sistema di pagamento.<br>
+								The credit card payment procedure has not completed<br>
+								or there have been  errors in the system of payment.<br>
 								<br>
-								L'ordine &egrave; comunque disponibile nella Tua <a href="/areaprivata.asp">Area Clienti</a> per essere completato.
-								<br><br>
-								Eventualmente contattare Cristalensi per avere dettagli e assistenza nel pagamento, grazie.<br><br>Telefono: 0571/911163<br><br>Email: <a href="mailto: info@cristalensi.it">info@cristalensi.it</a>
-								<br><br>
-								Il nostro personale &eacute; a tua disposizione per qualsiasi chiarimento.<br>
-								<br>
-								Cordiali saluti, lo staff di Cristalensi
+                You are welcome to contact Cristalensi for details and assistance in  payment, thank you.<br><br>
+							      Phone: 0571.911163<br><br>Email: <a href="mailto: info@cristalensi.it">info@cristalensi.it</a>
+							  <br><br>
+							  Our staff is at your disposition for any further enquiries.<br>
+							  <br>
+							  Best regards, the staff of Cristalensi
 										<br>
 										<br>
 								</p>

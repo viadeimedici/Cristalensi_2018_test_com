@@ -332,7 +332,7 @@
 				<form name="modulocarrello" id="modulocarrello" class="form-horizontal" method="post">
         <div class="col-md-12">
             <div class="title">
-                <h4><span class="visible-xs" style="padding-top: 20px;">Payment data - 3 of 5</span></h4>
+                <h4><span class="visible-xs" style="padding-top: 20px;">Shipping address - 3 of 5</span></h4>
             </div>
             <div class="col-md-12">
                 <div class="top-buffer">
@@ -419,7 +419,7 @@
             <div class="row top-buffer">
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Shipment method</h4>
+                        <h4>Shipping</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <table id="cart" class="table table-hover table-condensed table-cart">
@@ -430,8 +430,8 @@
 														%>
 														<thead>
                                 <tr>
-                                    <th style="width:70%">Shipment method</th>
-                                    <th style="width:15%">Cost</th>
+                                    <th style="width:70%">Shipping method</th>
+                                    <th style="width:15%">Shipping cost</th>
                                     <th style="width:15%" class="hidden-xs">Total</th>
                                 </tr>
                             </thead>
@@ -473,7 +473,7 @@
 															loop
 														%>
 																<tr>
-                                    <td data-th="Product"><h5>Shipping Cost:</h5></td>
+                                    <td data-th="Product"><h5>Shipping cost:</h5></td>
                                     <td data-th="Price" class="hidden-xs"></td>
                                     <td data-th="Subtotal"><h5><%if TipoTrasportoScelto=4 and CostoSpedizioneTotale=0 then%>NOT DEFINED<%else%><%=FormatNumber(CostoSpedizioneTotale,2)%>&#8364;<%end if%></h5></td>
                                 </tr>
@@ -485,7 +485,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Mailing address</h4>
+                        <h4>Shipping address</h4>
                     </div>
                     <div class="col-md-12">
 						<%if TipoTrasportoScelto>0 and TipoTrasportoScelto<>2 then%>

@@ -259,7 +259,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/carrello1.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Carrello</div>
+                    <div class="bs-wizard-info text-center">Cart</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step complete">
                     <div class="text-center bs-wizard-stepnum">2</div>
@@ -267,7 +267,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/iscrizione.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Accedi / Iscriviti</div>
+                    <div class="bs-wizard-info text-center">Autentication / Registration</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step active">
                     <div class="text-center bs-wizard-stepnum">3</div>
@@ -275,7 +275,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Indirizzo di spedizione</div>
+                    <div class="bs-wizard-info text-center">Shipping address</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">4</div>
@@ -283,7 +283,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Pagamento &amp; fatturazione</div>
+                    <div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">5</div>
@@ -291,24 +291,24 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Conferma dell'ordine</div>
+                    <div class="bs-wizard-info text-center">Order confirmation</div>
                 </div>
             </div>
         </div>
 				<form name="modulocarrello" id="modulocarrello" class="form-horizontal">
         <div class="col-md-12">
 						<div class="title">
-                <h4><span class="visible-xs" style="padding-top: 20px;">Dati di spedizione - Passo 3 di 5</span></h4>
+                <h4><span class="visible-xs" style="padding-top: 20px;">Shipment method - 3 of 5</span></h4>
             </div>
             <div class="col-md-12">
                 <div class="top-buffer">
                     <table id="cart" class="table table-hover table-condensed table-cart">
 												<thead>
 														<tr>
-																<th style="width:60%">Prodotto</th>
-																<th style="width:10%" class="text-center">Quantit&agrave;</th>
-																<th style="width:15%" class="text-right">Prezzo</th>
-																<th style="width:15%" class="text-right hidden-xs">Totale Prodotto</th>
+																<th style="width:60%">Product</th>
+																<th style="width:10%" class="text-center">Quantity</th>
+																<th style="width:15%" class="text-right">Price</th>
+																<th style="width:15%" class="text-right hidden-xs">Total Pr.</th>
 														</tr>
 												</thead>
 												<%if rs.recordcount>0 then%>
@@ -338,8 +338,8 @@
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <h5 class="nomargin"><%=rs("titolo")%></h5>
-																						<p><strong>Codice: <%=rs("codicearticolo")%></strong></p>
-                                            <%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><p><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Lamp.: Bianco satinato<%=rs("lampadina")%><%end if%></p><%end if%>
+																						<p><strong>Code: <%=rs("codicearticolo")%></strong></p>
+                                            <%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><p><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Light: <%=rs("lampadina")%><%end if%></p><%end if%>
                                         </div>
                                     </div>
                                 </td>
@@ -357,21 +357,21 @@
 												<tfoot>
 													<tr>
 															<td class="hidden-xs"></td>
-															<td class="text-right" colspan="2">Totale Carrello</td>
+															<td class="text-right" colspan="2">Total Cart</td>
 															<td class="text-right"><%if ss("TotaleCarrello")<>0 then%>
 															<%=FormatNumber(ss("TotaleCarrello"),2)%><%else%>0<%end if%>&nbsp&euro;</td>
 													</tr>
 													<tr>
 															<td class="hidden-xs"></td>
-															<td class="text-right" colspan="2"><strong>Sconto Extra</strong></td>
+															<td class="text-right" colspan="2"><strong>Extra Discount</strong></td>
 															<td class="text-right"><strong><%if ss("Sconto")<>0 then%>
 															-<%=FormatNumber(ss("Sconto"),2)%><%else%>0,00<%end if%>&nbsp&euro;</strong></td>
 													</tr>
                         </tfoot>
 												<%end if%>
                     </table>
-                    <h5>Eventuali annotazioni</h5>
-                    <p>Potete usare questo spazio per inserire eventuali annotazioni o comunicazioni in relazione ai prodotti in acquisto</p>
+                    <h5>Any notes</h5>
+                    <p>You can use this space to enter any notes or communications in relation to the products purchased.</p>
                     <textarea class="form-control" rows="2" name="NoteCliente" id="NoteCliente"><%=NoteCliente%></textarea>
 										<p>&nbsp;</p>
                 </div>
@@ -381,15 +381,15 @@
             <div class="row top-buffer">
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>modalit&agrave; di spedizione</h4>
+                        <h4>Shipment method</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <table id="cart" class="table table-hover table-condensed table-cart">
 														<thead>
                                 <tr>
-                                    <th style="width:70%">Modalit&agrave; di spedizione</th>
-                                    <th style="width:15%">Costo</th>
-                                    <th style="width:15%" class="hidden-xs">Totale</th>
+                                    <th style="width:70%">Shipment method</th>
+                                    <th style="width:15%">Cost</th>
+                                    <th style="width:15%" class="hidden-xs">Total</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -399,7 +399,7 @@
                                         <div class="row">
                                             <div class="col-sm-12">
                                                 <div class="radio">
-                                                    <label><b>Corriere internazionale</b></label>
+                                                    <label><b>International courier</b></label>
                                                 </div>
                                                 <p style="color: #666; font-size: .85em;"></p>
                                             </div>
@@ -409,7 +409,7 @@
                                     <td data-th="Subtotal" class="hidden-xs"><%=FormatNumber(CostoSpedizioneTotale,2)%>&#8364;</td>
                                 </tr>
 																<tr>
-                                    <td data-th="Product"><h5>costo spedizione:</h5></td>
+                                    <td data-th="Product"><h5>Shipment cost:</h5></td>
                                     <td data-th="Price" class="hidden-xs"></td>
                                     <td data-th="Subtotal"><h5><%=FormatNumber(CostoSpedizioneTotale,2)%>&#8364;</h5></td>
                                 </tr>
@@ -419,14 +419,14 @@
 																				<div class="row">
 																						<div class="col-sm-12">
 																								<div class="radio">
-																										<label><b>Corriere internazionale</b></label>
+																										<label><b>International courier</b></label>
 																								</div>
-																								<p style="color: #666; font-size: .85em;">Per le spedizioni internazionali &eacute; necessario calcolare il peso dei prodotti ordinati per sapere il costo della spedizione.<br />
-							      Per chi desidera continuare l'acquisto deve seguire la seguente procedura:<br />
-							      -assicurarsi che i prodotti inseriti nel carrello siano quelli desiderati,<br />
-							      -cliccare sul pulsante &quot;clicca qui per il calcolo del costo di spedizione&quot;.<br />
-							      Nelle successive 24h (ma potrebbe passare anche solo 1h) ricever&agrave; un'email che le comunicher&agrave; il costo di spedizione e la possibilit&agrave; di continuare l'acquisto. <br />
-							      Una volta ricevuta la comunicazione dall'amministratore, &egrave; necessario tornare sul sito internet, e dalla Home Page farsi riconoscere inserendo Login (Email) e Password inserite durante l'iscrizione. A quel punto, sempre nell'Area clienti, ci sar&agrave; un link con &quot;I miei ordini&quot;, cliccandoci andrete nell'elenco dei vostri ordini e potrete continuare l'acquito, trovandoci gi&agrave; calcolato il Costo di spedizione.</p>
+																								<p style="color: #666; font-size: .85em;">International shipping costs depend upon the wieght of the product<br />
+			      If you wish to continue with your purchase please follow the following  procedure:<br />
+			      -check that the articles in the shopping basket are those which you wish  to purchase,<br />
+			      -click on &ldquo;click here for shipping cost&rdquo;.<br />
+			      Within 24h (but perhaps within the hour) you will receive an e-mail with  the shipping costs and the possibility to continue with the purchase. <br>
+			      Having received the administrator's reply, return to our internet site Home Page, where you should reinsert your original Login (E-mail) and  Password.&nbsp; At this point a link will  appear &ldquo;My Orders&rdquo; still in the Client Area, clicking on this&nbsp; your shopping basket will reappear with the Cost of shipping included, and you can continue.</p>
 																						</div>
 																				</div>
 																		</td>
@@ -434,7 +434,7 @@
 																		<td data-th="Subtotal" class="hidden-xs">&nbsp;</td>
 																</tr>
 																<tr>
-                                    <td data-th="Product"><h5>costo spedizione:</h5></td>
+                                    <td data-th="Product"><h5>Shipment cost:</h5></td>
                                     <td data-th="Price" class="hidden-xs"></td>
                                     <td data-th="Subtotal"><h5>&nbsp;</h5></td>
                                 </tr>
@@ -448,42 +448,42 @@
                 </div>
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Recapito</h4>
+                        <h4>Shipping address</h4>
                     </div>
                     <div class="col-md-12">
-							<p class="description">E' necessario indicare esattamente un indirizzo dove recapitare i prodotti ordinati oltre ad un numero di telefono per essere eventualmente contattati dal corriere.</p>
+							<p class="description">EYou have to indicate the exact address where you want to receive the products</p>
 							<div class="form-group clearfix">
-                                <label for="nominativo_sp" class="col-sm-4 control-label">Nome e Cognome oppure Azienda</label>
+                                <label for="nominativo_sp" class="col-sm-4 control-label">Nominative</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" name="nominativo_sp" id="nominativo_sp" value="<%=nominativo_sp%>" maxlength="100">
                                 </div>
                             </div>
 							<div class="form-group clearfix">
-                                <label for="telefono_sp" class="col-sm-4 control-label">Telefono</label>
+                                <label for="telefono_sp" class="col-sm-4 control-label">Phone</label>
                                 <div class="col-sm-8">
                                     <input type="number" class="form-control" name="telefono_sp" id="telefono_sp" value="<%=telefono_sp%>" maxlength="50">
                                 </div>
                             </div>
                             <div class="form-group clearfix">
-                                <label for="indirizzo_sp" class="col-sm-4 control-label">Indirizzo</label>
+                                <label for="indirizzo_sp" class="col-sm-4 control-label">Address</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" name="indirizzo_sp" id="indirizzo_sp" value="<%=indirizzo_sp%>" maxlength="100">
                                 </div>
                             </div>
                             <div class="form-group clearfix">
-                                <label for="citta_sp" class="col-sm-4 control-label">Citt&agrave;</label>
+                                <label for="citta_sp" class="col-sm-4 control-label">City</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" name="citta_sp" id="citta_sp" value="<%=citta_sp%>" maxlength="50">
                                 </div>
                             </div>
                             <div class="form-group clearfix">
-                                <label for="cap_sp" class="col-sm-4 control-label">CAP</label>
+                                <label for="cap_sp" class="col-sm-4 control-label">Zip code</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" name="cap_sp" id="cap_sp" value="<%=cap_sp%>" maxlength="5">
                                 </div>
                             </div>
                             <div class="form-group clearfix">
-																<label for="provincia_sp" class="col-sm-4 control-label">Provincia</label>
+																<label for="provincia_sp" class="col-sm-4 control-label">Province</label>
 																<div class="col-sm-8">
 																<%
 																Set prov_rs = Server.CreateObject("ADODB.Recordset")
@@ -492,7 +492,7 @@
 																if prov_rs.recordcount>0 then
 																%>
 																<select class="selectpicker show-menu-arrow  show-tick" data-size="4" title="Provincia" name="provincia_sp" id="provincia_sp">
-																	<option title="" value="">Selezionare una provincia (solo per l'ITALIA)</option>
+																	<option title="" value="">Select a province (only for ITALY)</option>
 																	<%
 																	Do While Not prov_rs.EOF
 																	%>
@@ -509,7 +509,7 @@
                                 </div>
                             </div>
 														<div class="form-group clearfix">
-																<label for="nazione_sp" class="col-sm-4 control-label">Nazione</label>
+																<label for="nazione_sp" class="col-sm-4 control-label">Nation</label>
 																<div class="col-sm-8">
 																<%
 																Set naz_rs = Server.CreateObject("ADODB.Recordset")
@@ -518,7 +518,7 @@
 																if naz_rs.recordcount>0 then
 																%>
 																<select class="selectpicker show-menu-arrow  show-tick" data-size="4" title="Nazione" name="nazione_sp" id="nazione_sp">
-																	<option title="" value="">Selezionare una Nazione</option>
+																	<option title="" value="">Select a Nation</option>
 																	<%
 																	Do While Not naz_rs.EOF
 
@@ -549,7 +549,7 @@
             <div class="col-md-12">
                 <div class="bg-primary">
 
-                    <p style="font-size: 1.2em; text-align: right; padding: 10px 15px; color: #000;">Totale carrello: <b>
+                    <p style="font-size: 1.2em; text-align: right; padding: 10px 15px; color: #000;">Total order: <b>
 										<%if ss("TotaleGenerale")<>0 then%>
 									  	<%=FormatNumber(ss("TotaleGenerale"),2)%>
                     <%else%>
@@ -559,8 +559,8 @@
 
 								</div>
 								<%if rs.recordcount>0 then%>
-                <a href="/carrello2.asp" class="btn btn-danger pull-left" style="margin-top: 10px;"><i class="glyphicon glyphicon-chevron-left"></i> Passo precedente</a>
-                <a href="#" class="btn btn-danger pull-right" style="margin-top: 10px;" onClick="<%if stato_ordine=22 then%>Continua();<%else%>CalcoloSpedizione();<%end if%>"><%if stato_ordine=22 then%>clicca qui per continuare l'acquisto<%else%>clicca qui per il calcolo del costo di spedizione<%end if%> <i class="glyphicon glyphicon-chevron-right"></i></a>
+                <a href="/carrello2.asp" class="btn btn-danger pull-left" style="margin-top: 10px;"><i class="glyphicon glyphicon-chevron-left"></i> Previous step</a>
+                <a href="#" class="btn btn-danger pull-right" style="margin-top: 10px;" onClick="<%if stato_ordine=22 then%>Continua();<%else%>CalcoloSpedizione();<%end if%>"><%if stato_ordine=22 then%>Click here to continue the order<%else%>Click here to calculate the shipping cost<%end if%> <i class="glyphicon glyphicon-chevron-right"></i></a>
 								<%end if%>
             </div>
 						<%end if%>

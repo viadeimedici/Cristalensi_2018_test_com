@@ -98,8 +98,8 @@
 			HTML1 = HTML1 & "<table width='553' border='0' cellspacing='0' cellpadding='0'>"
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Grazie "&nominativo_email&" per aver scelto i nostri prodotti!<br>Questa &egrave; un email di conferma per il completamento dell'ordine n&deg; "&idordine&".<br><br><b>TOTALE ORDINE: <u>"&FormatNumber(TotaleGenerale,2)&"&#8364;</u></b><br><br> Per completare l'ordine &egrave; necessario effettuare il bonifico con i seguenti dati:<br><u>BANCA DI CREDITO COOPERATIVO DI CAMBIANO AG. MONTELUPO FIORENTINO</u><br>IBAN: <u>IT33E0842537960000030277941</u><br>Codice BIC/SWIFT: <u>CRACIT33</u><br>Nella causale indicare: Ordine da sito internet n&deg; "&idordine&"<br><br>Beneficiario: Cristalensi Snc di Lensi Massimiliano & C. (P.Iva e C.Fiscale 05305820481)<br>Via arti e mestieri, 1 - 50056 Montelupo F.no (FI)<br><br><br>Il nostro staff avr&agrave; cura di spedirti la merce appena la banca avr&agrave; notificato il pagamento del bonifico oppure, per velocizzare la spedizione, &egrave; possibile inviarci per email la ricevuta dell'avvenuto pagamento con bonifico (in caso di bonifico fatto con home banking spesso viene fornita dalla banca una ricevuta, oppure &egrave; possibile scannerizzare la ricevuta rilasciata dalla banca).</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Cordiali Saluti, lo staff di Cristalensi</font>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Thank you "&nominativo_email&" for having chosen our products!<br>This e-mail confirms the completion of order n. "&idordine&"/COM.<br><br><b>TOTAL ORDER: <u>"&TotaleGenerale&"&#8364;</u></b><br><br> To complete the order you must make a bank transfer with the following details:<br><u>BANCA DI CREDITO COOPERATIVO DI CAMBIANO AG. MONTELUPO FIORENTINO</u><br>IBAN: <u>IT33E0842537960000030277941</u><br>Code BIC/SWIFT: <u>CRACIT33</u><br>As the cause of payment please indicate: Order from web site n. "&idordine&"<br><br>Beneficiary: Cristalensi Snc di Lensi Massimiliano & C. (P.Iva e C.Fiscale 05305820481)<br>Via arti e mestieri, 1 - 50056 Montelupo F.no (FI)<br><br><br>Our staff will send the merchandise as soon as the bank is notified of the bank transfer or, to speed-up the consignment, send an e-mail with the bank transfer reciept (in the case of home banking a bank transfer receipt is often provided by the bank, or you could scan the receipt left by the bank).</font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Best wishes from the staff of Cristalensi</font>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -108,7 +108,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = email
-			Oggetto = "Conferma invio ordine n "&idordine&" a Cristalensi.it con pagamento con bonifico bancario"
+			Oggetto = "Confirmation dispatch order n "&idordine&"/COM to Cristalensi.com with payment by bank transfer"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -160,7 +160,7 @@
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
 			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Nuovo ordine con pagamento con bonifico dal sito internet.</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti del nuovo ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&idsession&"</b><br>Codice ordine: <b>"&idordine&"</b></font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti del nuovo ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&idsession&"</b><br>Codice ordine: <b>"&idordine&"/COM</b></font><br>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -169,7 +169,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "info@cristalensi.it"
-			Oggetto = "Conferma invio ordine n "&idordine&" a Cristalensi.it con pagamento con bonifico bancario"
+			Oggetto = "Conferma invio ordine n "&idordine&"/COM a Cristalensi.com (inglese) con pagamento con bonifico bancario"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -211,7 +211,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "viadeimedici@gmail.com"
-			Oggetto = "Conferma invio ordine n "&idordine&" a Cristalensi.it con pagamento con bonifico bancario"
+			Oggetto = "Conferma invio ordine n "&idordine&"/COM a Cristalensi.com (inglese) con pagamento con bonifico bancario"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -272,8 +272,8 @@
 			HTML1 = HTML1 & "<table width='553' border='0' cellspacing='0' cellpadding='0'>"
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Grazie "&nominativo_email&" per aver scelto i nostri prodotti!<br>Questa &egrave; un email di conferma per il completamento dell'ordine n&deg; "&idordine&".<br><br><br>Il nostro staff avr&agrave; cura di spedirti la merce appena sar&agrave; disponibile nel nostro magazino.<br>Ti ricordiamo che per il pagamento in contrassegno, il corriere consegner&agrave; la merce solo se verr&agrave; pagata in contanti, non accetter&agrave; altri metodi di pagamento (anche gli assegni non saranno accettati).</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Cordiali Saluti, lo staff di Cristalensi</font>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Thank you "&nominativo_email&" for having chosen our products!<br>This e-mail is confirmation of the completion of order n. "&idordine&"/COM.<br><br><br>.  It will be the care of our staff to send you the merchandise as soon as it is available in our stock room.<br>We remind you that in the case of payment on receipt of goods, the courier will consign the merchandise only if paid in cash, other types of payment will not be accepted (even checks will not be accepted).</font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Best wishes from the staff of Cristalensi</font>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -282,7 +282,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = email
-			Oggetto = "Conferma invio ordine n "&idordine&" a Cristalensi.it con pagamento in contrassegno"
+			Oggetto = "Confirmation dispatch order n "&idordine&"/COM a Cristalensi.com with payment on receipt of goods"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -334,7 +334,7 @@
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
 			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Nuovo ordine con pagamento in contrassegno dal sito internet.</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti del nuovo ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&idsession&"</b><br>Codice ordine: <b>"&idordine&"</b></font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti del nuovo ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&idsession&"</b><br>Codice ordine: <b>"&idordine&"/COM</b></font><br>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -343,7 +343,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "info@cristalensi.it"
-			Oggetto = "Conferma invio ordine n "&idordine&" a Cristalensi.it con pagamento in contrassegno"
+			Oggetto = "Conferma invio ordine n "&idordine&"/COM (inglese) a Cristalensi.com con pagamento in contrassegno"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -386,7 +386,7 @@
 			Mittente = "info@cristalensi.it"
 			Destinatario = "viadeimedici@gmail.com"
 
-			Oggetto = "Conferma invio ordine n "&idordine&" a Cristalensi.it con pagamento in contrassegno"
+			Oggetto = "Conferma invio ordine n "&idordine&"/COM (inglese) a Cristalensi.com con pagamento in contrassegno"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -447,8 +447,8 @@
 			HTML1 = HTML1 & "<table width='553' border='0' cellspacing='0' cellpadding='0'>"
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Grazie "&nominativo_email&" per aver scelto i nostri prodotti!<br>Questa &egrave; un email di conferma per il completamento dell'ordine n&deg; "&idordine&".<br><br><strong>TOTALE ORDINE: <u>"&FormatNumber(TotaleGenerale,2)&"&#8364;</u></strong><br><br> Per completare l'ordine &egrave; necessario effettuare il pagamento su Carta POSTEPAY con i seguenti dati:<br><br><strong>Beneficiario: LENSI GIULIANO - c.f. LNS GLN 42A30 D403J<br>Numero carta: 5333 1710 7681 8950</strong><br><br>Nella causale indicare: <strong>Ordine da sito internet n&deg; "&idordine&"</strong><br><br><br>Il nostro staff avr&agrave; cura di spedirti la merce appena ricever&agrave; la notifica del pagamento oppure, per velocizzare la spedizione, &egrave; possibile inviarci per email la ricevuta dell'avvenuto pagamento.</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Cordiali Saluti, lo staff di Cristalensi</font>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Thank you "&nominativo_email&" for having chosen our products!<br>This e-mail confirms the completion of order n. "&idordine&"/COM.<br><br><b>TOTAL ORDER: <u>"&TotaleGenerale&"&#8364;</u></b><br><br> To complete the order you must make a card PostePay transfer with the following details:<br><u><strong>Beneficiary: LENSI GIULIANO - c.f. LNS GLN 42A30 D403J<br>Card Number: 5333 1710 7681 8950</strong><br><br>As the cause of payment please indicate: Order from Cristalensi web site n. "&idordine&"<br><br>Our staff will send the merchandise as soon as the bank is notified of the bank transfer or, to speed-up the consignment, send an e-mail with the bank transfer reciept.</font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Best wishes from the staff of Cristalensi</font>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -457,7 +457,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = email
-			Oggetto = "Conferma invio ordine n "&idordine&" a Cristalensi.it con pagamento con POSTEPAY"
+			Oggetto = "Confirmation dispatch order n "&idordine&"/COM to Cristalensi.com with payment by PostePay card"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -509,7 +509,7 @@
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
 			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Nuovo ordine con pagamento con POSTEPAY dal sito internet.</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti del nuovo ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&idsession&"</b><br>Codice ordine: <b>"&idordine&"</b></font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Dati sensibili e determinanti del nuovo ordine:<br>Nominativo: <b>"&nominativo_email&"</b><br>Email: <b>"&email&"</b><br>Codice cliente: <b>"&idsession&"</b><br>Codice ordine: <b>"&idordine&"/COM</b></font><br>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -518,7 +518,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "info@cristalensi.it"
-			Oggetto = "Conferma invio ordine n "&idordine&" a Cristalensi.it con pagamento con POSTEPAY"
+			Oggetto = "Conferma invio ordine n "&idordine&"/COM (inglese) a Cristalensi.com con pagamento con POSTEPAY"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -560,7 +560,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "viadeimedici@gmail.com"
-			Oggetto = "Conferma invio ordine n "&idordine&" a Cristalensi.it con pagamento con POSTEPAY"
+			Oggetto = "Conferma invio ordine n "&idordine&"/COM (inglese) a Cristalensi.com con pagamento con POSTEPAY"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -704,7 +704,7 @@ End If
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/carrello1.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Carrello</div>
+                    <div class="bs-wizard-info text-center">Cart</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step complete">
                     <div class="text-center bs-wizard-stepnum">2</div>
@@ -712,7 +712,7 @@ End If
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/iscrizione.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Accedi / Iscriviti</div>
+                    <div class="bs-wizard-info text-center">Autentication / Registration</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step complete">
                     <div class="text-center bs-wizard-stepnum">3</div>
@@ -720,7 +720,7 @@ End If
                         <div class="progress-bar"></div>
                     </div>
                     <a href="/carrello2.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Indirizzo di spedizione</div>
+                    <div class="bs-wizard-info text-center">Shipping address</div>
                 </div>
 								<div class="col-sm-5 bs-wizard-step complete">
 										<div class="text-center bs-wizard-stepnum">4</div>
@@ -728,7 +728,7 @@ End If
 												<div class="progress-bar"></div>
 										</div>
 										<a href="/carrello3.asp" class="bs-wizard-dot"></a>
-										<div class="bs-wizard-info text-center">Pagamento &amp; Fatturazione</div>
+										<div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
 								</div>
 								<div class="col-sm-5 bs-wizard-step active">
 										<div class="text-center bs-wizard-stepnum">5</div>
@@ -736,127 +736,84 @@ End If
 												<div class="progress-bar"></div>
 										</div>
 										<a href="#" class="bs-wizard-dot"></a>
-										<div class="bs-wizard-info text-center">Conferma dell'ordine</div>
+										<div class="bs-wizard-info text-center">Order confirmation</div>
 								</div>
             </div>
         </div>
         <div class="col-md-12">
 						<div class="title">
-								<h4>Ordine n. <%=idordine%> - Data <%=Left(DataAggiornamento, 10)%></h4>
+								<h4>Order n. <%=idordine%> - Date <%=Left(DataAggiornamento, 10)%></h4>
 						</div>
 						<div class="col-md-12 hidden-print">
 						<%if FkPagamento=1 or FkPagamento=5 then%>
 								<p class="description">
-									Grazie per aver scelto i nostri prodotti,<br>
-										per completare l'ordine &egrave; necessario effettuare il bonifico con i seguenti dati:<br>
+									Thank you for having chosen our products,<br>
+                                    to complete the order you must make out a bank transfer to the following address:<br>
 										<br>
 										<strong>BANCA DI CREDITO COOPERATIVO DI CAMBIANO AG. MONTELUPO FIORENTINO<br>IBAN: IT33E0842537960000030277941<br>
 										Codice BIC/SWIFT: CRACIT33</strong>
-										<br><br>Nella causale indicare: "<strong>Ordine da sito internet n&deg; <%=idordine%></strong>"<br><br>
-										Beneficiario:<br><strong>Cristalensi Snc di Lensi Massimiliano &amp; C. (P.Iva e C.Fiscale 05305820481)<br>
-										Via arti e mestieri, 1 - 50056 Montelupo F.no (FI)</strong>
+										<br><br>As the cause of payment please indicate: "<strong>Order from web site n&deg; <%=idordine%></strong>"<br><br>
+                                    Beneficiary: <strong>Cristalensi Snc di Lensi Massimiliano & C. (P.Iva e C.Fiscale 05305820481)<br>
+                             Via arti e mestieri, 1 - 50056 Montelupo F.no (Florence) Italy</strong>
 										<br><br>
-										La merce sar&agrave; spedita al momento che la nostra banca ricever&agrave; il pagamento oppure, per velocizzare la spedizione, &egrave; possibile inviarci per email la ricevuta dell'avvenuto pagamento con bonifico (in caso di bonifico fatto con home banking spesso viene fornita dalla banca una ricevuta, oppure &egrave; possibile scannerizzare la ricevuta rilasciata dalla banca).<br>
+										The merchandise will be sent when our bank recieves payment, or to speed-up the consignment, you can send by e-mail the receipt of payment by bank transfer (in the case of home banking a receipt is usually provided by the bank, or you can scan the receipt left by the bank).<br>
 										<br>
-										Pagando, e quindi completando l'ordine, si accettano le condizioni di vendita.<br><br>
-										Salva oppure stampa le condizioni di vendita (consultabili anche nell'apposita pagina del sito internet) da questo file (.pdf):<br><a href="#" target="_blank">condizioni di vendita</a><br /><br />
-										<strong>TUTTI I DATI PER IL PAGAMENTO SARANNO SPEDITI ANCHE PER EMAIL</strong>
+										By paying, and thereby completing the order, you have accepted the conditions of sale.<br>Save or print the conditions of sale (consultable on the appropriate page of the internet site) from this file (.pdf):<br>
+                                  <a href="condizioni_di_vendita.pdf" target="_blank">sales conditions</a>
+										<br><br>
+										<strong>WE WILL SENT ALSO BY EMAIL ALL DATA FOR PAYMENT</strong>
 										<br>
 										<br>
-										Cordiali saluti, lo staff di Cristalensi
+										Best regards from the staff of Cristalensi
 										<br>
 										<br>
 								</p>
 						<%end if%>
 						<%if FkPagamento=4 then%>
 								<p class="description">
-										<br><br>Grazie per aver scelto i nostri prodotti,<br>
-											per completare l'ordine &egrave; necessario effettuare il versamente sulla Carta di POSTEPAY con i seguenti dati:<br>
+										<br><br>Thank you for having chosen our products,<br>
+                                    to complete the order you must make out a POSTEPAY card transfer to the following address:<br>
 											<br><br>
-											<strong>Beneficiario: LENSI GIULIANO - c.f. LNS GLN 42A30 D403J<br>
-											Numero carta: 5333 1710 7681 8950</strong>
+											<strong>Beneficiary: LENSI GIULIANO - c.f. LNS GLN 42A30 D403J<br>
+											Carn number: 5333 1710 7681 8950</strong>
 											<br><br>Nella causale indicare: "<strong>Ordine da sito internet n&deg; <%=idordine%></strong>"<br><br>
-
-										La merce verr&agrave; spedita al momento che riceveremo il pagamento oppure, per velocizzare la spedizione, &egrave; possibile inviarci per email la ricevuta dell'avvenuto pagamento.<br>
+											As the cause of payment please indicate: "<strong>Order from web site n&deg; <%=idordine%></strong>"<br><br>
+                                    The merchandise will be sent when our bank recieves payment, or to speed-up the consignment, you can send by e-mail the receipt of payment by bank transfer.
+                                  <br><br>
+                                   By paying, and thereby completing the order, you have accepted the conditions of sale.  Save or stamp the conditions of sale (consultable on the appropriate page of the internet site) from this file (.pdf):<br><a href="condizioni_di_vendita.pdf" target="_blank">conditions of sale</a>
+										<br /><br />
+										<strong>WE WILL SENT ALSO BY EMAIL ALL DATA FOR PAYMENT</strong>
 										<br>
-										Pagando, e quindi completando l'ordine, si accettano le condizioni di vendita.<br><br>
-										Salva oppure stampa le condizioni di vendita (consultabili anche nell'apposita pagina del sito internet) da questo file (.pdf):<br><a href="https://www.cristalensi.it/condizioni_di_vendita.pdf" target="_blank">condizion di vendita</a><br /><br />
-										<strong>TUTTI I DATI PER IL PAGAMENTO SARANNO SPEDITI ANCHE PER EMAIL</strong>
 										<br>
-										<br>
-										Cordiali saluti, lo staff di Cristalensi
+										Best regards from the staff of Cristalensi
 										<br>
 										<br>
 								</p>
 						<%end if%>
 						<%if FkPagamento=3 then%>
 								<p class="description">
-								<br><br>Grazie per aver scelto i nostri prodotti,<br>
-									la merce sar&agrave; spedita appena sar&agrave; disponibile nel nostro magazino.<br>
-									Ti ricordiamo che per il pagamento in contrassegno, il corriere consegner&agrave; la merce solo se sar&agrave; pagata in contanti, non accetter&agrave; altri metodi di pagamento (anche gli assegni non saranno accettati).<br>
-									<br>
-								Pagando, e quindi completando l'ordine, si accettano le condizioni di vendita.<br>
-								Salva oppure stampa le condizioni di vendita (consultabili nell'apposita pagina del sito internet) da questo file (.pdf):<br>
-								<a href="https://www.cristalensi.it/condizioni_di_vendita.pdf" target="_blank">condizion di vendita</a>
-								<br>
-								<br>
-								Cordiali saluti, lo staff di Cristalensi
-								<br>
-								<br>
+									<br><br>Thank you for having chosen our products,<br>
+                    the merchandise will be sent to you as soon as we have it available in our warehouse.<br>
+                    We remind you that for payment on delivery, the courier will give you the merchandise only if paid in cash, no other method of payment (not even checks) will be accepted in this case<br>
+                    <br>
+                  By paying, and thereby completing the order, you have accepted the conditions of sale.  Save or stamp the conditions of sale (consultable on the appropriate page of the internet site) from this file (.pdf) using Adobe Acrobat Reader:<br>
+                  <a href="condizioni_di_vendita.pdf" target="_blank">sales conditions</a>
+                  <br>
+                  <br>
+                  Best regards from the staff of Cristalensi
+                  <br>
+                  <br>
 								</p>
 						<%end if%>
 						<%if FkPagamento=2 then%>
-							<p class="description">
-								<a href="https://www.paypal.com/it/webapps/mpp/paypal-popup" title="Come funziona PayPal" onClick="javascript:window.open('https://www.paypal.com/it/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1100, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logo_paypal_carte.jpg" border="0" style="float:right; padding-left:20px; width:319px; height:110px;" alt="Che cos'&egrave; PayPal"></a>Grazie per aver scelto i nostri prodotti,<br>
-								per completare l'ordine &egrave; necessario effettuare il pagamento con i sistemi sicuri di PayPal protetti dai loro protocolli di sicurezza.<br>PayPal permette di pagare con moltissime carte di credito e carte ricaribili garantendo una potezione sia per l'acquirente che per il venditore:<br>
-								MasterCard, Visa e Visa Electron, PostePay, Carta Aura e ricariche PayPal.<br><br>
-								Pagando, e quindi completando l'ordine, si accettano le condizioni di vendita consultabili nella pagina specifica oppure da questo file (pdf): <a href="https://www.cristalensi.it/condizioni_di_vendita.pdf" target="_blank">condizion di vendita</a>.<br><br>
-							</p>
 
-								<form action="https://securepayments.paypal.com/webapps/HostedSoleSolutionApp/webflow/sparta/hostedSoleSolutionProcess" method="post">
-								<input type="hidden" name="cmd" value="_hosted-payment">
-								<input type="hidden" name="subtotal" value="<%=Payment_Amount%>">
-								<input type="hidden" name="currency_code" value="<%=currencyCodeType%>">
-								<input type="hidden" name="business" value="6MLLMNTV88VW6"><!-- Codice conto commerciante -->
-								<input type="hidden" name="paymentaction" value="<%=paymentType%>">
-								<input type="hidden" name="return" value="<%=returnURL%>">
-								<input type="hidden" name="template" value="TemplateB">  <!--PayPal templates -->
-
-								<input type="hidden" name="cancel_return" value="<%=cancelURL%>">
-								<input type="hidden" name="cbt" value="Torna al sito di Cristalensi Lampadari">
-								<input type="hidden" name="lc" value="IT">
-
-								  <!-- Enable override of payer’s stored PayPal address. -->
-								<input type="hidden" name="address_override" value="true">
-
-								<input type="hidden" name="showShippingAddress" value="false">
-								<input type="hidden" name="showCustomerName" value="false">
-								<input type="hidden" name="showBillingEmail" value="false">
-								<input type="hidden" name="showBillingPhone" value="false">
-								<input type="hidden" name="showBillingAddress" value="false">
-
-								 <!-- popola indirizzo di spedizione e fatturazione  -->
-								<input type="hidden" name="address1" value="<%=shipToName%>">
-								<input type="hidden" name="address2" value="<%=shipToStreet2%>">
-								<input type="hidden" name="city" value="<%=shipToCity%>">
-								<input type="hidden" name="state" value="<%=shipToState%>">
-								<input type="hidden" name="zip" value="<%=shipToZip%>">
-								<input type="hidden" name="night_phone_b" value="<%=phoneNum%>">
-
-								<input type="hidden" name="invoice" value="<%=INVNUM%>">
-								<input type="hidden" name="custom" value="Ordine n. <%=INVNUM%>">
-
-								<input type="submit" name="METHOD" value=" &raquo; PAGA adesso con Carta di Credito o PayPal! " class="btn btn-danger pull-left">
-
-
-								</form>
-								<br><br>
 						<%end if%>
 						<%if FkPagamento=6 then%>
 							<div class="col-md-12">
 							<p class="description">
-								Grazie per aver scelto i nostri prodotti,<br>
-								per completare l'ordine &egrave; necessario effettuare il pagamento con i sistemi sicuri di Stripe protetti dai loro protocolli di sicurezza.<br>Stripe permette di pagare con moltissime carte di credito e carte ricaribili garantendo massima potezione per i dati.<br>
+								Thank you for having chosen our products,<br>
+							    To complete the order it is necessary to pay with the secure system Stripe which can be used with many types of credit card and prepaid cards:
+
 								<br><br>
 							</p>
 							<div class="col-md-8">
@@ -870,11 +827,11 @@ End If
 									<input type="hidden" name="totale_da_pagare" id="totale_da_pagare" value="<%=TotaleGenerale_STR%>" />
 
 	                    <div class="title">
-	                        <h4>Dati carta di credito</h4>
+	                        <h4>Credit Card</h4>
 	                    </div>
 	                    <div class="col-md-12" style="padding-top: 20px;">
 													<div class="form-group clearfix">
-															<label for="nominativo" class="col-sm-6 control-label">Numero carta</label>
+															<label for="nominativo" class="col-sm-6 control-label">Card Number</label>
 															<div class="col-sm-6">
 																	<input type="text" class="form-control" name="card-number" id="card-number" value="">
 															</div>
@@ -886,14 +843,14 @@ End If
 															</div>
 													</div>
 													<div class="form-group clearfix">
-															<label for="cod_fisc" class="col-sm-6 control-label">Data di scadenza (MM/YY)</label>
+															<label for="cod_fisc" class="col-sm-6 control-label">Expiration date (MM/YY)</label>
 															<div class="col-sm-6">
 																	<input type="text" class="form-control" name="card-month" id="card-month" value="" maxlength="2" style="width: 50px; text-align: left; display: inline;">&nbsp&nbsp/&nbsp&nbsp<input type="text" class="form-control" name="card-year" id="card-year" value="" maxlength="2" style="width: 50px; text-align: left; display: inline;">
 															</div>
 													</div>
 													<div class="form-group clearfix">
 															<div class="col-sm-12">
-																	<input type="submit" name="METHOD" value=" &raquo; PAGA adesso con Carta di Credito! " class="btn btn-danger pull-right">
+																	<input type="submit" name="METHOD" value=" &raquo; PAY now with Credit Card! " class="btn btn-danger pull-right">
 															</div>
 													</div>
 											</div>
@@ -910,10 +867,10 @@ End If
                     <table id="cart" class="table table-hover table-condensed table-cart">
                         <thead>
 													<tr>
-															<th style="width:60%">Prodotto</th>
-															<th style="width:10%" class="text-center">Quantit&agrave;</th>
-															<th style="width:15%" class="text-right">Prezzo</th>
-															<th style="width:15%" class="text-right hidden-xs">Totale Prodotto</th>
+															<th style="width:60%">Product</th>
+															<th style="width:10%" class="text-center">Quantity</th>
+															<th style="width:15%" class="text-right">Price</th>
+															<th style="width:15%" class="text-right hidden-xs">Total Pr.</th>
 													</tr>
                         </thead>
 												<%
@@ -952,9 +909,9 @@ End If
                                         <div class="col-sm-12">
                                             <h5 class="nomargin"><%=rs("titolo")%></h5>
 																						<p>
-																							<strong>Codice: <%=rs("codicearticolo")%></strong>
-																							<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Lamp.: <%=rs("lampadina")%><%end if%><%end if%>
-																							<%if FkProduttore=59 then%><br /><span style="color:#a01010;"><strong><em>Sconti Extra non applicabili</em></strong></span><%end if%>
+																							<strong>Code: <%=rs("codicearticolo")%></strong>
+																							<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Light: <%=rs("lampadina")%><%end if%><%end if%>
+																							<%if FkProduttore=59 then%><br /><span style="color:#a01010;"><strong><em>Extra discounts not applicable</em></strong></span><%end if%>
 																						</p>
                                         </div>
                                     </div>
@@ -973,19 +930,19 @@ End If
 												<tfoot>
 														<tr>
 																<td class="hidden-xs"></td>
-																<td class="text-right" colspan="2">Totale Carrello</td>
+																<td class="text-right" colspan="2">Total Cart</td>
 																<td class="text-right"><%if TotaleCarrello<>0 then%>
 																<%=FormatNumber(TotaleCarrello,2)%><%else%>0<%end if%>&nbsp&euro;</td>
 														</tr>
 														<tr>
 																<td class="hidden-xs"></td>
-																<td class="text-right" colspan="2"><strong>Sconto Extra</strong></td>
+																<td class="text-right" colspan="2"><strong>Extra Discount</strong></td>
 																<td class="text-right"><strong><%if Sconto<>0 then%>
 																-<%=FormatNumber(Sconto,2)%><%else%>0,00<%end if%>&nbsp&euro;</strong></td>
 														</tr>
 	                          <tr>
 	                              <td colspan="4">
-	                                  <h5>Eventuali annotazioni</h5>
+	                                  <h5>Any notes</h5>
 	                                  <textarea class="form-control" rows="3" readonly style="font-size: 12px;"><%=NoteCliente%></textarea>
 	                              </td>
 	                          </tr>
@@ -997,14 +954,14 @@ End If
             <div class="row top-buffer">
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Modalit&agrave; di spedizione</h4>
+                        <h4>Shipping</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <table id="cart" class="table table-hover table-condensed table-cart">
                             <thead>
                                 <tr>
-                                    <th style="width:75%">Modalit&agrave; di spedizione</th>
-                                    <th style="width:25%" class="text-center">Totale</th>
+                                    <th style="width:75%">Shipping method</th>
+                                    <th style="width:25%" class="text-center">Shipping cost:</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -1026,7 +983,7 @@ End If
                 </div>
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Indirizzo di spedizione</h4>
+                        <h4>Shipping address</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <p><%=Nominativo_sp%>&nbsp;-&nbsp;Telefono:&nbsp;<%=Telefono_sp%><br /><%=Indirizzo_sp%>&nbsp;-&nbsp;<%=CAP_sp%>&nbsp;-&nbsp;<%=Citta_sp%><%if Provincia_sp<>"" then%>&nbsp;(<%=Provincia_sp%>)<%end if%>&nbsp;-&nbsp;<%=Nazione_sp%></p>
@@ -1037,14 +994,14 @@ End If
             <div class="row top-buffer">
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Modalit&agrave; di pagamento</h4>
+                        <h4>Payment</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <table id="cart" class="table table-hover table-condensed table-cart">
                             <thead>
                                 <tr>
-                                    <th style="width:75%">Modalit&agrave; di pagamento</th>
-                                    <th style="width:25%" class="text-center">Totale</th>
+                                    <th style="width:75%">Payment method</th>
+                                    <th style="width:25%" class="text-center">Payment cost</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -1066,7 +1023,7 @@ End If
                 </div>
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Riferimenti per i dati di fatturazione:</h4>
+                        <h4>Billing details:</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <p>
@@ -1083,7 +1040,7 @@ End If
         <div class="col-md-12">
 						<div class="col-md-12">
 								<div class="bg-primary">
-		                <p style="font-size: 1.2em; text-align: right; padding: 10px 15px; color: #000;">Totale Ordine: <b>
+		                <p style="font-size: 1.2em; text-align: right; padding: 10px 15px; color: #000;">Total Order: <b>
 										<%if TotaleGenerale<>0 then%>
 											<%=FormatNumber(TotaleGenerale,2)%>
 										<%else%>
@@ -1093,7 +1050,7 @@ End If
 										</b></p>
 		            </div>
 		            <%if FkPagamento=1 or FkPagamento=3 or FkPagamento=4 or FkPagamento=5 then%>
-		            <a href="#" onClick="MM_openBrWindow('stampa_ordine.asp?idordine=<%=IdOrdine%>&mode=1','','width=760,height=900,scrollbars=yes')" class="btn btn-danger pull-right hidden-print"><i class="glyphicon glyphicon-print"></i> Stampa ordine</a>
+		            <a href="#" onClick="MM_openBrWindow('stampa_ordine.asp?idordine=<%=IdOrdine%>&mode=1','','width=760,height=900,scrollbars=yes')" class="btn btn-danger pull-right hidden-print"><i class="glyphicon glyphicon-print"></i> Print order</a>
 								<%end if%>
 		        </div>
 				</div>

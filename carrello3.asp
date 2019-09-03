@@ -388,14 +388,14 @@
             <div class="row top-buffer">
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Shipment method</h4>
+                        <h4>Shipping</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <table id="cart" class="table table-hover table-condensed table-cart">
                             <thead>
                                 <tr>
-                                    <th style="width:75%">Shipment method</th>
-                                    <th style="width:25%" class="text-center">Shipping Cost:</th>
+                                    <th style="width:75%">Shipping method</th>
+                                    <th style="width:25%" class="text-center">Shipping cost:</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -417,7 +417,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Mailing address</h4>
+                        <h4>Shipping address</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <p><%=Nominativo_sp%>&nbsp;-&nbsp;Telefono:&nbsp;<%=Telefono_sp%><br /><%=Indirizzo_sp%>&nbsp;-&nbsp;<%=CAP_sp%>&nbsp;-&nbsp;<%=Citta_sp%><%if Provincia_sp<>"" then%>&nbsp;(<%=Provincia_sp%>)<%end if%>&nbsp;-&nbsp;<%=Nazione_sp%></p>
@@ -441,14 +441,14 @@
 										if trasp_rs.recordcount>0 then
 										%>
 										<div class="title">
-                        <h4>Payment method</h4>
+                        <h4>Payment</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <table id="cart" class="table table-hover table-condensed table-cart">
                             <thead>
                                 <tr>
                                     <th style="width:70%">Payment method</th>
-                                    <th style="width:15%">Cost</th>
+                                    <th style="width:15%">Payment cost</th>
                                     <th style="width:15%">Total</th>
                                 </tr>
                             </thead>
