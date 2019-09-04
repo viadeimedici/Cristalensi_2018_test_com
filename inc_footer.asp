@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 address-col" itemtype="http://schema.org/Organization">
-                <h4>Cristalensi Vendita Lampadari</h4>
+                <h4>CRISTALENSI online store lamps</h4>
                 <p>
                   <span itemprop="name">Cristalensi Snc di Lensi Massimiliano & C.</span><br />
 
@@ -23,52 +23,52 @@
                     <a href="https://www.pinterest.it/cristalensilampadari/" target="_blank" rel="nofollow"><i class="fa fa-pinterest-square"></i></a>
                 </p>
                 <p>
-                    <br /><br />&raquo; <a href="https://www.viadeimedici.it" target="_blank" rel="nofollow" style="color:#000;" title="ViaDeiMedici: Realizzazione campagne Web Marketing e Siti Internet">ViaDeiMedici: Web Marketing e Siti Internet</a>
+                    <br /><br />&raquo; <a href="https://www.viadeimedici.it" target="_blank" rel="nofollow" style="color:#000;" title="ViaDeiMedici: Web Marketing and Web Sites">ViaDeiMedici: Web Marketing and Web Sites</a>
                 </p>
 
             </div>
             <div class="col-md-3 menu-col">
-                <h4>Cosa cerchi?</h4>
+                <h4>What lamp are you looking for?</h4>
                 <ul>
-                    <li><a href="/illuminazione-interni-ed-esterni/1ng-lampade-da-interno.asp" title="Lampade da interno e illuminazione interni">Lampade da interno</a></li>
-                    <li><a href="/illuminazione-interni-ed-esterni/2ng-lampade-da-esterno.asp" title="Lampade da esterno e illuminazione esterni">Lampade da esterno</a></li>
-                    <li><a href="/illuminazione-interni-ed-esterni/3ng-ventilatori.asp" title="Ventiltori">Ventiltori</a></li>
-                    <li><a href="/illuminazione-interni-ed-esterni/4ng-lampadine-componenti-illuminazione.asp" title="Lampadine e componenti">Lampadine e componenti</a></li>
+                    <li><a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" title="Indoor Lighting and Interior Lamps">Indoor lighting</a></li>
+                    <li><a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" title="Outdoor Lighting and Exterior Lamps">Outdoor Lighting</a></li>
+                    <li><a href="/interior-exterior-lighting/3ng-cooling-fans.asp" title="Cooling fans">Cooling fans</a></li>
+                    <li><a href="/interior-exterior-lighting/4ng-light-bulbs.asp" title="Light bulbs, Drivers and Led Strip Bar">Light bulbs</a></li>
                     <li>&nbsp;</li>
                 </ul>
-                <h4>Oppure cerca in</h4>
+                <h4>Or look for here</h4>
                 <ul>
-                    <li><a href="/offerte.asp" title="Offerte prodotti illuminazione">Offerte</a></li>
-                    <li><a href="/novita-illuminazione-ultimi-arrivi.asp" title="Novit&agrave; illuminazione e ultimi arrivi lampadari">Novit&agrave; e ultimi arrivi</a></li>
+                    <li><a href="/offerte.asp" title="Lights and Lamps on offer">Lights and Lamps on offer</a></li>
+                    <li><a href="/novita-illuminazione-ultimi-arrivi.asp" title="The latest lamps e lights arrived">The latest lamps e lights arrived</a></li>
                 </ul>
             </div>
             <div class="col-md-3 menu-col">
-                <h4>Riferimenti</h4>
+                <h4>References</h4>
                 <ul>
-                    <li><a href="/contatti.asp">Contatti e mappa</a></li>
-                    <li><a href="/chi_siamo.asp">Chi siamo: lo showroom</a></li>
+                    <li><a href="/contatti.asp">Contacts and Map</a></li>
+                    <li><a href="/chi_siamo.asp">Who we are</a></li>
                     <li><a href="/video_elenco.asp">Video</a></li>
-                    <li><a href="/commenti_elenco.asp">Dicono noi</a></li>
-                    <li><a href="/privacy.asp">Privacy e note legali</a></li>
+                    <li><a href="/commenti_elenco.asp">Reviews</a></li>
+                    <li><a href="/privacy.asp">Privacy and legal notes</a></li>
                 </ul>
-                <h4>Area Clienti</h4>
+                <h4>Client Area</h4>
                 <ul>
-                    <li><a href="/iscrizione.asp">Iscriviti/Accedi</a></li>
-                    <li><a href="/preferiti.asp">Lista dei desideri</a></li>
-                    <li><a href="/carrello1.asp">Carrello</a></li>
-                    <li><a href="/areaprivata.asp">Elenco ordini</a></li>
-                    <li><a href="/condizioni_di_vendita.asp">Condizioni di vendita</a></li>
+                    <li><a href="/iscrizione.asp">Autentication/Registration</a></li>
+                    <li><a href="/preferiti.asp">Wishlist</a></li>
+                    <li><a href="/carrello1.asp">Cart</a></li>
+                    <li><a href="/areaprivata.asp">Order list</a></li>
+                    <li><a href="/condizioni_di_vendita.asp">Conditions of sale</a></li>
                 </ul>
             </div>
             <div class="col-md-3 menu-col">
-                <h4>Spedizioni e Metodi di Pagamento</h4>
+                <h4>Shipping and Payment</h4>
                 <ul class="checklist">
-                    <li>Spedizioni assicurate <strong>GRATUITE</strong> in tutta Italia per ordini superiori a 250&euro;</li>
-                    <li>Spedizioni assicurate in tutta Italia per ordini fino a 250&euro;: <strong>10&euro;</strong></li>
+                    <li>Insured shipments <strong> FREE </strong> throughout Italy for orders over 250&euro;</li>
+                    <li>Insured shipments throughout Italy for orders up to 250&euro;: <strong>10&euro;</strong></li>
                 </ul>
                 <ul>
                     <li>
-                      <img src="/images/metodi-di-pagamento.jpg" alt="Metodi di pagamento" />
+                      <img src="/images/metodi-di-pagamento.jpg" alt="Payment method" />
                     </li>
                 </ul>
             </div>
