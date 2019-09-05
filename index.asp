@@ -388,7 +388,8 @@
 		jQuery(function(){
 
 			jQuery('#slider').camera({
-          height: '55%',
+          //height: '55%',
+          height: '300px',
 	        pagination: false,
 				  thumbnails: false,
           autoadvance: true,
