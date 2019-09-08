@@ -221,9 +221,9 @@
   		HTML1 = HTML1 & "<body leftmargin='0' topmargin='0' marginwidth='0' marginheight='0'>"
   		HTML1 = HTML1 & "<table width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td>"
       if richiesta_carrello=1 then
-        HTML1 = HTML1 & "<font face=Verdana size=1 color=#000000>E' stata fatta la seguente richiesta di disponibilit&agrave; dal sito il "&data&"<br><br>Dati della richiesta:<br>Nome e Cognome: <b>"&nome&"</b><br>Telefono: <b>"&telefono&"</b><br>E-mail: <b>"&email&"</b><br><br>Richiesta:<br><b>"&richiesta&"</b><br><br>Prodotti nel carrello:"&ProdottiCarrello&"<br><br><br><br>Questa &egrave; un'email di conferma dell'invio della richiesta di disponibilit&agrave;.<br><br>La ringraziamo per aver scelto i prodotti di Cristalensi</font>"
+        HTML1 = HTML1 & "<font face=Verdana size=1 color=#000000>The following request for availability has been sent on "&data&"<br><br>Request data:<br>Name e Surname: <b>"&nome&"</b><br>Phone: <b>"&telefono&"</b><br>E-mail: <b>"&email&"</b><br><br>Request:<br><b>"&richiesta&"</b><br><br>Products in the cart:"&ProdottiCarrello&"<br><br><br><br>This e-mail is confirmation that a request has been sent.<br><br>Thank you for having chosen Cristalensi's products</font>"
       else
-  		  HTML1 = HTML1 & "<font face=Verdana size=1 color=#000000>E' stata fatta la seguente richiesta di disponibilit&agrave; dal sito il "&data&"<br><br>Dati della richiesta:<br>Nome e Cognome: <b>"&nome&"</b><br>Telefono: <b>"&telefono&"</b><br>E-mail: <b>"&email&"</b><br><br>Codice articolo: <b>"&CodiceArticolo&"</b><br>Nome prodotto: <b>"&Titolo_prodotto&"</b><br>Produttore: <b>"&produttore&"</b><br>Codice progressivo prodotto: <b>"&id&"</b><br><br>Richiesta:<br><b>"&richiesta&"</b><br><br><br><br>Questa &egrave; un'email di conferma dell'invio della richiesta di disponibilit&agrave;.<br><br>La ringraziamo per aver scelto i prodotti di Cristalensi</font>"
+  		  HTML1 = HTML1 & "<font face=Verdana size=1 color=#000000>The following request for availability has been sent on "&data&"<br><br>Request data:<br>Name e Surname: <b>"&nome&"</b><br>Phone: <b>"&telefono&"</b><br>E-mail: <b>"&email&"</b><br><br>Code: <b>"&CodiceArticolo&"</b><br>Product: <b>"&Titolo_prodotto&"</b><br>Producer: <b>"&produttore&"</b><br><br>Request:<br><b>"&richiesta&"</b><br><br><br><br>This e-mail is confirmation that a request has been sent.<br><br>Thank you for having chosen Cristalensi's products</font>"
       end if
   		HTML1 = HTML1 & "</td></tr></table>"
   		HTML1 = HTML1 & "</body>"
@@ -232,9 +232,9 @@
   		Destinatario = email
   		Mittente = "info@cristalensi.it"
       if richiesta_carrello=1 then
-        Oggetto = "Richiesta informazioni prodotti"
+        Oggetto = "Product information request"
       else
-        Oggetto = "Richiesta informazioni per l'articolo codice: "&CodiceArticolo
+        Oggetto = "Request for an estimate for articles code number: "&CodiceArticolo
       end if
   		Testo = HTML1
 
@@ -286,15 +286,15 @@
     richiesta=document.requestform.richiesta.value;
 
     if (email==""){
-      alert("Non  e\' stato compilato il campo \"Email\".");
+      alert("It has not been filled in the field \"Email\".");
       return false;
     }
     if (email.indexOf("@")==-1 || email.indexOf(".")==-1){
-    alert("ATTENZIONE! \"e-mail\" non valida.");
+    alert("ATTENTION! \"e-mail\" is not correct.");
     return false;
     }
     if (richiesta.indexOf("https")>-1 || richiesta.indexOf("http")>-1 || richiesta.indexOf("www")>-1 || richiesta.indexOf("href")>-1){
-    alert("ATTENZIONE! Non possono essere inseriti indirizzi di siti internet.");
+    alert("ATTENTION! You can not submit name or url of web sites.");
     return false;
     }
 
