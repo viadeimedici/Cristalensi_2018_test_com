@@ -55,8 +55,8 @@
 			HTML1 = HTML1 & "<table width='553' border='0' cellspacing='0' cellpadding='0'>"
 			HTML1 = HTML1 & "<tr>"
 			HTML1 = HTML1 & "<td>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Grazie "&nominativo_email&" per aver inserito un commento!<br>Se sar&agrave; accettato dal nostro staff riceverai una notifica via email della pubblicazione.</font><br>"
-			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Cordiali Saluti, lo staff di Cristalensi</font>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000>Thank you "&nominativo_email&" to send a review!<br>If it will be accepted by our moderators you will receive an email notification of the publication.</font><br>"
+			HTML1 = HTML1 & "<font face=Verdana size=3 color=#000000><br><br>Best wishes from the staff of Cristalensi</font>"
 			HTML1 = HTML1 & "</td>"
 			HTML1 = HTML1 & "</tr>"
 			HTML1 = HTML1 & "</table>"
@@ -65,7 +65,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = email
-			Oggetto = "Conferma invio commento a Cristalensi.it"
+			Oggetto = "Confirmation for a review on Cristalensi.com"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -126,7 +126,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "info@cristalensi.it"
-			Oggetto = "Conferma invio commento a Cristalensi.it"
+			Oggetto = "Conferma invio commento a Cristalensi.com"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -168,7 +168,7 @@
 
 			Mittente = "info@cristalensi.it"
 			Destinatario = "viadeimedici@gmail.com"
-			Oggetto = "Conferma invio commento a Cristalensi.it"
+			Oggetto = "Conferma invio commento a Cristalensi.com"
 			Testo = HTML1
 
 			Set eMail_cdo = CreateObject("CDO.Message")
@@ -214,12 +214,12 @@
 <html>
 
 <head>
-    <title>Commenti prodotti illuminazione recensioni lampadari acquistati Cristalensi</title>
+    <title>Review form Cristalensi</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Lascia un commento per i prodotti di illuminazione acquistati. Inserisci una recensione di un lampadario comprato. In un ottica di trasparenza, di avvicinamento alla clientela e di miglioramento dei nostri servizi abbiamo aperto quest'area dove i clienti possono lasciare un messaggio, un commento, un complimento o una critica al funzionamento del sito internet, ai prodotti di illuminazione comprati ma anche ai servizi dello staff stesso.">
+    <meta name="description" content="Send a review you too about lightings shop online Cristalensi.">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Cristalensi.">
+    <meta property="og:description" content="Send a review you too about lightings shop online Cristalensi.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -265,39 +265,39 @@
 
 
                   <div class="title">
-                      <h4>Inserisci il tuo commento!</h4>
+                      <h4>Send a review you too!</h4>
                   </div>
                   <div class="col-md-12">
                     <%if mode=1 then%>
-                      <p class="description">Il tuo commento &egrave; stato inserito correttamente, adesso il nostro staff lo valuter&agrave; e se sar&agrave; approvato, ti verr&agrave; recapitata una notifica via email.<br />Grazie della tua collaborazione dallo staff di Cristalensi.<br /><br /><a href="https://www.cristalensi.it/commenti_elenco.asp" class="button_link_red" style="float:right">Elenco commenti</a>
+                      <p class="description">Your review has been inserted correctly, now our staff will evaluate it and if it will be approved, we will send you an email notification. <br /> Thank you for your cooperation with the staff of Cristalensi.<br /><br /><a href="https://www.cristalensi.it/commenti_elenco.asp" class="button_link_red" style="float:right">All reviews</a>
                       </p>
                     <%else%>
-                      <p class="description">Inserisci un commento su i prodotti acquistati, se ti sono piaciuti o no, oppure un commento sul sito internet o sull'azienda e lo staff.<br />Il commento non sar&agrave; pubblicato immediatamente ma sar&agrave; soggetto a un controllo da parte del nostro staff per evitare che vengano inseriti contenuti non leciti, offese e termini non pubblicabili.<br />Si prega di non inserire codice html, email, link e collegamenti ad altri siti internet: il commento non sar&agrave; pubblicato.<br />Per ogni commento sar&agrave; pubblicato anche il <strong>Nome</strong> inserito al momento dell'iscrizione.
+                      <p class="description">Send a review on the products purchased, whether you liked it or not, or a review on the website or the company and the staff. <br /> Comment will not be published immediately but will be subject to inspection by our staff to prevent them from being inserted content to be unlawful, offensive and terms not be published. <br /> Please do not insert html code, email and links to other websites: the comment will not be published. <br /> In every comments will also be published <strong> Name </strong> submitted at registration.
                       </p>
-                      <%if mode=2 then%><p><strong>Attenzione! Controllare il testo inserito rispettando le regole, grazie.</strong></p><%end if%>
+                      <%if mode=2 then%><p><strong>Warning! Check the text entered by the rules, thank you.</strong></p><%end if%>
                       <form class="form-horizontal" method="post" action="/commenti_form.asp?mode=1" name="newsform2">
                           <div class="form-group">
-                              <label for="testo" class="col-sm-2 control-label">Commento</label>
+                              <label for="testo" class="col-sm-2 control-label">Review</label>
                               <div class="col-sm-10">
                                   <textarea name="testo" style="width: 100%" rows="4" id="testo"></textarea>
                               </div>
                           </div>
 													<div class="form-group">
-                              <label for="valutazione" class="col-sm-2 control-label">Valutazione</label>
+                              <label for="valutazione" class="col-sm-2 control-label">Rating</label>
                               <div class="col-sm-10">
                                   <select class="selectpicker show-menu-arrow  show-tick" data-size="5" title="valutazione" name="valutazione" id="valutazione">
-																	<option value="5" selected>5 - Ottimo</option>
-																	<option value="4">4 - Buono</option>
-																	<option value="3">3 - Sufficiente</option>
-																	<option value="2">2 - Insufficiente</option>
-																	<option value="1">1 - Scarso</option>
+																	<option value="5" selected>5 - Great</option>
+																	<option value="4">4 - Good</option>
+																	<option value="3">3 - Enough</option>
+																	<option value="2">2 - Insufficient</option>
+																	<option value="1">1 - Low</option>
 																	</select>
                               </div>
                           </div>
                           <div class="form-group">
                               <div class="col-sm-offset-4 col-sm-8">
-                                  <a href="/commenti_elenco.asp" class="btn btn-warning"><i class="fa fa-angle-left"></i> Elenco commenti</a>
-                                  <button type="submit" class="btn btn-danger">Invia</button>
+                                  <a href="/commenti_elenco.asp" class="btn btn-warning"><i class="fa fa-angle-left"></i> All reviews</a>
+                                  <button type="submit" class="btn btn-danger">Submit</button>
                               </div>
                           </div>
                       </form>

@@ -3,11 +3,11 @@
 <html>
 
 <head>
-    <title>Negozio illuminazione Firenze Showroom lampadari da interno lampade da esterno</title>
+    <title>Showroom of italian chandeliers - Florence Shop of Outdoor and Indoor lighting</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Cristalensi, negozio di illuminazione vicino Firenze, vende lampadari da interno, lampade da esterno, piantane, plafoniere, appliques, ventilatori, lampade per bambini e lampade per il bagno, prodotti in molti stili dal moderno al classico.">
+    <meta name="description" content="In Cristalensi you find italian chandeliers for sales, near Florence Cristalensi is a shop of outdoor and indoor lighting">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Cristalensi, negozio di illuminazione vicino Firenze, vende lampadari da interno, lampade da esterno, piantane, plafoniere, appliques, ventilatori, lampade per bambini e lampade per il bagno, prodotti in molti stili dal moderno al classico.">
+    <meta property="og:description" content="In Cristalensi you find italian chandeliers for sales, near Florence Cristalensi is a shop of outdoor and indoor lighting">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -52,19 +52,19 @@
                 <div class="col-md-8">
                     <h1 class="slogan">Contatti</h1>
                     <p class="main-description" itemtype="http://schema.org/Organization">
-                      <span itemprop="name"><b>Cristalensi Snc</b> Di Lensi Massimiliano & C.</span><br />
-                      C.F. e Iscr. Reg. Impr. di Firenze 05305820481 - R.E.A. Firenze 536760<br /><br />
+                      <span itemprop="name"><b>Cristalensi Snc</b> of Lensi Massimiliano & C.</span><br />
+                      C.F. e Iscr. Reg. Impr. di Firenze 05305820481 - R.E.A. Florence 536760<br /><br />
                       <span itemprop="address" itemtype="http://schema.org/PostalAddress">
-                      <strong>Sede e Showroom</strong>: <span itemprop="postalCode">50056</span> <span itemprop="addressLocality">Montelupo F.no (FI)</span> - <span itemprop="streetAddress">Via arti e mestieri, 1</span><br /><br />
+                      <strong>Office and Showroom</strong>: <span itemprop="postalCode">50056</span> <span itemprop="addressLocality">Montelupo F.no (FI)</span> - <span itemprop="streetAddress">Via arti e mestieri, 1</span><br /><br />
                       </span>
-                      <strong>Telefono</strong>: <a href="tel:0571911163"><span itemprop="telephone">0571.911163</span></a><br /><br />
+                      <strong>Phone</strong>: <a href="tel:0571911163"><span itemprop="telephone">0571.911163</span></a><br /><br />
 
                       <a href="https://api.whatsapp.com/send?phone=393388064487" target="_blank"><strong>WhatsApp</strong></a>&nbsp;
-                      <strong><font color="#CC0000">(SOLO per invio di messaggi o fotografie)</font></strong>
+                      <strong><font color="#CC0000">(ONLY for chat)</font></strong>
                       <br /><br />
                       <strong>Email</strong>: <a href="mailto:info@cristalensi.it"><span itemprop="email">info@cristalensi.it</span></a><br />
-                      <strong>Email certificata</strong>: <a href="mailto:info@pec.cristalensi.it">info@pec.cristalensi.it</a>&nbsp;
-                      <strong><font color="#CC0000">(SOLO per coloro che hanno un'email PEC)</font></strong>
+                      <strong>Certified Email</strong>: <a href="mailto:info@pec.cristalensi.it">info@pec.cristalensi.it</a>&nbsp;
+                      <strong><font color="#CC0000">(ONLY for Email PEC)</font></strong>
                     </p>
                 </div>
                 <div class="col-md-4 ">
@@ -73,10 +73,10 @@
             </div>
             <div class="row top-buffer">
                 <div class="col-xl-12 clearfix">
-                    <h4 class="subtitle pull-left"><div class="dot"></div><span>Mappa negozio di illuminazione</span></h4>
+                    <h4 class="subtitle pull-left"><div class="dot"></div><span>Map of lighting showroom</span></h4>
                 </div>
                 <div class="col-md-12">
-                  <iframe width="100%" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=Cristalensi,+Via+Arti+e+Mestieri+1,+Montelupo+Fiorentino&amp;sll=43.728102,11.00228&amp;sspn=0.011521,0.028281&amp;g=Via+Arti+e+Mestieri+1,+Montelupo+Fiorentino&amp;ie=UTF8&amp;hq=Cristalensi,&amp;hnear=Via+Arti+e+Mestieri,+Montelupo+Fiorentino+FI&amp;cid=10892574448766021540&amp;ll=43.72884,11.005297&amp;spn=0.020157,0.027895&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.it/maps?f=q&amp;source=embed&amp;hl=it&amp;geocode=&amp;q=Cristalensi,+Via+Arti+e+Mestieri+1,+Montelupo+Fiorentino&amp;sll=43.728102,11.00228&amp;sspn=0.011521,0.028281&amp;g=Via+Arti+e+Mestieri+1,+Montelupo+Fiorentino&amp;ie=UTF8&amp;hq=Cristalensi,&amp;hnear=Via+Arti+e+Mestieri,+Montelupo+Fiorentino+FI&amp;cid=10892574448766021540&amp;ll=43.72884,11.005297&amp;spn=0.020157,0.027895&amp;z=15&amp;iwloc=A" style="color:#0000FF;text-align:left">Visualizzazione ingrandita della mappa</a></small>
+                  <iframe width="100%" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=Cristalensi,+Via+Arti+e+Mestieri+1,+Montelupo+Fiorentino&amp;sll=43.728102,11.00228&amp;sspn=0.011521,0.028281&amp;g=Via+Arti+e+Mestieri+1,+Montelupo+Fiorentino&amp;ie=UTF8&amp;hq=Cristalensi,&amp;hnear=Via+Arti+e+Mestieri,+Montelupo+Fiorentino+FI&amp;cid=10892574448766021540&amp;ll=43.72884,11.005297&amp;spn=0.020157,0.027895&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.it/maps?f=q&amp;source=embed&amp;hl=it&amp;geocode=&amp;q=Cristalensi,+Via+Arti+e+Mestieri+1,+Montelupo+Fiorentino&amp;sll=43.728102,11.00228&amp;sspn=0.011521,0.028281&amp;g=Via+Arti+e+Mestieri+1,+Montelupo+Fiorentino&amp;ie=UTF8&amp;hq=Cristalensi,&amp;hnear=Via+Arti+e+Mestieri,+Montelupo+Fiorentino+FI&amp;cid=10892574448766021540&amp;ll=43.72884,11.005297&amp;spn=0.020157,0.027895&amp;z=15&amp;iwloc=A" style="color:#0000FF;text-align:left">Zoom of map</a></small>
                 </div>
 
 

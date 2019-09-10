@@ -308,43 +308,43 @@
   </SCRIPT>
   <div style="display: none; max-width: 800px;" id="hidden-content">
       <%if richiesta_carrello=1 then%>
-        <h4>Richiesta informazioni e disponibilit&agrave; prodotti</h4>
+        <h4>Products information request</h4>
       <%else%>
-        <h4>Richiesta informazioni e disponibilit&agrave; per<br /><em><%=Titolo_prodotto%></em><br />Codice prodotto: <%=CodiceArticolo%></h4>
+        <h4>Product information request about<br /><em><%=Titolo_prodotto%></em><br />Product Code: <%=CodiceArticolo%></h4>
       <%end if%>
       <%if ric=1 then%>
-      <p><strong>La richiesta &egrave; stata inoltrata correttamente, il nostro staff ti contatter&agrave; il prima possibile.<br />Saluti da CRISTALENSI</strong></p>
+      <p><strong>The request has been sent correctly, our staff will contact you as soon as possible.<br />Best wishes from the staff of Cristalensi</strong></p>
       <%else%>
-      <p class="description">Per richiedere informazioni e disponibilit&agrave; del prodotto riempi il seguente modulo, oppure contattaci direttamente.</p>
+      <p class="description">To request information for the products please fill out the following form, our staff will be pleased to answer any questions.</p>
       <form class="form-horizontal" name="requestform" id="requestform" onSubmit="return verifica_request();">
       <input type="hidden" name="ric" value="1" />
           <div class="form-group">
-              <label for="nome" class="col-sm-4 control-label">Nome e Cognome</label>
+              <label for="nome" class="col-sm-4 control-label">Name and Surname</label>
               <div class="col-sm-8">
                   <input type="text" class="form-control" id="nome" name="nome">
               </div>
           </div>
           <div class="form-group">
-              <label for="email" class="col-sm-4 control-label">Indirizzo Email</label>
+              <label for="email" class="col-sm-4 control-label">Email</label>
               <div class="col-sm-8">
                   <input type="email" class="form-control" id="email" name="email">
               </div>
           </div>
           <div class="form-group">
-              <label for="telefono" class="col-sm-4 control-label">Telefono</label>
+              <label for="telefono" class="col-sm-4 control-label">Phone</label>
               <div class="col-sm-8">
                   <input type="number" class="form-control" id="telefono" name="telefono">
               </div>
           </div>
           <div class="form-group">
-              <label for="richiesta" class="col-sm-4 control-label">Dettagli richiesta</label>
+              <label for="richiesta" class="col-sm-4 control-label">Request</label>
               <div class="col-sm-8">
                   <textarea class="form-control" name="richiesta" id="richiesta"></textarea>
               </div>
           </div>
           <div class="form-group">
               <div class="col-sm-offset-4 col-sm-8">
-                  <button type="submit" id="inviarichiesta" class="btn btn-danger">invia richiesta</button>
+                  <button type="submit" id="inviarichiesta" class="btn btn-danger">Submit</button>
               </div>
           </div>
       </form>
@@ -474,14 +474,14 @@
   		HTML1 = HTML1 & "</head>"
   		HTML1 = HTML1 & "<body leftmargin='0' topmargin='0' marginwidth='0' marginheight='0'>"
   		HTML1 = HTML1 & "<table width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td>"
-  		HTML1 = HTML1 & "<font face=Verdana size=1 color=#000000>E' stata inviata la seguente richiesta di preventivo dal sito Cristalensi.it il "&data&"<br><br>Dati della richiesta:<br>Nome e Cognome: <b>"&nome&"</b><br>Telefono: <b>"&telefono&"</b><br>E-mail: <b>"&email&"</b><br><br>Codice articolo: <b>"&CodiceArticolo&"</b><br>Nome prodotto: <b>"&Titolo_prodotto&"</b><br>Produttore: <b>"&produttore&"</b><br><br>Richiesta:<br><b>"&richiesta&"</b><br><br><br><br>Questa &egrave; un'email di conferma dell'invio della richiesta di preventivo.<br><br>La ringraziamo per aver scelto i prodotti di Cristalensi</font>"
+  		HTML1 = HTML1 & "<font face=Verdana size=1 color=#000000>The following request for an estimate has been sent by the site Cristalensi.com on the "&data&"<br><br>Request data:<br>Name and Surname: <b>"&nome&"</b><br>Phone: <b>"&telefono&"</b><br>E-mail: <b>"&email&"</b><br><br>Product Code: <b>"&CodiceArticolo&"</b><br>Product Name: <b>"&Titolo_prodotto&"</b><br>Producer: <b>"&produttore&"</b><br><br>Request:<br><b>"&richiesta&"</b><br><br><br><br>This e-mail is confirmation that a request for  an estimate has been sent.<br><br>Thank you for having chosen Cristalensi's products</font>"
   		HTML1 = HTML1 & "</td></tr></table>"
   		HTML1 = HTML1 & "</body>"
   		HTML1 = HTML1 & "</html>"
 
   		Destinatario = email
   		Mittente = "info@cristalensi.it"
-  		Oggetto = "Richiesta preventivo per l'articolo codice: "&CodiceArticolo
+  		Oggetto = "Request for an estimate for product code: "&CodiceArticolo
   		Testo = HTML1
 
   		Set eMail_cdo = CreateObject("CDO.Message")
@@ -532,15 +532,15 @@
     richiesta=document.requestprev.richiesta.value;
 
     if (email==""){
-      alert("Non  e\' stato compilato il campo \"Email\".");
+      alert("It has not been filled in the field");
       return false;
     }
     if (email.indexOf("@")==-1 || email.indexOf(".")==-1){
-    alert("ATTENZIONE! \"e-mail\" non valida.");
+    alert("ATTENTION! \"e-mail\" is not correct.");
     return false;
     }
     if (richiesta.indexOf("https")>-1 || richiesta.indexOf("http")>-1 || richiesta.indexOf("www")>-1 || richiesta.indexOf("href")>-1){
-    alert("ATTENZIONE! Non possono essere inseriti indirizzi di siti internet.");
+    alert("ATTENTION! You can not submit name or url of web sites.");
     return false;
     }
 
@@ -553,40 +553,40 @@
 
   </SCRIPT>
   <div style="display: none; max-width: 800px;" id="hidden-content-prev">
-      <h4>Richiesta informazioni e preventivo per<br /><em><%=Titolo_prodotto%></em><br />Codice prodotto: <%=CodiceArticolo%></h4>
+      <h4>Product information request and quote about<br /><em><%=Titolo_prodotto%></em><br />Product Code: <%=CodiceArticolo%></h4>
       <%if ric=2 then%>
-      <p><strong>La richiesta &egrave; stata inoltrata correttamente, il nostro staff ti contatter&agrave; il prima possibile.<br />Saluti da CRISTALENSI</strong></p>
+      <p><strong>The request has been sent correctly, our staff will contact you as soon as possible.<br />Best wishes from the staff of Cristalensi</strong></p>
       <%else%>
-      <p class="description">Per richiedere informazioni e preventivi del prodotto riempi il seguente modulo, oppure contattaci direttamente.</p>
+      <p class="description">To request information or quote for the products please fill out the following form, our staff will be pleased to answer any questions.</p>
       <form class="form-horizontal" name="requestprev" id="requestprev" onSubmit="return verifica_request_prev();">
       <input type="hidden" name="ric" value="2" />
           <div class="form-group">
-              <label for="nome" class="col-sm-4 control-label">Nome e Cognome</label>
+              <label for="nome" class="col-sm-4 control-label">Name and Surname</label>
               <div class="col-sm-8">
                   <input type="text" class="form-control" id="nome" name="nome">
               </div>
           </div>
           <div class="form-group">
-              <label for="email" class="col-sm-4 control-label">Indirizzo Email</label>
+              <label for="email" class="col-sm-4 control-label">Email</label>
               <div class="col-sm-8">
                   <input type="email" class="form-control" id="email" name="email">
               </div>
           </div>
           <div class="form-group">
-              <label for="telefono" class="col-sm-4 control-label">Telefono</label>
+              <label for="telefono" class="col-sm-4 control-label">Phone</label>
               <div class="col-sm-8">
                   <input type="number" class="form-control" id="telefono" name="telefono">
               </div>
           </div>
           <div class="form-group">
-              <label for="richiesta" class="col-sm-4 control-label">Dettagli richiesta</label>
+              <label for="richiesta" class="col-sm-4 control-label">Request</label>
               <div class="col-sm-8">
                   <textarea class="form-control" name="richiesta" id="richiesta"></textarea>
               </div>
           </div>
           <div class="form-group">
               <div class="col-sm-offset-4 col-sm-8">
-                  <button type="submit" id="inviarichiesta" class="btn btn-danger">invia richiesta</button>
+                  <button type="submit" id="inviarichiesta" class="btn btn-danger">Submit</button>
               </div>
           </div>
       </form>
@@ -718,14 +718,14 @@ if ric=1 then
 		HTML1 = HTML1 & "</head>"
 		HTML1 = HTML1 & "<body leftmargin='0' topmargin='0' marginwidth='0' marginheight='0'>"
 		HTML1 = HTML1 & "<table width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td>"
-		HTML1 = HTML1 & "<font face=Verdana size=1 color=#000000>E' stata inviata la seguente richiesta di informazioni dal sito Cristalensi.it il "&data&"<br><br>Dati della richiesta:<br>Nome e Cognome: <b>"&nome&"</b><br>Telefono: <b>"&telefono&"</b><br>E-mail: <b>"&email&"</b><br><br>Produttore: <b>"&titolo_produttore&"</b><br><br>Richiesta:<br><b>"&richiesta&"</b><br><br><br><br>Questa &egrave; un'email di conferma dell'invio della richiesta.<br><br>La ringraziamo per aver scelto i prodotti di Cristalensi</font>"
+		HTML1 = HTML1 & "<font face=Verdana size=1 color=#000000>The following request has been sent by the site Cristalensi.com on the "&data&"<br><br>Request Data:<br>Name and Surname: <b>"&nome&"</b><br>Phone: <b>"&telefono&"</b><br>E-mail: <b>"&email&"</b><br><br>Producer: <b>"&titolo_produttore&"</b><br><br>Request:<br><b>"&richiesta&"</b><br><br><br><br>This e-mail is confirmation that a request has been sent.<br><br>Thank you for having chosen Cristalensi's products</font>"
 		HTML1 = HTML1 & "</td></tr></table>"
 		HTML1 = HTML1 & "</body>"
 		HTML1 = HTML1 & "</html>"
 
 		Destinatario = email
 		Mittente = "info@cristalensi.it"
-		Oggetto = "Richiesta informazioni sul produttore: "&titolo_produttore
+		Oggetto = "Request informations about producer: "&titolo_produttore
 		Testo = HTML1
 
 		Set eMail_cdo = CreateObject("CDO.Message")
@@ -776,15 +776,15 @@ end if
   richiesta=document.requestform.richiesta.value;
 
   if (email==""){
-    alert("Non  e\' stato compilato il campo \"Email\".");
+    alert("It has not been filled in the field");
     return false;
   }
   if (email.indexOf("@")==-1 || email.indexOf(".")==-1){
-  alert("ATTENZIONE! \"e-mail\" non valida.");
+  alert("ATTENTION! \"e-mail\" is not correct.");
   return false;
   }
   if (richiesta.indexOf("https")>-1 || richiesta.indexOf("http")>-1 || richiesta.indexOf("www")>-1 || richiesta.indexOf("href")>-1){
-  alert("ATTENZIONE! Non possono essere inseriti indirizzi di siti internet.");
+  alert("ATTENTION! You can not submit name or url of web sites.");
   return false;
   }
 
@@ -797,40 +797,40 @@ end if
 
 </SCRIPT>
 <div style="display: none; max-width: 800px;" id="hidden-content-produttori">
-    <h4>Invia richiesta disponibilit&agrave; prodotti per<br /><b><%=titolo_produttore%></b></h4>
+    <h4>Producer information request and quote about<br /><b><%=titolo_produttore%></b></h4>
     <%if ric=1 then%>
-    <p><strong>La richiesta &egrave; stata inoltrata correttamente, il nostro staff ti contatter&agrave; il prima possibile.<br />Saluti da CRISTALENSI</strong></p>
+    <p><strong>The request has been sent correctly, our staff will contact you as soon as possible.<br />Best wishes from the staff of Cristalensi</strong></p>
     <%else%>
-    <p class="description">Inserisci quanti pi&uacute; dati possibili cos&iacute; da facilitare la ricerca al nostro staff, grazie.</p>
+    <p class="description">Submit as much data as possible to facilitate our staff's research, thanks.</p>
     <form class="form-horizontal" name="requestform" id="requestform" onSubmit="return verifica_request();">
     <input type="hidden" name="ric" value="1" />
         <div class="form-group">
-            <label for="nome" class="col-sm-4 control-label">Nome e Cognome</label>
+            <label for="nome" class="col-sm-4 control-label">Name and Surname</label>
             <div class="col-sm-8">
                 <input type="text" class="form-control" id="nome" name="nome">
             </div>
         </div>
         <div class="form-group">
-            <label for="email" class="col-sm-4 control-label">Indirizzo Email</label>
+            <label for="email" class="col-sm-4 control-label">Email</label>
             <div class="col-sm-8">
                 <input type="email" class="form-control" id="email" name="email">
             </div>
         </div>
         <div class="form-group">
-            <label for="telefono" class="col-sm-4 control-label">Telefono</label>
+            <label for="telefono" class="col-sm-4 control-label">Phone</label>
             <div class="col-sm-8">
                 <input type="number" class="form-control" id="telefono" name="telefono">
             </div>
         </div>
         <div class="form-group">
-            <label for="richiesta" class="col-sm-4 control-label">Dettagli richiesta</label>
+            <label for="richiesta" class="col-sm-4 control-label">Request</label>
             <div class="col-sm-8">
                 <textarea class="form-control" name="richiesta" id="richiesta"></textarea>
             </div>
         </div>
         <div class="form-group">
             <div class="col-sm-offset-4 col-sm-8">
-                <button type="submit" id="inviarichiesta" class="btn btn-danger">invia richiesta</button>
+                <button type="submit" id="inviarichiesta" class="btn btn-danger">Submit</button>
             </div>
         </div>
     </form>

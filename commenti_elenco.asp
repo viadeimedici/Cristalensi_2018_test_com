@@ -3,12 +3,12 @@
 <html>
 
 <head>
-    <title>Commenti prodotti illuminazione recensioni lampadari acquistati Cristalensi</title>
+    <title>Reviews about lightings shop online of italian lamps</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Lascia un commento per i prodotti di illuminazione acquistati. Inserisci una recensione di un lampadario comprato. In un ottica di trasparenza, di avvicinamento alla clientela e di miglioramento dei nostri servizi abbiamo aperto quest'area dove i clienti possono lasciare un messaggio, un commento, un complimento o una critica al funzionamento del sito internet, ai prodotti di illuminazione comprati ma anche ai servizi dello staff stesso.">
+    <meta name="description" content="Send a review you too about lightings shop online Cristalensi">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Cristalensi.">
+    <meta property="og:description" content="Send a review you too about lightings shop online Cristalensi">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -50,9 +50,9 @@
         <div class="col-md-12">
             <div class="row top-buffer">
                 <div class="col-md-8">
-                    <h1 class="slogan">Commenti su i prodotti di illuminazione acquistati</h1>
+                    <h1 class="slogan">Reviews on purchased lighting products</h1>
                     <p class="main-description">
-                        In un ottica di trasparenza, di avvicinamento alla clientela e di miglioramento dei nostri servizi abbiamo aperto quest'area dove i clienti possono lasciare un messaggio, un commento, un complimento o una critica al funzionamento del sito internet, una recensione sui prodotti di illuminazione acquistati ma anche ai servizi dello staff stesso.<br />Per inviare un commento si dovr&agrave; essere registrati sul sito internet e i messaggi inviati saranno approvati dallo staff per evitare che siano pubblicati testi offensivi o inserire link pubblicitari verso altri siti internet.
+                        With a view to transparency, approach to customers and improving our services we have opened this area where customers can submit a message or comment on the functioning of the website, or a review lighting products purchased but also to the services of the staff itself. <br /> To post a comment you must be registered on the website and sent messages will be approved by the staff to prevent the publication or offensive lyrics insert advertising links to other Internet sites.
                     </p>
                     <%
                     Set com_rs = Server.CreateObject("ADODB.Recordset")
@@ -63,7 +63,7 @@
                     <div class="panel panel-default user-comment">
                         <!-- Default panel contents -->
                         <div class="panel-heading">
-                            <h5><i class="fa fa-users"></i> Dicono di noi...</h5>
+                            <h5><i class="fa fa-users"></i> Reviews</h5>
                         </div>
                         <ul class="list-group">
                         <%Do While not com_rs.EOF%>
@@ -72,7 +72,7 @@
                         com_rs.movenext
                         loop
                         %>
-                        <div class="panel-footer"><a href="/commenti_form.asp" class="btn btn-success">Inserisci anche te un commento! <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="panel-footer"><a href="/commenti_form.asp" class="btn btn-success">Send a comment you too! <i class="fa fa-chevron-right"></i></a></div>
                         </ul>
 
                     </div>

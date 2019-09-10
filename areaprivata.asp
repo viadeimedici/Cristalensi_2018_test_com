@@ -50,25 +50,25 @@
         <div class="col-md-12">
             <div class="row top-buffer">
                 <div class="col-md-8">
-                    <h1 class="slogan">Area riservata ai Clienti Cristalensi</h1>
+                    <h1 class="slogan">Cristalensi Client Area</h1>
                     <p class="main-description">
-                      Benvenuto!<br />Questa &egrave; la tua Area Privata e da qui potrai accedere ai servizi riservati ai clienti Cristalensi: elenco ordini, aggiornamento dati di registrazione, inserimento commenti su gli acquisti e i prodotti, elenco prodotti preferiti.
+                      Welcome!<br /> This is your Client Area and you can access from here the reserved services for Cristalensi customers: orders list, registration data update, comments on purchases and products, wishlist.
                     </p>
                 </div>
             </div>
             <div class="row top-buffer">
                 <div class="col-xl-12 clearfix">
-                    <h4 class="subtitle pull-left"><div class="dot"></div><span>I servizi riservati</span></h4> <a href="/admin/logout.asp" class="btn btn-default pull-right">Esci dall'Area Clienti <i class="fa fa-chevron-right"></i></a>
+                    <h4 class="subtitle pull-left"><div class="dot"></div><span>Reserved services</span></h4> <a href="/admin/logout.asp" class="btn btn-default pull-right">Log Out Client Area <i class="fa fa-chevron-right"></i></a>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="ordini_elenco.asp" class="prod-img-replace" style="background-image: url(images/logo-cristalensi-piccolo.png)"><img alt="Elenco ordini" src="images/blank.png"></a>
+                            <a href="ordini_elenco.asp" class="prod-img-replace" style="background-image: url(images/logo-cristalensi-piccolo.png)"><img alt="Orders List" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="ordini_elenco.asp"><h3>Elenco ordini</h3></a>
+                                    <a href="ordini_elenco.asp"><h3>Orders List</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -77,12 +77,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/preferiti.asp" class="prod-img-replace" style="background-image: url(images/logo-cristalensi-piccolo.png)"><img alt="Lista dei desideri" src="images/blank.png"></a>
+                            <a href="/preferiti.asp" class="prod-img-replace" style="background-image: url(images/logo-cristalensi-piccolo.png)"><img alt="Wishlist" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/preferiti.asp"><h3>Lista dei desideri</h3></a>
+                                    <a href="/preferiti.asp"><h3>Wishlist</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -91,12 +91,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="commenti_form.asp" class="prod-img-replace" style="background-image: url(images/logo-cristalensi-piccolo.png)"><img alt="Inserisci un commento" src="images/blank.png"></a>
+                            <a href="commenti_form.asp" class="prod-img-replace" style="background-image: url(images/logo-cristalensi-piccolo.png)"><img alt="Reviews" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="commenti_form.asp"><h3>Inserisci un commento</h3></a>
+                                    <a href="commenti_form.asp"><h3>Reviews</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -105,12 +105,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="iscrizione.asp" class="prod-img-replace" style="background-image: url(images/logo-cristalensi-piccolo.png)"><img alt="Modifica dati iscrizione" src="images/blank.png"></a>
+                            <a href="iscrizione.asp" class="prod-img-replace" style="background-image: url(images/logo-cristalensi-piccolo.png)"><img alt="Registration Data" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="iscrizione.asp"><h3>Modifica dati iscrizione</h3></a>
+                                    <a href="iscrizione.asp"><h3>Registration Data</h3></a>
                                 </div>
                             </div>
                         </div>
