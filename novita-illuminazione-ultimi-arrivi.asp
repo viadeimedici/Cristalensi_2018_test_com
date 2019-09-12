@@ -2,8 +2,8 @@
 <%
 	order=request("order")
 	if order="" then order=3
-	if order=1 then ordine="Titolo ASC"
-	if order=2 then ordine="Titolo DESC"
+	if order=1 then ordine="Titolo_EN ASC"
+	if order=2 then ordine="Titolo_EN DESC"
 	if order=3 then ordine="prezzoprodotto ASC"
 	if order=4 then ordine="prezzoprodotto DESC"
 %>
@@ -11,11 +11,11 @@
 <html>
 
 <head>
-    <title>Novit&agrave; illuminazione ultimi arrivi lampadari lampade novit&agrave; CRISTALENSI vendita online</title>
+    <title>New products lighthing novelties chandeliers lamps online store</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Vuoi sapere quali sono gli ultimi arrivi di lampadari e lampade, le novit&agrave; per l'illuminazione? Cristalensi ha un catalogo molto ampio: tra le lampade moderne, lampadari e lampade a sospensione led, plafoniere, lampade a parete e applique, piantane, lumini e abat-jour.">
+    <meta name="description" content="Would you like to know what are the new chandelier, new products for lighting? Cristalensi has a very large catalog:  modern chandeliers and Led suspended lamps, ceiling lamps, wall lamps, applique and floor lamps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Vuoi sapere quali sono gli ultimi arrivi di lampadari e lampade, le novit&agrave; per l'illuminazione? Cristalensi ha un catalogo molto ampio: tra le lampade moderne, lampadari e lampade a sospensione led, plafoniere, lampade a parete e applique, piantane, lumini e abat-jour.">
+    <meta property="og:description" content="Would you like to know what are the new chandelier, new products for lighting? Cristalensi has a very large catalog:  modern chandeliers and Led suspended lamps, ceiling lamps, wall lamps, applique and floor lamps.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -61,11 +61,12 @@
         <div class="col-xl-12">
             <ol class="breadcrumb">
                 <li><a href="/"><i class="fa fa-home"></i></a></li>
-                <li class="active">Novit&agrave; illuminazione e ultimi arrivi</li>
+                <li class="active">New products lighthing</li>
             </ol>
-            <h1 class="title">Novit&agrave; illuminazione e ultimi arrivi</h1>
+            <h1 class="title">New products lighthing</h1>
             <p class="description">
-            Qui ti esponiamo i nostri prodotti in base all'inserimento nel nostro catalogo, quindi troverai sia articoli nuovi che aziende che ultimamente sono entrate a far parte del nostro catalogo online. Puoi scegliere tra lampade a sospensione, lampade a soffitto, lampade a parete, lampade da terra e abat-jour, lumini e lumetti. Tutti prodotti per interni adatti sia a soggiorni e salotti, cucine, camere da letto, ingressi, studi ma anche giardini, terrazzi, balconi, loggiatti e ed altre tipologie di locali interni ed esterni. Articoli con raffinato design dalle pi&ugrave; importanti marche e produttori ma anche prodotti a prezzi per tutte le esigenze, tutti con importanti sconti.
+							Here we show you our products by entering in our catalog, so you could find new items or companies that recently have been included in our online store. You can choose between suspended lights, ceiling lights, wall lights and floor lights. Moreover, we offer you new products and innovations for LED pendant lamps, LED ceiling lamps and LED wall lamps: all interior products suitable for both living rooms, kitchens, bedrooms, hallways, studies and other types of interiors.
+Items with elegant design by leading brands and manufacturers, but also products at affordable prices for all needs.
             </p>
         </div>
         <div class="col-md-3">
@@ -73,12 +74,12 @@
                 <nav class="navbar">
                     <!-- menu - normal collapsible navbar markup -->
                     <ul class="list-unstyled side-list">
-                        <li><a href="/illuminazione-interni-ed-esterni/1-novita-lampade-a-sospensione.asp" title="Lampade a sospensione - Novit&agrave; e ultimi arrivi">Lampade a sospensione</a></li>
-												<li><a href="/illuminazione-interni-ed-esterni/2-novita-lampade-a-soffitto.asp" title="Lampade a soffitto - Novit&agrave; e ultimi arrivi">Lampade a soffitto</a></li>
-												<li><a href="/illuminazione-interni-ed-esterni/3-novita-lampade-a-parete.asp" title="Lampade a parete - Novit&agrave; e ultimi arrivi">Lampade a parete</a></li>
-												<li><a href="/illuminazione-interni-ed-esterni/4-novita-lampade-da-terra.asp" title="Lampade da terra - Novit&agrave; e ultimi arrivi">Lampade da terra</a></li>
-												<li><a href="/illuminazione-interni-ed-esterni/5-novita-abatjour-lumini-lumetti.asp" title="Abat-jour, lumini e lumetti - Novit&agrave; e ultimi arrivi">Abat-jour, lumini e lumetti</a></li>
-												<li><a href="/illuminazione-interni-ed-esterni/10-novita-lampade-da-giardino-ed-esterni.asp" title="Lampade da giardino ed esterni - Novit&agrave; e ultimi arrivi">Lampade da giardino ed esterni</a></li>
+                        <li><a href="/interior-exterior-lighting/1-new-suspended-lights.asp" title="New suspended lights - Chandeliers">Suspended lights</a></li>
+												<li><a href="/interior-exterior-lighting/2-new-ceiling-lights.asp" title="New ceiling lights - Overhead lamps">Ceiling lights</a></li>
+												<li><a href="/interior-exterior-lighting/3-new-wall-lamps.asp" title="New wall lamps">Wall lamps</a></li>
+												<li><a href="/interior-exterior-lighting/4-new-floor-lights.asp" title="New floor lights">Floor lights</a></li>
+												<li><a href="/interior-exterior-lighting/5-new-table-lights.asp" title="New table lights">Table lights</a></li>
+												<li><a href="/interior-exterior-lighting/10-new-outdoor-lamps.asp" title="New outdoor lamps">Outdoor lamps</a></li>
                     </ul>
                 </nav>
             </div>
@@ -97,8 +98,8 @@
                 Do while not prod_rs.EOF
 
                   id=prod_rs("pkid")
-                  titolo_prodotto=prod_rs("titolo")
-                  NomePagina=prod_rs("NomePagina")
+                  titolo_prodotto=prod_rs("titolo_en")
+                  NomePagina=prod_rs("NomePagina_en")
                   if Len(NomePagina)>0 then
                     NomePagina="public/pagine/"&NomePagina
                     'NomePagina="/public/pagine/scheda_prodotto.asp?id="&id
@@ -150,29 +151,29 @@
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>codice: <b><%=codicearticolo%></b></span><span>produttore: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>codice: <b><%=codicearticolo%></b></span><span>producer: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
 																		<%if prezzoarticolo<>0 then%>
 																			<%if idsession=0 and prezzoprodottosoloclienti="si" then%>
-																				<em><span class="price-new" style="color: #000;">SCONTO PER ISCRITTI !!!</span></em><br />
-																				<%if prezzolistino<>0 then%><span class="price-old">Prezzo di listino: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+																				<em><span class="price-new" style="color: #000;">DISCOUNT FOR CLIENTS</span></em><br />
+																				<%if prezzolistino<>0 then%><span class="price-old">List Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
 																			<%else%>
 																				<span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
-																				<%if prezzolistino<>0 then%><span class="price-old">invece di  <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+																				<%if prezzolistino<>0 then%><span class="price-old">instead of <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
 																			<%end if%>
 																		<%else%>
 																			<span class="price-new">&nbsp;<br /></span>
-																			<%if prezzolistino<>0 then%><span class="price-old">Prezzo di listino: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+																			<%if prezzolistino<>0 then%><span class="price-old">List Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
 																		<%end if%>
                                   </div>
                               </div>
                           </div>
                           <div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Aggiungi ai preferiti"><i class="fa fa-heart"></i></a>
+                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
-                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="vedi ed aggiungi al carrello">vedi scheda <i class="fa fa-chevron-right"></i></a>
+                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="See the details and Add to cart">details <i class="fa fa-chevron-right"></i></a>
                               </p>
                           </div>
                           <div class=""></div>
