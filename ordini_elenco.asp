@@ -80,7 +80,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Carrello</div>
+                    <div class="bs-wizard-info text-center">Cart</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">2</div>
@@ -88,7 +88,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Accedi / Iscriviti</div>
+                    <div class="bs-wizard-info text-center">Autentication / Registration</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">3</div>
@@ -96,7 +96,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Indirizzo di spedizione</div>
+                    <div class="bs-wizard-info text-center">Shipping address</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">4</div>
@@ -104,7 +104,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Pagamento &amp; fatturazione</div>
+                    <div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">5</div>
@@ -112,7 +112,7 @@ end if
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Conferma dell'ordine</div>
+                    <div class="bs-wizard-info text-center">Order confirmation</div>
                 </div>
             </div>
         </div>
@@ -120,17 +120,17 @@ end if
             <div class="col-md-12">
                 <div class="row">
                     <div class="title">
-                        <h4>Elenco ordini</h4>
+                        <h4>Order list</h4>
                     </div>
                     <div class="col-md-12">
                         <div class="top-buffer">
                             <table id="cart" class="table table-hover table-condensed table-cart">
                                 <thead>
                                     <tr>
-                                        <th style="width:30%">Codice ordine - Data</th>
-                                        <th style="width:10%">Totale</th>
-                                        <th style="width:30%">Stato/Informazioni</th>
-                                        <th style="width:30%" class="text-center">Azioni</th>
+                                        <th style="width:30%">Order code - Date</th>
+                                        <th style="width:10%">Total</th>
+                                        <th style="width:30%">Status/Information</th>
+                                        <th style="width:30%" class="text-center">Actions</th>
                                     </tr>
                                 </thead>
 																<%
@@ -185,14 +185,14 @@ end if
                                             <em><%=etichetta_stato%></em>
                                         </td>
                                         <td class="actions text-center" data-th="">
-																				<button type="button" name="visualizza" class="btn btn-default" onClick="MM_openBrWindow('stampa_ordine.asp?idordine=<%=rs("PkId")%>&mode=0','','width=760,height=400,scrollbars=yes')">visualizza</button>
-																				&nbsp;<button type="button" name="stampa" class="btn btn-default" onClick="MM_openBrWindow('stampa_ordine.asp?idordine=<%=rs("PkId")%>&mode=1','','width=760,height=900,scrollbars=yes')">stampa</button>
+																				<button type="button" name="visualizza" class="btn btn-default" onClick="MM_openBrWindow('stampa_ordine.asp?idordine=<%=rs("PkId")%>&mode=0','','width=760,height=400,scrollbars=yes')">display</button>
+																				&nbsp;<button type="button" name="stampa" class="btn btn-default" onClick="MM_openBrWindow('stampa_ordine.asp?idordine=<%=rs("PkId")%>&mode=1','','width=760,height=900,scrollbars=yes')">print</button>
 																				<%if stato=0 or stato=1 or stato=2 or stato=3 or stato=5 or stato=6 or stato=10 then%>
-																				<br><button type="button" name="modifica" class="btn btn-default" style="margin-top:5px;" onClick="document.location.href='ordini_elenco.asp?IdOrdine=<%=rs("PkId")%>&mode=1';">continua l'ordine</button>
+																				<br><button type="button" name="modifica" class="btn btn-default" style="margin-top:5px;" onClick="document.location.href='ordini_elenco.asp?IdOrdine=<%=rs("PkId")%>&mode=1';">continue the order</button>
 																				<%else%>
 																					<%if stato=12 or stato=22 then%>
 																					<br><a href="ordini_elenco.asp?IdOrdine=<%=rs("PkId")%>&mode=2"><b>[<%=rs("PkId")%>]&nbsp;-&nbsp;<%=rs("DataAggiornamento")%></b></a>
-																					&nbsp;<button type="button" name="modifica" class="btn btn-default" onClick="document.location.href='ordini_elenco.asp?IdOrdine=<%=rs("PkId")%>&mode=2';" style="margin:5px 0px;">continua l'ordine</button>
+																					&nbsp;<button type="button" name="modifica" class="btn btn-default" onClick="document.location.href='ordini_elenco.asp?IdOrdine=<%=rs("PkId")%>&mode=2';" style="margin:5px 0px;">continue the order</button>
 																					<%end if%>
 																				<%end if%>
 
@@ -209,7 +209,7 @@ end if
 																			<td data-th="Product" class="cart-product">
 																					<div class="row">
 																							<div class="col-sm-12">
-																									<h5 class="nomargin"><br>Non sono presenti ordini</h5>
+																									<h5 class="nomargin"><br>There are no orders</h5>
 																							</div>
 																			</td>
 																	</tr>

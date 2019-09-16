@@ -2,8 +2,8 @@
 <%
 	order=request("order")
 	if order="" then order=3
-	if order=1 then ordine="Titolo ASC"
-	if order=2 then ordine="Titolo DESC"
+	if order=1 then ordine="Titolo_en ASC"
+	if order=2 then ordine="Titolo_en DESC"
 	if order=3 then ordine="prezzoprodotto ASC"
 	if order=4 then ordine="prezzoprodotto DESC"
 %>
@@ -11,11 +11,11 @@
 <html>
 
 <head>
-    <title>offerte prodotti illuminazione lampadari in offerta Vendita lampade in offerta</title>
+    <title>lighting products on offer low price lights shopping</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Le migliori offerte di prodotti per illuminazione, lampadari in offerta: da Cristalensi trovate lampade in offerta.">
+    <meta name="description" content="In Cristalensi store you find italian lamps on offer, Cristalensi is an ecommerce about lights, online store for italian lighting products and discounted products">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Le migliori offerte di prodotti per illuminazione, lampadari in offerta: da Cristalensi trovate lampade in offerta.">
+    <meta property="og:description" content="In Cristalensi store you find italian lamps on offer, Cristalensi is an ecommerce about lights, online store for italian lighting products and discounted products">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -61,11 +61,12 @@
         <div class="col-xl-12">
             <ol class="breadcrumb">
                 <li><a href="/"><i class="fa fa-home"></i></a></li>
-                <li class="active">Offerte</li>
+                <li class="active">Offer</li>
             </ol>
-            <h1 class="title">Prodotti per illuminazione in offerta</h1>
+            <h1 class="title">Lighting products on offer</h1>
             <p class="description">
-            In questa pagina trovate tutte le offerte di prodotti per illuminazione: sono gli articoli del catalogo con prezzi fantastici. Ogni prodotto ha una propria scheda dettagliata, per accederci &egrave; sufficiente cliccare sul nome o sulla foto dell'articolo.
+							In this page you will find all of our offers on lighting: they are the catalog products at fantastic prices. Every product has its own detailed card, to see it, all you have to do is click on the name or on the photo of the article.
+	Instead, to consult the entire catalog you can also choose a category or a producer from the menu on the left.
             </p>
         </div>
         <div class="col-md-3">
@@ -88,7 +89,7 @@
                           'Description=tip_rs("Description")
                           'Descrizione=tip_rs("Descrizione")
                         %>
-                        <li><a href="/illuminazione-interni-ed-esterni/<%=Url%>" title="<%=Titolo_2%>"><%=Titolo_1%></a></li>
+                        <li><a href="/interior-exterior-lighting/<%=Url%>" title="<%=Titolo_2%>"><%=Titolo_1%></a></li>
                         <%
                         tip_rs.movenext
                         loop
@@ -141,8 +142,8 @@
                 Do while not prod_rs.EOF
 
                   id=prod_rs("pkid")
-                  titolo_prodotto=prod_rs("titolo")
-                  NomePagina=prod_rs("NomePagina")
+                  titolo_prodotto=prod_rs("titolo_en")
+                  NomePagina=prod_rs("NomePagina_en")
                   if Len(NomePagina)>0 then
                     NomePagina="public/pagine/"&NomePagina
                     'NomePagina="/public/pagine/scheda_prodotto.asp?id="&id
@@ -187,24 +188,24 @@
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>codice: <b><%=codicearticolo%></b></span><span>produttore: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>producer: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
                                       <%if prezzoarticolo<>0 then%>
                                         <span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
-                                        <%if prezzolistino<>0 then%><span class="price-old">invece di  <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                        <%if prezzolistino<>0 then%><span class="price-old">instead of <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%else%>
                                         <span class="price-new">&nbsp;<br /></span>
-                                        <span class="price-old">Prezzo di listino: <b><%=prezzolistino%> &euro;</b></span>
+                                        <span class="price-old">List Price: <b><%=prezzolistino%> &euro;</b></span>
                                       <%end if%>
                                   </div>
                               </div>
                           </div>
                           <div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Aggiungi ai preferiti"><i class="fa fa-heart"></i></a>
+                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
-                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="vedi ed aggiungi al carrello">vedi scheda <i class="fa fa-chevron-right"></i></a>
+                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="See the details and Add to cart">details <i class="fa fa-chevron-right"></i></a>
                               </p>
                           </div>
                           <div class=""></div>

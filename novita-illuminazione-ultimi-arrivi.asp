@@ -151,7 +151,7 @@ Items with elegant design by leading brands and manufacturers, but also products
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>codice: <b><%=codicearticolo%></b></span><span>producer: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>producer: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
 																		<%if prezzoarticolo<>0 then%>
 																			<%if idsession=0 and prezzoprodottosoloclienti="si" then%>
