@@ -126,7 +126,7 @@ Items with elegant design by leading brands and manufacturers, but also products
                       pr_rs.open sql,conn, 1, 1
                       if pr_rs.recordcount>0 then
                         produttore=pr_rs("titolo")
-												url_produttore="/produttori-illuminazione/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
+												url_produttore="/lighting-brands/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
                       end if
                       pr_rs.close
                     end if
@@ -151,19 +151,19 @@ Items with elegant design by leading brands and manufacturers, but also products
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>producer: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>brand: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
 																		<%if prezzoarticolo<>0 then%>
 																			<%if idsession=0 and prezzoprodottosoloclienti="si" then%>
 																				<em><span class="price-new" style="color: #000;">DISCOUNT FOR CLIENTS</span></em><br />
-																				<%if prezzolistino<>0 then%><span class="price-old">List Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+																				<%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
 																			<%else%>
 																				<span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
 																				<%if prezzolistino<>0 then%><span class="price-old">instead of <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
 																			<%end if%>
 																		<%else%>
 																			<span class="price-new">&nbsp;<br /></span>
-																			<%if prezzolistino<>0 then%><span class="price-old">List Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+																			<%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
 																		<%end if%>
                                   </div>
                               </div>

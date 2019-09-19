@@ -121,15 +121,15 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#">Ordina per:</a>
+                                <a class="navbar-brand" href="#">Order by:</a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <p class="navbar-text">prezzo</p>
+                                <p class="navbar-text">price</p>
                                 <ul class="nav navbar-nav">
                                     <li <%if order=3 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/offerte.asp?order=3"><i class="glyphicon glyphicon-eur"></i> - </a></li>
                                     <li <%if order=4 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/offerte.asp?order=4"><i class="glyphicon glyphicon-eur"></i> + </a></li>
                                 </ul>
-                                <p class="navbar-text">ordine alfabetico</p>
+                                <p class="navbar-text">alphabetical</p>
                                 <ul class="nav navbar-nav">
                                     <li <%if order=1 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/offerte.asp?order=1">A/Z</a></li>
                                     <li <%if order=2 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/offerte.asp?order=2">Z/A</a></li>
@@ -188,14 +188,14 @@
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>producer: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>brand: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
                                       <%if prezzoarticolo<>0 then%>
                                         <span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
                                         <%if prezzolistino<>0 then%><span class="price-old">instead of <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%else%>
                                         <span class="price-new">&nbsp;<br /></span>
-                                        <span class="price-old">List Price: <b><%=prezzolistino%> &euro;</b></span>
+                                        <span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span>
                                       <%end if%>
                                   </div>
                               </div>

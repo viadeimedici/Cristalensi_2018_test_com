@@ -3,12 +3,12 @@
 <html>
 
 <head>
-    <title>Produttori articoli illuminazione marche CRISTALENSI</title>
+    <title>List of brans of lighting products lamps lights producers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Elenco produttori articoli illuminazione, elenco di imprese illuminazione, catalogo dei produttori di lampadari, piantane, plafoniere, lampade esterne, ventilatori, prodotti per bambini.">
+    <meta name="description" content="This is a list of brands of lighting products serving our shop, a selection of lamps and lights was made by individual italian producers' catalogs.">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Elenco produttori articoli illuminazione, elenco di imprese illuminazione, catalogo dei produttori di lampadari, piantane, plafoniere, lampade esterne, ventilatori, prodotti per bambini.">
+    <meta property="og:description" content="This is a list of brands of lighting products serving our shop, a selection of lamps and lights was made by individual italian producers' catalogs.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -50,11 +50,11 @@
         <div class="col-md-12">
             <div class="row top-buffer">
                 <div class="col-xl-12 clearfix">
-                    <h1 class="slogan">Elenco produttori articoli per illuminazione</h1>
+                    <h1 class="slogan">List of brands of lighting products</h1>
                 </div>
                 <p class="description">
-                  Questo &eacute; l'elenco delle imprese produttrici di articoli per illuminazione che riforniscono il nostro negozio.<br>
-Scegliendo un produttore vedrete l'elenco dei suoi prodotti, da l&igrave; potete accedere alla scheda del prodotto e acquistarlo. Se cercate un articolo specifico di un produttore, ma non lo trovate nel suo elenco, contattate il nostro staff per avere informazioni e un preventivo: nel catalogo sul sito internet non sono presenti tutti i prodotti, &eacute; stata fatta una selezione dai singoli cataloghi dei produttori.</i>.
+                  This is a list of brands of lighting products serving our shop.
+Choosing a producer you will see a list of its products, then you could access the product page and buy it. If you are looking for a specific article of a brand, but can not find it in its list, please contact our staff for information and an estimate: in the catalog on the website are not present all the products, a selection was made by individual brands' catalogs.</i>.
                 </p>
                 <p>&nbsp;</p>
                 <%
@@ -73,7 +73,7 @@ Scegliendo un produttore vedrete l'elenco dei suoi prodotti, da l&igrave; potete
                 'link=prod_rs("prodotti")
 
                 'url="https://www.cristalensi.it/prodotti.asp?FkProduttore="&id
-                url="/produttori-illuminazione/"&ConvertiTitoloInUrlProduttore(Titolo, Id)
+                url="/lighting-brands/"&ConvertiTitoloInUrlProduttore(Titolo, Id)
   							%>
                 <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
                   <article class="col-item">
