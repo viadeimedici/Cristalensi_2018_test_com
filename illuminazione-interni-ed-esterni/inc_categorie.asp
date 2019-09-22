@@ -4,12 +4,12 @@ Set cr_rs = Server.CreateObject("ADODB.Recordset")
 sql = "SELECT * FROM NewCategorie WHERE PkId="&pkid_categoria
 cr_rs.open sql,conn, 1, 1
 if cr_rs.recordcount>0 then
-  Titolo_1=cr_rs("Titolo_1")
-  Titolo_2=cr_rs("Titolo_2")
-  Url=cr_rs("Url")
-  Title=cr_rs("Title")
-  Description=cr_rs("Description")
-  Descrizione=cr_rs("Descrizione")
+  Titolo_1=cr_rs("Titolo_1_en")
+  Titolo_2=cr_rs("Titolo_2_en")
+  Url=cr_rs("Url_en")
+  Title=cr_rs("Title_en")
+  Description=cr_rs("Description_en")
+  Descrizione=cr_rs("Descrizione_en")
   Img=cr_rs("Img")
   FkNewGruppo=cr_rs("FkNewGruppo")
   FkNewTipologia=cr_rs("FkNewTipologia")
@@ -20,9 +20,9 @@ Set tr_rs = Server.CreateObject("ADODB.Recordset")
 sql = "SELECT * FROM NewTipologie WHERE PkId="&FkNewTipologia
 tr_rs.open sql,conn, 1, 1
 if tr_rs.recordcount>0 then
-  Titolo_1_tip=tr_rs("Titolo_1")
-  Titolo_2_tip=tr_rs("Titolo_2")
-  Url_tip=tr_rs("Url")
+  Titolo_1_tip=tr_rs("Titolo_1_en")
+  Titolo_2_tip=tr_rs("Titolo_2_en")
+  Url_tip=tr_rs("Url_en")
 end if
 tr_rs.close
 
@@ -30,9 +30,9 @@ Set gr_rs = Server.CreateObject("ADODB.Recordset")
 sql = "SELECT * FROM NewGruppi WHERE PkId="&FkNewGruppo
 gr_rs.open sql,conn, 1, 1
 if gr_rs.recordcount>0 then
-  Titolo_1_gr=gr_rs("Titolo_1")
-  Titolo_2_gr=gr_rs("Titolo_2")
-  Url_gr=gr_rs("Url")
+  Titolo_1_gr=gr_rs("Titolo_1_en")
+  Titolo_2_gr=gr_rs("Titolo_2_en")
+  Url_gr=gr_rs("Url_en")
 end if
 gr_rs.close
 
@@ -43,9 +43,9 @@ gr_rs.close
 <head>
     <title><%=Title%></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="<%if Len(Description)>0 then%><%=Description%><%else%>Scegli dal catalogo online di <%=Titolo_1%>, <%=Titolo_2%>: da Cristalensi con sconti su tutti i prodotti per l'illuminazione<%end if%>">
+    <meta name="description" content="<%if Len(Description)>0 then%><%=Description%><%else%>Search the online catalog of <%=Titolo_1%>: from Cristalensi discounts on all lighting products for sale.<%end if%>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="<%if Len(Description)>0 then%><%=Description%><%else%>Scegli dal catalogo online di <%=Titolo_1%>, <%=Titolo_2%>: da Cristalensi con sconti su tutti i prodotti per l'illuminazione<%end if%>">
+    <meta property="og:description" content="<%if Len(Description)>0 then%><%=Description%><%else%>Search the online catalog of <%=Titolo_1%>: from Cristalensi discounts on all lighting products for sale.<%end if%>">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -76,12 +76,12 @@ gr_rs.close
             visibility: hidden;
         }
     </style>
-    <link rel="canonical" href="https://www.cristalensi.it/illuminazione-interni-ed-esterni/<%=toUrl%>"/>
+    <link rel="canonical" href="https://www.cristalensi.it/interior-exterior-lighting/<%=toUrl%>"/>
     <script language="javascript">
     function CambiaPagina()
     {
        document.modulopaginazione.method = "post";
-       document.modulopaginazione.action = "/illuminazione-interni-ed-esterni/<%=toUrl%>?cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco";
+       document.modulopaginazione.action = "/interior-exterior-lighting/<%=toUrl%>?cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco";
        document.modulopaginazione.submit();
     }
     </script>
@@ -96,8 +96,8 @@ gr_rs.close
         <div class="col-xl-12">
             <ol class="breadcrumb" itemtype="http://schema.org/BreadcrumbList">
                 <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/" itemprop="item" title="Cristalensi Vendita lampadari online"><span itemprop="name"><i class="fa fa-home"></i></span></a><meta itemprop="position" content="1" /></li>
-                <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/illuminazione-interni-ed-esterni/<%=Url_gr%>" itemprop="item" title="<%=Titolo_1_gr%> - <%=Titolo_2_gr%>"><span itemprop="name"><%=Titolo_1_gr%></span></a><meta itemprop="position" content="2" /></li>
-                <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/illuminazione-interni-ed-esterni/<%=Url_tip%>" itemprop="item" title="<%=Titolo_1_tip%> - <%=Titolo_2_tip%>"><span itemprop="name"><%=Titolo_1_tip%></span></a><meta itemprop="position" content="3" /></li>
+                <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/interior-exterior-lighting/<%=Url_gr%>" itemprop="item" title="<%=Titolo_1_gr%>"><span itemprop="name"><%=Titolo_1_gr%></span></a><meta itemprop="position" content="2" /></li>
+                <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/interior-exterior-lighting/<%=Url_tip%>" itemprop="item" title="<%=Titolo_1_tip%>"><span itemprop="name"><%=Titolo_1_tip%></span></a><meta itemprop="position" content="3" /></li>
                 <li class="active" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><span itemprop="name"><%=Titolo_1%></span><meta itemprop="position" content="4" /></li>
             </ol>
             <h1 class="title"><%=Titolo_1%></h1>
@@ -126,14 +126,14 @@ gr_rs.close
                         <%
                         Do While not tip_rs.EOF
                           PkId=tip_rs("PkId")
-                          Titolo_1=tip_rs("Titolo_1")
-                          Titolo_2=tip_rs("Titolo_2")
-                          Url=tip_rs("Url")
-                          Title=tip_rs("Title")
+                          Titolo_1=tip_rs("Titolo_1_en")
+                          Titolo_2=tip_rs("Titolo_2_en")
+                          Url=tip_rs("Url_en")
+                          Title=tip_rs("Title_en")
                           'Description=tip_rs("Description")
                           'Descrizione=tip_rs("Descrizione")
                         %>
-                        <li><a href="/illuminazione-interni-ed-esterni/<%=Url%>" title="<%=Titolo_2%>" <%if pkid=pkid_categoria then%>class="active"<%end if%>><%=Titolo_1%></a></li>
+                        <li><a href="/interior-exterior-lighting/<%=Url%>" title="<%=Titolo_2%>" <%if pkid=pkid_categoria then%>class="active"<%end if%>><%=Titolo_1%></a></li>
                         <%
                         tip_rs.movenext
                         loop
@@ -168,8 +168,8 @@ gr_rs.close
                 order=request("order")
                 if order="" then order=1
 
-                if order=1 then ordine="Titolo ASC"
-                if order=2 then ordine="Titolo DESC"
+                if order=1 then ordine="Titolo_en ASC"
+                if order=2 then ordine="Titolo_en DESC"
                 if order=3 then ordine="PrezzoProdotto ASC, PrezzoListino ASC"
                 if order=4 then ordine="PrezzoProdotto DESC, PrezzoListino DESC"
 
@@ -194,18 +194,18 @@ gr_rs.close
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#">Ordina per:</a>
+                                <a class="navbar-brand" href="#">Order by:</a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <p class="navbar-text">prezzo</p>
+                                <p class="navbar-text">price</p>
                                 <ul class="nav navbar-nav">
-                                    <li <%if order=3 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/illuminazione-interni-ed-esterni/<%=toUrl%>?order=3"><i class="glyphicon glyphicon-eur"></i> - </a></li>
-                                    <li <%if order=4 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/illuminazione-interni-ed-esterni/<%=toUrl%>?order=4"><i class="glyphicon glyphicon-eur"></i> + </a></li>
+                                    <li <%if order=3 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/interior-exterior-lighting/<%=toUrl%>?order=3"><i class="glyphicon glyphicon-eur"></i> - </a></li>
+                                    <li <%if order=4 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/interior-exterior-lighting/<%=toUrl%>?order=4"><i class="glyphicon glyphicon-eur"></i> + </a></li>
                                 </ul>
-                                <p class="navbar-text">ordine alfabetico</p>
+                                <p class="navbar-text">alphabetic</p>
                                 <ul class="nav navbar-nav">
-                                    <li <%if order=1 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/illuminazione-interni-ed-esterni/<%=toUrl%>?order=1">A/Z</a></li>
-                                    <li <%if order=2 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/illuminazione-interni-ed-esterni/<%=toUrl%>?order=2">Z/A</a></li>
+                                    <li <%if order=1 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/interior-exterior-lighting/<%=toUrl%>?order=1">A/Z</a></li>
+                                    <li <%if order=2 then%>class="active"<%end if%>><a style="border: solid 1px #e7e7e7; border-top: none; border-bottom: none;" href="/interior-exterior-lighting/<%=toUrl%>?order=2">Z/A</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -216,8 +216,8 @@ gr_rs.close
                 RowCount = RowCount + 1
 
                   id=prod_rs("pkid")
-                  titolo_prodotto=prod_rs("titolo")
-                  NomePagina=prod_rs("NomePagina")
+                  titolo_prodotto=prod_rs("titolo_en")
+                  NomePagina=prod_rs("NomePagina_en")
                   if Len(NomePagina)>0 then
                     NomePagina="public/pagine/"&NomePagina
                     'NomePagina="/public/pagine/scheda_prodotto.asp?id="&id
@@ -244,7 +244,7 @@ gr_rs.close
                       pr_rs.open sql,conn, 1, 1
                       if pr_rs.recordcount>0 then
                         produttore=pr_rs("titolo")
-                        url_produttore="/produttori-illuminazione/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
+                        url_produttore="/lighting-brands/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
                       end if
                       pr_rs.close
                     end if
@@ -266,7 +266,7 @@ gr_rs.close
                 %>
                 <div class="col-xs-12 col-sm-4 col-md-4">
                   <article class="col-item">
-                      <%if spedizionegratis=1 then%><div class="options">SPEDIZIONE<br />GRATUITA</div><%end if%>
+                      <%if dominio="IT" then%><%if spedizionegratis=1 then%><div class="options">SPEDIZIONE<br />GRATUITA</div><%end if%><%end if%>
                       <div class="photo">
                           <a href="/<%=NomePagina%>" class="prod-img-replace" style="background-image: url(/public/<%=file_img%>)" title="<%=titolo_prodotto%>"><img alt="<%=titolo_prodotto%>" src="/images/blank.png"></a>
                       </div>
@@ -274,29 +274,29 @@ gr_rs.close
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>codice: <b title="<%=codicearticolo%>"><%=codicearticolo%></b></span> <span>produttore: <b><a href="<%=url_produttore%>" title="<%=produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b title="<%=codicearticolo%>"><%=codicearticolo%></b></span> <span>brand: <b><a href="<%=url_produttore%>" title="<%=produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
                                     <%if prezzoarticolo<>0 then%>
                                       <%if idsession=0 and prezzoprodottosoloclienti="si" then%>
-                                        <em><span class="price-new" style="color: #000;">SCONTO PER ISCRITTI</span></em><br />
-                                        <%if prezzolistino<>0 then%><span class="price-old">Prezzo di listino: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                        <em><span class="price-new" style="color: #000;">DISCOUNT FOR CLIENTS</span></em><br />
+                                        <%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%else%>
                                         <span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
-                                        <%if prezzolistino<>0 then%><span class="price-old">invece di  <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                        <%if prezzolistino<>0 then%><span class="price-old">instead of <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%end if%>
                                     <%else%>
                                       <span class="price-new">&nbsp;<br /></span>
-                                      <%if prezzolistino<>0 then%><span class="price-old">Prezzo di listino: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                      <%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                     <%end if%>
                                   </div>
                               </div>
                           </div>
                           <div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Aggiungi ai preferiti"><i class="fa fa-heart"></i></a>
+                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
-                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="vedi ed aggiungi al carrello">vedi scheda <i class="fa fa-chevron-right"></i></a>
+                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="See the details and Add to cart">details <i class="fa fa-chevron-right"></i></a>
                               </p>
                           </div>
                           <div class=""></div>
@@ -315,21 +315,21 @@ gr_rs.close
                 <div class="col-lg-12">
                     <nav aria-label="Page navigation center-block">
                         <ul class="pagination">
-                            <li class="active"><a href="#" aria-label="Previous">Pagina <%=p%> di <%=prod_rs.PageCount%></a></li>
+                            <li class="active"><a href="#" aria-label="Previous">Page <%=p%> of <%=prod_rs.PageCount%></a></li>
 
                             <%if p > 2 then%>
-                            <li><a href="/illuminazione-interni-ed-esterni/<%=toUrl%>?p=1&cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco">Prima pagina</a></li>
+                            <li><a href="/interior-exterior-lighting/<%=toUrl%>?p=1&cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco">First page</a></li>
                             <%end if%>
                             <% if p > 1 then %>
                             <li>
-                                <a href="/illuminazione-interni-ed-esterni/<%=toUrl%>?p=<%=p-1%>&cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco" aria-label="Previous">
+                                <a href="/interior-exterior-lighting/<%=toUrl%>?p=<%=p-1%>&cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
                                 </a>
                             </li>
                             <%end if%>
                             <% for page = p+1 to p+4 %>
                             <%if not page>maxPage then%>
-                            <li><a href="/illuminazione-interni-ed-esterni/<%=toUrl%>?p=<%=Page%>&cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco"><%=page%></a></li>
+                            <li><a href="/interior-exterior-lighting/<%=toUrl%>?p=<%=Page%>&cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco"><%=page%></a></li>
                             <%end if%>
                             <% if page >= prod_rs.PageCount then
                                page = p+4
@@ -338,15 +338,15 @@ gr_rs.close
                             %>
                             <% if cInt(p) < maxPage then %>
                             <li>
-                                <a href="/illuminazione-interni-ed-esterni/<%=toUrl%>?p=<%=p+1%>&cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco" aria-label="Next">
+                                <a href="/interior-exterior-lighting/<%=toUrl%>?p=<%=p+1%>&cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco" aria-label="Next">
                                     <span aria-hidden="true">&raquo;</span>
                                 </a>
                             </li>
                             <%end if%>
                             <%if maxPage>5 and cInt(p)<>prod_rs.PageCount then%>
-                            <li><a href="/illuminazione-interni-ed-esterni/<%=toUrl%>?p=<%=prod_rs.PageCount%>&cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco">Ultima pagina</a></li>
+                            <li><a href="/interior-exterior-lighting/<%=toUrl%>?p=<%=prod_rs.PageCount%>&cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco">Last page</a></li>
                             <%end if%>
-                            <li class="active"><a href="#"> Vai alla pagina</a>
+                            <li class="active"><a href="#"> Go to page</a>
                             <select class="selectpicker show-menu-arrow show-tick" data-size="7" data-width="63px" data-dropAuto="true" name="p" id="p" data-size="5" onChange="CambiaPagina();">
           									<%
           									For i=1 To prod_rs.PageCount
@@ -375,8 +375,8 @@ gr_rs.close
             $('.readmore').readmore({
                 speed: 200,
                 collapsedHeight: 160,
-                moreLink: '<a href="#" style="text-align: right; margin-top: 10px;">Leggi di pi&ugrave; <i class="fa fa-chevron-down"></i></a>',
-                lessLink: '<a href="#" style="text-align: right">Chiudi <i class="fa fa-chevron-up"></i></a>'
+                moreLink: '<a href="#" style="text-align: right; margin-top: 10px;">Read more <i class="fa fa-chevron-down"></i></a>',
+                lessLink: '<a href="#" style="text-align: right">Close <i class="fa fa-chevron-up"></i></a>'
             });
         });
     </script>
