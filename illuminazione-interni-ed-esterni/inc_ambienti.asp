@@ -55,7 +55,7 @@ gr_rs.close
             visibility: hidden;
         }
     </style>
-    <link rel="canonical" href="https://www.cristalensi.it/interior-exterior-lighting/<%=toUrl%>"/>
+    <link rel="canonical" href="https://www.cristalensi.com/interior-exterior-lighting/<%=toUrl%>"/>
     <script language="javascript">
     function CambiaPagina()
     {
@@ -113,7 +113,7 @@ gr_rs.close
                           'Description=tip_rs("Description")
                           'Descrizione=tip_rs("Descrizione")
                         %>
-                        <li><a href="/interior-exterior-lighting/<%=Url%>" title="<%=Titolo_2%>" <%if pkid=pkid_ambiente then%>class="active"<%end if%>><%=Titolo_1%></a></li>
+                        <li><a href="/interior-exterior-lighting/<%=Url%>" title="<%=Titolo_1%>" <%if pkid=pkid_ambiente then%>class="active"<%end if%>><%=Titolo_1%></a></li>
                         <%
                         tip_rs.movenext
                         loop
