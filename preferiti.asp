@@ -24,9 +24,9 @@
 				if PrezzoProdotto=0 or isNull(PrezzoProdotto) then
 					PrezzoProdotto=PrezzoListino
 				end if
-				Titolo=ts("Titolo")
+				Titolo=ts("Titolo_en")
 				CodiceArticolo=ts("CodiceArticolo")
-				NomePagina=ts("NomePagina")
+				NomePagina=ts("NomePagina_en")
 			ts.close
 
 			Set ts = Server.CreateObject("ADODB.Recordset")
@@ -130,15 +130,15 @@
             <div class="col-md-8">
                 <div class="row">
                     <div class="title" style="padding-top:40px;">
-                        <h4>Elenco prodotti preferiti</h4>
+                        <h4>Wishlist</h4>
                     </div>
                     <div class="col-md-12">
                         <div class="top-buffer" style="padding-top:20px;">
                             <table id="cart" class="table table-hover table-condensed table-cart">
                                 <thead>
                                     <tr>
-                                        <th style="width:60%">Prodotto</th>
-                                        <th style="width:20%">Prezzo</th>
+                                        <th style="width:60%">Product</th>
+                                        <th style="width:20%">Price</th>
                                         <th style="width:20%"></th>
                                     </tr>
                                 </thead>
@@ -161,8 +161,8 @@
                                         <td data-th="Product" class="cart-product">
                                             <div class="row">
                                                 <div class="col-sm-12">
-                                                    <h5 class="nomargin"><a href="<%=NomePagina%>" title="Scheda del prodotto: <%=NomePagina%>"><%=rs("titolo")%></a></h5>
-																										<p><strong>Codice: <%=rs("codicearticolo")%></strong></p>
+                                                    <h5 class="nomargin"><a href="<%=NomePagina%>" title="Product: <%=NomePagina%>"><%=rs("titolo")%></a></h5>
+																										<p><strong>Code: <%=rs("codicearticolo")%></strong></p>
                                                 </div>
                                             </div>
                                         </td>
@@ -181,7 +181,7 @@
 																	</tbody>
 																	<tfoot>
 	                                    <tr>
-	                                        <td><a href="<%=fromURL_preferiti%>" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continua gli acquisti</a></td>
+	                                        <td><a href="<%=fromURL_preferiti%>" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue shopping</a></td>
 	                                        <td colspan="2" class="hidden-xs"></td>
 	                                    </tr>
 	                                </tfoot>
@@ -192,7 +192,7 @@
 																			<td data-th="Product" class="cart-product">
 																					<div class="row">
 																							<div class="col-sm-12">
-																									<h5 class="nomargin"><br>Nessun prodotto nei Preferiti</h5>
+																									<h5 class="nomargin"><br>No product in wishlist</h5>
 																							</div>
 																			</td>
 																	</tr>

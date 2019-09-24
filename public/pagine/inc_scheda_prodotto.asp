@@ -10,8 +10,8 @@ if id>0 then
 	prod_rs.open sql,conn, 3, 3
 	if prod_rs.recordcount>0 then
 		CodiceArticolo=prod_rs("CodiceArticolo")
-		Titolo_prodotto=prod_rs("Titolo")
-		Descrizione_prodotto=prod_rs("Descrizione")
+		Titolo_prodotto=prod_rs("Titolo_en")
+		Descrizione_prodotto=prod_rs("Descrizione_en")
 		allegato_prodotto=prod_rs("Allegato")
 		PrezzoArticolo=prod_rs("PrezzoProdotto")
 		PrezzoListino=prod_rs("PrezzoListino")
@@ -39,7 +39,7 @@ if id>0 then
 			pr_rs.open sql,conn, 1, 1
 			if pr_rs.recordcount>0 then
 				produttore=pr_rs("titolo")
-				url_produttore="/produttori-illuminazione/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore)
+				url_produttore="/lighting-brands/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore)
 				Consegna=pr_rs("Consegna")
 			end if
 			pr_rs.close
@@ -60,8 +60,8 @@ if id>0 then
 		sql = "SELECT * FROM NewGruppi WHERE PkId="&FkNewGruppo
 		gr_rs.open sql,conn, 1, 1
 		if gr_rs.recordcount>0 then
-		  Titolo_1_gr=gr_rs("Titolo_1")
-		  Titolo_2_gr=gr_rs("Titolo_2")
+		  Titolo_1_gr=gr_rs("Titolo_1_en")
+		  Titolo_2_gr=gr_rs("Titolo_2_en")
 		  Url_gr=gr_rs("Url")
 		end if
 		gr_rs.close
@@ -70,8 +70,8 @@ if id>0 then
 		sql = "SELECT * FROM NewTipologie WHERE PkId="&FkNewTipologia
 		tr_rs.open sql,conn, 1, 1
 		if tr_rs.recordcount>0 then
-		  Titolo_1_tip=tr_rs("Titolo_1")
-		  Titolo_2_tip=tr_rs("Titolo_2")
+		  Titolo_1_tip=tr_rs("Titolo_1_en")
+		  Titolo_2_tip=tr_rs("Titolo_2_en")
 		  Url_tip=tr_rs("Url")
 		end if
 		tr_rs.close
@@ -80,8 +80,8 @@ if id>0 then
 		sql = "SELECT * FROM NewCategorie WHERE PkId="&FkNewCategoria
 		cr_rs.open sql,conn, 1, 1
 		if cr_rs.recordcount>0 then
-		  Titolo_1_cat=cr_rs("Titolo_1")
-		  Titolo_2_cat=cr_rs("Titolo_2")
+		  Titolo_1_cat=cr_rs("Titolo_1_en")
+		  Titolo_2_cat=cr_rs("Titolo_2_en")
 		  Url_cat=cr_rs("Url")
 		  Title_cat=cr_rs("Title")
 		end if
@@ -104,9 +104,9 @@ end if
 <head>
     <title><%=Titolo_prodotto%> <%=" "& produttore%> <%=" "& CodiceArticolo%> - <%=Titolo_1_cat%></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Scheda del prodotto <%=Titolo_prodotto%>, <%=produttore%>, codice <%=codicearticolo%>. Vendita online con interessanti sconti sul prezzo di listino. Cristalensi vende online <%=Titolo_1_cat%>, <%=Titolo_2_cat%>, a prezzi scontati. Per qualsiasi dubbio il nostro competente e disponibile staff &egrave; a disposizione.">
+    <meta name="description" content="Details of <%=Titolo_prodotto%>, <%=produttore%>, code <%=codicearticolo%>. Online sales with important discounts on the list price. Cristalensi online shop of <%=Titolo_1_cat%>.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Scheda del prodotto <%=Titolo_prodotto%>, <%=produttore%>, codice <%=codicearticolo%>. Vendita online con interessanti sconti sul prezzo di listino. Cristalensi vende online <%=Titolo_1_cat%>, <%=Titolo_2_cat%>, a prezzi scontati. Per qualsiasi dubbio il nostro competente e disponibile staff &egrave; a disposizione.">
+    <meta property="og:description" content="Details of <%=Titolo_prodotto%>, <%=produttore%>, code <%=codicearticolo%>. Online sales with important discounts on the list price. Cristalensi online shop of <%=Titolo_1_cat%>.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -180,17 +180,17 @@ end if
 		lampadina=document.newsform2.lampadina.value;
 
 		if (quantita=="0" || quantita==""){
-			alert("La quantita\' deve essere maggiore di 0");
+			alert("The quantity have to be greater than 0");
 			return false;
 		}
 
 		if (num_colori>0 && colore==""){
-			alert("Deve essere scelto un colore");
+			alert("You have to choose the color");
 			return false;
 		}
 
 		if (num_lampadine>0 && lampadina==""){
-			alert("Deve essere scelta una lampadina");
+			alert("You have to choose the bulb");
 			return false;
 		}
 
@@ -216,15 +216,15 @@ end if
 		<div class=" clearfix" style="margin-top: 20px;">
 			<div class="col-md-10 col-md-push-2">
 						<ol class="breadcrumb" itemtype="http://schema.org/BreadcrumbList">
-                <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/" itemprop="item" title="Cristalensi Vendita lampadari online"><span itemprop="name"><i class="fa fa-home"></i></span></a><meta itemprop="position" content="1" /></li>
-                <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/illuminazione-interni-ed-esterni/<%=Url_gr%>" itemprop="item" title="<%=Titolo_1_gr%> - <%=Titolo_2_gr%>"><span itemprop="name"><%=Titolo_1_gr%></span></a><meta itemprop="position" content="2" /></li>
-                <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/illuminazione-interni-ed-esterni/<%=Url_tip%>" itemprop="item" title="<%=Titolo_1_tip%> - <%=Titolo_2_tip%>"><span itemprop="name"><%=Titolo_1_tip%></span></a><meta itemprop="position" content="3" /></li>
-								<li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/illuminazione-interni-ed-esterni/<%=Url_cat%>" itemprop="item" title="<%=Titolo_1_cat%>"><span itemprop="name"><%=Titolo_1_cat%></span></a><meta itemprop="position" content="4" /></li>
+                <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/" itemprop="item" title="CRISTALENSI online store lamps"><span itemprop="name"><i class="fa fa-home"></i></span></a><meta itemprop="position" content="1" /></li>
+                <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/interior-exterior-lighting/<%=Url_gr%>" itemprop="item" title="<%=Titolo_1_gr%>"><span itemprop="name"><%=Titolo_1_gr%></span></a><meta itemprop="position" content="2" /></li>
+                <li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/interior-exterior-lighting/<%=Url_tip%>" itemprop="item" title="<%=Titolo_1_tip%>"><span itemprop="name"><%=Titolo_1_tip%></span></a><meta itemprop="position" content="3" /></li>
+								<li itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a href="/interior-exterior-lighting/<%=Url_cat%>" itemprop="item" title="<%=Titolo_1_cat%>"><span itemprop="name"><%=Titolo_1_cat%></span></a><meta itemprop="position" content="4" /></li>
 								<li class="active" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><span itemprop="name"><%=Titolo_prodotto%></span><meta itemprop="position" content="5" /></li>
             </ol>
 			</div>
 			<div class="col-md-2 col-md-pull-10">
-				<a class="btn btn-warning btn-sm btn-block" href="javascript:history.back()"><i class="fa fa-chevron-left"></i> torna indietro</a>
+				<a class="btn btn-warning btn-sm btn-block" href="javascript:history.back()"><i class="fa fa-chevron-left"></i> go back</a>
 			</div>
 		</div>
         <div class="top-buffer hidden-md hidden-lg"></div>
@@ -233,7 +233,7 @@ end if
 					<div class="row">
 							<div class="title">
 									<h1 class="product-name"><span itemprop="name"><%=Titolo_prodotto%></span></h1>
-									<p class="details">codice: <b><span itemprop="mpn"><%=codicearticolo%></span></b> - produttore: <b><a href="<%=url_produttore%>" title="Catalogo <%=produttore%> vendita online prodotti illuminazione"><span itemprop="brand"><%=produttore%></a></span></b></p>
+									<p class="details">coce: <b><span itemprop="mpn"><%=codicearticolo%></span></b> - brand: <b><a href="<%=url_produttore%>" title="Catalog of <%=produttore%>"><span itemprop="brand"><%=produttore%></a></span></b></p>
 							</div>
 					</div>
 			</div>
@@ -283,20 +283,20 @@ end if
 														<%
 														if LEN(ClasseEnergetica)>0 then
 														%>
-														<a href="/public/etichetta-classe-energetica-<%=ClasseEnergetica%>.jpg" data-fancybox="group2" data-caption="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_2_cat%>" title="<%if titolo_img<>"" then%><%=titolo_img%>&nbsp;<%=titolo_cat%><%else%><%=titolo_prodotto%>&nbsp;<%=titolo_1_cat%><%end if%>"><img src="/public/etichetta-classe-energetica-<%=ClasseEnergetica%>.jpg" alt="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_2_cat%>" align="right" valign="middle" height="150px" width="75px"></a>
+														<a href="/public/etichetta-classe-energetica-<%=ClasseEnergetica%>.jpg" data-fancybox="group2" data-caption="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_1_cat%>" title="<%if titolo_img<>"" then%><%=titolo_img%>&nbsp;<%=titolo_cat%><%else%><%=titolo_prodotto%>&nbsp;<%=titolo_1_cat%><%end if%>"><img src="/public/etichetta-classe-energetica-<%=ClasseEnergetica%>.jpg" alt="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_1_cat%>" align="right" valign="middle" height="150px" width="75px"></a>
 														<%end if%>
 
 														<%=Descrizione_prodotto%>
 
 														<%if allegato_prodotto<>"" then%>
-														<br /><br />E' presente un allegato: >> <a href="/public/<%=allegato_prodotto%>" target="_blank" title="E' presente un allegato per il prodotto: <%=titolo_prodotto%>">Scarica l'allegato</a>
+														<br /><br />There is an attachment: >> <a href="/public/<%=allegato_prodotto%>" target="_blank" title="There is an attachment for the product: <%=titolo_prodotto%>">Download attachment</a>
 														<%end if%>
 
 													<%
 													if Len(FkNewAmbienti)>0 then
 													arrFkNewAmbienti=split(FkNewAmbienti,", ")
 													%>
-														<br /><em>L'articolo "<%=Titolo_prodotto%>", prodotto da <%=produttore%> e presente in <%=Titolo_1_cat%>, &egrave; adatto ai seguenti ambienti:<br />
+														<br /><em>The product "<%=Titolo_prodotto%>", made by <%=produttore%> and included in <%=Titolo_1_cat%>, is suitable for the following rooms:<br />
 														<%
 														For iLoop = LBound(arrFkNewAmbienti) to UBound(arrFkNewAmbienti)
 															fknewambiente=arrFkNewAmbienti(iLoop)
@@ -304,17 +304,17 @@ end if
 															sql = "Select * From NewAmbienti WHERE Posizione='"&fknewambiente&"'"
 															ams.Open sql, conn, 1, 1
 															if ams.recordcount>0 then
-															titolo_1_amb=ams("Titolo_1")
-															titolo_2_amb=ams("Titolo_2")
+															titolo_1_amb=ams("Titolo_1_en")
+															titolo_2_amb=ams("Titolo_2_en")
 															url_amb=ams("Url")
 															%>
-															<a href="/illuminazione-interni-ed-esterni/<%=url_amb%>" title="<%=titolo_2_amb%>"><%=titolo_1_amb%></a>,&nbsp;
+															<a href="/interior-exterior-lighting/<%=url_amb%>" title="<%=titolo_2_amb%>"><%=titolo_1_amb%></a>.&nbsp;
 															<%
 															end if
 															ams.close
 														Next
 														%>
-														ma per suggerimenti pi&ugrave; dettagliati contattate il nostro staff.</em>
+														<br />For more details contact us our staff.</em>
 
 													<%
 													end if
@@ -341,7 +341,7 @@ end if
 											<div class="panel panel-default hidden-sm hidden-xs visible-md-block visible-lg-block user-comment" itemprop="review" itemscope itemtype="http://schema.org/Review">
 												<!-- Default panel contents -->
 												<div class="panel-heading">
-													<h5><i class="fa fa-users"></i> Dicono di noi...</h5>
+													<h5><i class="fa fa-users"></i> Reviews...</h5>
 												</div>
 												<ul class="list-group">
 													<%
@@ -378,7 +378,7 @@ end if
 													end if
 													%>
 												</ul>
-												<div class="panel-footer"><a href="/commenti_elenco.asp" class="btn btn-default">leggi tutti i commenti <i class="fa fa-chevron-right"></i></a></div>
+												<div class="panel-footer"><a href="/commenti_elenco.asp" class="btn btn-default">read all reviews <i class="fa fa-chevron-right"></i></a></div>
 											</div>
 											<%
 											Else
@@ -391,7 +391,7 @@ end if
             <div class="col-md-4">
                 <div class="panel panel-default" style="box-shadow: 0 3px 5px #ccc; position: relative;" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 					<p class="btn-add" style="position: absolute; right: 15px; top: 15px; font-size: 1.5em; z-index: 5">
-						<a href="/preferiti.asp?id=<%=id%>" rel="nofollow" data-toggle="tooltip" data-placement="top" title="Aggiungi ai preferiti"><i class="fa fa-heart"></i></a>
+						<a href="/preferiti.asp?id=<%=id%>" rel="nofollow" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
 					</p>
 					<%if prezzoarticolo=0 then%>
 						<%richiesta_prev=1%>
@@ -399,31 +399,31 @@ end if
 
 							<li class="list-group-item" style="padding-top: 20px">
 	                            <p>
-									<span class="price-old">Prezzo di Listino  <b><%=prezzolistino%> &euro;</b><meta itemprop="priceCurrency" content="EUR" /></span><br /><br />
-									Vuoi sapere il Prezzo Cristalensi?
+									<span class="price-old">List Price  <b><%=prezzolistino%> &euro;</b><meta itemprop="priceCurrency" content="EUR" /></span><br /><br />
+									Do you want to know Cristalensi Price?
 	                            </p>
 	                        </li>
 							<li class="list-group-item" style="padding-top: 20px; background-color:#f5f5f5;">
 								<%if offerta=10 then%>
-									IL PRODOTTO NON E' DISPONIBILE
+									THE PRODUCT IS NOT AVAILABLE
 								<%else%>
 									<%if Len(Consegna)>0 then%>
 									<small><em><%=Consegna%></em></small>
 									<%else%>
-									<small><em>Consegna entro 30 giorni</em></small>
+									<small><em>Shipping within 30 days</em></small>
 									<%end if%>
 								<%end if%>
 							<li>
 						</ul>
 	                    <div class="panel-footer">
-	                        <a data-fancybox data-src="#hidden-content-prev" href="javascript:;" rel="nofollow" class="btn launch-prev btn-danger btn-block" title="Richiedi un preventivo al nostro staff">Richiedi un preventivo al nostro staff <i class="glyphicon glyphicon-shopping-cart"></i></a>
+	                        <a data-fancybox data-src="#hidden-content-prev" href="javascript:;" rel="nofollow" class="btn launch-prev btn-danger btn-block" title="Request a quote from our staff">Request a quote from our staff <i class="glyphicon glyphicon-shopping-cart"></i></a>
 	                    </div>
 							<%else%>
 								<%if offerta=10 then%>
 									<ul class="list-group text-center">
 									<li class="list-group-item" style="padding-top: 20px">
 											<p>
-													<span class="price-new">Prodotto non disponibile</span><br />
+													<span class="price-new">The product is not available</span><br />
 											</p>
 									</li>
 									</ul>
@@ -438,13 +438,13 @@ end if
 																<%if idsession=0 and prezzoprodottosoloclienti="si" then%>
 																	<!--<span class="price-new"><em><span itemprop="price">SCONTO EXTRA<br />PER GLI ISCRITTI !!!</span></em></span><br /><br />-->
 																	<%if prezzolistino<>0 then%>
-																		<span class="price-old">Prezzo di Listino <b><%=prezzolistino%> &euro;</b></span>
+																		<span class="price-old">List Price <b><%=prezzolistino%> &euro;</b></span>
 																	<%end if%>
 																<%Else%>
 																	<%if prezzolistino<>0 then%>
-																		<span class="price-old">Listino: <b><del>&nbsp;<%=prezzolistino%> &euro;&nbsp;</del></b></span><br>
+																		<span class="price-old">Price: <b><del>&nbsp;<%=prezzolistino%> &euro;&nbsp;</del></b></span><br>
 																	<%end if%>
-																	<span class="price-new"><span itemprop="price"><%=prezzoarticolo%></span> &euro;<meta itemprop="priceCurrency" content="EUR" /></span><br><small>iva inclusa</small>
+																	<span class="price-new"><span itemprop="price"><%=prezzoarticolo%></span> &euro;<meta itemprop="priceCurrency" content="EUR" /></span><br><small>Vat included</small>
 
 																<%end if%>
 															<%end if%>
@@ -456,7 +456,7 @@ end if
 
 											<%if offerta=10 then%>
 												<li class="list-group-item">
-													IL PRODOTTO NON E' DISPONIBILE
+													THE PRODUCT IS NOT AVAILABLE
 												</li>
 											<%else%>
 												<%if Len(Consegna)>0 then%>
@@ -465,17 +465,17 @@ end if
 													</li>
 												<%else%>
 													<li class="list-group-item" style="background-color:#f5f5f5;">
-														<small><em><i class="fa fa-truck"></i> Consegna entro 30 giorni</em></small>
+														<small><em><i class="fa fa-truck"></i> Shipping within 30 days</em></small>
 													</li>
 												<%end if%>
 											<%end if%>
 											<%if idsession=0 and prezzoprodottosoloclienti="si" then%>
 												<%'qui eventualmente possiamo metter un banner per rafforzare iscrizione e sconto%>
-												<li class="list-group-item" style="background-color: #FF972C; Color: #fff">Prezzo con SCONTO EXTRA riservato<br />per tutti i clienti iscritti</li>
+												<li class="list-group-item" style="background-color: #FF972C; Color: #fff">Price with EXTRA DISCOUNT reserved<br />for all registered customers</li>
 											<%else%>
 												<%
 												Set col_rs = Server.CreateObject("ADODB.Recordset")
-												sql = "SELECT [Prodotto-Colore].FkProdotto, Colori.Titolo FROM [Prodotto-Colore] INNER JOIN Colori ON [Prodotto-Colore].FkColore = Colori.PkId WHERE ((([Prodotto-Colore].FkProdotto)="&id&")) ORDER BY Colori.Titolo ASC"
+												sql = "SELECT [Prodotto-Colore].FkProdotto, Colori.Titolo_en FROM [Prodotto-Colore] INNER JOIN Colori ON [Prodotto-Colore].FkColore = Colori.PkId WHERE ((([Prodotto-Colore].FkProdotto)="&id&")) ORDER BY Colori.Titolo_en ASC"
 												col_rs.open sql,conn, 1, 1
 												if col_rs.recordcount>0 then
 												%>
@@ -487,7 +487,7 @@ end if
 
 												<%
 												Set lam_rs = Server.CreateObject("ADODB.Recordset")
-												sql = "SELECT [Prodotto-Lampadina].FkProdotto, Lampadine.Titolo FROM [Prodotto-Lampadina] INNER JOIN Lampadine ON [Prodotto-Lampadina].FkLampadina = Lampadine.PkId WHERE ((([Prodotto-Lampadina].FkProdotto)="&id&")) ORDER BY Lampadine.Titolo ASC"
+												sql = "SELECT [Prodotto-Lampadina].FkProdotto, Lampadine.Titolo_en FROM [Prodotto-Lampadina] INNER JOIN Lampadine ON [Prodotto-Lampadina].FkLampadina = Lampadine.PkId WHERE ((([Prodotto-Lampadina].FkProdotto)="&id&")) ORDER BY Lampadine.Titolo_en ASC"
 												lam_rs.open sql,conn, 1, 1
 												if lam_rs.recordcount>0 then
 												%>
@@ -499,7 +499,7 @@ end if
 
 												<%if col_rs.recordcount>0 then%>
 												<li class="list-group-item">
-														<select name="colore" id="colore" class="selectpicker show-menu-arrow  show-tick" data-size="4" title="Scegli il colore e/o la finitura">
+														<select name="colore" id="colore" class="selectpicker show-menu-arrow  show-tick" data-size="4" title="Choose the color">
 														<%
 														Do While Not col_rs.EOF
 														%>
@@ -516,7 +516,7 @@ end if
 												%>
 												<%if lam_rs.recordcount>0 then%>
 												<li class="list-group-item">
-														<select name="lampadina" id="lampadina" class="selectpicker show-menu-arrow  show-tick" data-size="4" title="Scegli la lampadina e/o il vetro">
+														<select name="lampadina" id="lampadina" class="selectpicker show-menu-arrow  show-tick" data-size="4" title="Choose the bulb or the glass">
 														<%
 														Do While Not lam_rs.EOF
 														%>
@@ -532,16 +532,16 @@ end if
 												lam_rs.close
 												%>
 												<li class="list-group-item">
-														<input type="number" data-width="auto" class="form-control" name="quantita" id="quantita" placeholder="Quanti Pezzi?" aria-label="Pezzi">
+														<input type="number" data-width="auto" class="form-control" name="quantita" id="quantita" placeholder="How many pieces?" aria-label="Pezzi">
 												</li>
 											<%end if%>
 
 									</ul>
 									<div class="panel-footer">
 											<%if idsession=0 and prezzoprodottosoloclienti="si" then%>
-												<a href="/iscrizione.asp?prov=3" id="invia_qta_2" rel="nofollow" class="btn btn-danger btn-block" title="Iscriviti per vedere gli sconti!"><i class="glyphicon glyphicon-log-in"></i>&nbsp;&nbsp;Iscriviti o Accedi!</a>
+												<a href="/iscrizione.asp?prov=3" id="invia_qta_2" rel="nofollow" class="btn btn-danger btn-block" title="Sign up to see the discounts!"><i class="glyphicon glyphicon-log-in"></i>&nbsp;&nbsp;Sign in or Sign up!</a>
 											<%else%>
-												<a href="#" onClick="return verifica_1();" id="invia_qta_2" rel="nofollow" class="btn btn-danger btn-block" style="padding: 10px 0px;" title="Aggiungi al carrello <%=titolo_prodotto%>&nbsp;<%=codicearticolo%>">AGGIUNGI AL CARRELLO <i class="glyphicon glyphicon-shopping-cart"></i></a>
+												<a href="#" onClick="return verifica_1();" id="invia_qta_2" rel="nofollow" class="btn btn-danger btn-block" style="padding: 10px 0px;" title="Add to cart <%=titolo_prodotto%>&nbsp;<%=codicearticolo%>">ADD TO CART <i class="glyphicon glyphicon-shopping-cart"></i></a>
 											<%end if%>
 									</div>
 									</form>
@@ -551,7 +551,7 @@ end if
                 </div>
 				<div class="clearfix"></div>
 				<div class="panel panel-default" style="margin: 10px 0px 30px 0px;">
-					<a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn launch btn-warning btn-block" style="white-space: normal; padding: 10px 0px;"><i class="fa fa-info-circle"></i>   Domande e dubbi? Contattaci!</a>
+					<a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn launch btn-warning btn-block" style="white-space: normal; padding: 10px 0px;"><i class="fa fa-info-circle"></i>   Questions and doubts? Contact Us!</a>
 				</div>
 				<div class="clearfix"></div>
 				<div class="row">
@@ -583,7 +583,7 @@ end if
 				<div class="panel panel-default hidden visible-sm-block visible-xs-block user-comment" itemprop="review" itemscope itemtype="http://schema.org/Review">
 					<!-- Default panel contents -->
 					<div class="panel-heading">
-						<h5><i class="fa fa-users"></i> Dicono di noi...</h5>
+						<h5><i class="fa fa-users"></i> Reviews...</h5>
 					</div>
 					<ul class="list-group">
 						<%Do While not com_rs.EOF%>
@@ -603,7 +603,7 @@ end if
 							loop
 							%>
 					</ul>
-					<div class="panel-footer"><a href="/commenti_elenco.asp" class="btn btn-default">leggi tutti i commenti <i class="fa fa-chevron-right"></i></a></div>
+					<div class="panel-footer"><a href="/commenti_elenco.asp" class="btn btn-default">read all reviews <i class="fa fa-chevron-right"></i></a></div>
 				</div>
 				<%
 				end if

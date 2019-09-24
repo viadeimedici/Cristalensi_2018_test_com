@@ -739,7 +739,7 @@ end if
             <div class="row vdivide is-table-row">
                 <div class="col-lg-6">
                     <div class="title">
-                        <h4>Accedi</h4>
+                        <h4>Sign in</h4>
                     </div>
                     <div class="col-md-12">
                         <p class="description">If you have already signed in, and therefore already have Login (Email) and Password, it is not necessary to sign on again, it is sufficient that you enter the access data here.

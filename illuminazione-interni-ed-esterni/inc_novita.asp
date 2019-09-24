@@ -1,44 +1,44 @@
 <!--#include virtual="/inc_strConn.asp"-->
 <%
 if pkid_novita=1 then
-  Title="Lampade a sospensione"
-  Titolo_1="Lampade a sospensione"
-  Titolo_2="Lampade a sospensione"
+  Title="Suspended lights and Chandeliers"
+  Titolo_1="Suspended lights"
+  Titolo_2="Suspended lights and Chandeliers"
   Description=""
   Descrizione=""
 end if
 if pkid_novita=3 then
-  Title="Lampade a soffitto"
-  Titolo_1="Lampade a soffitto"
-  Titolo_2="Lampade a soffitto"
+  Title="Ceiling lights and Overhead lamps"
+  Titolo_1="Ceiling lights"
+  Titolo_2="Ceiling lights and Overhead lamps"
   Description=""
   Descrizione=""
 end if
 if pkid_novita=4 then
-  Title="Lampade a parete"
-  Titolo_1="Lampade a parete"
-  Titolo_2="Lampade a parete"
+  Title="Wall lights"
+  Titolo_1="Wall lights"
+  Titolo_2="Wall lights"
   Description=""
   Descrizione=""
 end if
 if pkid_novita=5 then
-  Title="Lampade da terra"
-  Titolo_1="Lampade da terra"
-  Titolo_2="Lampade da terra"
+  Title="Floor lights"
+  Titolo_1="Floor lights"
+  Titolo_2="Floor lights"
   Description=""
   Descrizione=""
 end if
 if pkid_novita=6 then
-  Title="Abat-jour, lumini e lumetti"
-  Titolo_1="Abat-jour, lumini e lumetti"
-  Titolo_2="Abat-jour, lumini e lumetti"
+  Title="Table lights"
+  Titolo_1="Table lights"
+  Titolo_2="Table lights"
   Description=""
   Descrizione=""
 end if
 if pkid_novita=10 then
-  Title="Lampade da giardino ed esterni"
-  Titolo_1="Lampade da giardino ed esterni"
-  Titolo_2="Lampade da giardino ed esterni"
+  Title="Outdoor lamps"
+  Titolo_1="Outdoor lamps"
+  Titolo_2="Outdoor lamps"
   Description=""
   Descrizione=""
 end if
@@ -47,11 +47,11 @@ end if
 <html>
 
 <head>
-    <title><%=Title%> Novit&agrave; ultimi arrivi illuminazione</title>
+    <title><%=Title%> New product lighting - Cristalensi online shop</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="<%if Len(Description)>0 then%><%=Description%><%else%>Shop online di <%=Titolo_2%>: da Cristalensi sconti su tutte le novit&agrave; e gli ultimi arrivi per l'illuminazione. Vendita online di <%=Titolo_2%>.<%end if%>">
+    <meta name="description" content="<%if Len(Description)>0 then%><%=Description%><%else%><%=Titolo_2%> online shop: from Cristalensi discount about all new product lighting. Online store of lights and lamps.<%end if%>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="<%if Len(Description)>0 then%><%=Description%><%else%>Shop online di <%=Titolo_2%>: da Cristalensi sconti su tutte le novit&agrave; e gli ultimi arrivi per l'illuminazione. Vendita online di <%=Titolo_2%>.<%end if%>">
+    <meta property="og:description" content="<%if Len(Description)>0 then%><%=Description%><%else%><%=Titolo_2%> online shop: from Cristalensi discount about all new product lighting. Online store of lights and lamps.<%end if%>">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -82,7 +82,7 @@ end if
             visibility: hidden;
         }
     </style>
-    <link rel="canonical" href="https://www.cristalensi.it/illuminazione-interni-ed-esterni/<%=toUrl%>"/>
+    <link rel="canonical" href="https://www.cristalensi.com/interior-exterior-lighting/<%=toUrl%>"/>
     <!--#include virtual="/inc_funzioni_head.asp"-->
 </head>
 
@@ -96,11 +96,11 @@ end if
         </div>
         <div class="col-xl-12">
             <ol class="breadcrumb">
-                <li><a href="/" title="Cristalensi Vendita lampadari online"><i class="fa fa-home"></i></a></li>
-                <li><a href="/novita-illuminazione-ultimi-arrivi.asp">Novit&agrave; e ultimi arrivi</a></li>
-                <li class="active"><%=Titolo_2%></li>
+                <li><a href="/" title="CRISTALENSI online store lamps"><i class="fa fa-home"></i></a></li>
+                <li><a href="/novita-illuminazione-ultimi-arrivi.asp">New product lighting</a></li>
+                <li class="active"><%=Titolo_1%></li>
             </ol>
-            <h1 class="title"><%=Titolo_2%> - Novit&agrave; e ultimi arrivi</h1>
+            <h1 class="title"><%=Titolo_2%> - New product lighting</h1>
             <%if Len(Descrizione)>0 then%>
             <p class="description">
                 <%=NoLettAccDescrizioni(Descrizione)%>
@@ -112,12 +112,12 @@ end if
                 <nav class="navbar hidden-xs">
                     <!-- menu - normal collapsible navbar markup -->
                     <ul class="list-unstyled side-list">
-                        <li><a href="/illuminazione-interni-ed-esterni/1-novita-lampade-a-sospensione.asp" title="Lampade a sospensione - Novit&agrave; e ultimi arrivi">Lampade a sospensione</a></li>
-												<li><a href="/illuminazione-interni-ed-esterni/2-novita-lampade-a-soffitto.asp" title="Lampade a soffitto - Novit&agrave; e ultimi arrivi">Lampade a soffitto</a></li>
-												<li><a href="/illuminazione-interni-ed-esterni/3-novita-lampade-a-parete.asp" title="Lampade a parete - Novit&agrave; e ultimi arrivi">Lampade a parete</a></li>
-												<li><a href="/illuminazione-interni-ed-esterni/4-novita-lampade-da-terra.asp" title="Lampade da terra - Novit&agrave; e ultimi arrivi">Lampade da terra</a></li>
-												<li><a href="/illuminazione-interni-ed-esterni/5-novita-abatjour-lumini-lumetti.asp" title="Abat-jour, lumini e lumetti - Novit&agrave; e ultimi arrivi">Abat-jour, lumini e lumetti</a></li>
-                        <li><a href="/illuminazione-interni-ed-esterni/10-novita-lampade-da-giardino-ed-esterni.asp" title="Lampade da giardino ed esterni - Novit&agrave; e ultimi arrivi">Lampade da giardino ed esterni</a></li>
+                        <li><a href="/interior-exterior-lighting/1-new-suspended-lights.asp" title="Suspended lights - New product lighting">Suspended lights</a></li>
+												<li><a href="/interior-exterior-lighting/2-new-ceiling-lights.asp" title="Ceiling lights - New product lighting">Ceiling lights</a></li>
+												<li><a href="/interior-exterior-lighting/3-new-wall-lamps.asp" title="Wall lights - New product lighting">Wall lights</a></li>
+												<li><a href="/interior-exterior-lighting/4-new-floor-lights.asp" title="Floor lights - New product lighting">Floor lights</a></li>
+												<li><a href="/interior-exterior-lighting/5-new-table-lights.asp" title="Table lights - New product lighting">Table lights</a></li>
+                        <li><a href="/interior-exterior-lighting/10-new-outdoor-lamps.asp" title="Outdoor lamps - New product lighting">Outdoor lamps</a></li>
                     </ul>
                 </nav>
                 <div class="banner preventivi overflowContainer">
@@ -149,8 +149,8 @@ end if
                 Do while not prod_rs.EOF
 
                   id=prod_rs("pkid")
-                  titolo_prodotto=prod_rs("titolo")
-                  NomePagina=prod_rs("NomePagina")
+                  titolo_prodotto=prod_rs("titolo_en")
+                  NomePagina=prod_rs("NomePagina_en")
                   if Len(NomePagina)>0 then
                     NomePagina="public/pagine/"&NomePagina
                     'NomePagina="/public/pagine/scheda_prodotto.asp?id="&id
@@ -177,7 +177,7 @@ end if
                       pr_rs.open sql,conn, 1, 1
                       if pr_rs.recordcount>0 then
                         produttore=pr_rs("titolo")
-                        url_produttore="/produttori-illuminazione/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
+                        url_produttore="/lighting-brands/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
                       end if
                       pr_rs.close
                     end if
@@ -199,7 +199,7 @@ end if
                 %>
                 <div class="col-xs-12 col-sm-4 col-md-4">
                   <article class="col-item">
-                      <%if spedizionegratis=1 then%><div class="options">SPEDIZIONE<br />GRATUITA</div><%end if%>
+                      <%if dominio="IT" then%><%if spedizionegratis=1 then%><div class="options">SPEDIZIONE<br />GRATUITA</div><%end if%><%end if%>
                       <div class="photo">
                           <a href="/<%=NomePagina%>" class="prod-img-replace" style="background-image: url(/public/<%=file_img%>)" title="<%=titolo_prodotto%>"><img alt="<%=titolo_prodotto%>" src="/images/blank.png"></a>
                       </div>
@@ -207,29 +207,29 @@ end if
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>codice: <b><%=codicearticolo%></b></span><span>produttore: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>brand: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
                                     <%if prezzoarticolo<>0 then%>
                                       <%if idsession=0 and prezzoprodottosoloclienti="si" then%>
-                                        <em><span class="price-new" style="color: #000;">SCONTO PER ISCRITTI</span></em><br />
-                                        <%if prezzolistino<>0 then%><span class="price-old">Prezzo di listino: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                        <em><span class="price-new" style="color: #000;">DISCOUNT FOR CLIENTS</span></em><br />
+                                        <%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%else%>
                                         <span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
-                                        <%if prezzolistino<>0 then%><span class="price-old">invece di  <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                        <%if prezzolistino<>0 then%><span class="price-old">instead of <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%end if%>
                                     <%else%>
                                       <span class="price-new">&nbsp;<br /></span>
-                                      <%if prezzolistino<>0 then%><span class="price-old">Prezzo di listino: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                      <%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                     <%end if%>
                                   </div>
                               </div>
                           </div>
                           <div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Aggiungi ai preferiti"><i class="fa fa-heart"></i></a>
+                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
-                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="vedi ed aggiungi al carrello">vedi scheda <i class="fa fa-chevron-right"></i></a>
+                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="See the details and Add to cart">details <i class="fa fa-chevron-right"></i></a>
                               </p>
                           </div>
                           <div class=""></div>
