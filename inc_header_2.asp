@@ -150,7 +150,7 @@
                                                 <a href="/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>New product lighting</strong></h4></a>
                                                 <ul class="list-unstyled">
                                                     <li><a href="/interior-exterior-lighting/1-new-suspended-lights.asp" title="Suspended lights - New product lighting">Suspended lights</a></li>
-                                                    <li><a href="/interior-exterior-lighting/2-new-overhead-lights.asp" title="Overhead lights - New product lighting">Overhead lights</a></li>
+                                                    <li><a href="/interior-exterior-lighting/2-new-ceiling-lights.asp" title="Ceiling lights - New product lighting">Ceiling lights</a></li>
                                                     <li><a href="/interior-exterior-lighting/3-new-wall-lights.asp" title="Wall lights - New product lighting">Wall lights</a></li>
                                                     <li><a href="/interior-exterior-lighting/4-new-floor-lights.asp" title="Floor lights - New product lighting">Floor lights</a></li>
                                                     <li><a href="/interior-exterior-lighting/5-new-table-lights.asp" title="Table lights - New product lighting">Table lights</a></li>
@@ -224,7 +224,7 @@
                                             <li class="subcategory">
                                                 <a href="/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>New product lighting</strong></h4></a>
                                                 <ul class="list-unstyled">
-                                                    <li><a href="/interior-exterior-lighting/10-new-outdoor-and-garden-lights.asp" title="Outdoor and Garden lights - New product lighting">Outdoor and Garden lights</a></li>
+                                                    <li><a href="/interior-exterior-lighting/10-new-outdoor-lamps.asp" title="Outdoor and Garden lights - New product lighting">Outdoor and Garden lights</a></li>
                                                     <li>&nbsp;</li>
                                                     <li>&nbsp;</li>
                                                 </ul>
