@@ -3,12 +3,12 @@
 <html>
 
 <head>
-    <title>CRISTALENSI online store lamps italian lights: indoor outdoor lighting</title>
+    <title>Online Verkauf von Lampen zur Innenbeleuchtung und Außenbeleuchtung CRISTALENSI</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="In Cristalensi you find italian lamps for sales, Cristalensi is an ecommerce about lights, online store for italian lighting products and discounted products">
+    <meta name="description" content="Cristalensi, mit einem Showroom in der Nähe von Florenz, verkauft Lampen und Kronleuchter online, Produkte für die Innenbeleuchtung, Außenbeleuchtung, Hängeleuchten, Stehlampen, Deckenleuchten, Lampen für den Außenbereich, Ventilatoren, Kinderzimmerlampen und Badezimmerleuchten, Produkte in verschiedenen Stilrichtungen vom Modernen bis zum Klassischen.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="CRISTALENSI lights online store italian lamps - lighting products sales">
-    <meta property="og:description" content="In Cristalensi you find italian lamps for sales, Cristalensi is an ecommerce about lights, online store for italian lighting products and discounted products">
+    <meta property="og:title" content="Online Verkauf von Lampen zur Innenbeleuchtung und Außenbeleuchtung CRISTALENSI">
+    <meta property="og:description" content="Cristalensi, mit einem Showroom in der Nähe von Florenz, verkauft Lampen und Kronleuchter online, Produkte für die Innenbeleuchtung, Außenbeleuchtung, Hängeleuchten, Stehlampen, Deckenleuchten, Lampen für den Außenbereich, Ventilatoren, Kinderzimmerlampen und Badezimmerleuchten, Produkte in verschiedenen Stilrichtungen vom Modernen bis zum Klassischen.">
     <link rel="alternate" href="https://www.cristalensi.it/" hreflang="it-it" />
 		<link rel="alternate" href="https://www.cristalensi.com/de/" hreflang="de-de" />
 		<link rel="alternate" href="https://www.cristalensi.com/" hreflang="en-GB" />
@@ -47,21 +47,21 @@
     <div class="container content">
         <div class="col-md-12">
             <!--#include virtual="inc_slider.asp"-->
-            <h1 class="slogan" style="margin-top:20px;">Cristalensi, italian online store of lamps.</h1>
-            <h2 class="slogan hidden-xs">Indoor lighting and Outdoor lighting</h2>
+            <h1 class="slogan" style="margin-top:20px;">Cristalesi, Online Verkauf von Lampen</h1>
+            <h2 class="slogan hidden-xs">zur Innenbeleuchtung und Außenbeleuchtung</h2>
             <div class="row top-buffer">
                 <div class="col-xl-12 clearfix">
-                    <h4 class="subtitle"><div class="dot"></div><span>What lamp are you looking for?</span></h4>
+                    <h4 class="subtitle"><div class="dot"></div><span>Was suchst du?</span></h4>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-interno.jpg)" title="Indoor Lighting and Interior Lamps"><img alt="Indoor lighting" src="images/blank.png"></a>
+                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-interno.jpg)" title="Lampen zur Innenbeleuchtung"><img alt="Lampen zur Innenbeleuchtung" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" title="Indoor Lighting and Interior Lamps"><h3>Indoor lighting</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" title="Online Verkauf von Lampen zur Innenbeleuchtung"><h3>Lampen zur Innenbeleuchtung</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +70,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-esterno.jpg)" title="Outdoor Lighting and Exterior Lamps"><img alt="Outdoor Lighting" src="images/blank.png"></a>
+                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-esterno.jpg)" title="Lampen zur Außenbeleuchtung"><img alt="Lampen zur Außenbeleuchtung" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" title="Outdoor Lighting and Exterior Lamps"><h3>Outdoor Lighting</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" title="Online Verkauf von Lampen zur Außenbeleuchtung"><h3>Lampen zur Außenbeleuchtung</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -84,12 +84,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(images/home-ventilatori.jpg)" title="Cooling fans"><img alt="Cooling fans" src="images/blank.png"></a>
+                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(images/home-ventilatori.jpg)" title="Deckenventilatoren"><img alt="Deckenventilatoren" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/interior-exterior-lighting/3ng-cooling-fans.asp" title="Cooling fans"><h3>Cooling fans</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-cooling-fans.asp" title="Deckenventilatoren"><h3>Deckenventilatoren</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -98,12 +98,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(images/home-lampadine.jpg)" title="Light bulbs, Drivers and Led Strip Bar"><img alt="Lampadine" src="images/blank.png"></a>
+                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(images/home-lampadine.jpg)" title="Leuchtmittel und Driver"><img alt="Lampadine" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/interior-exterior-lighting/4ng-light-bulbs.asp" title="Light bulbs, Drivers and Led Strip Bar"><h3>Light bulbs, Drivers and Led Strip Bar</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-light-bulbs.asp" title="Leuchtmittel und Driver"><h3>Leuchtmittel und Driver</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -112,13 +112,13 @@
             </div>
             <div class="row top-buffer">
                 <div class="col-xl-12 clearfix">
-                    <h4 class="subtitle"><div class="dot"></div><span>Lights and Lamps on offer</span></h4> <a href="/offerte.asp" class="btn btn-default btn-home-section pull-right hidden-xs" title="Lights and Lamps on promotion">Discover all the offers <i class="fa fa-chevron-right"></i></a>
-                    <a href="offerte.asp" class="btn btn-default btn-home-section btn-block hidden visible-xs bottom-buffer" style="">see all <i class="fa fa-chevron-right"></i></a>
+                    <h4 class="subtitle"><div class="dot"></div><span>Angebote: verpassen Sie nicht Ihre Chance!</span></h4> <a href="/offerte.asp" class="btn btn-default btn-home-section pull-right hidden-xs" title="Alle produkte im angebote">Alle produkte im angebote <i class="fa fa-chevron-right"></i></a>
+                    <a href="offerte.asp" class="btn btn-default btn-home-section btn-block hidden visible-xs bottom-buffer" style="">Alle produkte im angebote <i class="fa fa-chevron-right"></i></a>
                 </div>
                 <%
                 'random prodotti in offerta
                 Set prod_rs = Server.CreateObject("ADODB.Recordset")
-                sql = "SELECT pkid,codicearticolo,titolo_EN,prezzoprodotto,prezzolistino,nomepagina_EN,offerta,fkproduttore FROM Prodotti WHERE Offerta=1 OR Offerta=2 ORDER BY Titolo_EN ASC"
+                sql = "SELECT pkid,codicearticolo,titolo_DE,prezzoprodotto,prezzolistino,nomepagina_DE,offerta,fkproduttore FROM Prodotti WHERE Offerta=1 OR Offerta=2 ORDER BY Titolo_DE ASC"
                 prod_rs.open sql,conn, 1, 1
 
                 Randomize()
@@ -161,7 +161,7 @@
                         pr_rs.open sql,conn, 1, 1
                         if pr_rs.recordcount>0 then
                           produttore=pr_rs("titolo")
-                          url_produttore="/lighting-brands/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
+                          url_produttore="/lichtmarken/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
                         end if
                         pr_rs.close
                       end if
@@ -190,11 +190,11 @@
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>brand: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>marke: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
                                       <%if prezzoarticolo<>0 then%>
                                         <span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
-                                        <%if prezzolistino<>0 then%><span class="price-old">instead of  <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                        <%if prezzolistino<>0 then%><span class="price-old">statt  <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%else%>
                                         <span class="price-new">&nbsp;<br /></span>
                                         <span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span>
@@ -204,10 +204,10 @@
                           </div>
                           <div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
+                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Zur Wunschliste hinzufügen"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
-                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="See the details and Add to cart">details <i class="fa fa-chevron-right"></i></a>
+                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Siehe die Details und In den Warenkorb">details <i class="fa fa-chevron-right"></i></a>
                               </p>
                           </div>
                           <div class=""></div>
@@ -230,8 +230,8 @@
             %>
             <div class="row top-buffer">
                 <div class="col-xl-12 clearfix">
-                    <h4 class="subtitle"><div class="dot"></div><span>The latest lamps e lights arrived</span></h4> <a href="/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section pull-right hidden-xs" title="The latest lamps e lights arrived">See all new products  <i class="fa fa-chevron-right"></i></a>
-                    <a href="/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section btn-block hidden visible-xs bottom-buffer" style="">see all <i class="fa fa-chevron-right"></i></a>
+                    <h4 class="subtitle"><div class="dot"></div><span>Die neuesten Lampen und Lichter sind eingetroffen</span></h4> <a href="/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section pull-right hidden-xs" title="Die neuesten Lampen und Lichter sind eingetroffen">Alle neuen Produkte anzeigen  <i class="fa fa-chevron-right"></i></a>
+                    <a href="/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section btn-block hidden visible-xs bottom-buffer" style="">alles sehen <i class="fa fa-chevron-right"></i></a>
                 </div>
                 <%
                 Do while not prod_rs.EOF
@@ -333,12 +333,9 @@
             <div class="row top-buffer hidden-xs" itemscope itemtype="http://schema.org/WebSite">
               <link itemprop="url" href="https://www.cristalensi.it/"/>
                 <div class="col-md-8">
-                    <h2 class="slogan">Cristalensi, online store of lights<br />Showroom of lamps for over 50 years!</h2>
+                    <h2 class="slogan">Seit über 50 Jahren steht der Name Cristalensi für Beleuchtung!</h2>
                     <p class="main-description">
-                        At just a click away, a vast and refined assortment of italian lighting products for inside and out... Take a look around our on-line Store of lights or visit our Showroom of lamps, we can satisfy all your style requirements: classic or modern chandeliers, wall lamps, ceiling lights and floor lamps, spotlights or fans with lights.
-                        We also have a large catalog of outdoor lamps, both modern and classic, and specific items for children, bedrooms and all other rooms in the house.
-                        There are also lamps for offices, shops, clubs, businesses and professional environments.
-                        Furthermore, a friendly and professional staff is ready to advise you on the purchase that best suits your needs.
+                      Cristalensi, mit einem Showroom in der Nähe von Florenz, verkauft Lampen und Kronleuchter online, Produkte für die Innenbeleuchtung, Außenbeleuchtung, Hängeleuchten, Stehlampen, Deckenleuchten, Lampen für den Außenbereich, Ventilatoren, Kinderzimmerlampen und Badezimmerleuchten, Produkte in verschiedenen Stilrichtungen vom Modernen bis zum Klassischen.
                     </p>
                 </div>
                 <%
@@ -351,7 +348,7 @@
                     <div class="panel panel-default user-comment" itemprop="review" itemscope itemtype="http://schema.org/Review">
                         <!-- Default panel contents -->
                         <div class="panel-heading">
-                            <h5><i class="fa fa-users"></i> Reviews...</h5>
+                            <h5><i class="fa fa-users"></i> Bewertungen...</h5>
                         </div>
                         <ul class="list-group">
                             <%Do While not com_rs.EOF%>
@@ -364,13 +361,13 @@
                             end if
                             cr_rs.close
                             %>
-                            <li class="list-group-item"><i class="fa fa-user"></i> <em><span itemprop="description"><%=Left(NoHTML(com_rs("Testo")), 90)%>...</span><span itemprop="author" style="display: none;"><%=NomeIscritto%></span> <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">Raiting: <meta itemprop="worstRating" content = "1"><span itemprop="ratingValue"><%=com_rs("Valutazione")%></span>/<span itemprop="bestRating">5</span></span></em></li>
+                            <li class="list-group-item"><i class="fa fa-user"></i> <em><span itemprop="description"><%=Left(NoHTML(com_rs("Testo")), 90)%>...</span><span itemprop="author" style="display: none;"><%=NomeIscritto%></span> <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">Bewertung: <meta itemprop="worstRating" content = "1"><span itemprop="ratingValue"><%=com_rs("Valutazione")%></span>/<span itemprop="bestRating">5</span></span></em></li>
                             <%
                             com_rs.movenext
                             loop
                             %>
                         </ul>
-                        <div class="panel-footer"><a href="commenti_elenco.asp" class="btn btn-default">read all reviews <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="panel-footer"><a href="commenti_elenco.asp" class="btn btn-default">Lesen Sie alle Bewertungen <i class="fa fa-chevron-right"></i></a></div>
                     </div>
                 </div>
                 <%
