@@ -197,7 +197,7 @@
                                         <%if prezzolistino<>0 then%><span class="price-old">statt  <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%else%>
                                         <span class="price-new">&nbsp;<br /></span>
-                                        <span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span>
+                                        <span class="price-old">Preis: <b><%=prezzolistino%> &euro;</b></span>
                                       <%end if%>
                                   </div>
                               </div>
@@ -237,8 +237,8 @@
                 Do while not prod_rs.EOF
 
                   id=prod_rs("pkid")
-                  titolo_prodotto=prod_rs("titolo_en")
-                  NomePagina=prod_rs("NomePagina_en")
+                  titolo_prodotto=prod_rs("titolo_de")
+                  NomePagina=prod_rs("NomePagina_de")
                   if Len(NomePagina)>0 then
                     NomePagina="public/pagine/"&NomePagina
                     'NomePagina="/public/pagine/scheda_prodotto.asp?id="&id
@@ -292,29 +292,29 @@
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>brand: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>marke: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
                                       <%if prezzoarticolo<>0 then%>
                                         <%if idsession=0 and prezzoprodottosoloclienti="si" then%>
-                                          <em><span class="price-new" style="color: #000;">DISCOUNT FOR CLIENTS</span></em><br />
-                                          <%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                          <em><span class="price-new" style="color: #000;">RABATT FUR KUNDEN</span></em><br />
+                                          <%if prezzolistino<>0 then%><span class="price-old">Preis: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                         <%else%>
                                           <span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
-                                          <%if prezzolistino<>0 then%><span class="price-old">instead of <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                          <%if prezzolistino<>0 then%><span class="price-old">statt <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                         <%end if%>
                                       <%else%>
                                         <span class="price-new">&nbsp;<br /></span>
-                                        <%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                        <%if prezzolistino<>0 then%><span class="price-old">Preis: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                       <%end if%>
                                   </div>
                               </div>
                           </div>
                           <div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
+                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Zur Wunschliste hinzufügen"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
-                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="See the details and Add to cart">details <i class="fa fa-chevron-right"></i></a>
+                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Siehe die Details und In den Warenkorb">details <i class="fa fa-chevron-right"></i></a>
                               </p>
                           </div>
                           <div class=""></div>
@@ -399,7 +399,7 @@
           $('.readmore').readmore({
               speed: 200,
               collapsedHeight: 150,
-              moreLink: '<a href="#" style="text-align: right; margin-top: 10px;">Read more <i class="fa fa-chevron-down"></i></a>',
+              moreLink: '<a href="#" style="text-align: right; margin-top: 10px;">Weiterlesen <i class="fa fa-chevron-down"></i></a>',
               lessLink: '<a href="#" style="text-align: right">Close <i class="fa fa-chevron-up"></i></a>'
           });
       });
