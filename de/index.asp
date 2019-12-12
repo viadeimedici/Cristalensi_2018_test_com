@@ -61,7 +61,7 @@
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" title="Online Verkauf von Lampen zur Innenbeleuchtung"><h3>Lampen zur Innenbeleuchtung</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" title="Online Verkauf von Lampen fur Innenbeleuchtung"><h3>Lampen fur Innenbeleuchtung</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" title="Online Verkauf von Lampen zur Außenbeleuchtung"><h3>Lampen zur Außenbeleuchtung</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" title="Online Verkauf von Lampen fur Außenbeleuchtung"><h3>Lampen fur Außenbeleuchtung</h3></a>
                                 </div>
                             </div>
                         </div>
