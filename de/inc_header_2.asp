@@ -109,11 +109,11 @@
                                                 </ul>
                                             </li>
                                             <li class="subcategory">
-                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/8nt-mirror-lights.asp" title="Mirror Lights for Bathroom and Mirror Applique"><h4><strong>Mirror Lights</strong></h4></a>
+                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/8nt-mirror-lights.asp" title="Spiegelleuchten zum Verkauf online"><h4><strong>Spiegelleuchten</strong></h4></a>
                                                 <ul class="list-unstyled lampade-specchio">
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/54nc-bathrooms-mirror-lights.asp" title="Bathrooms mirror lights">Bathrooms mirror lights</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/55nc-mirror-led-applique.asp" title="Mirror LED applique">Mirror LED applique</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/56nc-mirror-with-lamps.asp" title="Mirror with lamps">Mirror with lamps</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/54nc-spiegelleuchten-fur-das-badezimmer.asp" title="Spiegelleuchten fur das Badezimmer Moderne und Klassische">Spiegelleuchten fur das Badezimmer</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/55nc-led-spiegelleuchten-fur-das-badezimmer.asp" title="LED-Spiegelleuchten fur das Badezimmer">LED-Spiegelleuchten fur das Badezimmer</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/56nc-spiegel-mit-beleuchtung.asp" title="Spiegel mit Beleuchtung">Spiegel mit Beleuchtung</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -136,28 +136,28 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/7nt-spotlights-and-recessed-lights.asp" title="Spotlights, Recessed Lights and Ceiling Track Lights"><h4><strong>Spotlights & Recessed Lights</strong></h4></a>
+                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/7nt-einbauleuchten-und-strahler.asp" title="Einbauleuchten und Strahler"><h4><strong>Einbauleuchten und Strahler</strong></h4></a>
                                                 <ul class="list-unstyled faretti">
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/50nc-recessed-lights.asp" title="Recessed Lights">Recessed Lights</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/53nc-recessed-spotlights-with-led.asp" title="Recessed spotlights with LED">Recessed spotlights with LED</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/51nc-wall-track-lights-and-spotlights.asp" title="Wall track lights and spotlights">Wall track lights and spotlights</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/52nc-ceiling-track-lights-and-spotlights.asp" title="Ceiling track lights and spotlights">Ceiling track lights and spotlights</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/50nc-einbaustrahler.asp" title="Einbaustrahler Online Verkauf von Lampen">Einbaustrahler</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/53nc-led-einbauleuchten.asp" title="LED-Einbauleuchten">led-einbauleuchten</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/51nc-wandeinbauleuchten-und-strahler.asp" title="Wandeinbauleuchten und Strahler">Wandeinbauleuchten und Strahler</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/52nc-deckeneinbauleuchten-und-strahler.asp" title="Deckeneinbauleuchten und Strahler">Deckeneinbauleuchten und Strahler</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>New product lighting</strong></h4></a>
+                                                <a href="/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>Neuheiten im Beleuchtungsbereich</strong></h4></a>
                                                 <ul class="list-unstyled">
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1-new-suspended-lights.asp" title="Suspended lights - New product lighting">Suspended lights</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2-new-ceiling-lights.asp" title="Ceiling lights - New product lighting">Ceiling lights</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3-new-wall-lights.asp" title="Wall lights - New product lighting">Wall lights</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4-new-floor-lights.asp" title="Floor lights - New product lighting">Floor lights</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/5-new-table-lights.asp" title="Table lights - New product lighting">Table lights</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1-neue-pendelleuchten.asp" title="Pendelleuchten - Neue Artikel">Pendelleuchten</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2-neue-deckenlampen.asp" title="Deckenlampen - Neue Artikel">Deckenlampen</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3-neue-wandlampen.asp" title="Wandlampen - Neue Artikel">Wandlampen</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4-neue-stehleuchten.asp" title="Stehleuchten - Neue Artikel">Stehleuchten</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/5-neue-lampenschirme.asp" title="Lampenschirme - Neue Artikel">Lampenschirme</a></li>
                                                 </ul>
                                             </li>
                                             <li class="subcategory">
-                                                <a href="/offerte.asp" class="offerte" title="Lights offer: lighting products with low price">Lights offer</a>
+                                                <a href="/offerte.asp" class="offerte" title="Beleuchtungsprodukte im Angebot">Beleuchtungsprodukte im Angebot</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -165,7 +165,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-user dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Außenbeleuchtung <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                    <li class="nav-user dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Aussenbeleuchtung <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <!-- Content container to add padding -->
@@ -173,18 +173,18 @@
                                     <div class="row">
                                         <ul class="col-sm-6 col-lg-4 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10nt-external-floor-lamps.asp" title="External Floor Lamps and Lighting"><h4><strong>External Floor Lamps</strong></h4></a>
+                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10nt-bodenleuchten-fur-den-aussenbereich.asp" title="Bodenleuchten fur den Aussenbereich"><h4><strong>Bodenleuchten fur den Aussenbereich</strong></h4></a>
                                                 <ul class="list-unstyled piantane">
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/68nc-modern-outside-floor-lamps.asp" title="Modern outside floor lamps">Modern outside floor lamps</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/67nc-modern-outside-led-lamps.asp" title="Modern outside LED Floor">Modern outside LED Floor</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/73nc-classic-outside-floor-lamps.asp" title="Classic outside floor lamps">Classic outside floor lamps</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/68nc-moderne-bodenleuchten-fur-den-aussenbereich.asp" title="Moderne Bodenleuchten fur den Aussenbereich">Moderne Bodenleuchten fur den Aussenbereich</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/67nc-moderne-led-bodenleuchten-fur-den-aussenbereich.asp" title="Moderne LED-Bodenleuchten fur den Aussenbereich">Moderne LED-Bodenleuchten fur den Aussenbereich</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/73nc-klassische-bodenleuchten-fur-den-aussenbereich.asp" title="Klassische Bodenleuchten fur den Aussenbereich">Klassische Bodenleuchten fur den Aussenbereich</a></li>
                                                     <li>&nbsp;</li>
                                                 </ul>
                                             </li>
                                             <li class="subcategory">
-                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/14nt-lights-to-decorate-the-garden.asp" title="Lights to decorate the garden and bright vases to light the exterior"><h4><strong>Lights to decorate the garden</strong></h4></a>
+                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/14nt-gartenbeleuchtung.asp" title="Gartenbeleuchtung zum Verkauf online"><h4><strong>Gartenbeleuchtung</strong></h4></a>
                                                 <ul class="list-unstyled piantane">
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/72nc-modern-lamps-to-decorate-the-garden.asp" title="Modern lamps to decorate the garden">Modern lamps to decorate the garden</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/72nc-moderne-gartenbeleuchtung.asp" title="Moderne Gartenbeleuchtung">Moderne Gartenbeleuchtung</a></li>
                                                     <li>&nbsp;</li>
                                                     <li>&nbsp;</li>
                                                 </ul>
@@ -193,19 +193,19 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-4 col-same-height list-unstyled">
                                           <li class="subcategory">
-                                              <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/11nt-outdoor-wall-lamps.asp" title="Outdoor Wall Lamps and Exterior Wall Lights"><h4><strong>Outdoor Wall Lamps</strong></h4></a>
+                                              <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/11nt-wandleuchten-fur-den-aussenbereich.asp" title="Wandleuchten fur den Aussenbereich"><h4><strong>Wandleuchten fur den Aussenbereich</strong></h4></a>
                                               <ul class="list-unstyled applique">
-                                                  <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/70nc-modern-external-wall-lamps.asp" title="Modern external wall lamps">Modern external wall lamps</a></li>
-                                                  <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/65nc-modern-external-wall-lamps-led.asp" title="Modern external wall lamps Led">Modern external wall lamps Led</a></li>
-                                                  <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/75nc-classical-exterior-wall-lighting.asp" title="Classical exterior wall lighting">Classical exterior wall lighting</a></li>
+                                                  <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/70nc-moderne-deckenleuchten-fur-den-aussenbereich.asp" title="Moderne Deckenleuchten fur den Aussenbereich">Moderne Deckenleuchten fur den Aussenbereich</a></li>
+                                                  <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/65nc-led-Wandleuchten-fur-den-aussenbereich.asp" title="LED-Wandleuchten fur den Aussenbereich">LED-Wandleuchten fur den Aussenbereich</a></li>
+                                                  <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/75nc-klassische-wandleuchten-fur-den-aussenbereich.asp" title="Klassische Wandleuchten fur den Aussenbereich">Klassische Wandleuchten fur den Aussenbereich</a></li>
                                                   <li>&nbsp;</li>
                                               </ul>
                                           </li>
 
                                             <li class="subcategory">
-                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/13nt-exterior-recessed-lights.asp" title="Exterior Recessed Lights"><h4><strong>Exterior Recessed Lights</strong></h4></a>
+                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/13nt-einbauleuchten-fur-den-aussenbereich.asp" title="Einbauleuchten fur den Aussenbereich"><h4><strong>Einbauleuchten fur den Aussenbereich</strong></h4></a>
                                                 <ul class="list-unstyled faretti">
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/71nc-modern-embedded-lamps-for-external-use.asp" title="Modern embedded lamps for external use">Modern embedded lamps for external use</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/71nc-moderne-einbauleuchten-fur-den-aussenbereich.asp" title="Moderne Einbauleuchten fur den Aussenbereich">Moderne Einbauleuchten fur den Aussenbereich</a></li>
                                                     <li>&nbsp;</li>
                                                     <li>&nbsp;</li>
                                                 </ul>
@@ -213,18 +213,18 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-4 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/12nt-exterior-ceiling-lights.asp" title="Exterior Ceiling Lights"><h4><strong>Exterior Ceiling Lights</strong></h4></a>
+                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/12nt-deckenleuchten-fur-den-aussenbereich.asp" title="Deckenleuchten fur den Aussenbereich"><h4><strong>Deckenleuchten fur den Aussenbereich</strong></h4></a>
                                                 <ul class="list-unstyled plafoniere">
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/69nc-modern-exterior-ceiling-lights.asp" title="Modern exterior ceiling lights">Modern exterior ceiling lights</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/74nc-classical-ceiling-lights-for-external-use.asp" title="Classical ceiling lights for external use">Classical ceiling lights for external use</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/76nc-classical-external-suspension-lighting.asp" title="Classical external suspension lighting">Classical external suspension lighting</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/69nc-moderne-deckenleuchten-fur-den-aussenbereich.asp" title="Moderne Deckenleuchten fur den Aussenbereich">Moderne Deckenleuchten fur den Aussenbereich</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/74nc-klassische-deckenleuchten-fur-den-aussenbereich.asp" title="Klassische Deckenleuchten fur den Aussenbereich">Klassische Deckenleuchten fur den Aussenbereich</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/76nc-klassische-hangeleuchten-fur-den-aussenbereich.asp" title="Klassische Hangeleuchten fur den Aussenbereich">Klassische Hangeleuchten fur den Aussenbereich</a></li>
                                                     <li>&nbsp;</li>
                                                 </ul>
                                             </li>
                                             <li class="subcategory">
-                                                <a href="/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>New product lighting</strong></h4></a>
+                                                <a href="/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>Neuheiten im Beleuchtungsbereich</strong></h4></a>
                                                 <ul class="list-unstyled">
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10-new-outdoor-lamps.asp" title="Outdoor and Garden lights - New product lighting">Outdoor and Garden lights</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10-neue-moderne-gartenleuchten.asp" title="Moderne Gartenleuchten - Neue Artikel">Moderne Gartenleuchten</a></li>
                                                     <li>&nbsp;</li>
                                                     <li>&nbsp;</li>
                                                 </ul>
@@ -232,9 +232,9 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-4 list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/15nt-exterior-lamps-with-solar-panel.asp" title="Exterior Lamps with Solar Panel"><h4><strong>Exterior Lamps with Solar Panel</strong></h4></a>
+                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/15nt-leuchten-mit-solarzellen-fur-den-aussenbereich.asp" title="Leuchten mit Solarzellen fur den Aussenbereich"><h4><strong>Leuchten mit Solarzellen fur den Aussenbereich</strong></h4></a>
                                                 <ul class="list-unstyled piantane">
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/66nc-exterior-lamp-led-with-solar-panel.asp" title="Exterior lamp LED with Solar Panel">Exterior lamp LED with Solar Panel</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/66nc-led-leuchten-mit-solarzellen-fur-den-aussenbereich.asp" title="LED-Leuchten mit Solarzellen fur den Aussenbereich">LED-Leuchten mit Solarzellen fur den Aussenbereich</a></li>
                                                     <li>&nbsp;</li>
                                                     <li>&nbsp;</li>
                                                 </ul>
@@ -245,7 +245,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-4 list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/offerte.asp" class="offerte" title="Lights offer: lighting products with low price">Lights offer</a>
+                                                <a href="/offerte.asp" class="offerte" title="Beleuchtungsprodukte im Angebot">Beleuchtungsprodukte im Angebot</a>
                                                 <li>&nbsp;</li>
                                             </li>
                                         </ul>
