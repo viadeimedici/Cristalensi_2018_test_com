@@ -254,84 +254,84 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Cooling fans <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                    <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Deckenventilatoren <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
                             <li class="dropdown dropdown-submenu">
-                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/16nt-ceiling-fans-with-lights.asp" class="dropdown-toggle" title="Ceiling fans with Lights">Ceiling fans with Lights</a>
+                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/16nt-deckenventilatoren-mit-beleuchtung.asp" class="dropdown-toggle" title="Deckenventilatoren mit Beleuchtung">Deckenventilatoren mit Beleuchtung</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/57nc-modern-ceiling-fans-with-light.asp" title="Modern ceiling fans with light">Modern ceiling fans with light</a></li>
-                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/58nc-classic-ceiling-fans-with-light.asp" title="Classic ceiling fans with light">Classic ceiling fans with light</a></li>
+                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/57nc-moderne-deckenventilatoren-mit-beleuchtung.asp" title="Moderne Deckenventilatoren mit Beleuchtung">Moderne Deckenventilatoren mit Beleuchtung</a></li>
+                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/58nc-klassische-deckenventilatoren-mit-beleuchtung.asp" title="Klassische Deckenventilatoren mit Beleuchtung">Klassische Deckenventilatoren mit Beleuchtung</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown dropdown-submenu">
-                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/17nt-fans-without-lights.asp" class="dropdown-toggle" title="Fans without Lights">Fans without Lights</a>
+                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/17nt-fans-ohne-beleuchtung.asp" class="dropdown-toggle" title="Fans ohne Beleuchtung">Fans ohne Beleuchtung</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/59nc-ceiling-fans-without-light.asp" title="Ceiling fans without light">Ceiling fans without light</a></li>
-                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/60nc-table-and-floor-fans.asp" title="Table and floor fans">Table and floor fans</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Light bulbs <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown dropdown-submenu">
-                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/18nt-led-and-halogen-lights.asp" class="dropdown-toggle">Led Lights and Halogen Lighting</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/61nc-led-lights.asp">Led lights</a></li>
-                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/62nc-halogen-lighting.asp">Halogen lighting</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown dropdown-submenu">
-                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/19nt-lighting-components.asp" class="dropdown-toggle">Lighting components</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/64nc-led-strip-bar.asp">Led strip bar</a></li>
-                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/63nc-drivers-for-led.asp">Drivers for Led</a></li>
+                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/59nc-deckenventilatoren-ohne-beleuchtung.asp" title="Deckenventilatoren ohne Beleuchtung">Deckenventilatoren ohne Beleuchtung</a></li>
+                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/60nc-tisch-und-bodenventilatoren-ohne-beleuchtung.asp" title="Tisch- und Bodenventilatoren ohne Beleuchtung">Tisch- und Bodenventilatoren ohne Beleuchtung</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Styles <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                    <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Leuchtmittel <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ns-modern-interior-lamps.asp" title="Modern interior lamps">Modern interior lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ns-internal-led-lamps.asp" title="Internal Led Lamps">Internal Led Lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3ns-classic-indoor-lamps.asp" title="Classic indoor lamps">Classic indoor lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ns-rustic-lamps.asp" title="Rustic Lamps">Rustic Lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/5ns-vintage-lamps.asp" title="Vintage lamps">Vintage lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/6ns-tiffany-lamps.asp" title="Tiffany lamps">Tiffany lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/7ns-murano-lamps.asp" title="Murano lamps">Murano lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/8ns-crystal-lamps.asp" title="Crystal Lamps">Crystal Lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/9ns-gypsum-lamps.asp" title="Gypsum lamps">Gypsum lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10ns-lamps-for-kids.asp" title="Lamps for kids">Lamps for kids</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/11ns-outside-modern-lights.asp" title="Outside modern lights">Outside modern lights</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/12ns-modern-external-lamps-led.asp" title="Modern external lamps Led">Modern external lamps Led</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/13ns-outside-classic-lights.asp" title="Outside classic lights">Outside classic lights</a></li>
+                            <li class="dropdown dropdown-submenu">
+                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/18nt-led-leuchten-und-halogenleuchten.asp" class="dropdown-toggle">LED-Leuchten und Halogenleuchten</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/61nc-led-leuchten.asp">LED-Leuchten</a></li>
+                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/62nc-halogenleuchten.asp">Halogenleuchten</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown dropdown-submenu">
+                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/19nt-lighting-components.asp" class="dropdown-toggle">Beleuchtungskomponenten</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/64nc-led-strip-und-leisten.asp">LED Strip und Leisten</a></li>
+                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/63nc-driver-fur-led.asp">Driver fur LED</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
-                    <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Rooms <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                    <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Stil <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1na-living-room-lamps.asp" title="Living Room Lamps">Living Room Lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2na-kitchen-lamps.asp" title="Kitchen Lamps">Kitchen Lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3na-lamps-for-the-bedroom.asp" title="Lamps for the Bedroom">Lamps for the Bedroom</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4na-lamps-for-the-childrens-room.asp" title="Lamps for the Children's room">Lamps for the Children's room</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/5na-bathroom-lamps.asp" title="Bathroom Lamps">Bathroom Lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/6na-entrance-lamps.asp" title="Entrance Lamps">Entrance Lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/7na-lamps-for-stairs.asp" title="Lamps for stairs">Lamps for stairs</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/8na-office-and-study-lamps.asp" title="Office and Study Lamps">Office and Study Lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/9na-lamps-for-the-tavern.asp" title="Lamps for the Tavern">Lamps for the Tavern</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10na-garden-lamps.asp" title="Garden Lamps">Garden Lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/11na-terrace-lamps.asp" title="Terrace Lamps">Terrace Lamps</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/12na-porch-lamps.asp" title="Porch Lamps">Porch Lamps</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ns-moderne-leuchten.asp" title="Moderne Leuchten">Moderne Leuchten</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ns-led-leuchten.asp" title="LED Leuchten">LED Leuchten</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3ns-klassische-leuchten.asp" title="Klassische Leuchten">Klassische Leuchten</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ns-rustikale-leuchten.asp" title="Rustikale Leuchten">Rustikale Leuchten</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/5ns-leuchten-im-vintage-stil.asp" title="Leuchten im Vintage-Stil">Leuchten im Vintage-Stil</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/6ns-leuchten-im-tiffany-stil.asp" title="Leuchten im Tiffany-Stil">Leuchten im Tiffany-Stil</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/7ns-leuchten-im-murano-stil.asp" title="Leuchten im Murano-Stil">Leuchten im Murano-Stil</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/8ns-kristallleuchten.asp" title="Kristallleuchten">Kristallleuchten</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/9ns-gipsleuchten.asp" title="Gipsleuchten">Gipsleuchten</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10ns-kinderleuchten.asp" title="Kinderleuchten">Kinderleuchten</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/11ns-moderne-aussen-leuchten.asp" title="Moderne Aussen-leuchten">Moderne Aussen-leuchten</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/12ns-led-leuchten-fur-den-aussenbereich.asp" title="LED-leuchten fur den Aussenbereich">LED-leuchten fur den Aussenbereich</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/13ns-klassische-aussen-leuchten.asp" title="Klassische Aussen-leuchten">Klassische Aussen-leuchten</a></li>
                         </ul>
                     </li>
-                    <li class="nav-user"><a href="/produttori.asp" title="Brands and Producers of lights">Brands</a></li>
+                    <li class="nav-user dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Zimmer <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1na-wohnzimmerlampen.asp" title="Wohnzimmerlampen">Wohnzimmerlampen</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2na-kuchenlampen.asp" title="Kuchenlampen">kuchenlampen</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3na-lampen-fur-das-schlafzimmer.asp" title="Lampen fur das Schlafzimmer">Lampen fur das Schlafzimmer</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4na-lampen-fur-schlafzimmer.asp" title="Lampen fur Schlafzimmer">Lampen fur Schlafzimmer</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/5na-badleuchten.asp" title="Badleuchten">Badleuchten</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/6na-eingangslampen.asp" title="Eingangslampen">Eingangslampen</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/7na-lampen-fur-treppen.asp" title="Lampen fur Treppen">Lampen fur Treppen</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/8na-burolampen.asp" title="Burolampen">Burolampen</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/9na-lampen-fur-die-taverne.asp" title="Lampen fur die Taverne">Lampen fur die Taverne</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10na-gartenlampen.asp" title="Gartenlampen">Gartenlampen</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/11na-lampen-fur-die-terrasse.asp" title="Lampen fur die Terrasse">Lampen fur die Terrasse</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/12na-veranda-lampen.asp" title="Veranda Lampen">Veranda Lampen</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-user"><a href="/produttori.asp" title="Brands and Producers of lights">Marken</a></li>
 
                     <%if idsession>0 then%>
-                      <li class="nav-user visible-xs"><a href="/admin/logout.asp">LOG OUT</a></li>
+                      <li class="nav-user visible-xs"><a href="/admin/logout.asp">AUSLOGGEN</a></li>
                     <%end if%>
-                    <li class="nav-user visible-xs"><a href="/areaprivata.asp" rel="nofollow">Client Area</a></li>
-                    <li class="nav-user visible-xs"><a href="/preferiti.asp" rel="nofollow">Wishlist</a></li>
-                    <li class="nav-user visible-xs"><a href="/carrello1.asp" rel="nofollow">Cart</a></li>
-                    <li class="nav-user visible-xs"><a href="/condizioni_di_vendita.asp">Conditions of sale</a></li>
+                    <li class="nav-user visible-xs"><a href="/areaprivata.asp" rel="nofollow">Kundenbereich</a></li>
+                    <li class="nav-user visible-xs"><a href="/preferiti.asp" rel="nofollow">Wunschzettel</a></li>
+                    <li class="nav-user visible-xs"><a href="/carrello1.asp" rel="nofollow">Warenkorb</a></li>
+                    <li class="nav-user visible-xs"><a href="/condizioni_di_vendita.asp">Verkaufsbedingungen</a></li>
                 </ul>
             </div>
         </div>

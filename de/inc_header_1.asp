@@ -75,7 +75,7 @@
             <%end if%>
             <li><a href="/areaprivata.asp" rel="nofollow"><span class="glyphicon glyphicon-user"></span> Kundenbereich</a></li>
             <li><a href="/preferiti.asp" rel="nofollow"><span class="glyphicon glyphicon-heart"></span> Wunschzettel</a></li>
-            <li><a href="/carrello1.asp" rel="nofollow"><span class="glyphicon glyphicon-shopping-cart"></span> Warenkorb</a></li>
+            <li><a href="/carrello1.asp" rel="nofollow"><span class="glyphicon glyphicon-shopping-cart"></span> Verkaufsbedingungen</a></li>
         </ul>
     </div>
 </nav>
