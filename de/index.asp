@@ -56,12 +56,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-interno.jpg)" title="Lampen zur Innenbeleuchtung"><img alt="Lampen zur Innenbeleuchtung" src="images/blank.png"></a>
+                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-interno.jpg)" title="Lampen zur Innenbeleuchtung"><img alt="Lampen zur Innenbeleuchtung" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" title="Online Verkauf von Lampen fur Innenbeleuchtung"><h3>Lampen fur Innenbeleuchtung</h3></a>
+                                    <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" title="Online Verkauf von Lampen fur Innenbeleuchtung"><h3>Lampen fur Innenbeleuchtung</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +70,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-esterno.jpg)" title="Lampen zur Außenbeleuchtung"><img alt="Lampen zur Außenbeleuchtung" src="images/blank.png"></a>
+                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-esterno.jpg)" title="Lampen zur Außenbeleuchtung"><img alt="Lampen zur Außenbeleuchtung" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" title="Online Verkauf von Lampen fur Außenbeleuchtung"><h3>Lampen fur Außenbeleuchtung</h3></a>
+                                    <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" title="Online Verkauf von Lampen fur Außenbeleuchtung"><h3>Lampen fur Außenbeleuchtung</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -84,12 +84,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(images/home-ventilatori.jpg)" title="Deckenventilatoren"><img alt="Deckenventilatoren" src="images/blank.png"></a>
+                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(images/home-ventilatori.jpg)" title="Deckenventilatoren"><img alt="Deckenventilatoren" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-cooling-fans.asp" title="Deckenventilatoren"><h3>Deckenventilatoren</h3></a>
+                                    <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-cooling-fans.asp" title="Deckenventilatoren"><h3>Deckenventilatoren</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -98,12 +98,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(images/home-lampadine.jpg)" title="Leuchtmittel und Driver"><img alt="Lampadine" src="images/blank.png"></a>
+                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(images/home-lampadine.jpg)" title="Leuchtmittel und Driver"><img alt="Lampadine" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-light-bulbs.asp" title="Leuchtmittel und Driver"><h3>Leuchtmittel und Driver</h3></a>
+                                    <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-light-bulbs.asp" title="Leuchtmittel und Driver"><h3>Leuchtmittel und Driver</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -112,8 +112,8 @@
             </div>
             <div class="row top-buffer">
                 <div class="col-xl-12 clearfix">
-                    <h4 class="subtitle"><div class="dot"></div><span>Angebote: verpassen Sie nicht Ihre Chance!</span></h4> <a href="/offerte.asp" class="btn btn-default btn-home-section pull-right hidden-xs" title="Alle produkte im angebote">Alle produkte im angebote <i class="fa fa-chevron-right"></i></a>
-                    <a href="offerte.asp" class="btn btn-default btn-home-section btn-block hidden visible-xs bottom-buffer" style="">Alle produkte im angebote <i class="fa fa-chevron-right"></i></a>
+                    <h4 class="subtitle"><div class="dot"></div><span>Angebote: verpassen Sie nicht Ihre Chance!</span></h4> <a href="/de/offerte.asp" class="btn btn-default btn-home-section pull-right hidden-xs" title="Alle produkte im angebote">Alle produkte im angebote <i class="fa fa-chevron-right"></i></a>
+                    <a href="/de/offerte.asp" class="btn btn-default btn-home-section btn-block hidden visible-xs bottom-buffer" style="">Alle produkte im angebote <i class="fa fa-chevron-right"></i></a>
                 </div>
                 <%
                 'random prodotti in offerta
@@ -161,7 +161,7 @@
                         pr_rs.open sql,conn, 1, 1
                         if pr_rs.recordcount>0 then
                           produttore=pr_rs("titolo")
-                          url_produttore="/lichtmarken/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
+                          url_produttore="/de/lichtmarken/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
                         end if
                         pr_rs.close
                       end if
@@ -204,7 +204,7 @@
                           </div>
                           <div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Zur Wunschliste hinzufügen"><i class="fa fa-heart"></i></a>
+                                  <a href="/de/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Zur Wunschliste hinzufügen"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
                                   <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Siehe die Details und In den Warenkorb">details <i class="fa fa-chevron-right"></i></a>
@@ -230,8 +230,8 @@
             %>
             <div class="row top-buffer">
                 <div class="col-xl-12 clearfix">
-                    <h4 class="subtitle"><div class="dot"></div><span>Die neuesten Lampen und Lichter sind eingetroffen</span></h4> <a href="/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section pull-right hidden-xs" title="Die neuesten Lampen und Lichter sind eingetroffen">Alle neuen Produkte anzeigen  <i class="fa fa-chevron-right"></i></a>
-                    <a href="/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section btn-block hidden visible-xs bottom-buffer" style="">alles sehen <i class="fa fa-chevron-right"></i></a>
+                    <h4 class="subtitle"><div class="dot"></div><span>Die neuesten Lampen und Lichter sind eingetroffen</span></h4> <a href="/de/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section pull-right hidden-xs" title="Die neuesten Lampen und Lichter sind eingetroffen">Alle neuen Produkte anzeigen  <i class="fa fa-chevron-right"></i></a>
+                    <a href="/de/novita-illuminazione-ultimi-arrivi.asp" class="btn btn-default btn-home-section btn-block hidden visible-xs bottom-buffer" style="">alles sehen <i class="fa fa-chevron-right"></i></a>
                 </div>
                 <%
                 Do while not prod_rs.EOF
@@ -264,7 +264,7 @@
                       pr_rs.open sql,conn, 1, 1
                       if pr_rs.recordcount>0 then
                         produttore=pr_rs("titolo")
-                        url_produttore="/lighting-brands/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
+                        url_produttore="/de/lichtmarken/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
                       end if
                       pr_rs.close
                     end if
@@ -311,7 +311,7 @@
                           </div>
                           <div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Zur Wunschliste hinzufügen"><i class="fa fa-heart"></i></a>
+                                  <a href="/de/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Zur Wunschliste hinzufügen"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
                                   <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Siehe die Details und In den Warenkorb">details <i class="fa fa-chevron-right"></i></a>
@@ -367,7 +367,7 @@
                             loop
                             %>
                         </ul>
-                        <div class="panel-footer"><a href="commenti_elenco.asp" class="btn btn-default">Lesen Sie alle Bewertungen <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="panel-footer"><a href="/de/commenti_elenco.asp" class="btn btn-default">Lesen Sie alle Bewertungen <i class="fa fa-chevron-right"></i></a></div>
                     </div>
                 </div>
                 <%
