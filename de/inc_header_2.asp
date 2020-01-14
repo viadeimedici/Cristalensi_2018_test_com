@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row no-gutters">
             <div class="col-xs-12 col-sm-4" style="text-align: center">
-                <a class="header-logo" href="/" title="Cristalensi, online store lamps">Cristalensi</a>
+                <a class="header-logo" href="/de/" title="Cristalensi Online Verkauf von Lampen">Cristalensi</a>
             </div>
             <div class="col-md-8">
                 <form action="/ricerca_avanzata_elenco.asp" class="navbar-form pull-right search-bar" role="search" name="ricerca_modulo">
@@ -28,7 +28,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav nav-justified main-menu">
-                    <li class="nav-user home"><a href="/" title="Cristalensi, online store lamps"><span class="glyphicon glyphicon-home"></span></a></li>
+                    <li class="nav-user home"><a href="/de/" title="Cristalensi Online Verkauf von Lampen"><span class="glyphicon glyphicon-home"></span></a></li>
                     <li class="nav-user dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Innenbeleuchtung <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
                         <ul class="dropdown-menu">
                             <li>

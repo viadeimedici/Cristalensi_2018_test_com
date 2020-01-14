@@ -11,11 +11,11 @@
 <html>
 
 <head>
-    <title>lighting products on offer low price lights shopping</title>
+    <title>Angebote von Beleuchtungsprodukten und Kronleuchter im Angebot: Cristalensi Verkauf von Lampen im Angebot</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="In Cristalensi store you find italian lamps on offer, Cristalensi is an ecommerce about lights, online store for italian lighting products and discounted products">
+    <meta name="description" content="Die besten Angebote für Beleuchtungsprodukte, Kronleuchter im Angebot: bei Cristalensi finden Sie Lampen im Angebot.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="In Cristalensi store you find italian lamps on offer, Cristalensi is an ecommerce about lights, online store for italian lighting products and discounted products">
+    <meta property="og:description" content="Die besten Angebote für Beleuchtungsprodukte, Kronleuchter im Angebot: bei Cristalensi finden Sie Lampen im Angebot.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -46,7 +46,7 @@
             visibility: hidden;
         }
     </style>
-    <link rel="canonical" href="https://www.cristalensi.it/<%=toUrl%>"/>
+    <link rel="canonical" href="https://www.cristalensi.com/<%=toUrl%>"/>
 		<!--#include virtual="/inc_funzioni_head.asp"-->
 </head>
 
@@ -61,12 +61,13 @@
         <div class="col-xl-12">
             <ol class="breadcrumb">
                 <li><a href="/"><i class="fa fa-home"></i></a></li>
-                <li class="active">Offer</li>
+                <li class="active">Angebote</li>
             </ol>
-            <h1 class="title">Lighting products on offer</h1>
+            <h1 class="title">Beleuchtungsprodukte im Angebot</h1>
             <p class="description">
-							Auf dieser Seite finden Sie sämtliche Angebote unserer Beleuchtungsprodukte: dies sind Produkte aus unserem Katalog zu absolut unschlagbaren Preisen. Jedes Produkt hat seine eigene detaillierte Produktbeschreibung. Sie brauchen nur auf den Namen oder das Foto zu klicken, schon erhalten Sie diese Information.
-Wenn Sie sich hingegen den ganzen Katalog anschauen möchten, können Sie entweder hier klicken [Produkte] (oder auf dasselbe Wort im obenaufgeführten Menu), oder auch eine Kategorie oder einen Hersteller direkt aus dem Menu.
+							Auf dieser Seite finden Sie sämtliche Angebote unserer Beleuchtungsprodukte: dies sind Produkte aus unserem Katalog zu absolut unschlagbaren Preisen.
+							Jedes Produkt hat seine eigene detaillierte Produktbeschreibung. Sie brauchen nur auf den Namen oder das Foto zu klicken, schon erhalten Sie diese Information.
+Wenn Sie sich hingegen den ganzen Katalog anschauen möchten, können Sie entweder klicken auch eine Kategorie oder einen Hersteller direkt aus dem Menu.
             </p>
         </div>
         <div class="col-md-3">
@@ -89,7 +90,7 @@ Wenn Sie sich hingegen den ganzen Katalog anschauen möchten, können Sie entwed
                           'Description=tip_rs("Description")
                           'Descrizione=tip_rs("Descrizione")
                         %>
-                        <li><a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/<%=Url%>" title="<%=Titolo_2%>"><%=Titolo_1%></a></li>
+                        <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/<%=Url%>" title="<%=Titolo_2%>"><%=Titolo_1%></a></li>
                         <%
                         tip_rs.movenext
                         loop
@@ -121,7 +122,7 @@ Wenn Sie sich hingegen den ganzen Katalog anschauen möchten, können Sie entwed
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#">Order by:</a>
+                                <a class="navbar-brand" href="#">Geordnet:</a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <p class="navbar-text">preisen</p>
@@ -163,7 +164,7 @@ Wenn Sie sich hingegen den ganzen Katalog anschauen möchten, können Sie entwed
                       pr_rs.open sql,conn, 1, 1
                       if pr_rs.recordcount>0 then
                         produttore=pr_rs("titolo")
-												url_produttore="/de/lichtmarken/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
+												url_produttore="/lichtmarken/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
                       end if
                       pr_rs.close
                     end if
