@@ -149,7 +149,7 @@
                                             <li class="subcategory">
                                                 <a href="/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>Neuheiten im Beleuchtungsbereich</strong></h4></a>
                                                 <ul class="list-unstyled">
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1-neue-pendelleuchten.asp" title="Pendelleuchten - Neue Artikel">Pendelleuchten</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1-neue-pendelleuchten.asp" title="Kronleuchter - Neue Artikel">Kronleuchter</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2-neue-deckenlampen.asp" title="Deckenlampen - Neue Artikel">Deckenlampen</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3-neue-wandlampen.asp" title="Wandlampen - Neue Artikel">Wandlampen</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4-neue-stehleuchten.asp" title="Stehleuchten - Neue Artikel">Stehleuchten</a></li>
