@@ -265,7 +265,7 @@ gr_rs.close
                                       <%if prezzoarticolo<>0 then%>
                                         <%if idsession=0 and prezzoprodottosoloclienti="si" then%>
                                           <em><span class="price-new" style="color: #000;">RABATT FUR KUNDEN</span></em><br />
-                                          <%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+                                          <%if prezzolistino<>0 then%><span class="price-old">Preis: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
                                         <%else%>
                                           <span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
                                           <%if prezzolistino<>0 then%><span class="price-old">statt <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>

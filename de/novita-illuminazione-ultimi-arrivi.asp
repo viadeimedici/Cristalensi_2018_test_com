@@ -2,8 +2,8 @@
 <%
 	order=request("order")
 	if order="" then order=3
-	if order=1 then ordine="Titolo_EN ASC"
-	if order=2 then ordine="Titolo_EN DESC"
+	if order=1 then ordine="Titolo_DE ASC"
+	if order=2 then ordine="Titolo_DE DESC"
 	if order=3 then ordine="prezzoprodotto ASC"
 	if order=4 then ordine="prezzoprodotto DESC"
 %>
@@ -11,11 +11,11 @@
 <html>
 
 <head>
-    <title>New products lighting novelties chandeliers lamps online store</title>
+    <title>Neue Beleuchtungsprodukte: Neue Lampen und Leuchten - CRISTALENSI Online-Verkauf</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Would you like to know what are the new chandelier, new products for lighting? Cristalensi has a very large catalog:  modern chandeliers and Led suspended lamps, ceiling lamps, wall lamps, applique and floor lamps.">
+    <meta name="description" content="Hier prasentieren wir Ihnen unsere Produkte geordnet nach der Eingabe in unseren Katalog, dass heisst, dass Sie hier sowohl neue Artikel als auch neue Firmen, die erst kurzlich unserem online Katalog beigetreten sind, finden. Sie konnen zwischen modernen Pendelleuchten, modernen Deckenlampen, modernen Wandlampen und modernen Stehleuchten wahlen.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Would you like to know what are the new chandelier, new products for lighting? Cristalensi has a very large catalog:  modern chandeliers and Led suspended lamps, ceiling lamps, wall lamps, applique and floor lamps.">
+    <meta property="og:description" content="Hier prasentieren wir Ihnen unsere Produkte geordnet nach der Eingabe in unseren Katalog, dass heisst, dass Sie hier sowohl neue Artikel als auch neue Firmen, die erst kurzlich unserem online Katalog beigetreten sind, finden. Sie konnen zwischen modernen Pendelleuchten, modernen Deckenlampen, modernen Wandlampen und modernen Stehleuchten wahlen.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -46,7 +46,7 @@
             visibility: hidden;
         }
     </style>
-    <link rel="canonical" href="https://www.cristalensi.it/<%=toUrl%>"/>
+    <link rel="canonical" href="https://www.cristalensi.com/<%=toUrl%>"/>
 		<!--#include virtual="/inc_funzioni_head.asp"-->
 </head>
 
@@ -60,13 +60,14 @@
         </div>
         <div class="col-xl-12">
             <ol class="breadcrumb">
-                <li><a href="/"><i class="fa fa-home"></i></a></li>
-                <li class="active">New products lighting</li>
+                <li><a href="/de/"><i class="fa fa-home"></i></a></li>
+                <li class="active">Neue Beleuchtungsprodukte</li>
             </ol>
-            <h1 class="title">New products lighting</h1>
+            <h1 class="title">Neue Beleuchtungsprodukte</h1>
             <p class="description">
-							Here we show you our products by entering in our catalog, so you could find new items or companies that recently have been included in our online store. You can choose between suspended lights, ceiling lights, wall lights and floor lights. Moreover, we offer you new products and innovations for LED pendant lamps, LED ceiling lamps and LED wall lamps: all interior products suitable for both living rooms, kitchens, bedrooms, hallways, studies and other types of interiors.
-Items with elegant design by leading brands and manufacturers, but also products at affordable prices for all needs.
+							Hier prasentieren wir Ihnen unsere Neue Beleuchtungsprodukte, die nach der Eingabe in unseren Katalog geordnet sind. Sie konnen zwischen modernen Pendelleuchten, modernen Deckenlampen, modernen Wandlampen und modernen Stehleuchten wahlen.
+							Samtliche Produkte aus unserer Innenbeleuchtungslinie eignen sich sowohl fur das Wohnzimmer als auch fur den Salon, die Kuche, das Schlafzimmer, den Eingangsbereich, das Buro und weitere Bereiche des Hauses.
+							Wir fuhren Artikel von raffiniertestem Design der wichtigsten Marken und Hersteller, aber auch viele Produkte in verschiedenen Preisklassen fur jeden Geschmack.
             </p>
         </div>
         <div class="col-md-3">
@@ -74,12 +75,12 @@ Items with elegant design by leading brands and manufacturers, but also products
                 <nav class="navbar">
                     <!-- menu - normal collapsible navbar markup -->
                     <ul class="list-unstyled side-list">
-                        <li><a href="/interior-exterior-lighting/1-new-suspended-lights.asp" title="New suspended lights - Chandeliers">Suspended lights</a></li>
-												<li><a href="/interior-exterior-lighting/2-new-ceiling-lights.asp" title="New ceiling lights - Overhead lamps">Ceiling lights</a></li>
-												<li><a href="/interior-exterior-lighting/3-new-wall-lamps.asp" title="New wall lamps">Wall lamps</a></li>
-												<li><a href="/interior-exterior-lighting/4-new-floor-lights.asp" title="New floor lights">Floor lights</a></li>
-												<li><a href="/interior-exterior-lighting/5-new-table-lights.asp" title="New table lights">Table lights</a></li>
-												<li><a href="/interior-exterior-lighting/10-new-outdoor-lamps.asp" title="New outdoor lamps">Outdoor lamps</a></li>
+											<li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1-neue-pendelleuchten.asp" title="Kronleuchter - Neue Artikel">Kronleuchter</a></li>
+											<li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2-neue-deckenlampen.asp" title="Deckenlampen - Neue Artikel">Deckenlampen</a></li>
+											<li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3-neue-wandlampen.asp" title="Wandlampen - Neue Artikel">Wandlampen</a></li>
+											<li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4-neue-stehleuchten.asp" title="Stehleuchten - Neue Artikel">Stehleuchten</a></li>
+											<li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/5-neue-lampenschirme.asp" title="Lampenschirme - Neue Artikel">Lampenschirme</a></li>
+											<li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10-neue-moderne-gartenleuchten.asp" title="Moderne Gartenleuchten - Neue Artikel">Moderne Gartenleuchten</a></li>
                     </ul>
                 </nav>
             </div>
@@ -98,8 +99,8 @@ Items with elegant design by leading brands and manufacturers, but also products
                 Do while not prod_rs.EOF
 
                   id=prod_rs("pkid")
-                  titolo_prodotto=prod_rs("titolo_en")
-                  NomePagina=prod_rs("NomePagina_en")
+                  titolo_prodotto=prod_rs("titolo_de")
+                  NomePagina=prod_rs("NomePagina_de")
                   if Len(NomePagina)>0 then
                     NomePagina="public/pagine/"&NomePagina
                     'NomePagina="/public/pagine/scheda_prodotto.asp?id="&id
@@ -126,7 +127,7 @@ Items with elegant design by leading brands and manufacturers, but also products
                       pr_rs.open sql,conn, 1, 1
                       if pr_rs.recordcount>0 then
                         produttore=pr_rs("titolo")
-												url_produttore="/lighting-brands/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
+												url_produttore="/lichtmarken/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
                       end if
                       pr_rs.close
                     end if
@@ -151,29 +152,29 @@ Items with elegant design by leading brands and manufacturers, but also products
                           <div class="row">
                               <div class="price-details col-md-6">
                                   <a href="/<%=NomePagina%>" title="<%=titolo_prodotto%>"><h3><%=titolo_prodotto%></h3></a>
-                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>brand: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
+                                  <p class="details"><span>code: <b><%=codicearticolo%></b></span><span>marke: <b><a href="<%=url_produttore%>"><%=produttore%></a></b></span></p>
                                   <div class="price-box separator">
 																		<%if prezzoarticolo<>0 then%>
 																			<%if idsession=0 and prezzoprodottosoloclienti="si" then%>
-																				<em><span class="price-new" style="color: #000;">DISCOUNT FOR CLIENTS</span></em><br />
-																				<%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+																				<em><span class="price-new" style="color: #000;">RABATT FUR KUNDEN</span></em><br />
+																				<%if prezzolistino<>0 then%><span class="price-old">Preis: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
 																			<%else%>
 																				<span class="price-new"><i class="fa fa-tag"></i>&nbsp;<%=prezzoarticolo%> &euro;</span><br />
-																				<%if prezzolistino<>0 then%><span class="price-old">instead of <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+																				<%if prezzolistino<>0 then%><span class="price-old">statt <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
 																			<%end if%>
 																		<%else%>
 																			<span class="price-new">&nbsp;<br /></span>
-																			<%if prezzolistino<>0 then%><span class="price-old">Price: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
+																			<%if prezzolistino<>0 then%><span class="price-old">Preis: <b><%=prezzolistino%> &euro;</b></span><%else%>&nbsp;<%end if%>
 																		<%end if%>
                                   </div>
                               </div>
                           </div>
-                          <div class="separator clear-left clearfix">
+													<div class="separator clear-left clearfix">
                               <p class="btn-add">
-                                  <a href="/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
+                                  <a href="/de/preferiti.asp?id=<%=id%>" rel="nofollow" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Zur Wunschliste hinzufügen"><i class="fa fa-heart"></i></a>
                               </p>
                               <p class="btn-details">
-                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="See the details and Add to cart">details <i class="fa fa-chevron-right"></i></a>
+                                  <a href="/<%=NomePagina%>" class="hidden-lg" data-toggle="tooltip" data-placement="top" title="Siehe die Details und In den Warenkorb">details <i class="fa fa-chevron-right"></i></a>
                               </p>
                           </div>
                           <div class=""></div>
