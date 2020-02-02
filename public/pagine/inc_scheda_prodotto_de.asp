@@ -148,17 +148,17 @@ end if
 				lampadina=document.newsform2.lampadina.value;
 
 				if (quantita=="0" || quantita=="" || quantita<0){
-					alert("The quantity have to be greater than 0");
+					alert("Die Menge muss mehr als 0 betragen");
 					return false;
 				}
 
 				if (num_colori>0 && colore==""){
-					alert("You have to choose the color");
+					alert("Sie mussen eine Farbe auswahlen");
 					return false;
 				}
 
 				if (num_lampadine>0 && lampadina==""){
-					alert("You have to choose the bulb");
+					alert("Sie mussen eine Gluhbirne auswahlen");
 					return false;
 				}
 
@@ -180,17 +180,17 @@ end if
 		lampadina=document.newsform2.lampadina.value;
 
 		if (quantita=="0" || quantita==""){
-			alert("The quantity have to be greater than 0");
+			alert("Die Menge muss mehr als 0 betragen");
 			return false;
 		}
 
 		if (num_colori>0 && colore==""){
-			alert("You have to choose the color");
+			alert("Sie mussen eine Farbe auswahlen");
 			return false;
 		}
 
 		if (num_lampadine>0 && lampadina==""){
-			alert("You have to choose the bulb");
+			alert("Sie mussen eine Gluhbirne auswahlen");
 			return false;
 		}
 
@@ -233,7 +233,7 @@ end if
 					<div class="row">
 							<div class="title">
 									<h1 class="product-name"><span itemprop="name"><%=Titolo_prodotto%></span></h1>
-									<p class="details">coce: <b><span itemprop="mpn"><%=codicearticolo%></span></b> - brand: <b><a href="<%=url_produttore%>" title="Catalog of <%=produttore%>"><span itemprop="brand"><%=produttore%></a></span></b></p>
+									<p class="details">code: <b><span itemprop="mpn"><%=codicearticolo%></span></b> - marke: <b><a href="<%=url_produttore%>" title="<%=produttore%> produktkatalog"><span itemprop="brand"><%=produttore%></a></span></b></p>
 							</div>
 					</div>
 			</div>
@@ -289,14 +289,14 @@ end if
 														<%=Descrizione_prodotto%>
 
 														<%if allegato_prodotto<>"" then%>
-														<br /><br />There is an attachment: >> <a href="/public/<%=allegato_prodotto%>" target="_blank" title="There is an attachment for the product: <%=titolo_prodotto%>">Download attachment</a>
+														<br /><br />There is an attachment: >> <a href="/public/<%=allegato_prodotto%>" target="_blank" title="Es gibt einen Anhang fur das Produkt: <%=titolo_prodotto%>">Anhang herunterladen</a>
 														<%end if%>
 
 													<%
 													if Len(FkNewAmbienti)>0 then
 													arrFkNewAmbienti=split(FkNewAmbienti,", ")
 													%>
-														<br /><em>The product "<%=Titolo_prodotto%>", made by <%=produttore%> and included in <%=Titolo_1_cat%>, is suitable for the following rooms:<br />
+														<br /><em>Der Artikel "<%=Titolo_prodotto%>", hergestellt von <%=produttore%> und in <%=Titolo_1_cat%> erhaltlich, eignet sich für folgende Umgebungen:<br />
 														<%
 														For iLoop = LBound(arrFkNewAmbienti) to UBound(arrFkNewAmbienti)
 															fknewambiente=arrFkNewAmbienti(iLoop)
@@ -304,8 +304,8 @@ end if
 															sql = "Select * From NewAmbienti WHERE Posizione='"&fknewambiente&"'"
 															ams.Open sql, conn, 1, 1
 															if ams.recordcount>0 then
-															titolo_1_amb=ams("Titolo_1_en")
-															titolo_2_amb=ams("Titolo_2_en")
+															titolo_1_amb=ams("Titolo_1_de")
+															titolo_2_amb=ams("Titolo_2_de")
 															url_amb=ams("Url")
 															%>
 															<a href="/lichtmarkenlampen-innenbeleuchtung-aussenbeleuchtung/<%=url_amb%>" title="<%=titolo_2_amb%>"><%=titolo_1_amb%></a>.&nbsp;
@@ -314,7 +314,7 @@ end if
 															ams.close
 														Next
 														%>
-														<br />For more details contact us our staff.</em>
+														<br />Fur weitere Informationen kontaktieren Sie uns bitte.</em>
 
 													<%
 													end if
@@ -341,7 +341,7 @@ end if
 											<div class="panel panel-default hidden-sm hidden-xs visible-md-block visible-lg-block user-comment" itemprop="review" itemscope itemtype="http://schema.org/Review">
 												<!-- Default panel contents -->
 												<div class="panel-heading">
-													<h5><i class="fa fa-users"></i> Reviews...</h5>
+													<h5><i class="fa fa-users"></i> Bewertungen...</h5>
 												</div>
 												<ul class="list-group">
 													<%
@@ -372,13 +372,13 @@ end if
 														end if
 													%>
 													<li class="list-group-item"><i class="fa fa-user"></i> <em><span itemprop="description"><%=Left(NoHTML(Testo_Commento), 100)%>...</span><span itemprop="author" style="display: none;"><%=NomeIscritto%></span>
-														<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">Voto: <meta itemprop="worstRating" content = "1"><span itemprop="ratingValue"><%=Valutazione%></span>/<span itemprop="bestRating">5</span></span></em></li>
+														<span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">Bewertung: <meta itemprop="worstRating" content = "1"><span itemprop="ratingValue"><%=Valutazione%></span>/<span itemprop="bestRating">5</span></span></em></li>
 													<%
 													next
 													end if
 													%>
 												</ul>
-												<div class="panel-footer"><a href="/commenti_elenco.asp" class="btn btn-default">read all reviews <i class="fa fa-chevron-right"></i></a></div>
+												<div class="panel-footer"><a href="/de/commenti_elenco.asp" class="btn btn-default">Lesen Sie alle Bewertungen <i class="fa fa-chevron-right"></i></a></div>
 											</div>
 											<%
 											Else

@@ -233,7 +233,7 @@ end if
 					<div class="row">
 							<div class="title">
 									<h1 class="product-name"><span itemprop="name"><%=Titolo_prodotto%></span></h1>
-									<p class="details">coce: <b><span itemprop="mpn"><%=codicearticolo%></span></b> - brand: <b><a href="<%=url_produttore%>" title="Catalog of <%=produttore%>"><span itemprop="brand"><%=produttore%></a></span></b></p>
+									<p class="details">code: <b><span itemprop="mpn"><%=codicearticolo%></span></b> - brand: <b><a href="<%=url_produttore%>" title="Catalog of <%=produttore%>"><span itemprop="brand"><%=produttore%></a></span></b></p>
 							</div>
 					</div>
 			</div>
