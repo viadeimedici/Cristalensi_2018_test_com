@@ -50,7 +50,7 @@
             		    <li><a href="/chi_siamo.asp"><span class="glyphicon glyphicon-picture"></span> Ausstellungsraum</a></li>
             		    <li><a href="/video_elenco.asp"><span class="glyphicon glyphicon-facetime-video"></span> Video</a></li>
                     <li><a href="/commenti_elenco.asp"><span class="glyphicon glyphicon-bullhorn"></span> Bewertungen</a></li>
-                    <li><a href="/condizioni_di_vendita.asp"><span class="glyphicon glyphicon-th-list"></span> Verkaufsbedingungen</a></li>
+                    <li><a href="/condizioni_di_vendita.asp"><span class="glyphicon glyphicon-th-list"></span> Warenkorb</a></li>
                 </ul>
             </li>
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span> Sprachen <span class="caret"></span></a>
@@ -75,7 +75,7 @@
             <%end if%>
             <li><a href="/areaprivata.asp" rel="nofollow"><span class="glyphicon glyphicon-user"></span> Kundenbereich</a></li>
             <li><a href="/preferiti.asp" rel="nofollow"><span class="glyphicon glyphicon-heart"></span> Wunschzettel</a></li>
-            <li><a href="/carrello1.asp" rel="nofollow"><span class="glyphicon glyphicon-shopping-cart"></span> Verkaufsbedingungen</a></li>
+            <li><a href="/carrello1.asp" rel="nofollow"><span class="glyphicon glyphicon-shopping-cart"></span> Warenkorb</a></li>
         </ul>
     </div>
 </nav>

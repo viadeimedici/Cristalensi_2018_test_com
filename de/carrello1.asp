@@ -241,11 +241,11 @@
 <html>
 
 <head>
-    <title>Cristalensi - Cart Online Shop Lamps</title>
+    <title>Cristalensi - Warenkorb Online Shop Lampen</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Cristalensi - Cart Online Shop Lamps.">
+    <meta name="description" content="Cristalensi - Warenkorb Online Shop Lampen.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Cristalensi - Cart Online Shop Lamps.">
+    <meta property="og:description" content="Cristalensi - Warenkorb Online Shop Lampen.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -314,7 +314,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Cart</div>
+                    <div class="bs-wizard-info text-center">Warenkorb</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">2</div>
@@ -322,7 +322,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Autentication / Registration</div>
+                    <div class="bs-wizard-info text-center">Wiedererkennung / Registrierung</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">3</div>
@@ -330,7 +330,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Shipping address</div>
+                    <div class="bs-wizard-info text-center">Spedition Adresse</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">4</div>
@@ -338,7 +338,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
+                    <div class="bs-wizard-info text-center">Zahlungsweisen &amp; Fakturierung</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step disabled">
                     <div class="text-center bs-wizard-stepnum">5</div>
@@ -346,7 +346,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Order confirmation</div>
+                    <div class="bs-wizard-info text-center">Bestellbestatigung</div>
                 </div>
             </div>
         </div>
@@ -354,17 +354,17 @@
             <div class="col-md-8">
                 <div class="row">
                     <div class="title">
-                        <h4><span class="visible-xs" style="padding-top: 20px;">Cart - 1 of 5</span></h4>
+                        <h4><span class="visible-xs" style="padding-top: 20px;">Warenkorb - 1 von 5</span></h4>
                     </div>
                     <div class="col-md-12">
                         <div class="top-buffer">
                             <table id="cart" class="table table-hover table-condensed table-cart">
                                 <thead>
                                     <tr>
-                                        <th style="width:45%">Product</th>
-																				<th style="width:15%">Quantity</th>
-                                        <th style="width:15%" class="text-right">Price</th>
-                                        <th style="width:15%" class="text-right hidden-xs">Total Pr.</th>
+                                        <th style="width:45%">Produktname</th>
+																				<th style="width:15%">Anzahl</th>
+                                        <th style="width:15%" class="text-right">Stuckpreis</th>
+                                        <th style="width:15%" class="text-right hidden-xs">Gesamtpreis</th>
                                         <th style="width:10%"></th>
                                     </tr>
                                 </thead>
@@ -399,11 +399,11 @@
                                         <td data-th="Product" class="cart-product">
                                             <div class="row">
                                                 <div class="col-sm-12">
-                                                    <h6 class="nomargin"><a href="<%=NomePagina%>" title="Details of the product: <%=NomePagina%>"><%=rs("titolo")%></a></h6>
+                                                    <h6 class="nomargin"><a href="<%=NomePagina%>" title="Details zum Produkt: <%=NomePagina%>"><%=rs("titolo")%></a></h6>
 																										<p>
 																											<strong>Code: <%=rs("codicearticolo")%></strong>
-                                                    	<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Light: <%=rs("lampadina")%><%end if%><%end if%>
-																											<%if FkProduttore=59 then%><br /><span style="color:#a01010;"><strong><em>Extra discounts not applicable</em></strong></span><%end if%>
+                                                    	<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Farbe: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Licht: <%=rs("lampadina")%><%end if%><%end if%>
+																											<%if FkProduttore=59 then%><br /><span style="color:#a01010;"><strong><em>Zusatzliche Rabatte sind nicht anwendbar</em></strong></span><%end if%>
 																										</p>
                                                 </div>
                                             </div>
@@ -427,20 +427,20 @@
 																	<%if ss.recordcount>0 then%>
 	                                <tfoot>
 	                                    <tr>
-																					<td class="text-right" colspan="3">Total Cart</td>
+																					<td class="text-right" colspan="3">Gesamtwagen</td>
 																					<td class="text-right"><%if ss("TotaleCarrello")<>0 then%>
 												  								<%=FormatNumber(ss("TotaleCarrello"),2)%><%else%>0<%end if%>&nbsp&euro;</td>
 																					<td class="hidden-xs"></td>
 	                                    </tr>
 																			<tr>
-																					<td class="text-right" colspan="3"><strong>Extra Discount</strong></td>
+																					<td class="text-right" colspan="3"><strong>Extra Rabatt</strong></td>
 																					<td class="text-right"><strong><%if ss("Sconto")<>0 then%>
 												  								-<%=FormatNumber(ss("Sconto"),2)%><%else%>0,00<%end if%>&nbsp&euro;</strong></td>
 																					<td class="hidden-xs"></td>
 	                                    </tr>
 	                                    <tr>
-	                                        <td><a href="/" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
-	                                        <td class="text-right" colspan="2"><strong>Total Purchase</strong></td>
+	                                        <td><a href="/" class="btn btn-warning"><i class="fa fa-angle-left"></i> Fuhren Sie den Einkauf fort</a></td>
+	                                        <td class="text-right" colspan="2"><strong>Warenkorb gesamt</strong></td>
 																					<td class="text-right"><strong><%if ss("TotaleGenerale")<>0 then%>
 												  								<%=FormatNumber(ss("TotaleGenerale"),2)%><%else%>0<%end if%>&nbsp&euro;</strong></td>
 																					<td class="hidden-xs"></td>
@@ -453,7 +453,7 @@
 																			<td data-th="Product" class="cart-product">
 																					<div class="row">
 																							<div class="col-sm-12">
-																									<h5 class="nomargin"><br>Cart is empty</h5>
+																									<h5 class="nomargin"><br>Ihr Warenkorb ist leer</h5>
 																							</div>
 																			</td>
 																	</tr>
@@ -472,11 +472,11 @@
 								<div class="panel panel-default user-comment">
 										<!-- Default panel contents -->
 										<div class="panel-heading">
-												<h5><i class="glyphicon glyphicon-warning-sign"></i> Any notes</h5>
+												<h5><i class="glyphicon glyphicon-warning-sign"></i> Anmerkungen</h5>
 										</div>
 										<ul class="list-group">
 												<li class="list-group-item">
-												<p>You can use this space to enter any notes or communications in relation to the products purchased.</p>
+												<p>Sie können diesen Bereich nutzen, um uns eventuelle Anmerkungen zu den gekauften Produkten mitzuteilen.</p>
 												<textarea name="NoteCliente" style="width: 100%" rows="2" id="NoteCliente"><%=ss("NoteCliente")%></textarea>
 												</li>
 										</ul>
@@ -505,7 +505,7 @@
 								<div class="panel panel-default" style="box-shadow: 0 3px 5px #ccc;">
                     <ul class="list-group text-center">
                         <li class="list-group-item" style="padding-top: 20px">
-                            <p>Total Purchase:<br />
+                            <p>Warenkorb gesamt:<br />
                                 <span class="price-new">
 																<%if ss("TotaleGenerale")<>0 then%>
 																<%=FormatNumber(ss("TotaleGenerale"),2)%>
@@ -517,14 +517,14 @@
                         </li>
                     </ul>
                     <div class="panel-footer">
-                        <a href="#" class="btn btn-danger btn-block" style="padding: 10px 0px;" onClick="NoteCliente();">COMPLETE PURCHASE <i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="btn btn-danger btn-block" style="padding: 10px 0px;" onClick="NoteCliente();">UM DEN EINKAUF ZU VERVOLLSTANDIGEN <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 								<%end if%>
 
 								<div class="clearfix"></div>
 								<div class="panel panel-default" style="margin: 10px 0px 30px 0px;">
-									<a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn launch btn-warning btn-block" style="white-space: normal; padding: 10px 0px;"><i class="fa fa-info-circle"></i>   Questions and doubt? Contact us!!!</a>
+									<a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn launch btn-warning btn-block" style="white-space: normal; padding: 10px 0px;"><i class="fa fa-info-circle"></i>   Fragen und Zweifel? Kontaktiere uns!!!</a>
 								</div>
 								<div class="clearfix"></div>
 								<div class="banner_2 banner_a">
