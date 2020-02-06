@@ -468,7 +468,7 @@
 
                 </div>
 								<%if ss.recordcount>0 then%>
-								<form method="post" name="modulocarrello" action="<%if italia_log="Si" or italia_log="" then%>https://www.cristalensi.it/carrello2.asp<%end if%><%if italia_log="No" then%>https://www.cristalensi.it/carrello2extra.asp<%end if%>">
+								<form method="post" name="modulocarrello" action="<%if italia_log="Si" or italia_log="" then%>https://www.cristalensi.com/carrello2.asp<%end if%><%if italia_log="No" then%>https://www.cristalensi.com/carrello2extra.asp<%end if%>">
 								<div class="panel panel-default user-comment">
 										<!-- Default panel contents -->
 										<div class="panel-heading">

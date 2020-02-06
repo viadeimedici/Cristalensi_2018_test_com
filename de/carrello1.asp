@@ -281,7 +281,7 @@
 		function NoteCliente()
 		{
 				document.modulocarrello.method = "post";
-				document.modulocarrello.action = "<%if italia_log="Si" or italia_log="" then%>/carrello2.asp<%end if%><%if italia_log="No" then%>/carrello2extra.asp<%end if%>";
+				document.modulocarrello.action = "<%if italia_log="Si" or italia_log="" then%>/de/carrello2.asp<%end if%><%if italia_log="No" then%>/de/carrello2extra.asp<%end if%>";
 				document.modulocarrello.submit();
 		}
 		</script>
@@ -377,7 +377,7 @@
 																		Do while not rs.EOF
 
 																		Set url_prodotto_rs = Server.CreateObject("ADODB.Recordset")
-																		sql = "SELECT PkId, NomePagina_en, FkProduttore FROM Prodotti where PkId="&rs("FkProdotto")&""
+																		sql = "SELECT PkId, NomePagina_de, FkProduttore FROM Prodotti where PkId="&rs("FkProdotto")&""
 																		url_prodotto_rs.Open sql, conn, 1, 1
 
 																		NomePagina=url_prodotto_rs("NomePagina_en")
@@ -468,7 +468,7 @@
 
                 </div>
 								<%if ss.recordcount>0 then%>
-								<form method="post" name="modulocarrello" action="<%if italia_log="Si" or italia_log="" then%>https://www.cristalensi.it/carrello2.asp<%end if%><%if italia_log="No" then%>https://www.cristalensi.it/carrello2extra.asp<%end if%>">
+								<form method="post" name="modulocarrello" action="<%if italia_log="Si" or italia_log="" then%>https://www.cristalensi.com/de/carrello2.asp<%end if%><%if italia_log="No" then%>https://www.cristalensi.com/de/carrello2extra.asp<%end if%>">
 								<div class="panel panel-default user-comment">
 										<!-- Default panel contents -->
 										<div class="panel-heading">

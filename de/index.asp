@@ -1,8 +1,8 @@
 <!--#include virtual="/inc_strConn.asp"-->
 <!DOCTYPE html>
-<html>
-
+<html lang="de">
 <head>
+    <meta charset="utf-8">
     <title>Online Verkauf von Lampen zur Innenbeleuchtung und Außenbeleuchtung CRISTALENSI</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Cristalensi, mit einem Showroom in der Nähe von Florenz, verkauft Lampen und Kronleuchter online, Produkte für die Innenbeleuchtung, Außenbeleuchtung, Hängeleuchten, Stehlampen, Deckenleuchten, Lampen für den Außenbereich, Ventilatoren, Kinderzimmerlampen und Badezimmerleuchten, Produkte in verschiedenen Stilrichtungen vom Modernen bis zum Klassischen.">
@@ -42,11 +42,11 @@
 </head>
 
 <body>
-    <!--#include virtual="inc_header_1.asp"-->
-    <!--#include virtual="inc_header_2.asp"-->
+    <!--#include virtual="/de/inc_header_1.asp"-->
+    <!--#include virtual="/de/inc_header_2.asp"-->
     <div class="container content">
         <div class="col-md-12">
-            <!--#include virtual="inc_slider.asp"-->
+            <!--#include virtual="/de/inc_slider.asp"-->
             <h1 class="slogan" style="margin-top:20px;">Cristalesi, Online Verkauf von Lampen</h1>
             <h2 class="slogan hidden-xs">zur Innenbeleuchtung und Außenbeleuchtung</h2>
             <div class="row top-buffer">
@@ -56,7 +56,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-interno.jpg)" title="Lampen zur Innenbeleuchtung"><img alt="Lampen zur Innenbeleuchtung" src="images/blank.png"></a>
+                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(/images/home-lampade-da-interno.jpg)" title="Lampen zur Innenbeleuchtung"><img alt="Lampen zur Innenbeleuchtung" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -70,7 +70,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(images/home-lampade-da-esterno.jpg)" title="Lampen zur Außenbeleuchtung"><img alt="Lampen zur Außenbeleuchtung" src="images/blank.png"></a>
+                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(/images/home-lampade-da-esterno.jpg)" title="Lampen zur Außenbeleuchtung"><img alt="Lampen zur Außenbeleuchtung" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -84,7 +84,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(images/home-ventilatori.jpg)" title="Deckenventilatoren"><img alt="Deckenventilatoren" src="images/blank.png"></a>
+                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(/images/home-ventilatori.jpg)" title="Deckenventilatoren"><img alt="Deckenventilatoren" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -98,7 +98,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(images/home-lampadine.jpg)" title="Leuchtmittel und Driver"><img alt="Lampadine" src="images/blank.png"></a>
+                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(/images/home-lampadine.jpg)" title="Leuchtmittel und Driver"><img alt="Lampadine" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
