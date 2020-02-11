@@ -11,7 +11,8 @@
 <html>
 
 <head>
-    <title>Neue Beleuchtungsprodukte: Neue Lampen und Leuchten - CRISTALENSI Online-Verkauf</title>
+		<meta charset="utf-8">
+		<title>Neue Beleuchtungsprodukte: Neue Lampen und Leuchten - CRISTALENSI Online-Verkauf</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Hier prasentieren wir Ihnen unsere Produkte geordnet nach der Eingabe in unseren Katalog, dass heisst, dass Sie hier sowohl neue Artikel als auch neue Firmen, die erst kurzlich unserem online Katalog beigetreten sind, finden. Sie konnen zwischen modernen Pendelleuchten, modernen Deckenlampen, modernen Wandlampen und modernen Stehleuchten wahlen.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,8 +52,8 @@
 </head>
 
 <body>
-    <!--#include virtual="/inc_header_1.asp"-->
-    <!--#include virtual="/inc_header_2.asp"-->
+    <!--#include virtual="/de/inc_header_1.asp"-->
+    <!--#include virtual="/de/inc_header_2.asp"-->
     <div class="container content">
         <div class="row hidden">
             <div class="col-md-12 parentOverflowContainer">
@@ -194,6 +195,6 @@
             %>
         </div>
     </div>
-    <!--#include virtual="/inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
 </body>
 <!--#include virtual="/inc_strClose.asp"-->

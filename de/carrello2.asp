@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--#include file="inc_strConn.asp"-->
+<!--#include virtual="/inc_strConn.asp"-->
 <%
 	mode=request("mode")
 	if mode="" then mode=0
@@ -112,7 +112,8 @@
 <html>
 
 <head>
-    <title>Cristalensi</title>
+		<meta charset="utf-8">
+		<title>Cristalensi</title>
 		<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Cristalensi.">
@@ -248,8 +249,8 @@
 </head>
 
 <body>
-<!--#include file="inc_header_1.asp"-->
-<!--#include file="inc_header_2.asp"-->
+<!--#include virtual="/de/inc_header_1.asp"-->
+<!--#include virtual="/de/inc_header_2.asp"-->
 <%
 	Set rs = Server.CreateObject("ADODB.Recordset")
 	sql = "SELECT PkId, FkOrdine, Dominio, FkProdotto, PrezzoProdotto, Quantita, TotaleRiga, Titolo, CodiceArticolo, Colore, Lampadina FROM RigheOrdine WHERE Dominio LIKE '"&dominio&"' AND FkOrdine="&idOrdine&""
@@ -618,5 +619,5 @@
 		ss.close
 		rs.close
 		%>
-		<!--#include file="inc_footer.asp"-->
+		<!--#include virtual="/de/inc_footer.asp"-->
 </body>

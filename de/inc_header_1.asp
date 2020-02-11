@@ -12,10 +12,10 @@
                         </li>
                         <li><a href="mailto:info@cristalensi.it"><span class="glyphicon glyphicon-envelope"></span> info@cristalensi.it</a></li>
                         <li><a href="https://api.whatsapp.com/send?phone=393388064487" target="_blank" title="So senden Sie Nachrichten und Fotos"><span class="glyphicon glyphicon-camera"></span> WhatsApp (NUR CHAT)</a></li>
-                        <li><a href="/contatti.asp"><span class="glyphicon glyphicon-map-marker"></span> Kontakte und Karte</a></li>
-                        <li><a href="/chi_siamo.asp"><span class="glyphicon glyphicon-star"></span> Wer wir sind</a></li>
-                        <li><a href="/video_elenco.asp"><span class="glyphicon glyphicon-facetime-video"></span> Video</a></li>
-                        <li><a href="/commenti_elenco.asp"><span class="glyphicon glyphicon-bullhorn"></span> Bewertungen</a></li>
+                        <li><a href="/de/contatti.asp"><span class="glyphicon glyphicon-map-marker"></span> Kontakte und Karte</a></li>
+                        <li><a href="/de/chi_siamo.asp"><span class="glyphicon glyphicon-star"></span> Wer wir sind</a></li>
+                        <li><a href="/de/video_elenco.asp"><span class="glyphicon glyphicon-facetime-video"></span> Video</a></li>
+                        <li><a href="/de/commenti_elenco.asp"><span class="glyphicon glyphicon-bullhorn"></span> Bewertungen</a></li>
                     </ul>
                 </li>
             </ul>
@@ -46,11 +46,11 @@
             <li><a href="https://api.whatsapp.com/send?phone=393388064487" target="_blank" title="So senden Sie Nachrichten und Fotos"><span class="glyphicon glyphicon-camera"></span> WhatsApp (NUR CHAT)</a></li>
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span> Wer wir sind <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="/contatti.asp"><span class="glyphicon glyphicon-map-marker"></span> Kontakte und Karte</a></li>
-            		    <li><a href="/chi_siamo.asp"><span class="glyphicon glyphicon-picture"></span> Ausstellungsraum</a></li>
-            		    <li><a href="/video_elenco.asp"><span class="glyphicon glyphicon-facetime-video"></span> Video</a></li>
-                    <li><a href="/commenti_elenco.asp"><span class="glyphicon glyphicon-bullhorn"></span> Bewertungen</a></li>
-                    <li><a href="/condizioni_di_vendita.asp"><span class="glyphicon glyphicon-th-list"></span> Warenkorb</a></li>
+                    <li><a href="/de/contatti.asp"><span class="glyphicon glyphicon-map-marker"></span> Kontakte und Karte</a></li>
+            		    <li><a href="/de/chi_siamo.asp"><span class="glyphicon glyphicon-picture"></span> Ausstellungsraum</a></li>
+            		    <li><a href="/de/video_elenco.asp"><span class="glyphicon glyphicon-facetime-video"></span> Video</a></li>
+                    <li><a href="/de/commenti_elenco.asp"><span class="glyphicon glyphicon-bullhorn"></span> Bewertungen</a></li>
+                    <li><a href="/de/condizioni_di_vendita.asp"><span class="glyphicon glyphicon-th-list"></span> Verkaufsbedingungen</a></li>
                 </ul>
             </li>
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span> Sprachen <span class="caret"></span></a>
@@ -73,9 +73,9 @@
             <%if idsession>0 then%>
               <li><a href="/admin/logout.asp"><span class="glyphicon glyphicon-log-in"></span> AUSLOGGEN</a></li>
             <%end if%>
-            <li><a href="/areaprivata.asp" rel="nofollow"><span class="glyphicon glyphicon-user"></span> Kundenbereich</a></li>
-            <li><a href="/preferiti.asp" rel="nofollow"><span class="glyphicon glyphicon-heart"></span> Wunschzettel</a></li>
-            <li><a href="/carrello1.asp" rel="nofollow"><span class="glyphicon glyphicon-shopping-cart"></span> Warenkorb</a></li>
+            <li><a href="/de/areaprivata.asp" rel="nofollow"><span class="glyphicon glyphicon-user"></span> Kundenbereich</a></li>
+            <li><a href="/de/preferiti.asp" rel="nofollow"><span class="glyphicon glyphicon-heart"></span> Wunschzettel</a></li>
+            <li><a href="/de/carrello1.asp" rel="nofollow"><span class="glyphicon glyphicon-shopping-cart"></span> Warenkorb</a></li>
         </ul>
     </div>
 </nav>

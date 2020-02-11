@@ -1,8 +1,9 @@
-<!--#include file="inc_strConn.asp"-->
+<!--#include virtual="/inc_strConn.asp"-->
 <!DOCTYPE html>
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title>Liste der Hersteller von Beleuchtungsartikeln - Cristalensi Verkauf von Lampen</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Hier finden Sie eine Liste sämtlicher Hersteller von Beleuchtung Artikeln, die unser Geschaft beliefern, Cristalensi Verkauf von Lampen.">
@@ -44,8 +45,8 @@
 </head>
 
 <body>
-    <!--#include file="inc_header_1.asp"-->
-    <!--#include file="inc_header_2.asp"-->
+    <!--#include virtual="/de/inc_header_1.asp"-->
+    <!--#include virtual="/de/inc_header_2.asp"-->
     <div class="container content">
         <div class="col-md-12">
             <div class="row top-buffer">
@@ -101,7 +102,7 @@ Nachdem Sie einen Hersteller ausgewahlt haben, konnen Sie seine gesamte Produktp
 
         </div>
     </div>
-    <!--#include file="inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
     <script type='text/javascript' src='javascripts/camera.js'></script>
     <script type='text/javascript' src='javascripts/jquery.easing.1.3.js'></script>
     <script>
@@ -117,4 +118,4 @@ Nachdem Sie einen Hersteller ausgewahlt haben, konnen Sie seine gesamte Produktp
 		});
 	</script>
 </body>
-<!--#include file="inc_strClose.asp"-->
+<!--#include virtual="/inc_strClose.asp"-->

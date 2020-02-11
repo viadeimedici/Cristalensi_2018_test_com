@@ -2,11 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 address-col" itemtype="http://schema.org/Organization">
-                <h4>CRISTALENSI online store lamps</h4>
+                <h4>CRISTALENSI<br />Online Verkauf von Lampen</h4>
                 <p>
                   <span itemprop="name">Cristalensi Snc di Lensi Massimiliano & C.</span><br />
 
-                  C.F. e Iscr. Reg. Impr. di Firenze 05305820481<br />
+                  C.F. e Iscr. Reg. Impr. Firenze 05305820481<br />
                   R.E.A. Firenze 536760<br />
                   <span itemprop="address" itemtype="http://schema.org/PostalAddress">
                   <span itemprop="postalCode">50056</span> <span itemprop="addressLocality">Montelupo Fiorentino (FI)</span><br />
@@ -28,43 +28,43 @@
 
             </div>
             <div class="col-md-3 menu-col">
-                <h4>What lamp are you looking for?</h4>
+                <h4>WELCHE LAMPE SUCHEN SIE?</h4>
                 <ul>
-                    <li><a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" title="Indoor Lighting and Interior Lamps">Indoor lighting</a></li>
-                    <li><a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" title="Outdoor Lighting and Exterior Lamps">Outdoor Lighting</a></li>
-                    <li><a href="/interior-exterior-lighting/3ng-cooling-fans.asp" title="Cooling fans">Cooling fans</a></li>
-                    <li><a href="/interior-exterior-lighting/4ng-light-bulbs.asp" title="Light bulbs, Drivers and Led Strip Bar">Light bulbs</a></li>
+                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-lampen-fur-innenbeleuchtung.asp" title="Online Verkauf von Lampen fur Innenbeleuchtung">Lampen fur Innenbeleuchtung</a></li>
+                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-lampen-fur-aussenbeleuchtung.asp" title="Lampen zur Aussenbeleuchtung">Lampen zur Aussenbeleuchtung</a></li>
+                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-deckenventilatoren.asp" title="Deckenventilatoren">Deckenventilatoren</a></li>
+                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-leuchtmittel-und-driver.asp" title="Leuchtmittel und Driver">Leuchtmittel und Driver</a></li>
                     <li>&nbsp;</li>
                 </ul>
-                <h4>Or look for here</h4>
+                <h4>Oder suchen Sie hier</h4>
                 <ul>
-                    <li><a href="/offerte.asp" title="Lights and Lamps on offer">Lights and Lamps on offer</a></li>
-                    <li><a href="/novita-illuminazione-ultimi-arrivi.asp" title="The latest lamps e lights arrived">The latest lamps e lights arrived</a></li>
+                    <li><a href="/offerte.asp" title="Lights and Lamps on offer">Leuchten und Lampen im Angebot</a></li>
+                    <li><a href="/novita-illuminazione-ultimi-arrivi.asp" title="Die neuesten Lampen und Lichter sind eingetroffen">Die neuesten Lampen sind eingetroffen</a></li>
                 </ul>
             </div>
             <div class="col-md-3 menu-col">
-                <h4>References</h4>
+                <h4>Verweise</h4>
                 <ul>
-                    <li><a href="/contatti.asp">Contacts and Map</a></li>
-                    <li><a href="/chi_siamo.asp">Who we are</a></li>
+                    <li><a href="/contatti.asp">Kontakte und Karte</a></li>
+                    <li><a href="/chi_siamo.asp">Wer wir sind</a></li>
                     <li><a href="/video_elenco.asp">Video</a></li>
-                    <li><a href="/commenti_elenco.asp">Reviews</a></li>
-                    <li><a href="/privacy.asp">Privacy and legal notes</a></li>
+                    <li><a href="/commenti_elenco.asp">Bewertungen</a></li>
+                    <li><a href="/privacy.asp">Datenschutz und rechtliche Hinweise</a></li>
                 </ul>
-                <h4>Client Area</h4>
+                <h4>Kundenbereich</h4>
                 <ul>
-                    <li><a href="/iscrizione.asp">Autentication/Registration</a></li>
-                    <li><a href="/preferiti.asp">Wishlist</a></li>
-                    <li><a href="/carrello1.asp">Cart</a></li>
-                    <li><a href="/areaprivata.asp">Order list</a></li>
-                    <li><a href="/condizioni_di_vendita.asp">Conditions of sale</a></li>
+                    <li><a href="/iscrizione.asp">Wiedererkennung/Registrierung</a></li>
+                    <li><a href="/preferiti.asp">Wunschzettel</a></li>
+                    <li><a href="/carrello1.asp">Warenkorb</a></li>
+                    <li><a href="/areaprivata.asp">Bestellliste</a></li>
+                    <li><a href="/condizioni_di_vendita.asp">Verkaufsbedingungen</a></li>
                 </ul>
             </div>
             <div class="col-md-3 menu-col">
-                <h4>Shipping and Payment</h4>
+                <h4>Versand & Zahlungsweisen</h4>
                 <ul class="checklist">
-                    <li>Insured shipments <strong> FREE </strong> throughout Italy for orders over 250&euro;</li>
-                    <li>Insured shipments throughout Italy for orders up to 250&euro;: <strong>10&euro;</strong></li>
+                    <li>Versicherter Versand <strong>KOSTENLOS</strong> in ganz Italien ab einem Bestellwert von 250&euro;</li>
+                    <li>Versicherter Versand in ganz Italien fur Bestellungen bis zu 250&euro;: <strong>10&euro;</strong></li>
                 </ul>
                 <ul>
                     <li>
@@ -80,7 +80,7 @@
 </div>
 <span id="top-link-block" class="hidden">
     <a href="#top" class="btn btn-warning"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
-        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+        <i class="glyphicon glyphicon-chevron-up"></i> Zuruck nach oben
     </a>
 </span>
 <!-- /top-link-block -->

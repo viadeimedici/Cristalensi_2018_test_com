@@ -5,7 +5,7 @@
                 <a class="header-logo" href="/de/" title="Cristalensi Online Verkauf von Lampen">Cristalensi</a>
             </div>
             <div class="col-md-8">
-                <form action="/ricerca_avanzata_elenco.asp" class="navbar-form pull-right search-bar" role="search" name="ricerca_modulo">
+                <form action="/de/ricerca_avanzata_elenco.asp" class="navbar-form pull-right search-bar" role="search" name="ricerca_modulo">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Name or Code of product" name="testo_ricerca" id="testo_ricerca">
                         <div class="input-group-btn">
@@ -147,7 +147,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>Neuheiten im Beleuchtungsbereich</strong></h4></a>
+                                                <a href="/de/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>Neuheiten im Beleuchtungsbereich</strong></h4></a>
                                                 <ul class="list-unstyled">
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1-neue-pendelleuchten.asp" title="Kronleuchter - Neue Artikel">Kronleuchter</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2-neue-deckenlampen.asp" title="Deckenlampen - Neue Artikel">Deckenlampen</a></li>
@@ -157,7 +157,7 @@
                                                 </ul>
                                             </li>
                                             <li class="subcategory">
-                                                <a href="/offerte.asp" class="offerte" title="Beleuchtungsprodukte im Angebot">Beleuchtungsprodukte im Angebot</a>
+                                                <a href="/de/offerte.asp" class="offerte" title="Beleuchtungsprodukte im Angebot">Beleuchtungsprodukte im Angebot</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -222,7 +222,7 @@
                                                 </ul>
                                             </li>
                                             <li class="subcategory">
-                                                <a href="/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>Neuheiten im Beleuchtungsbereich</strong></h4></a>
+                                                <a href="/de/novita-illuminazione-ultimi-arrivi.asp"><h4><strong>Neuheiten im Beleuchtungsbereich</strong></h4></a>
                                                 <ul class="list-unstyled">
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10-neue-moderne-gartenleuchten.asp" title="Moderne Gartenleuchten - Neue Artikel">Moderne Gartenleuchten</a></li>
                                                     <li>&nbsp;</li>
@@ -245,7 +245,7 @@
                                         </ul>
                                         <ul class="col-sm-6 col-lg-4 list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/offerte.asp" class="offerte" title="Beleuchtungsprodukte im Angebot">Beleuchtungsprodukte im Angebot</a>
+                                                <a href="/de/offerte.asp" class="offerte" title="Beleuchtungsprodukte im Angebot">Beleuchtungsprodukte im Angebot</a>
                                                 <li>&nbsp;</li>
                                             </li>
                                         </ul>
@@ -323,15 +323,15 @@
                             <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/12na-veranda-lampen.asp" title="Veranda Lampen">Veranda Lampen</a></li>
                         </ul>
                     </li>
-                    <li class="nav-user"><a href="/produttori.asp" title="Brands and Producers of lights">Marken</a></li>
+                    <li class="nav-user"><a href="/de/produttori.asp" title="Brands and Producers of lights">Marken</a></li>
 
                     <%if idsession>0 then%>
                       <li class="nav-user visible-xs"><a href="/admin/logout.asp">AUSLOGGEN</a></li>
                     <%end if%>
-                    <li class="nav-user visible-xs"><a href="/areaprivata.asp" rel="nofollow">Kundenbereich</a></li>
-                    <li class="nav-user visible-xs"><a href="/preferiti.asp" rel="nofollow">Wunschzettel</a></li>
-                    <li class="nav-user visible-xs"><a href="/carrello1.asp" rel="nofollow">Warenkorb</a></li>
-                    <li class="nav-user visible-xs"><a href="/condizioni_di_vendita.asp">Verkaufsbedingungen</a></li>
+                    <li class="nav-user visible-xs"><a href="/de/areaprivata.asp" rel="nofollow">Kundenbereich</a></li>
+                    <li class="nav-user visible-xs"><a href="/de/preferiti.asp" rel="nofollow">Wunschzettel</a></li>
+                    <li class="nav-user visible-xs"><a href="/de/carrello1.asp" rel="nofollow">Warenkorb</a></li>
+                    <li class="nav-user visible-xs"><a href="/de/condizioni_di_vendita.asp">Verkaufsbedingungen</a></li>
                 </ul>
             </div>
         </div>

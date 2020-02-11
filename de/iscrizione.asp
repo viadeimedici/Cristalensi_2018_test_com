@@ -1,4 +1,4 @@
-<!--#include file="inc_strConn.asp"-->
+<!--#include virtual="/inc_strConn.asp"-->
 <%
 prov=request("prov")
 if prov="" then prov=0
@@ -580,11 +580,11 @@ end if
 <html>
 
 <head>
-    <title>CRISTALENSI Registrierung des Kunden - Online Shop Lampen</title>
+		<meta charset="utf-8">
+		<title>CRISTALENSI Registrierung des Kunden - Online Shop Lampen</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta charset="utf-8">
     <meta name="description" content="CRISTALENSI Registrierung des Kunden - Online Shop Lampen">
-    <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:description" content="CRISTALENSI Registrierung des Kunden - Online Shop Lampen">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -675,8 +675,8 @@ end if
 </head>
 
 <body>
-    <!--#include file="inc_header_1.asp"-->
-    <!--#include file="inc_header_2.asp"-->
+    <!--#include virtual="/de/inc_header_1.asp"-->
+    <!--#include virtual="/de/inc_header_2.asp"-->
     <div class="container content">
         <div class="row hidden">
             <div class="col-md-12 parentOverflowContainer">
@@ -899,6 +899,6 @@ der Interessent kann kostenlos Einspruch gegen die Verarbeitung seiner personlic
             </div>
         </div>
     </div>
-    <!--#include file="inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
 </body>
-<!--#include file="inc_strClose.asp"-->
+<!--#include virtual="/inc_strClose.asp"-->

@@ -38,7 +38,7 @@
     <link rel="/stylesheet" type="text/css" href="stylesheets/camera.css" shim-shadowdom>
     <!--[if lt IE 9]><script src="/javascripts/html5shiv.js"></script><![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,600,700" rel="stylesheet">
-    <!--#include virtual="inc_funzioni_head.asp"-->
+    <!--#include virtual="/inc_funzioni_head.asp"-->
 </head>
 
 <body>
@@ -56,12 +56,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(/images/home-lampade-da-interno.jpg)" title="Lampen zur Innenbeleuchtung"><img alt="Lampen zur Innenbeleuchtung" src="/images/blank.png"></a>
+                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-lampen-fur-innenbeleuchtung.asp" class="prod-img-replace" style="background-image: url(/images/home-lampade-da-interno.jpg)" title="Lampen fur Innenbeleuchtung"><img alt="Lampen fur Innenbeleuchtung" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-indoor-lighting.asp" title="Online Verkauf von Lampen fur Innenbeleuchtung"><h3>Lampen fur Innenbeleuchtung</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1ng-lampen-fur-innenbeleuchtung.asp" title="Online Verkauf von Lampen fur Innenbeleuchtung"><h3>Lampen fur Innenbeleuchtung</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +70,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(/images/home-lampade-da-esterno.jpg)" title="Lampen zur Außenbeleuchtung"><img alt="Lampen zur Außenbeleuchtung" src="/images/blank.png"></a>
+                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-lampen-fur-aussenbeleuchtung.asp" class="prod-img-replace" style="background-image: url(/images/home-lampade-da-esterno.jpg)" title="Lampen zur Außenbeleuchtung"><img alt="Lampen zur Außenbeleuchtung" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-outdoor-lighting.asp" title="Online Verkauf von Lampen fur Außenbeleuchtung"><h3>Lampen fur Außenbeleuchtung</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2ng-lampen-fur-aussenbeleuchtung.asp" title="Online Verkauf von Lampen fur Außenbeleuchtung"><h3>Lampen fur Außenbeleuchtung</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -84,12 +84,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(/images/home-ventilatori.jpg)" title="Deckenventilatoren"><img alt="Deckenventilatoren" src="/images/blank.png"></a>
+                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-deckenventilatoren.asp" class="prod-img-replace" style="background-image: url(/images/home-ventilatori.jpg)" title="Deckenventilatoren"><img alt="Deckenventilatoren" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-cooling-fans.asp" title="Deckenventilatoren"><h3>Deckenventilatoren</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3ng-deckenventilatoren.asp" title="Deckenventilatoren"><h3>Deckenventilatoren</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -98,12 +98,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(/images/home-lampadine.jpg)" title="Leuchtmittel und Driver"><img alt="Lampadine" src="/images/blank.png"></a>
+                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-leuchtmittel-und-driver.asp" class="prod-img-replace" style="background-image: url(/images/home-lampadine.jpg)" title="Leuchtmittel und Driver"><img alt="Lampadine" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/de/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-light-bulbs.asp" title="Leuchtmittel und Driver"><h3>Leuchtmittel und Driver</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-leuchtmittel-und-driver.asp" title="Leuchtmittel und Driver"><h3>Leuchtmittel und Driver</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -378,7 +378,7 @@
 
         </div>
     </div>
-    <!--#include virtual="/inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
     <script type='text/javascript' src='javascripts/camera.min.js'></script>
     <script type='text/javascript' src='javascripts/jquery.easing.1.3.min.js'></script>
     <script>
@@ -405,4 +405,4 @@
       });
   </script>
 </body>
-<!--#include virtual="inc_strClose.asp"-->
+<!--#include virtual="/inc_strClose.asp"-->

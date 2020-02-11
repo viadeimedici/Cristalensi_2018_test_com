@@ -1,4 +1,4 @@
-<!--#include file="inc_strConn.asp"-->
+<!--#include virtual="/inc_strConn.asp"-->
 <%
 'Call Visualizzazione("",0,"carrello1.asp")
 
@@ -241,7 +241,8 @@
 <html>
 
 <head>
-    <title>Cristalensi - Warenkorb Online Shop Lampen</title>
+		<meta charset="utf-8">
+		<title>Cristalensi - Warenkorb Online Shop Lampen</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Cristalensi - Warenkorb Online Shop Lampen.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -289,8 +290,8 @@
 </head>
 
 <body>
-  <!--#include file="inc_header_1.asp"-->
-  <!--#include file="inc_header_2.asp"-->
+  <!--#include virtual="/de/inc_header_1.asp"-->
+  <!--#include virtual="/de/inc_header_2.asp"-->
 	<%
 		Set rs = Server.CreateObject("ADODB.Recordset")
 		sql = "SELECT PkId, Dominio, FkOrdine, FkProdotto, PrezzoProdotto, Quantita, TotaleRiga, Titolo, CodiceArticolo, Colore, Lampadina FROM RigheOrdine WHERE FkOrdine="&idOrdine&" AND Dominio LIKE '"&dominio&"'"
@@ -586,13 +587,13 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<!--#include virtual="/inc_box_contatti.asp"-->
+					<!--#include virtual="/de/inc_box_contatti.asp"-->
 				</div>
 		</div>
 		<%
 		ss.close
 		rs.close
 		%>
-    <!--#include file="inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
 </body>
-<!--#include file="inc_strClose.asp"-->
+<!--#include virtual="/inc_strClose.asp"-->

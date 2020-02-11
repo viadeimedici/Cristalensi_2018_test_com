@@ -11,7 +11,8 @@
 <html>
 
 <head>
-    <title>Angebote von Beleuchtungsprodukten und Kronleuchter im Angebot: Cristalensi Verkauf von Lampen im Angebot</title>
+		<meta charset="utf-8">
+		<title>Angebote von Beleuchtungsprodukten und Kronleuchter im Angebot: Cristalensi Verkauf von Lampen im Angebot</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Die besten Angebote für Beleuchtungsprodukte, Kronleuchter im Angebot: bei Cristalensi finden Sie Lampen im Angebot.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,12 +48,12 @@
         }
     </style>
     <link rel="canonical" href="https://www.cristalensi.com/<%=toUrl%>"/>
-		<!--#include virtual="/inc_funzioni_head.asp"-->
+		<!--#include virtual="/de/inc_funzioni_head.asp"-->
 </head>
 
 <body>
-    <!--#include virtual="/inc_header_1.asp"-->
-    <!--#include virtual="/inc_header_2.asp"-->
+    <!--#include virtual="/de/inc_header_1.asp"-->
+    <!--#include virtual="/de/inc_header_2.asp"-->
     <div class="container content">
         <div class="row hidden">
             <div class="col-md-12 parentOverflowContainer">
@@ -226,6 +227,6 @@ Wenn Sie sich hingegen den ganzen Katalog anschauen möchten, können Sie entwed
             %>
         </div>
     </div>
-    <!--#include virtual="/inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
 </body>
 <!--#include virtual="/inc_strClose.asp"-->
