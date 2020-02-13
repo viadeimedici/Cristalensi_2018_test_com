@@ -41,6 +41,7 @@ gr_rs.close
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title><%=Title%></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="<%if Len(Description)>0 then%><%=Description%><%else%>Durchsuchen Sie den Online-Katalog von <%=Titolo_1%>: von Cristalensi Rabatte auf alle zum Verkauf stehenden Beleuchtungsprodukte.<%end if%>">

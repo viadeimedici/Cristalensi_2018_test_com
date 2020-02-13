@@ -47,6 +47,7 @@ end if
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title><%=Title%> Neue Beleuchtung - CRISTALENSI Online Verkauf von Lampen</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="<%if Len(Description)>0 then%><%=Description%><%else%><%=Titolo_2%> online shop: von Cristalensi Rabatt auf alle neuen Produktbeleuchtung. Online Verkauf von Lichtern und Lampen.<%end if%>">

@@ -29,6 +29,7 @@ gr_rs.close
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title><%=Title%> <%if Len(Titolo_2)>0 and Titolo_2<>Title then%> online shop<%else%> online shop <%=Titolo_1_gr%><%end if%></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="<%if Len(Description)>0 then%><%=Description%><%else%>Bei Cristalensi finden Sie eine grosse Auswahl an <%=Titolo_1%>: Online-Rabatte fur alle Beleuchtungsprodukte<%end if%>">
