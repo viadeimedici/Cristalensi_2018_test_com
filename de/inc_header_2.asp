@@ -56,11 +56,11 @@
                                                 <ul class="list-unstyled plafoniere">
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/13nc-moderne-deckenleuchten.asp" title="Moderne Deckenleuchten">Moderne Deckenleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/14nc-led-deckenleuchten.asp" title="LED-Deckenleuchten">LED-Deckenleuchten</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/15nc-classiske-deckenleuchten.asp" title="Classiske Deckenleuchten">Classiske Deckenleuchten</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/15nc-classiske-deckenleuchten.asp" title="Klassiske Deckenleuchten">Klassiske Deckenleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/16nc-rustikale-deckenleuchten.asp" title="Rustikale Deckenleuchten">Rustikale Deckenleuchten</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/17nc-deckenleuchten-im-vintage.asp" title="Deckenleuchten im Vintage">Deckenleuchten im Vintage-Still</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/17nc-deckenleuchten-im-vintage.asp" title="Deckenleuchten im Vintage">Deckenleuchten im Vintage-Stil</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/19nc-deckenleuchten-aus-krystall.asp" title="Deckenleuchten aus krystall">Deckenleuchten aus krystall</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/18nc-deckenleuchten-im-murano.asp" title="Deckenleuchten im Murano-Stil">Deckenleuchten im Murano-Stil</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/18nc-deckenleuchten-im-murano-stil.asp" title="Deckenleuchten im Murano-Stil">Deckenleuchten im Murano-Stil</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/20nc-deckenleuchten-aus-gips.asp" title="Deckenleuchten aus Gips">Deckenleuchten aus Gips</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/21nc-deckenleuchten-fur-das-kinder.asp" title="Deckenleuchten fur das kinder">Deckenleuchten fur das kinder</a></li>
                                                 </ul>
@@ -72,12 +72,12 @@
                                                 <ul class="list-unstyled lampade-tavolo">
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/41nc-moderne-tischleuchten.asp" title="Moderne Tischleuchten">Moderne Tischleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/42nc-led-tischleuchten.asp" title="LED-Tischleuchten">LED-Tischleuchten</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/43nc-classiske-tischleuchten.asp" title="Classiske Tischleuchten">Classiske Tischleuchten</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/43nc-classiske-tischleuchten.asp" title="Klassiske Tischleuchten">Klassiske Tischleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/44nc-rustikale-tischleuchten.asp" title="Rustikale Tischleuchten">Rustikale Tischleuchten</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/45nc-tischleuchten-im-vintage-still.asp" title="Tischleuchten im Vintage-Still">Tischleuchten im Vintage-Still</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/46nc-tischleuchten-im-tiffany-still.asp" title="Tischleuchten im Tiffany-Still">Tischleuchten im Tiffany-Still</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/45nc-tischleuchten-im-vintage-stil.asp" title="Tischleuchten im Vintage-Still">Tischleuchten im Vintage-Stil</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/46nc-tischleuchten-im-tiffany-stil.asp" title="Tischleuchten im Tiffany-Still">Tischleuchten im Tiffany-Stil</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/48nc-tischleuchten-aus-krystall.asp" title="Tischleuchten aus Krystall">Tischleuchten aus Krystall</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/47nc-tischleuchten-im-murano-still.asp" title="Tischleuchten im Murano-Still">Tischleuchten im Murano-Still</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/47nc-tischleuchten-im-murano-stil.asp" title="Tischleuchten im Murano-Still">Tischleuchten im Murano-Stil</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/49nc-tischleuchten-fur-das-kinder.asp" title="Tischleuchten fur das kinder">Tischleuchten fur das kinder</a></li>
                                                 </ul>
                                             </li>
@@ -88,22 +88,22 @@
                                                 <ul class="list-unstyled piantane">
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/32nc-moderne-bodenleuchten.asp" title="Moderne Bodenleuchten">Moderne Bodenleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/33nc-led-bodenleuchten.asp" title="Led-Bodenleuchten">Led-Bodenleuchten</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/34nc-classiske-bodenleuchten.asp" title="Classiske Bodenleuchten">Classiske Bodenleuchten</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/34nc-classiske-bodenleuchten.asp" title="Klassiske Bodenleuchten">Klassiske Bodenleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/35nc-rustikale-bodenleuchten.asp" title="Rustikale Bodenleuchten">Rustikale Bodenleuchten</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/36nc-bodenleuchten-im-vintage-still.asp" title="Bodenleuchten im Vintage-Still">Bodenleuchten im Vintage-Still</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/37nc-bodenleuchten-im-tiffany-still.asp" title="Bodenleuchten im Tiffany-Still">Bodenleuchten im Tiffany-Still</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/36nc-bodenleuchten-im-vintage-stil.asp" title="Bodenleuchten im Vintage-Stil">Bodenleuchten im Vintage-Stil</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/37nc-bodenleuchten-im-tiffany-stil.asp" title="Bodenleuchten im Tiffany-Stil">Bodenleuchten im Tiffany-Stil</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/39nc-bodenleuchten-im-krystall.asp" title="Bodenleuchten aus Krystall">Bodenleuchten aus Krystall</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/38nc-bodenleuchten-im-murano-still.asp" title="Bodenleuchten im Murano-Still">Bodenleuchten im Murano-Still</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/38nc-bodenleuchten-im-murano-stil.asp" title="Bodenleuchten im Murano-Still">Bodenleuchten im Murano-Still</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/40nc-bodenleuchten-fur-das-kinder.asp" title="Bodenleuchten fur das kinder">Bodenleuchten fur das kinder</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                         <ul class="col-sm-6 col-lg-3 col-same-height list-unstyled">
                                             <li class="subcategory">
-                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2nt-kronleuchter.asp" title="Kronleuchter"><h4><strong>Kronleuchter</strong></h4></a>
+                                                <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2nt-kronleuchter-mit-armen.asp" title="Kronleuchter mit Armen"><h4><strong>Kronleuchter mit Armen</strong></h4></a>
                                                 <ul class="list-unstyled lampadari">
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/10nc-moderne-kronleuchter.asp" title="Moderne Kronleuchtern">Moderne Kronleuchtern</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/11nc-classiske-kronleuchter.asp" title="Classiske Kronleuchtern">Classiske Kronleuchtern</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/11nc-klassiske-kronleuchter.asp" title="klassiske Kronleuchtern">klassiske Kronleuchtern</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/12nc-kronleuchtern-aus-krystall.asp" title="Kronleuchtern aus Krystall">Kronleuchtern aus Krystall</a></li>
                                                     <li>&nbsp;</li>
                                                 </ul>
@@ -123,12 +123,12 @@
                                                 <ul class="list-unstyled applique">
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/22nc-moderne-wandleuchten.asp" title="Moderne Wandleuchten">Moderne Wandleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/23nc-led-wandleuchten.asp" title="LED-Wandleuchten">LED-Wandleuchten</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/24nc-classiske-wandleuchten.asp" title="Classiske Wandleuchten">Classiske Wandleuchten</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/24nc-klassiske-wandleuchten.asp" title="klassiske Wandleuchten">klassiske Wandleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/25nc-rustikale-wandleuchten.asp" title="Rustikale Wandleuchten">Rustikale Wandleuchten</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/27nc-wandleuchten-im-tiffany-still.asp" title="Wandleuchten im Tiffany-Still">Wandleuchten im Tiffany-Still</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/26nc-wandleuchten-aus-vintage-still.asp" title="Wandleuchten im Vintage-Still">Wandleuchten im Vintage-Still</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/27nc-wandleuchten-im-tiffany-stil.asp" title="Wandleuchten im Tiffany-Stil">Wandleuchten im Tiffany-Stil</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/26nc-wandleuchten-aus-vintage-stil.asp" title="Wandleuchten im Vintage-Stil">Wandleuchten im Vintage-Stil</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/29nc-wandleuchten-aus-krystall.asp" title="Wandleuchten aus Krystall">Wandleuchten aus Krystall</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/28nc-wandleuchten-im-murano.asp" title="Wandleuchten im Murano">Wandleuchten im Murano</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/28nc-wandleuchten-im-murano-stil.asp" title="Wandleuchten im Murano-Stil">Wandleuchten im Murano-Stil</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/30nc-wandleuchten-aus-gips.asp" title="Wandleuchten aus Gips">Wandleuchten aus Gips</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/31nc-wandleuchten-fur-das-kinder.asp" title="Wandleuchten fur das kinder">Wandleuchten fur das kinder</a></li>
                                                 </ul>

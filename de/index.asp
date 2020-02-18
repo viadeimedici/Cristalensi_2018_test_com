@@ -34,8 +34,8 @@
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
     <link href="/stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css">
-    <link rel="/stylesheet" type="text/css" href="/stylesheets/customization.css" shim-shadowdom>
-    <link rel="/stylesheet" type="text/css" href="/stylesheets/camera.css" shim-shadowdom>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/customization.css" shim-shadowdom>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/camera.css" shim-shadowdom>
     <!--[if lt IE 9]><script src="/javascripts/html5shiv.js"></script><![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,600,700" rel="stylesheet">
     <!--#include virtual="/inc_funzioni_head.asp"-->
