@@ -312,7 +312,7 @@
                             <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1na-wohnzimmerlampen.asp" title="Wohnzimmerlampen">Wohnzimmerlampen</a></li>
                             <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2na-kuchenlampen.asp" title="Kuchenlampen">kuchenlampen</a></li>
                             <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3na-lampen-fur-das-schlafzimmer.asp" title="Lampen fur das Schlafzimmer">Lampen fur das Schlafzimmer</a></li>
-                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4na-lampen-fur-schlafzimmer.asp" title="Lampen fur Schlafzimmer">Lampen fur Schlafzimmer</a></li>
+                            <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4na-lampen-fur-kinderzimmer.asp" title="Lampen fur Kinderzimmer">Lampen fur Kinderzimmer</a></li>
                             <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/5na-badleuchten.asp" title="Badleuchten">Badleuchten</a></li>
                             <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/6na-eingangslampen.asp" title="Eingangslampen">Eingangslampen</a></li>
                             <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/7na-lampen-fur-treppen.asp" title="Lampen fur Treppen">Lampen fur Treppen</a></li>
