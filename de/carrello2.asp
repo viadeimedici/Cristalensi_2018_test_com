@@ -352,10 +352,10 @@
 														Do while not rs.EOF
 
 														Set url_prodotto_rs = Server.CreateObject("ADODB.Recordset")
-														sql = "SELECT PkId, NomePagina, FkProduttore FROM Prodotti where PkId="&rs("FkProdotto")&""
+														sql = "SELECT PkId, NomePagina_de, FkProduttore FROM Prodotti where PkId="&rs("FkProdotto")&""
 														url_prodotto_rs.Open sql, conn, 1, 1
 
-														NomePagina=url_prodotto_rs("NomePagina")
+														NomePagina=url_prodotto_rs("NomePagina_de")
 														if Len(NomePagina)>0 then
 															NomePagina="/public/pagine/"&NomePagina
 														else

@@ -604,7 +604,7 @@ end if
     <meta name="msapplication-TileColor" content="#2790cf">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link href="stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]><script src="javascripts/html5shiv.js"></script><![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,600,700" rel="stylesheet">
     <style type="text/css">
@@ -690,7 +690,7 @@ end if
                     <div class="progress">
                         <div class="progress-bar"></div>
                     </div>
-                    <a href="/carrello1.asp" class="bs-wizard-dot"></a>
+                    <a href="/de/carrello1.asp" class="bs-wizard-dot"></a>
                     <div class="bs-wizard-info text-center">Warenkorb</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step active">

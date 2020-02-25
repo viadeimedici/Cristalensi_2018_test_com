@@ -102,7 +102,8 @@ end if
 <html>
 
 <head>
-    <title><%=Titolo_prodotto%> <%=" "& produttore%> <%=" "& CodiceArticolo%> - <%=Titolo_1_cat%></title>
+		<meta charset="utf-8">
+		<title><%=Titolo_prodotto%> <%=" "& produttore%> <%=" "& CodiceArticolo%> - <%=Titolo_1_cat%></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="<%=Titolo_prodotto%>-Produktdetails, <%=produttore%>, code <%=codicearticolo%>. Cristalensi Online-Shop von <%=Titolo_1_cat%>.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -166,7 +167,7 @@ end if
 
 					document.newsform2.method = "post";
 					//document.newsform2.action = "../../carrello1.asp";
-					document.newsform2.action = "/carrello1.asp";
+					document.newsform2.action = "/de/carrello1.asp";
 					document.newsform2.submit();
 			}
 	</SCRIPT>
@@ -198,7 +199,7 @@ end if
 
 			document.newsform2.method = "post";
 			//document.newsform2.action = "../../carrello1.asp";
-			document.newsform2.action = "/carrello1.asp";
+			document.newsform2.action = "/de/carrello1.asp";
 			//document.newsform2.submit();
 	}
 	</SCRIPT>

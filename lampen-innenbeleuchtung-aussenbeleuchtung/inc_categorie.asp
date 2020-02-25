@@ -169,8 +169,8 @@ gr_rs.close
                 order=request("order")
                 if order="" then order=1
 
-                if order=1 then ordine="Titolo_de ASC"
-                if order=2 then ordine="Titolo_de DESC"
+                if order=1 then ordine="Titolo ASC"
+                if order=2 then ordine="Titolo DESC"
                 if order=3 then ordine="PrezzoProdotto ASC, PrezzoListino ASC"
                 if order=4 then ordine="PrezzoProdotto DESC, PrezzoListino DESC"
 

@@ -264,9 +264,9 @@
     <meta name="msapplication-TileColor" content="#2790cf">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link href="stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="stylesheets/jquery.fancybox.min.css" media="screen" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/customization.css" shim-shadowdom>
+    <link href="/stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/jquery.fancybox.min.css" media="screen" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/customization.css" shim-shadowdom>
     <!--[if lt IE 9]><script src="javascripts/html5shiv.js"></script><![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,600,700" rel="stylesheet">
     <style type="text/css">
@@ -381,7 +381,7 @@
 																		sql = "SELECT PkId, NomePagina_de, FkProduttore FROM Prodotti where PkId="&rs("FkProdotto")&""
 																		url_prodotto_rs.Open sql, conn, 1, 1
 
-																		NomePagina=url_prodotto_rs("NomePagina_en")
+																		NomePagina=url_prodotto_rs("NomePagina_de")
 																		if Len(NomePagina)>0 then
 																			NomePagina="/public/pagine/"&NomePagina
 																		else
@@ -391,7 +391,7 @@
 
 																		url_prodotto_rs.close
 																		%>
-																		<form method="post" action="/carrello1.asp?mode=1&riga=<%=rs("pkid")%>">
+																		<form method="post" action="/de/carrello1.asp?mode=1&riga=<%=rs("pkid")%>">
 																		<%
 																		quantita=rs("quantita")
 																		if quantita="" then quantita=1
@@ -414,7 +414,7 @@
                                         <td data-th="Subtotal" class="text-right hidden-xs"><%=FormatNumber(rs("TotaleRiga"),2)%>&nbsp&euro;</td>
                                         <td class="actions text-center" data-th="">
                                             <button class="btn btn-info btn-sm" type="submit"><i class="fa fa-refresh"></i></button><br />
-                                            <button class="btn btn-danger btn-sm" style="margin-top: 5px;" type="button" onClick="location.href='/carrello1.asp?mode=2&riga=<%=rs("pkid")%>'"><i class="fa fa-trash-o"></i></button>
+                                            <button class="btn btn-danger btn-sm" style="margin-top: 5px;" type="button" onClick="location.href='/de/carrello1.asp?mode=2&riga=<%=rs("pkid")%>'"><i class="fa fa-trash-o"></i></button>
                                         </td>
                                     </tr>
 																		</form>
