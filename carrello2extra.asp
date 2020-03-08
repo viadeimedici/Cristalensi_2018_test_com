@@ -451,7 +451,7 @@
                         <h4>Shipping address</h4>
                     </div>
                     <div class="col-md-12">
-							<p class="description">EYou have to indicate the exact address where you want to receive the products</p>
+							<p class="description">You have to indicate the exact address where you want to receive the products</p>
 							<div class="form-group clearfix">
                                 <label for="nominativo_sp" class="col-sm-4 control-label">Nominative</label>
                                 <div class="col-sm-8">
