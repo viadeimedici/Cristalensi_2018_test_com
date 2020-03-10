@@ -1,5 +1,5 @@
 
-<!--#include file="inc_strConn.asp"-->
+<!--#include virtual="/inc_strConn.asp"-->
 <%
 	Call Visualizzazione("",0,"carrello3.asp")
 
@@ -173,7 +173,7 @@
     <meta name="msapplication-TileColor" content="#2790cf">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link href="stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]><script src="javascripts/html5shiv.js"></script><![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,600,700" rel="stylesheet">
     <style type="text/css">
@@ -189,7 +189,7 @@
     function Cambia()
     {
         document.modulocarrello.method = "post";
-        document.modulocarrello.action = "/carrello3.asp";
+        document.modulocarrello.action = "/de/carrello3.asp";
         document.modulocarrello.submit();
     }
     </script>
@@ -197,7 +197,7 @@
     function Continua()
     {
         document.modulocarrello.method = "post";
-        document.modulocarrello.action = "/carrello3.asp?mode=1";
+        document.modulocarrello.action = "/de/carrello3.asp?mode=1";
         document.modulocarrello.submit();
     }
     </script>
@@ -205,8 +205,8 @@
 </head>
 
 <body>
-  <!--#include file="inc_header_1.asp"-->
-  <!--#include file="inc_header_2.asp"-->
+  <!--#include virtual="/de/inc_header_1.asp"-->
+  <!--#include virtual="/de/inc_header_2.asp"-->
   <%
   	Set rs = Server.CreateObject("ADODB.Recordset")
   	sql = "SELECT PkId, FkOrdine, FkProdotto, PrezzoProdotto, Quantita, TotaleRiga, Titolo, CodiceArticolo, Colore, Lampadina, Dominio FROM RigheOrdine WHERE Dominio LIKE '"&dominio&"' AND FkOrdine="&idOrdine&""
@@ -260,24 +260,24 @@
                     <div class="progress">
                         <div class="progress-bar"></div>
                     </div>
-                    <a href="/carrello1.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Cart</div>
+                    <a href="/de/carrello1.asp" class="bs-wizard-dot"></a>
+                    <div class="bs-wizard-info text-center">Warenkorb</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step complete">
                     <div class="text-center bs-wizard-stepnum">2</div>
                     <div class="progress">
                         <div class="progress-bar"></div>
                     </div>
-                    <a href="/iscrizione.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Autentication / Registration</div>
+                    <a href="/de/iscrizione.asp" class="bs-wizard-dot"></a>
+                    <div class="bs-wizard-info text-center">Wiedererkennung / Registrierung</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step complete">
                     <div class="text-center bs-wizard-stepnum">3</div>
                     <div class="progress">
                         <div class="progress-bar"></div>
                     </div>
-                    <a href="/carrello2.asp" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Shipping address</div>
+                    <a href="/de/carrello2.asp" class="bs-wizard-dot"></a>
+                    <div class="bs-wizard-info text-center">Spedition Adresse</div>
                 </div>
                 <div class="col-sm-5 bs-wizard-step active">
                     <div class="text-center bs-wizard-stepnum">4</div>
@@ -285,7 +285,7 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Payment &amp; Invoicing</div>
+                    <div class="bs-wizard-info text-center">Zahlungsweisen &amp; Fakturierung</div>
                 </div>
 
                 <div class="col-sm-5 bs-wizard-step disabled">
@@ -294,23 +294,23 @@
                         <div class="progress-bar"></div>
                     </div>
                     <a href="#" class="bs-wizard-dot"></a>
-                    <div class="bs-wizard-info text-center">Order confirmation</div>
+                    <div class="bs-wizard-info text-center">Bestellbestatigung</div>
                 </div>
             </div>
         </div>
         <div class="col-md-12">
             <div class="title">
-                <h4><span class="visible-xs" style="padding-top: 20px;">Payment method - 4 of 5</span></h4>
+                <h4><span class="visible-xs" style="padding-top: 20px;">Zahlungsweisen - 4 von 5</span></h4>
             </div>
             <div class="col-md-12">
                 <div class="top-buffer">
                     <table id="cart" class="table table-hover table-condensed table-cart">
 											<thead>
 												<tr>
-														<th style="width:60%">Product</th>
-														<th style="width:10%" class="text-center">Quantity</th>
-														<th style="width:15%" class="text-right">Price</th>
-														<th style="width:15%" class="text-right hidden-xs">Total Pr.</th>
+														<th style="width:60%">Produktname</th>
+														<th style="width:10%" class="text-center">Anzahl</th>
+														<th style="width:15%" class="text-right">Stuckpreis</th>
+														<th style="width:15%" class="text-right hidden-xs">Gesamtpreis</th>
 												</tr>
 											</thead>
                         <%if rs.recordcount>0 then%>
@@ -319,7 +319,7 @@
 														Do while not rs.EOF
 
 														Set url_prodotto_rs = Server.CreateObject("ADODB.Recordset")
-														sql = "SELECT PkId, NomePagina, FkProduttore FROM Prodotti where PkId="&rs("FkProdotto")&""
+														sql = "SELECT PkId, NomePagina_de, FkProduttore FROM Prodotti where PkId="&rs("FkProdotto")&""
 														url_prodotto_rs.Open sql, conn, 1, 1
 
 														NomePagina=url_prodotto_rs("NomePagina")
@@ -343,8 +343,8 @@
                                             <h5 class="nomargin"><%=rs("titolo")%></h5>
 																						<p>
 																							<strong>Code: <%=rs("codicearticolo")%></strong>
-																							<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Col.: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Light: <%=rs("lampadina")%><%end if%><%end if%>
-																							<%if FkProduttore=59 then%><br /><span style="color:#a01010;"><strong><em>Extra discounts not applicable</em></strong></span><%end if%>
+																							<%if Len(rs("colore"))>0 or Len(rs("lampadina"))>0 then%><br /><%if Len(rs("colore"))>0 then%>Farbe: <%=rs("colore")%><%end if%><%if Len(rs("lampadina"))>0 then%> - Licht: <%=rs("lampadina")%><%end if%><%end if%>
+																							<%if FkProduttore=59 then%><br /><span style="color:#a01010;"><strong><em>Zusatzliche Rabatte sind nicht anwendbar</em></strong></span><%end if%>
 																						</p>
                                         </div>
                                     </div>
@@ -363,19 +363,19 @@
 												<tfoot>
 													<tr>
 															<td class="hidden-xs"></td>
-															<td class="text-right" colspan="2">Total Cart</td>
+															<td class="text-right" colspan="2">Gesamtwagen</td>
 															<td class="text-right"><%if ss("TotaleCarrello")<>0 then%>
 															<%=FormatNumber(ss("TotaleCarrello"),2)%><%else%>0<%end if%>&nbsp&euro;</td>
 													</tr>
 													<tr>
 															<td class="hidden-xs"></td>
-															<td class="text-right" colspan="2"><strong>Extra Discount</strong></td>
+															<td class="text-right" colspan="2"><strong>Extra Rabatt</strong></td>
 															<td class="text-right"><strong><%if ss("Sconto")<>0 then%>
 															-<%=FormatNumber(ss("Sconto"),2)%><%else%>0,00<%end if%>&nbsp&euro;</strong></td>
 													</tr>
                           <tr>
                               <td colspan="4">
-                                  <h5>Any notes</h5>
+                                  <h5>Anmerkungen</h5>
                                   <textarea class="form-control" rows="3" readonly style="font-size: 12px;"><%=NoteCliente%></textarea>
                               </td>
                           </tr>
@@ -388,14 +388,14 @@
             <div class="row top-buffer">
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Shipping</h4>
+                        <h4>Versand</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <table id="cart" class="table table-hover table-condensed table-cart">
                             <thead>
                                 <tr>
-                                    <th style="width:75%">Shipping method</th>
-                                    <th style="width:25%" class="text-center">Shipping cost:</th>
+                                    <th style="width:75%">Speditionsarten</th>
+                                    <th style="width:25%" class="text-center">Versandkosten:</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -417,7 +417,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="title">
-                        <h4>Shipping address</h4>
+                        <h4>Spedition Adresse</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <p><%=Nominativo_sp%>&nbsp;-&nbsp;Telefono:&nbsp;<%=Telefono_sp%><br /><%=Indirizzo_sp%>&nbsp;-&nbsp;<%=CAP_sp%>&nbsp;-&nbsp;<%=Citta_sp%><%if Provincia_sp<>"" then%>&nbsp;(<%=Provincia_sp%>)<%end if%>&nbsp;-&nbsp;<%=Nazione_sp%></p>
@@ -441,15 +441,15 @@
 										if trasp_rs.recordcount>0 then
 										%>
 										<div class="title">
-                        <h4>Payment</h4>
+                        <h4>Zahlung</h4>
                     </div>
                     <div class="col-md-12 top-buffer">
                         <table id="cart" class="table table-hover table-condensed table-cart">
                             <thead>
                                 <tr>
-                                    <th style="width:70%">Payment method</th>
-                                    <th style="width:15%">Payment cost</th>
-                                    <th style="width:15%">Total</th>
+                                    <th style="width:70%">Zahlungsweisen</th>
+                                    <th style="width:15%">Zahlungskosten</th>
+                                    <th style="width:15%">Gesamtpreis</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -488,7 +488,7 @@
 																%>
 
                                 <tr>
-                                    <td data-th="Product"><h5>Payment cost:</h5></td>
+                                    <td data-th="Product"><h5>Zahlungskosten:</h5></td>
                                     <td data-th="Price"></td>
                                     <td data-th="Subtotal"><h5><%if PkIdPagamentoScelto>0 then%><%if TipoCostoPagamentoScelto=4 or TipoCostoPagamentoScelto=5 then%>-<%end if%><%end if%><%=FormatNumber(CostoPagamentoTotale,2)%>&#8364;</h5></td>
                                 </tr>
@@ -503,65 +503,64 @@
                         <h4>Billing details</h4>
                     </div>
                     <div class="col-md-12">
-                        <p class="description">It is possible to include data different than those already included (the data included are the same as those indicated in the registration).<br>
-                  The invoice is issued on request for both companies and individuals.</p>
+                        <p class="description">Sie haben die Moglichkeit andere personliche Daten fur die Rechnung anzugeben (andernfalls nutzen wir die Daten, die bei der Registrierung angegeben worden sind).<br />Die Rechnung wird auf Wunsch sowohl fur Firmen als auch fur Privatpersonen ausgestellt.</p>
 						<div class="form-group clearfix">
-								<label for="nominativo" class="col-sm-4 control-label">Name and Surname</label>
+								<label for="nominativo" class="col-sm-4 control-label">Vor- und Nachname</label>
 								<div class="col-sm-8">
 										<input type="text" class="form-control" name="nominativo" id="nominativo" value="<%=NominativoOrdine%>" maxlength="50">
 								</div>
 						</div>
 						<div class="form-group clearfix">
-								<label for="rag_soc" class="col-sm-4 control-label">Company name<br>(in the case of a business)</label>
+								<label for="rag_soc" class="col-sm-4 control-label">Firmenname<br>(wenn es sich um eine Firma handelt)</label>
 								<div class="col-sm-8">
 										<input type="text" class="form-control" name="rag_soc" id="rag_soc" value="<%=Rag_SocOrdine%>" maxlength="50">
 								</div>
 						</div>
 						<div class="form-group clearfix">
-								<label for="cod_fisc" class="col-sm-4 control-label">Tax Code</label>
+								<label for="cod_fisc" class="col-sm-4 control-label">Steuer-Code</label>
 								<div class="col-sm-8">
 										<input type="text" class="form-control" name="cod_fisc" id="cod_fisc" value="<%=Cod_fiscOrdine%>" maxlength="20">
 								</div>
 						</div>
 						<div class="form-group clearfix">
-								<label for="PartitaIVA" class="col-sm-4 control-label">Value Added Tax registration number or equivalent<br />(in the case of a business)</label>
+								<label for="PartitaIVA" class="col-sm-4 control-label">Umsatzsteuer-Identifikationsnummer<br />(wenn es sich um eine Firma handelt)</label>
 								<div class="col-sm-8">
 										<input type="number" class="form-control" name="PartitaIVA" id="PartitaIVA" value="<%=PartitaIVAOrdine%>" maxlength="20">
 								</div>
 						</div>
 						<div class="form-group clearfix">
-								<label for="Codice_SDI" class="col-sm-4 control-label">SDI-Code<br />(in the case of a business)</label>
+								<label for="Codice_SDI" class="col-sm-4 control-label">SDI-Code<br />(wenn es sich um eine Firma handelt)</label>
 								<div class="col-sm-8">
 										<input type="text" class="form-control" name="Codice_SDI" id="Codice_SDI" value="<%=Codice_SDIOrdine%>" maxlength="7">
 								</div>
 						</div>
 						<div class="form-group clearfix">
-								<label for="Email_PEC" class="col-sm-4 control-label">PEC<br />(in the case of a business)</label>
+								<label for="Email_PEC" class="col-sm-4 control-label">PEC<br />(wenn es sich um eine Firma handelt)</label>
 								<div class="col-sm-8">
 										<input type="text" class="form-control" name="Email_PEC" id="Email_PEC" value="<%=Email_PECOrdine%>" maxlength="50">
 								</div>
 						</div>
 						<div class="form-group clearfix">
-								<label for="indirizzo" class="col-sm-4 control-label">Address</label>
+								<label for="indirizzo" class="col-sm-4 control-label">Addresse</label>
 								<div class="col-sm-8">
 										<input type="text" class="form-control" name="indirizzo" id="indirizzo" value="<%=IndirizzoOrdine%>" maxlength="100">
 								</div>
 						</div>
 						<div class="form-group clearfix">
-								<label for="citta" class="col-sm-4 control-label">City</label>
+								<label for="citta" class="col-sm-4 control-label">Stadt</label>
 								<div class="col-sm-8">
 										<input type="text" class="form-control" name="citta" id="citta" value="<%=CittaOrdine%>" maxlength="50">
 								</div>
 						</div>
 
 						<div class="form-group">
-								<label for="cap" class="col-sm-4 control-label">Zip code</label>
+								<label for="cap" class="col-sm-4 control-label">PLZ</label>
 								<div class="col-sm-8">
 										<input type="text" class="form-control" name="cap" id="cap" value="<%=CAPOrdine%>" maxlength="5">
 								</div>
 						</div>
 						<div class="form-group">
-								<label for="provincia" class="col-sm-4 control-label">Province/Region</label>
+								<label for="provincia" class="col-sm-4 control-label">Provinz/Region</label>
 								<div class="col-sm-8">
 										<input type="text" class="form-control" name="provincia" id="provincia" value="<%=ProvinciaOrdine%>" maxlength="2">
 								</div>
@@ -573,7 +572,7 @@
 						<%if ss.recordcount>0 then%>
             <div class="col-md-12">
                 <div class="bg-primary">
-                    <p style="font-size: 1.2em; text-align: right; padding: 10px 15px; color: #000;">Total order: <b>
+                    <p style="font-size: 1.2em; text-align: right; padding: 10px 15px; color: #000;">Warenkorb gesamt: <b>
 										<%if ss("TotaleGenerale")<>0 then%>
 											<%=FormatNumber(ss("TotaleGenerale"),2)%>
 										<%else%>
@@ -582,8 +581,8 @@
 										&#8364;&nbsp;
 										</b></p>
                 </div>
-                <a href="/carrello2.asp" class="btn btn-danger pull-left" style="margin-top: 10px;"><i class="glyphicon glyphicon-chevron-left"></i> Previous step</a>
-                <%if TipoPagamentoScelto>0 then%><a href="#" class="btn btn-danger pull-right" onClick="Continua();" style="margin-top: 10px;">Click here to buy out the order <i class="glyphicon glyphicon-chevron-right"></i></a><%end if%>
+                <a href="/carrello2.asp" class="btn btn-danger pull-left" style="margin-top: 10px;"><i class="glyphicon glyphicon-chevron-left"></i> Vorhergehender Schritt</a>
+                <%if TipoPagamentoScelto>0 then%><a href="#" class="btn btn-danger pull-right" onClick="Continua();" style="margin-top: 10px;">Klicken Sie hier, um den Einkauf zu vervollstandigen <i class="glyphicon glyphicon-chevron-right"></i></a><%end if%>
             </div>
 						<%end if%>
         </div>
@@ -593,5 +592,5 @@
 		ss.close
 		rs.close
 		%>
-    <!--#include file="inc_footer.asp"-->
+    <!--#include virtual="/inc_footer.asp"-->
 </body>

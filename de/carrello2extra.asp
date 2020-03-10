@@ -1,4 +1,4 @@
-<!--#include file="inc_strConn.asp"-->
+<!--#include virtual="/inc_strConn.asp"-->
 <%
 	mode=request("mode")
 	if mode="" then mode=0
@@ -214,8 +214,8 @@
 </head>
 
 <body>
-<!--#include file="inc_header_1.asp"-->
-<!--#include file="inc_header_2.asp"-->
+<!--#include virtual="/de/inc_header_1.asp"-->
+<!--#include virtual="/de/inc_header_2.asp"-->
 <%
 	Set rs = Server.CreateObject("ADODB.Recordset")
 	sql = "SELECT PkId, FkOrdine, FkProdotto, PrezzoProdotto, Quantita, TotaleRiga, Titolo, CodiceArticolo, Colore, Lampadina, Dominio FROM RigheOrdine WHERE Dominio LIKE '"&dominio&"' AND FkOrdine="&idOrdine&""
@@ -422,12 +422,12 @@
 																								<div class="radio">
 																										<label><b>Internationaler Kurier</b></label>
 																								</div>
-																								<p style="color: #666; font-size: .85em;">International shipping costs depend upon the wieght of the product<br />
-			      If you wish to continue with your purchase please follow the following  procedure:<br />
-			      -check that the articles in the shopping basket are those which you wish  to purchase,<br />
-			      -click on &ldquo;click here for shipping cost&rdquo;.<br />
-			      Within 24h (but perhaps within the hour) you will receive an e-mail with  the shipping costs and the possibility to continue with the purchase. <br>
-			      Having received the administrator's reply, return to our internet site Home Page, where you should reinsert your original Login (E-mail) and  Password.&nbsp; At this point a link will  appear &ldquo;My Orders&rdquo; still in the Client Area, clicking on this&nbsp; your shopping basket will reappear with the Cost of shipping included, and you can continue.</p>
+																								<p style="color: #666; font-size: .85em;">Die internationalen Versandkosten hängen vom Gewicht des Produkts ab<br />
+			      Wenn Sie mit dem Einkauf fortfahren mochten, bitten wir Sie die folgende Prozedur auszufuhren:<br />
+			      -kontrollieren Sie bitte, dass die im Warenkorb eingegebenen Produkte, die von Ihnen gewunschten sind,<br />
+			      -klicken Sie auf &ldquo;hier klicken, fur die Kalkulation der Speditionskosten&rdquo;.<br />
+			      In den folgenden 24h (aber eventuell auch schon nach nur 1h) erhalten Sie eine e-mail, die Ihnen die Speditionskosten mitteilt und Ihnen die Moglichkeit gibt, mit dem Einkauf fortzufahren. <br>
+						Nachdem Sie von unserer Buchhaltung die Nachricht erhalten haben, gehen Sie bitte wieder auf unsere Internetseite und geben erneut Login (e-mail) und Passwort, welche Sie bei Ihrer Registrierung erhalten haben, ein. Im Kundenbereich finden Sie den Link &ldquo;meine Bestellungen&rdquo;, wenn Sie dort klicken, erscheint Ihre angefangene Bestellung und Sie konnen nun mit Ihrem Einkauf fortfahren, da die Speditionskosten eingefugt worden sind.</p>
 																						</div>
 																				</div>
 																		</td>
@@ -561,7 +561,7 @@
 								</div>
 								<%if rs.recordcount>0 then%>
                 <a href="/de/carrello2.asp" class="btn btn-danger pull-left" style="margin-top: 10px;"><i class="glyphicon glyphicon-chevron-left"></i> Vorhergehender Schritt</a>
-                <a href="#" class="btn btn-danger pull-right" style="margin-top: 10px;" onClick="<%if stato_ordine=22 then%>Continua();<%else%>CalcoloSpedizione();<%end if%>"><%if stato_ordine=22 then%>klicken Sie hier, um den Einkauf abzuschliessen<%else%>Click here to calculate the shipping cost<%end if%> <i class="glyphicon glyphicon-chevron-right"></i></a>
+                <a href="#" class="btn btn-danger pull-right" style="margin-top: 10px;" onClick="<%if stato_ordine=22 then%>Continua();<%else%>CalcoloSpedizione();<%end if%>"><%if stato_ordine=22 then%>klicken Sie hier, um den Einkauf abzuschliessen<%else%>Hier klicken, fur die Kalkulation der Speditionskosten<%end if%> <i class="glyphicon glyphicon-chevron-right"></i></a>
 								<%end if%>
             </div>
 						<%end if%>
@@ -572,5 +572,5 @@
 		ss.close
 		rs.close
 		%>
-		<!--#include file="inc_footer.asp"-->
+		<!--#include virtual="/inc_footer.asp"-->
 </body>
