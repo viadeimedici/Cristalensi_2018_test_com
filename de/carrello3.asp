@@ -592,5 +592,5 @@
 		ss.close
 		rs.close
 		%>
-    <!--#include virtual="/inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
 </body>

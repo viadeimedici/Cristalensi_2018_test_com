@@ -1055,5 +1055,5 @@ End If
 		        </div>
 				</div>
     </div>
-    <!--#include file="inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
 </body>
