@@ -78,8 +78,8 @@ gr_rs.close
 </head>
 
 <body>
-    <!--#include virtual="/inc_header_1.asp"-->
-    <!--#include virtual="/inc_header_2.asp"-->
+    <!--#include virtual="/de/inc_header_1.asp"-->
+    <!--#include virtual="/de/inc_header_2.asp"-->
     <div class="container content">
         <div class="row hidden">
             <div class="col-md-12 parentOverflowContainer">
@@ -361,7 +361,7 @@ gr_rs.close
         </div>
         </div>
     </div>
-    <!--#include virtual="/inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
     <script>
         $(document).ready(function() {
             $('.readmore').readmore({

@@ -22,7 +22,7 @@ tr_rs.open sql,conn, 1, 1
 if tr_rs.recordcount>0 then
   Titolo_1_tip=tr_rs("Titolo_1_de")
   Titolo_2_tip=tr_rs("Titolo_2_de")
-  Url_tip=tr_rs("Url_en")
+  Url_tip=tr_rs("Url_de")
 end if
 tr_rs.close
 
@@ -86,7 +86,7 @@ gr_rs.close
        document.modulopaginazione.submit();
     }
     </script>
-    <!--#include virtual="/de/inc_funzioni_head.asp"-->
+    <!--#include virtual="/inc_funzioni_head.asp"-->
 </head>
 
 <body>
@@ -370,7 +370,7 @@ gr_rs.close
             %>
         </div>
     </div>
-    <!--#include virtual="/inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
     <script>
         $(document).ready(function() {
             $('.readmore').readmore({

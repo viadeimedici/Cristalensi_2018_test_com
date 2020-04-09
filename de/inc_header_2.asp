@@ -72,7 +72,7 @@
                                                 <ul class="list-unstyled lampade-tavolo">
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/41nc-moderne-tischleuchten.asp" title="Moderne Tischleuchten">Moderne Tischleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/42nc-led-tischleuchten.asp" title="LED-Tischleuchten">LED-Tischleuchten</a></li>
-                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/43nc-classiske-tischleuchten.asp" title="Klassiske Tischleuchten">Klassiske Tischleuchten</a></li>
+                                                    <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/43nc-klassiske-tischleuchten.asp" title="Klassiske Tischleuchten">Klassiske Tischleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/44nc-rustikale-tischleuchten.asp" title="Rustikale Tischleuchten">Rustikale Tischleuchten</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/45nc-tischleuchten-im-vintage-stil.asp" title="Tischleuchten im Vintage-Still">Tischleuchten im Vintage-Stil</a></li>
                                                     <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/46nc-tischleuchten-im-tiffany-stil.asp" title="Tischleuchten im Tiffany-Still">Tischleuchten im Tiffany-Stil</a></li>

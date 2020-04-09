@@ -98,12 +98,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-leuchtmittel-und-driver.asp" class="prod-img-replace" style="background-image: url(/images/home-lampadine.jpg)" title="Leuchtmittel und Driver"><img alt="Lampadine" src="/images/blank.png"></a>
+                            <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-leuchtmittel.asp" class="prod-img-replace" style="background-image: url(/images/home-lampadine.jpg)" title="Leuchtmittel und Driver"><img alt="Lampadine" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-leuchtmittel-und-driver.asp" title="Leuchtmittel und Driver"><h3>Leuchtmittel und Driver</h3></a>
+                                    <a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4ng-leuchtmittel.asp" title="Leuchtmittel und Driver"><h3>Leuchtmittel und Driver</h3></a>
                                 </div>
                             </div>
                         </div>

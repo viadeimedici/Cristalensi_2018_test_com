@@ -75,7 +75,7 @@ gr_rs.close
        document.modulopaginazione.submit();
     }
     </script>
-    <!--#include virtual="/de/inc_funzioni_head.asp"-->
+    <!--#include virtual="/inc_funzioni_head.asp"-->
 </head>
 
 <body>
@@ -356,7 +356,7 @@ gr_rs.close
             %>
         </div>
     </div>
-    <!--#include virtual="/inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
     <script>
         $(document).ready(function() {
             $('.readmore').readmore({
