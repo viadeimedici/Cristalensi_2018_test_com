@@ -2,7 +2,7 @@
 <%
 if pkid_novita=1 then
   Title="Kronleuchter und Pendelleuchten"
-  Titolo_1="Kronleuchter"
+  Titolo_1="Pendelleuchten"
   Titolo_2="Kronleuchter und Pendelleuchten"
   Description=""
   Descrizione=""
@@ -113,7 +113,7 @@ end if
                 <nav class="navbar hidden-xs">
                     <!-- menu - normal collapsible navbar markup -->
                     <ul class="list-unstyled side-list">
-                        <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1-neue-pendelleuchten.asp" title="Kronleuchter - Neue Artikel">Kronleuchter</a></li>
+                        <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/1-neue-pendelleuchten.asp" title="Pendelleuchten - Neue Artikel">Pendelleuchten</a></li>
                         <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/2-neue-deckenlampen.asp" title="Deckenlampen - Neue Artikel">Deckenlampen</a></li>
                         <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/3-neue-wandlampen.asp" title="Wandlampen - Neue Artikel">Wandlampen</a></li>
                         <li><a href="/lampen-innenbeleuchtung-aussenbeleuchtung/4-neue-stehleuchten.asp" title="Stehleuchten - Neue Artikel">Stehleuchten</a></li>
