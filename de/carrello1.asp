@@ -518,7 +518,7 @@
                         </li>
                     </ul>
                     <div class="panel-footer">
-                        <a href="#" class="btn btn-danger btn-block" style="padding: 10px 0px;" onClick="NoteCliente();">UM DEN EINKAUF ZU VERVOLLSTANDIGEN <i class="fa fa-angle-right"></i></a>
+                        <a href="#" class="btn btn-danger btn-block" style="padding: 10px 0px;" onClick="NoteCliente();">JETZT KAUFEN <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 								<%end if%>

@@ -2,7 +2,7 @@
 <%
 'id=request("id")
 if id="" then id=0
-if id=0 then response.Redirect("https://www.cristalensi.it")
+if id=0 then response.Redirect("https://www.cristalensi.com")
 
 if id>0 then
 	Set prod_rs = Server.CreateObject("ADODB.Recordset")
@@ -207,8 +207,8 @@ end if
 </head>
 
 <body>
-  <!--#include virtual="/inc_header_1.asp"-->
-	<!--#include virtual="/inc_header_2.asp"-->
+  <!--#include virtual="/de/inc_header_1.asp"-->
+	<!--#include virtual="/de/inc_header_2.asp"-->
     <div class="container content">
         <div class="row hidden">
             <div class="col-md-12 parentOverflowContainer">
