@@ -134,13 +134,13 @@ az_rs.close
                 if order="" then order=1
                 if order>4 then order=1
 
-                if order=1 then ordine="Titolo ASC"
-                if order=2 then ordine="Titolo DESC"
+                if order=1 then ordine="Titolo_EN ASC"
+                if order=2 then ordine="Titolo_EN DESC"
                 if order=3 then ordine="PrezzoProdotto ASC, PrezzoListino ASC"
                 if order=4 then ordine="PrezzoProdotto DESC, PrezzoListino DESC"
 
                 Set prod_rs = Server.CreateObject("ADODB.Recordset")
-                sql = "SELECT * FROM Prodotti WHERE (FkProduttore="&FkProduttore&" and (Offerta=0 or Offerta=2)) ORDER BY "&ordine&""
+                sql = "SELECT * FROM Prodotti WHERE (FkProduttore="&FkProduttore&" and (Offerta=0 or Offerta=2) and (Len(Titolo_EN)>0)) ORDER BY "&ordine&""
                 prod_rs.open sql,conn, 1, 1
                 if prod_rs.recordcount>0 then
 

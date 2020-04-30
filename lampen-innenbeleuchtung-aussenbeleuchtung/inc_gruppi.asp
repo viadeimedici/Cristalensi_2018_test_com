@@ -151,7 +151,7 @@ gr_rs.close
                 if order=4 then ordine="PrezzoProdotto DESC, PrezzoListino DESC"
 
                 Set prod_rs = Server.CreateObject("ADODB.Recordset")
-                sql = "SELECT * FROM Prodotti WHERE (FkNewGruppo="&pkid_gruppo&" and (Offerta=0 or Offerta=2)) ORDER BY "&ordine&""
+                sql = "SELECT * FROM Prodotti WHERE (FkNewGruppo="&pkid_gruppo&" and (Offerta=0 or Offerta=2) and (Len(Titolo_DE)>0)) ORDER BY "&ordine&""
                 prod_rs.open sql,conn, 1, 1
                 if prod_rs.recordcount>0 then
 

@@ -88,7 +88,7 @@ Items with elegant design by leading brands and manufacturers, but also products
             <div class="row top-buffer">
                 <%
                 Set prod_rs = Server.CreateObject("ADODB.Recordset")
-                sql = "SELECT TOP 60 * FROM Prodotti WHERE Offerta=0 or Offerta=2 ORDER BY PkId DESC"
+                sql = "SELECT TOP 60 * FROM Prodotti WHERE ((Offerta=0 or Offerta=2) AND (Len(Titolo_EN)>0)) ORDER BY PkId DESC"
                 prod_rs.open sql,conn, 1, 1
                 if prod_rs.recordcount>0 then
 

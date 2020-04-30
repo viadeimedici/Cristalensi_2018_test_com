@@ -169,13 +169,13 @@ gr_rs.close
                 order=request("order")
                 if order="" then order=1
 
-                if order=1 then ordine="Titolo ASC"
-                if order=2 then ordine="Titolo DESC"
+                if order=1 then ordine="Titolo_DE ASC"
+                if order=2 then ordine="Titolo_DE DESC"
                 if order=3 then ordine="PrezzoProdotto ASC, PrezzoListino ASC"
                 if order=4 then ordine="PrezzoProdotto DESC, PrezzoListino DESC"
 
                 Set prod_rs = Server.CreateObject("ADODB.Recordset")
-                sql = "SELECT * FROM Prodotti WHERE (FkNewCategoria="&pkid_categoria&" and (Offerta=0 or Offerta=2)) ORDER BY "&ordine&""
+                sql = "SELECT * FROM Prodotti WHERE (FkNewCategoria="&pkid_categoria&" and (Offerta=0 or Offerta=2) and (Len(Titolo_DE)>0)) ORDER BY "&ordine&""
                 prod_rs.open sql,conn, 1, 1
                 if prod_rs.recordcount>0 then
 

@@ -82,14 +82,14 @@
                     <ul class="list-unstyled side-list">
                         <%
                         Do While not tip_rs.EOF
-                          Titolo_1=tip_rs("Titolo_1")
-                          Titolo_2=tip_rs("Titolo_2")
-                          Url=tip_rs("Url")
-                          Title=tip_rs("Title")
+                          Titolo_1=tip_rs("Titolo_1_en")
+                          Titolo_2=tip_rs("Titolo_2_en")
+                          Url=tip_rs("Url_en")
+                          Title=tip_rs("Title_en")
                           'Description=tip_rs("Description")
                           'Descrizione=tip_rs("Descrizione")
                         %>
-                        <li><a href="/interior-exterior-lighting/<%=Url%>" title="<%=Titolo_2%>"><%=Titolo_1%></a></li>
+                        <li><a href="/interior-exterior-lighting/<%=Url%>" title="<%=Titolo_1%>"><%=Titolo_1%></a></li>
                         <%
                         tip_rs.movenext
                         loop
@@ -106,7 +106,7 @@
             <div class="row top-buffer">
                 <%
                 Set prod_rs = Server.CreateObject("ADODB.Recordset")
-                sql = "SELECT * FROM Prodotti WHERE Offerta=1 or Offerta=2 ORDER BY "&ordine&""
+                sql = "SELECT * FROM Prodotti WHERE ((Offerta=1 OR Offerta=2) AND (Len(Titolo_EN)>0)) ORDER BY "&ordine&""
                 prod_rs.open sql,conn, 1, 1
                 if prod_rs.recordcount>0 then
 
@@ -163,7 +163,7 @@
                       pr_rs.open sql,conn, 1, 1
                       if pr_rs.recordcount>0 then
                         produttore=pr_rs("titolo")
-												url_produttore="/produttori-illuminazione/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
+												url_produttore="/lighting-brands/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore_pr)
                       end if
                       pr_rs.close
                     end if

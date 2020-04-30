@@ -118,7 +118,7 @@
                 <%
                 'random prodotti in offerta
                 Set prod_rs = Server.CreateObject("ADODB.Recordset")
-                sql = "SELECT pkid,codicearticolo,titolo_EN,prezzoprodotto,prezzolistino,nomepagina_EN,offerta,fkproduttore FROM Prodotti WHERE Offerta=1 OR Offerta=2 ORDER BY Titolo_EN ASC"
+                sql = "SELECT pkid,codicearticolo,titolo_EN,prezzoprodotto,prezzolistino,nomepagina_EN,offerta,fkproduttore FROM Prodotti WHERE ((Offerta=1 OR Offerta=2) AND (Len(Titolo_EN)>0)) ORDER BY Titolo_EN ASC"
                 prod_rs.open sql,conn, 1, 1
 
                 Randomize()
@@ -224,7 +224,7 @@
             </div>
             <%
             Set prod_rs = Server.CreateObject("ADODB.Recordset")
-            sql = "SELECT Top 8 * FROM Prodotti WHERE (Offerta=0 or Offerta=2) ORDER BY PkId DESC"
+            sql = "SELECT Top 8 * FROM Prodotti WHERE ((Offerta=0 or Offerta=2) AND (Len(Titolo_EN)>0)) ORDER BY PkId DESC"
             prod_rs.open sql,conn, 1, 1
             if prod_rs.recordcount>0 then
             %>
