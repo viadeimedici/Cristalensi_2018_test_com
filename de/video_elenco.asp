@@ -4,11 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Video lighting products CRISTALENSI</title>
+    <title>Video Beleuchtungsprodukte Video Installation Lampen Ventilatoren Leuchten CRISTALENSI</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Video installation of lamps, fans, lamps and other lighting products. Video of productions and presentations of articles of our e-commerce.">
+    <meta name="description" content="Hier finden Sie Verbindungen zum Socialnetwork und zu Videofilmen über die Präsentation unserer Produkte, Neuheiten und Ausstattungen. Außerdem Vorschläge zur Installation und Montage unserer Beleuchtungsartikel.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Video installation of lamps, fans, lamps and other lighting products. Video of productions and presentations of articles of our e-commerce.">
+    <meta property="og:description" content="Hier finden Sie Verbindungen zum Socialnetwork und zu Videofilmen über die Präsentation unserer Produkte, Neuheiten und Ausstattungen. Außerdem Vorschläge zur Installation und Montage unserer Beleuchtungsartikel.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -45,43 +45,43 @@
 </head>
 
 <body>
-    <!--#include virtual="/inc_header_1.asp"-->
-    <!--#include virtual="/inc_header_2.asp"-->
+    <!--#include virtual="/de/inc_header_1.asp"-->
+    <!--#include virtual="/de/inc_header_2.asp"-->
     <div class="container content">
         <div class="col-md-12">
-            <!--#include virtual="/inc_slider.asp"-->
+            <!--#include virtual="/de/inc_slider.asp"-->
             <div class="row top-buffer">
                 <div class="col-md-8">
-                    <h1 class="slogan">Video lighting products</h1>
+                    <h1 class="slogan">Video Beleuchtungsprodukte</h1>
                     <p class="main-description">
-                      Here are some videos created by us or supplied by manufacturers of lighting products that are on sale in our e-commerce. Display installations fans, installation of lamps, fittings and new product introductions. You can also connect to our channel on YouTube or the official Facebook page where you'll find articles and advice.
-<br />Connect immediately so as to receive the new content that will get in the future.
+                      Hier finden Sie einige Videofilme, die entweder von uns oder von den Herstellern der Beleuchtungsprodukte, die Sie in unserem e-commerce Verkauf finden, produziert worden sind. Hier können Sie sehen, wie Ventilatoren installiert und Leuchten montiert werden; außerdem präsentieren wir Ihnen verschiedene Ausstattungen und neue Produkte. Sie können sich auch mit unserem YouTube Kanal verlinken oder auf unsere Facebook Seite gehen. Dort finden Sie ebenfalls unsere Produkte und wertvolle Hinweise.<br />
+Klicken Sie gleich, um in Zukunft immer Up-to-Date zu sein.
                       <br /><br />
-                      <a href="https://www.youtube.com/channel/UCsP3WTO0PryxgRq6OymSfpA" target="_blank" title="Cristalensi Official YouTube Channel"><img style="width:150px;padding:10px;text-align:right;" src="https://www.cristalensi.it/images/youtube.png" border="0" alt="Cristalensi Official YouTube Channel" /></a>
-                      <a href="https://www.facebook.com/CristalensiLampadari/" target="_blank" title="Cristalensi Official Facebook page"><img style="width:150px;padding:10px;text-align:right;" src="https://www.cristalensi.it/images/facebook.png" border="0" alt="Cristalensi Official Facebook page" /></a>
+                      <a href="https://www.youtube.com/channel/UCsP3WTO0PryxgRq6OymSfpA" target="_blank" title="Canale YouTube ufficiale Cristalensi"><img style="width:150px;padding:10px;text-align:right;" src="https://www.cristalensi.it/images/youtube.png" border="0" alt="Collegati al nostro canale su YouTube" /></a>
+                      <a href="https://www.facebook.com/CristalensiLampadari/" target="_blank" title="Pagina ufficiale Cristalensi"><img style="width:150px;padding:10px;text-align:right;" src="https://www.cristalensi.it/images/facebook.png" border="0" alt="Collegati alla nostra pagina su Facebook" /></a>
                     </p>
-                      <h4 class="title">Cristalensi shows the series Kelly of Studio Italia Design</h4>
+                      <h4 class="title">Cristalensi präsentiert die Serie Kelly von Studio Italia Design</h4>
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/v2m1O2lP9Ys" frameborder="0" allowfullscreen></iframe>
 
-                      <h4 class="title">Outdoor lighting - Cristalensi and Linea Light</h4>
+                      <h4 class="title">Beleuchtung für den Außenbereich - Cristalensi und Linea Light</h4>
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/5yyBJla-U1Q" frameborder="0" allowfullscreen></iframe>
 
-                      <h4 class="title">How to assemble Moonflower of Linea Light</h4>
+                      <h4 class="title">Wie montiert man Moonflower von Linea Light</h4>
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/NcstM9ILcsA" frameborder="0" allowfullscreen></iframe>
 
-                      <h4 class="title">Cristalensi and Studio Italia Design show "Nostalgia"</h4>
+                      <h4 class="title">Cristalensi und Studio Italia Design präsentieren "Nostalgia"</h4>
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/bPqKfhgVHE4" frameborder="0" allowfullscreen></iframe>
 
-                      <h4 class="title">A selection of Light4 products</h4>
+                      <h4 class="title">Eine Auswahl von Light4 Produkten</h4>
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/QO5W6Vhu8xY" frameborder="0" allowfullscreen></iframe>
 
-                      <h4 class="title">How to install a ceiling fan</h4>
+                      <h4 class="title">Wie installiert man einen Deckenventilator</h4>
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/6QC0Aw8NnPE" frameborder="0" allowfullscreen></iframe>
                 </div>
 
                 <%
                 Set com_rs = Server.CreateObject("ADODB.Recordset")
-                sql = "SELECT TOP 5 * FROM Commenti_Clienti WHERE Pubblicato=1 ORDER BY PkId DESC"
+                sql = "SELECT TOP 3 * FROM Commenti_Clienti WHERE Pubblicato=1 ORDER BY PkId DESC"
                 com_rs.open sql,conn, 1, 1
                 if com_rs.recordcount>0 then
                 %>
@@ -89,17 +89,17 @@
                     <div class="panel panel-default user-comment">
                         <!-- Default panel contents -->
                         <div class="panel-heading">
-                            <h5><i class="fa fa-users"></i> Reviews...</h5>
+                            <h5><i class="fa fa-users"></i> Bewertungen...</h5>
                         </div>
                         <ul class="list-group">
                             <%Do While not com_rs.EOF%>
-                            <li class="list-group-item"><i class="fa fa-user"></i> <em><%=Left(NoHTML(com_rs("Testo")), 90)%>... Vote: <%=com_rs("Valutazione")%>/5</em></li>
+                            <li class="list-group-item"><i class="fa fa-user"></i> <em><%=Left(NoHTML(com_rs("Testo")), 90)%>... Bewertung: <%=com_rs("Valutazione")%>/5</em></li>
                             <%
                             com_rs.movenext
             								loop
                             %>
                         </ul>
-                        <div class="panel-footer"><a href="commenti_elenco.asp" class="btn btn-default">Read all reviews <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="panel-footer"><a href="/de/commenti_elenco.asp" class="btn btn-default">Lesen Sie alle Bewertungen <i class="fa fa-chevron-right"></i></a></div>
                     </div>
                 </div>
                 <%
@@ -107,14 +107,14 @@
                 com_rs.close
                 %>
                 <div class="col-md-4 ">
-                <!--#include virtual="/inc_box_contatti.asp"-->
+                <!--#include virtual="/de/inc_box_contatti.asp"-->
                 </div>
             </div>
 
 
         </div>
     </div>
-    <!--#include virtual="/inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
     <script type='text/javascript' src='javascripts/camera.js'></script>
     <script type='text/javascript' src='javascripts/jquery.easing.1.3.js'></script>
     <script>

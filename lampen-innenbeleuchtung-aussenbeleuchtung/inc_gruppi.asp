@@ -120,7 +120,7 @@ gr_rs.close
                     %>
 
                 </nav>
-                <div class="banner preventivi">
+                <!--<div class="banner preventivi">
                     <h3 class="title">Promozione di Novembre</h3>
                     <p class="text" ><strong><em>Sconti Extra in Carrello</em></strong><br />-2% Oltre 300&nbsp&euro;<br />-3% Oltre 600&nbsp&euro;<br />-4% Oltre 900&nbsp&euro;</strong></p>
                 </div>
@@ -132,7 +132,7 @@ gr_rs.close
                 <div class="banner consegne">
                     <h3 class="title">SPEDIZIONI ASSICURATE</h3>
                     <p class="text">Consegna <u>GRATUITA</u> in tutta Italia per ordini superiori a 250&euro;<br />Per ordini fino a 250&euro;: 10&euro;</p>
-                </div>
+                </div>-->
             </div>
         </div>
 

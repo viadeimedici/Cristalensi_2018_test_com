@@ -52,12 +52,12 @@ az_rs.close
             visibility: hidden;
         }
     </style>
-    <link rel="canonical" href="https://www.cristalensi.it/produttori-illuminazione/<%=toUrl%>"/>
+    <link rel="canonical" href="https://www.cristalensi.com/lighting-brands/<%=toUrl%>"/>
     <script language="javascript">
     function CambiaPagina()
     {
        document.modulopaginazione.method = "post";
-       document.modulopaginazione.action = "/produttori-illuminazione/<%=toUrl%>?cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco";
+       document.modulopaginazione.action = "/lighting-brands/<%=toUrl%>?cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&order=<%=order%>#inizioelenco";
        document.modulopaginazione.submit();
     }
     </script>
@@ -140,7 +140,7 @@ az_rs.close
                 if order=4 then ordine="PrezzoProdotto DESC, PrezzoListino DESC"
 
                 Set prod_rs = Server.CreateObject("ADODB.Recordset")
-                sql = "SELECT * FROM Prodotti WHERE (FkProduttore="&FkProduttore&" and (Offerta=0 or Offerta=2) and (Len(Titolo_EN)>0)) ORDER BY "&ordine&""
+                sql = "SELECT * FROM Prodotti WHERE ((FkProduttore="&FkProduttore&") and (Offerta=0 or Offerta=2) and (Len(Titolo_EN)>0)) ORDER BY "&ordine&""
                 prod_rs.open sql,conn, 1, 1
                 if prod_rs.recordcount>0 then
 

@@ -26,7 +26,7 @@
     <meta name="msapplication-TileColor" content="#2790cf">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link href="stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css">
     <link href="/stylesheets/jquery.fancybox.min.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/customization.css" shim-shadowdom>
     <link rel="stylesheet" type="text/css" href="/stylesheets/camera.css" shim-shadowdom>

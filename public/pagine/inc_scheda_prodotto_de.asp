@@ -556,7 +556,7 @@ end if
 				</div>
 				<div class="clearfix"></div>
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-4 col-xsl-4 col-xs-12">
+					<!--<div class="col-lg-12 col-md-12 col-sm-4 col-xsl-4 col-xs-12">
 						<div class="banner_2 banner_a">
 							<img src="/images/sconto_extra.png">
 
@@ -571,7 +571,7 @@ end if
 						<div class="banner_2 banner_c">
 							<img src="/images/sconto_bonifico.png">
 						</div>
-					</div>
+					</div>-->
 				</div>
 				<!--#include virtual="/inc_box_contatti.asp"-->
 

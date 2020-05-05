@@ -83,7 +83,7 @@
                     %>
                 </div>
                 <div class="col-md-4">
-                    <div class="banner preventivi overflowContainer">
+                    <!--<div class="banner preventivi overflowContainer">
                         <h3 class="title">Preventivi personalizzati</h3>
                         <p class="text">Per ordini superiori a 500&euro; contatta il nostro personale... <strong>sconti speciali!</strong></p>
                     </div>
@@ -95,11 +95,10 @@
                     <div class="banner consegne overflowContainer">
                         <h3 class="title">Consegne</h3>
                         <p class="text">confezionamento accurato e spedizione assicurata GRATUITA in tutta Italia per ordini superiori a 250&euro;</p>
-                    </div>
+                    </div>-->
 
     								<!--condizioni di vendita-->
-                    <div class="panel panel-default payment-list">
-    										<!-- Default panel contents -->
+                    <!--<div class="panel panel-default payment-list">
     										<div class="panel-heading">
     											<h5>Condizioni di vendita</h5>
     										</div>
@@ -115,7 +114,7 @@
     											<li class="list-group-item"><i class="fa fa-check"></i> <em>Contrassegno in contanti:</em><div style="float: right;"><em><strong>4&euro;</strong></em></div></li>
     										</ul>
     										<div class="panel-footer"><a href="/de/condizioni_di_vendita.asp" class="btn btn-default">Condizioni di vendita <i class="fa fa-chevron-right"></i></a></div>
-    								</div>
+    								</div>-->
                     <!--#include virtual="/de/inc_box_contatti.asp"-->
                 </div>
             </div>

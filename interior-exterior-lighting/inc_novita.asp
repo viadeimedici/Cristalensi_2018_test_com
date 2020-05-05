@@ -120,7 +120,7 @@ end if
                         <li><a href="/interior-exterior-lighting/10-new-outdoor-lamps.asp" title="Outdoor lamps - New product lighting">Outdoor lamps</a></li>
                     </ul>
                 </nav>
-                <div class="banner preventivi overflowContainer">
+                <!--<div class="banner preventivi overflowContainer">
                     <h3 class="title">Promozione di Novembre</h3>
                     <p class="text" style="padding-left: 40px;"><strong><em>Sconti Extra in Carrello</em></strong><br />-2% Oltre 300&nbsp&euro;<br />-3% Oltre 600&nbsp&euro;<br />-4% Oltre 900&nbsp&euro;</strong></p>
                 </div>
@@ -132,16 +132,16 @@ end if
                 <div class="banner consegne overflowContainer">
                     <h3 class="title">SPEDIZIONI ASSICURATE</h3>
                     <p class="text">Consegna <u>GRATUITA</u> in tutta Italia per ordini superiori a 250&euro;<br />Per ordini fino a 250&euro;: 10&euro;</p>
-                </div>
+                </div>-->
             </div>
         </div>
         <div class="col-md-9">
             <div class="row top-buffer">
                 <%
                 Set prod_rs = Server.CreateObject("ADODB.Recordset")
-                if pkid_novita=1 then sql = "SELECT TOP 60 * FROM Prodotti WHERE ((FkNewTipologia=1 or FkNewTipologia=2) and (Offerta=0 or Offerta=2)) ORDER BY PkId DESC"
-                if pkid_novita=3 or pkid_novita=4 or pkid_novita=5 or pkid_novita=6 then sql = "SELECT TOP 60 * FROM Prodotti WHERE (FkNewTipologia="&pkid_novita&" and (Offerta=0 or Offerta=2)) ORDER BY PkId DESC"
-                if pkid_novita=10 then sql = "SELECT TOP 60 * FROM Prodotti WHERE ((FkNewGruppo=2) and (Offerta=0 or Offerta=2)) ORDER BY PkId DESC"
+                if pkid_novita=1 then sql = "SELECT TOP 60 * FROM Prodotti WHERE ((FkNewTipologia=1 or FkNewTipologia=2) and (Offerta=0 or Offerta=2) and (Len(Titolo_EN)>0)) ORDER BY PkId DESC"
+                if pkid_novita=3 or pkid_novita=4 or pkid_novita=5 or pkid_novita=6 then sql = "SELECT TOP 60 * FROM Prodotti WHERE ((FkNewTipologia="&pkid_novita&") and (Offerta=0 or Offerta=2) and (Len(Titolo_EN)>0)) ORDER BY PkId DESC"
+                if pkid_novita=10 then sql = "SELECT TOP 60 * FROM Prodotti WHERE ((FkNewGruppo=2) and (Offerta=0 or Offerta=2) and (Len(Titolo_EN)>0)) ORDER BY PkId DESC"
                 prod_rs.open sql,conn, 1, 1
                 if prod_rs.recordcount>0 then
                 %>
