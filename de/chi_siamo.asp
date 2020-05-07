@@ -1,4 +1,4 @@
-/<!--#include virtual="/inc_strConn.asp"-->
+<!--#include virtual="/inc_strConn.asp"-->
 <!DOCTYPE html>
 <html>
 
@@ -94,73 +94,65 @@
                 <div class="col-xs-6 col-sm-3 col-md-2 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/images/chi-siamo/grandi/5.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/5.jpg)" title="Shop lighting - Entry and parking"><img alt="Shop lighting - Entry and parking" src="images/blank.png"></a>
+                            <a href="/images/chi-siamo/grandi/5.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/5.jpg)" title="Shop lighting - Entry and parking"><img alt="Shop lighting - Entry and parking" src="/images/blank.png"></a>
                         </div>
                     </article>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-2 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/images/chi-siamo/grandi/6.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/6.jpg)" title="Shop lighting - Staff"><img alt="Shop lighting - Staff" src="images/blank.png"></a>
+                            <a href="/images/chi-siamo/grandi/6.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/6.jpg)" title="Shop lighting - Staff"><img alt="Shop lighting - Staff" src="/images/blank.png"></a>
                         </div>
                     </article>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-2 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/images/chi-siamo/grandi/1.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/1.jpg)" title="Shop chandeliers - Overview"><img alt="Shop chandeliers - Overview" src="images/blank.png"></a>
+                            <a href="/images/chi-siamo/grandi/1.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/1.jpg)" title="Shop chandeliers - Overview"><img alt="Shop chandeliers - Overview" src="/images/blank.png"></a>
                         </div>
                     </article>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-2 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/images/chi-siamo/grandi/2.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/2.jpg)" title="Shop chandeliers in Florence - Overview"><img alt="Shop chandeliers in Florence - Overview" src="images/blank.png"></a>
+                            <a href="/images/chi-siamo/grandi/2.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/2.jpg)" title="Shop chandeliers in Florence - Overview"><img alt="Shop chandeliers in Florence - Overview" src="/images/blank.png"></a>
                         </div>
                     </article>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-2 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/images/chi-siamo/grandi/3.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/3.jpg)" title="Shop rustic lamps"><img alt="Shop rustic lamps" src="images/blank.png"></a>
+                            <a href="/images/chi-siamo/grandi/3.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/3.jpg)" title="Shop rustic lamps"><img alt="Shop rustic lamps" src="/images/blank.png"></a>
                         </div>
                     </article>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-2 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/images/chi-siamo/grandi/4.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/4.jpg)" title="Shop crystal chandeliers"><img alt="Shop crystal chandeliers" src="images/blank.png"></a>
-                        </div>
-                    </article>
-                </div>
-
-
-                <div class="col-xs-6 col-sm-3 col-md-2 ">
-                    <article class="col-item">
-                        <div class="photo">
-                            <a href="/images/chi-siamo/grandi/10.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/10.jpg)" title="Shop modern chandeliers"><img alt="Shop modern chandeliers" src="images/blank.png"></a>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 ">
-                    <article class="col-item">
-                        <div class="photo">
-                            <a href="/images/chi-siamo/grandi/11.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/11.jpg)" title="Shop fans with lights"><img alt="Shop fans with lights" src="images/blank.png"></a>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-2 ">
-                    <article class="col-item">
-                        <div class="photo">
-                            <a href="/images/chi-siamo/grandi/13.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/13.jpg)" title="Shop lighting - Overview"><img alt="Shop lighting - Overview" src="images/blank.png"></a>
+                            <a href="/images/chi-siamo/grandi/4.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/4.jpg)" title="Shop crystal chandeliers"><img alt="Shop crystal chandeliers" src="/images/blank.png"></a>
                         </div>
                     </article>
                 </div>
 
+
                 <div class="col-xs-6 col-sm-3 col-md-2 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/images/chi-siamo/grandi/8.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/8.jpg)" title="Shop lamps - Overview"><img alt="Shop lamps - Overview" src="images/blank.png"></a>
+                            <a href="/images/chi-siamo/grandi/10.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/10.jpg)" title="Shop modern chandeliers"><img alt="Shop modern chandeliers" src="/images/blank.png"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-2 ">
+                    <article class="col-item">
+                        <div class="photo">
+                            <a href="/images/chi-siamo/grandi/11.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/11.jpg)" title="Shop fans with lights"><img alt="Shop fans with lights" src="/images/blank.png"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-2 ">
+                    <article class="col-item">
+                        <div class="photo">
+                            <a href="/images/chi-siamo/grandi/13.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/13.jpg)" title="Shop lighting - Overview"><img alt="Shop lighting - Overview" src="/images/blank.png"></a>
                         </div>
                     </article>
                 </div>
@@ -168,7 +160,7 @@
                 <div class="col-xs-6 col-sm-3 col-md-2 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/images/chi-siamo/grandi/15.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/15.jpg)" title="Shop Lighting Outdoor"><img alt="Shop Lighting Outdoor" src="images/blank.png"></a>
+                            <a href="/images/chi-siamo/grandi/8.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/8.jpg)" title="Shop lamps - Overview"><img alt="Shop lamps - Overview" src="/images/blank.png"></a>
                         </div>
                     </article>
                 </div>
@@ -176,7 +168,15 @@
                 <div class="col-xs-6 col-sm-3 col-md-2 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/images/chi-siamo/grandi/16.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/16.jpg)" title="Shop Lighting Outdoor"><img alt="Shop Lighting Outdoor" src="images/blank.png"></a>
+                            <a href="/images/chi-siamo/grandi/15.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/15.jpg)" title="Shop Lighting Outdoor"><img alt="Shop Lighting Outdoor" src="/images/blank.png"></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-xs-6 col-sm-3 col-md-2 ">
+                    <article class="col-item">
+                        <div class="photo">
+                            <a href="/images/chi-siamo/grandi/16.jpg" data-fancybox="group" data-caption="Caption #1" class="prod-img-replace" style="background-image: url(/images/chi-siamo/piccole/16.jpg)" title="Shop Lighting Outdoor"><img alt="Shop Lighting Outdoor" src="/images/blank.png"></a>
                         </div>
                     </article>
                 </div>

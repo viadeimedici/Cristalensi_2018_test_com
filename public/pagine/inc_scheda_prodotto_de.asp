@@ -265,7 +265,7 @@ end if
 														<div class="col-md-4 col-xs-6">
                                 <div class="col-item">
                                     <div class="photo">
-                                        <a href="/public/<%=file_img%>" data-fancybox="group" data-caption="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_1_cat%>" class="prod-img-replace" style="background-image: url(/public/<%=file_img%>)" title="<%if titolo_img<>"" then%><%=titolo_img%>&nbsp;<%=titolo_1_cat%><%else%><%=titolo_prodotto%>&nbsp;<%=titolo_1_cat%><%end if%>"><img itemprop="image" src="/images/blank.png" alt="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_1_cat%>"></a>
+                                        <a href="https://www.cristalensi.it/public/<%=file_img%>" data-fancybox="group" data-caption="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_1_cat%>" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/<%=file_img%>)" title="<%if titolo_img<>"" then%><%=titolo_img%>&nbsp;<%=titolo_1_cat%><%else%><%=titolo_prodotto%>&nbsp;<%=titolo_1_cat%><%end if%>"><img itemprop="image" src="/images/blank.png" alt="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_1_cat%>"></a>
                                     </div>
                                 </div>
                             </div>
@@ -284,7 +284,7 @@ end if
 														<%
 														if LEN(ClasseEnergetica)>0 then
 														%>
-														<a href="/public/etichetta-classe-energetica-<%=ClasseEnergetica%>.jpg" data-fancybox="group2" data-caption="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_1_cat%>" title="<%if titolo_img<>"" then%><%=titolo_img%>&nbsp;<%=titolo_cat%><%else%><%=titolo_prodotto%>&nbsp;<%=titolo_1_cat%><%end if%>"><img src="/public/etichetta-classe-energetica-<%=ClasseEnergetica%>.jpg" alt="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_1_cat%>" align="right" valign="middle" height="150px" width="75px"></a>
+														<a href="https://www.cristalensi.it/public/etichetta-classe-energetica-<%=ClasseEnergetica%>.jpg" data-fancybox="group2" data-caption="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_1_cat%>" title="<%if titolo_img<>"" then%><%=titolo_img%>&nbsp;<%=titolo_cat%><%else%><%=titolo_prodotto%>&nbsp;<%=titolo_1_cat%><%end if%>"><img src="https://www.cristalensi.it/public/etichetta-classe-energetica-<%=ClasseEnergetica%>.jpg" alt="<%=Titolo_prodotto%> - <%=produttore%> - <%=Titolo_1_cat%>" align="right" valign="middle" height="150px" width="75px"></a>
 														<%end if%>
 
 														<%=Descrizione_prodotto%>
@@ -307,7 +307,7 @@ end if
 															if ams.recordcount>0 then
 															titolo_1_amb=ams("Titolo_1_de")
 															titolo_2_amb=ams("Titolo_2_de")
-															url_amb=ams("Url")
+															url_amb=ams("Url_de")
 															%>
 															<a href="/lichtmarkenlampen-innenbeleuchtung-aussenbeleuchtung/<%=url_amb%>" title="<%=titolo_2_amb%>"><%=titolo_1_amb%></a>.&nbsp;
 															<%
@@ -476,7 +476,7 @@ end if
 											<%else%>
 												<%
 												Set col_rs = Server.CreateObject("ADODB.Recordset")
-												sql = "SELECT [Prodotto-Colore].FkProdotto, Colori.Titolo FROM [Prodotto-Colore] INNER JOIN Colori ON [Prodotto-Colore].FkColore = Colori.PkId WHERE ((([Prodotto-Colore].FkProdotto)="&id&")) ORDER BY Colori.Titolo ASC"
+												sql = "SELECT [Prodotto-Colore].FkProdotto, Colori.Titolo_de FROM [Prodotto-Colore] INNER JOIN Colori ON [Prodotto-Colore].FkColore = Colori.PkId WHERE ((([Prodotto-Colore].FkProdotto)="&id&")) ORDER BY Colori.Titolo_de ASC"
 												col_rs.open sql,conn, 1, 1
 												if col_rs.recordcount>0 then
 												%>
@@ -488,7 +488,7 @@ end if
 
 												<%
 												Set lam_rs = Server.CreateObject("ADODB.Recordset")
-												sql = "SELECT [Prodotto-Lampadina].FkProdotto, Lampadine.Titolo FROM [Prodotto-Lampadina] INNER JOIN Lampadine ON [Prodotto-Lampadina].FkLampadina = Lampadine.PkId WHERE ((([Prodotto-Lampadina].FkProdotto)="&id&")) ORDER BY Lampadine.Titolo ASC"
+												sql = "SELECT [Prodotto-Lampadina].FkProdotto, Lampadine.Titolo_de FROM [Prodotto-Lampadina] INNER JOIN Lampadine ON [Prodotto-Lampadina].FkLampadina = Lampadine.PkId WHERE ((([Prodotto-Lampadina].FkProdotto)="&id&")) ORDER BY Lampadine.Titolo_de ASC"
 												lam_rs.open sql,conn, 1, 1
 												if lam_rs.recordcount>0 then
 												%>
@@ -504,7 +504,7 @@ end if
 														<%
 														Do While Not col_rs.EOF
 														%>
-																<option title="<%=col_rs("Titolo")%>" value="<%=col_rs("Titolo")%>"><%=col_rs("Titolo")%></option>
+																<option title="<%=col_rs("Titolo_de")%>" value="<%=col_rs("Titolo_de")%>"><%=col_rs("Titolo_de")%></option>
 														<%
 														col_rs.movenext
 														loop

@@ -527,16 +527,15 @@
 									<a data-fancybox data-src="#hidden-content" href="javascript:;" class="btn launch btn-warning btn-block" style="white-space: normal; padding: 10px 0px;"><i class="fa fa-info-circle"></i>   Questions and doubt? Contact us!!!</a>
 								</div>
 								<div class="clearfix"></div>
-								<div class="banner_2 banner_a">
+								<!--<div class="banner_2 banner_a">
 									<img src="/images/sconto_extra.png">
-
 								</div>
 								<div class="banner_2 banner_b">
 									<img src="/images/spedizione_gratuita.png">
 								</div>
 								<div class="banner_2 banner_c">
 									<img src="/images/sconto_bonifico.png">
-								</div>
+								</div>-->
 
             </div>
         </div>

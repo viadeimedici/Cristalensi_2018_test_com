@@ -56,7 +56,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span> Sprachen <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="https://www.cristalensi.it">Italienisch</a></li>
-                    <li><a href="https://www.cristalensi.com/de/">Englisch</a></li>
+                    <li><a href="https://www.cristalensi.com/">Englisch</a></li>
                 </ul>
             </li>
         </ul>

@@ -50,7 +50,7 @@
         <div class="col-md-12">
             <div class="row top-buffer">
                 <div class="col-md-8">
-                    <h1 class="slogan">Contatti</h1>
+                    <h1 class="slogan">Contacts</h1>
                     <p class="main-description" itemtype="http://schema.org/Organization">
                       <span itemprop="name"><b>Cristalensi Snc</b> of Lensi Massimiliano & C.</span><br />
                       C.F. e Iscr. Reg. Impr. di Firenze 05305820481 - R.E.A. Florence 536760<br /><br />

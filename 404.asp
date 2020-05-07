@@ -3,11 +3,11 @@
 <html>
 
 <head>
-    <title>Pagina 404 - Cristalensi Vendita lampadari online</title>
+    <title>Page 404 - CRISTALENSI online store lamps</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Pagina non trovata nell'ecommerce Cristalensi, specializzato in vendita di lampari online. Showroom di lampade vicino Firenze, illuminazione interni, illuminazione da esterno, piantane, plafoniere, ventilatori, applique e faretti. Trovi ampia scelta di lampadari moderni, classici, rustici, in cristallo, in gesso, vetro Murano e lampade a LED.">
+    <meta name="description" content="This page doesn't exist on Cristalensi, Cristalensi is an ecommerce about lights">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Pagina non trovata nell'ecommerce Cristalensi, specializzato in vendita di lampari online. Showroom di lampade vicino Firenze, illuminazione interni, illuminazione da esterno, piantane, plafoniere, ventilatori, applique e faretti. Trovi ampia scelta di lampadari moderni, classici, rustici, in cristallo, in gesso, vetro Murano e lampade a LED.">
+    <meta property="og:description" content="This page doesn't exist on Cristalensi, Cristalensi is an ecommerce about lights">
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
@@ -47,10 +47,9 @@
             <div class="row top-buffer" itemscope itemtype="http://schema.org/WebSite">
               <link itemprop="url" href="https://www.cristalensi.it/"/>
                 <div class="col-md-8">
-                    <h1 class="slogan">Pagina non presente su Cristalensi</h1>
+                    <h1 class="slogan">This page doesn't exist on Cristalensi</h1>
                     <p class="main-description">
-                        La pagina che stavi cercando &egrave; stata cancellata oppure modificata e adesso &egrave; presente ad un altro indirizzo.<br />Puoi continuare la navigazione partendo dalle categorie principali oppure fare una ricerca inserendo il nome o il codice del prodotto, oppure contattando il nostro staff.
-                        <br />Ci scusiamo per il disagio, grazie comunque di averci visitato.<br />Cordiali saluti dallo staff di Cristalensi.
+                      The page you were looking for has been deleted or modified and is now present at another address. <br /> You can continue browsing starting from the main categories or search by entering the name or product code, or by contacting our staff.<br /> We apologize for the inconvenience, thanks anyway for visiting us. <br /> Best regards from the Cristalensi staff.
                     </p>
                 </div>
                 <%
@@ -91,18 +90,18 @@
                 %>
             </div>
             <div class="row top-buffer">
-                <div class="col-xl-12 clearfix">
-                    <h4 class="subtitle"><div class="dot"></div><span>Cosa stai cercando?</span></h4>
+                <!--<div class="col-xl-12 clearfix">
+                    <h4 class="subtitle"><div class="dot"></div><span>What lamp are you looking for?</span></h4>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/illuminazione-interni-ed-esterni/1ng-lampade-da-interno.asp" class="prod-img-replace" style="background-image: url(/images/home-lampade-da-interno.jpg)" title="Lampade da interno e illuminazione interni"><img alt="Lampade da interno" src="/images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/images/home-lampade-da-interno.jpg)" title="Indoor Lighting and Interior Lamps"><img alt="Indoor lighting" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/1ng-lampade-da-interno.asp" title="Lampade da interno e illuminazione interni"><h3>Lampade da interno</h3></a>
+                                    <a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" title="Indoor Lighting and Interior Lamps"><h3>Indoor lighting</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -111,12 +110,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/illuminazione-interni-ed-esterni/2ng-lampade-da-esterno.asp" class="prod-img-replace" style="background-image: url(/images/home-lampade-da-esterno.jpg)" title="Lampade da esterno e illuminazione esterni"><img alt="Lampade da esterno" src="/images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/images/home-lampade-da-esterno.jpg)" title="Outdoor Lighting and Exterior Lamps"><img alt="Outdoor Lighting" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/2ng-lampade-da-esterno.asp" title="Lampade da esterno e illuminazione esterni"><h3>Lampade da esterno</h3></a>
+                                    <a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" title="Outdoor Lighting and Exterior Lamps"><h3>Outdoor Lighting</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -125,12 +124,12 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/illuminazione-interni-ed-esterni/3ng-ventilatori.asp" class="prod-img-replace" style="background-image: url(/images/home-ventilatori.jpg)" title="Ventilatori"><img alt="Ventilatori" src="/images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/images/home-ventilatori.jpg)" title="Cooling fans"><img alt="Cooling fans" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/3ng-ventilatori.asp" title="Ventilatori"><h3>Ventilatori</h3></a>
+                                    <a href="/interior-exterior-lighting/3ng-cooling-fans.asp" title="Cooling fans"><h3>Cooling fans</h3></a>
                                 </div>
                             </div>
                         </div>
@@ -139,17 +138,17 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/illuminazione-interni-ed-esterni/4ng-lampadine-componenti-illuminazione.asp" class="prod-img-replace" style="background-image: url(/images/home-lampadine.jpg)" title="Lampadine"><img alt="Lampadine" src="/images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/images/home-lampadine.jpg)" title="Light bulbs, Drivers and Led Strip Bar"><img alt="Lampadine" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
                                 <div class="category col-md-6">
-                                    <a href="/illuminazione-interni-ed-esterni/4ng-lampadine-componenti-illuminazione.asp" title="Lampadine"><h3>Lampadine, driver e strisce</h3></a>
+                                    <a href="/interior-exterior-lighting/4ng-light-bulbs.asp" title="Light bulbs, Drivers and Led Strip Bar"><h3>Light bulbs, Drivers and Led Strip Bar</h3></a>
                                 </div>
                             </div>
                         </div>
                     </article>
-                </div>
+                </div>-->
             </div>
 
         </div>

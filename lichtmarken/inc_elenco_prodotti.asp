@@ -65,8 +65,8 @@ az_rs.close
 </head>
 
 <body>
-    <!--#include virtual="/inc_header_1.asp"-->
-    <!--#include virtual="/inc_header_2.asp"-->
+    <!--#include virtual="/de/inc_header_1.asp"-->
+    <!--#include virtual="/de/inc_header_2.asp"-->
     <div class="container content">
         <div class="row hidden">
             <div class="col-md-12 parentOverflowContainer">
@@ -81,11 +81,11 @@ az_rs.close
             <h1 class="title"><%=titolo_produttore%></h1>
             <div class="description">
               <div class="readmore">
-                <img src="/public/<%=file_img%>" class="hidden-xs" style="float: left; background: #ccc; margin-right: 10px;" alt="Auswahl von Beleuchtungsprodukten aus dem <%=titolo_produttore%>-Katalog" />
+                <img src="https://www.cristalensi.it/public/<%=file_img%>" class="hidden-xs" style="float: left; background: #ccc; margin-right: 10px;" alt="Auswahl von Beleuchtungsprodukten aus dem <%=titolo_produttore%>-Katalog" />
                 <h2>Auswahl von Beleuchtungsprodukten aus dem <%=titolo_produttore%>-Katalog</h2>
 
                 <%if Len(descrizione_produttore)>0 then%>
-                  <p><%=NoLettAccDescrizioni(descrizione_produttore)%></p>
+                  <p><%''=NoLettAccDescrizioni(descrizione_produttore)%></p>
                 <%else%>
 
                 <%end if%>
@@ -234,7 +234,7 @@ az_rs.close
                   <article class="col-item">
                       <%if dominio="IT" then%><%if spedizionegratis=1 then%><div class="options">SPEDIZIONE<br />GRATUITA</div><%end if%><%end if%>
                       <div class="photo">
-                          <a href="/<%=NomePagina%>" class="prod-img-replace" style="background-image: url(/public/<%=file_img%>)" title="<%=titolo_prodotto%>"><img alt="<%=titolo_prodotto%>" src="/images/blank.png"></a>
+                          <a href="/<%=NomePagina%>" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/<%=file_img%>)" title="<%=titolo_prodotto%>"><img alt="<%=titolo_prodotto%>" src="/images/blank.png"></a>
                       </div>
                       <div class="info">
                           <div class="row">
@@ -355,7 +355,7 @@ az_rs.close
         </div>
     </div>
     </div>
-    <!--#include virtual="/inc_footer.asp"-->
+    <!--#include virtual="/de/inc_footer.asp"-->
     <script>
         $(document).ready(function() {
             $('.readmore').readmore({

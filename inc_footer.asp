@@ -61,14 +61,14 @@
                 </ul>
             </div>
             <div class="col-md-3 menu-col">
-                <h4>Shipping and Payment</h4>
+                <h4>Shipping for Italy and Payment</h4>
                 <ul class="checklist">
                     <li>Insured shipments <strong> FREE </strong> throughout Italy for orders over 250&euro;</li>
                     <li>Insured shipments throughout Italy for orders up to 250&euro;: <strong>10&euro;</strong></li>
                 </ul>
                 <ul>
                     <li>
-                      <img src="/images/metodi-di-pagamento.jpg" alt="Payment method" />
+                      <!--<img src="/images/metodi-di-pagamento.jpg" alt="Payment method" />-->
                     </li>
                 </ul>
             </div>

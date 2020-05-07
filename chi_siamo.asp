@@ -95,6 +95,8 @@ Cristalensi offers its' clients a <strong>complete service</strong>, offering <s
                 <div class="col-xl-12 clearfix">
                     <h4 class="subtitle pull-left"><div class="dot"></div><span>Showroom Photos</span></h4>
                 </div>
+                
+
                 <div class="col-xs-6 col-sm-3 col-md-2 ">
                     <article class="col-item">
                         <div class="photo">

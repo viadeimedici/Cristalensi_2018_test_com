@@ -68,7 +68,7 @@
                 </ul>
                 <ul>
                     <li>
-                      <img src="/images/metodi-di-pagamento.jpg" alt="Payment method" />
+                      <!--<img src="/images/metodi-di-pagamento.jpg" alt="Payment method" />-->
                     </li>
                 </ul>
             </div>

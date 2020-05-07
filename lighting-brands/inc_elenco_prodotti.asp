@@ -81,11 +81,11 @@ az_rs.close
             <h1 class="title"><%=titolo_produttore%></h1>
             <div class="description">
               <div class="readmore">
-                <img src="/public/<%=file_img%>" class="hidden-xs" style="float: left; background: #ccc; margin-right: 10px;" alt="List of lighting products of <%=titolo_produttore%>" />
+                <img src="https://www.cristalensi.it/public/<%=file_img%>" class="hidden-xs" style="float: left; background: #ccc; margin-right: 10px;" alt="List of lighting products of <%=titolo_produttore%>" />
                 <h2>Selection of lighting products of <%=titolo_produttore%> catalog</h2>
 
                 <%if Len(descrizione_produttore)>0 then%>
-                  <p><%=NoLettAccDescrizioni(descrizione_produttore)%></p>
+                  <p><%''=NoLettAccDescrizioni(descrizione_produttore)%></p>
                 <%else%>
 
                 <%end if%>
@@ -234,7 +234,7 @@ az_rs.close
                   <article class="col-item">
                       <%if dominio="IT" then%><%if spedizionegratis=1 then%><div class="options">SPEDIZIONE<br />GRATUITA</div><%end if%><%end if%>
                       <div class="photo">
-                          <a href="/<%=NomePagina%>" class="prod-img-replace" style="background-image: url(/public/<%=file_img%>)" title="<%=titolo_prodotto%>"><img alt="<%=titolo_prodotto%>" src="/images/blank.png"></a>
+                          <a href="/<%=NomePagina%>" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/<%=file_img%>)" title="<%=titolo_prodotto%>"><img alt="<%=titolo_prodotto%>" src="/images/blank.png"></a>
                       </div>
                       <div class="info">
                           <div class="row">
