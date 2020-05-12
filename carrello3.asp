@@ -456,8 +456,8 @@
 																<%
 																Do while not trasp_rs.EOF
 																PkIdPagamento=trasp_rs("pkid")
-																NomePagamento=trasp_rs("nome")
-																DescrizionePagamento=NoLettAccDescrizioni(trasp_rs("descrizione"))
+																NomePagamento=trasp_rs("nome_EN")
+																DescrizionePagamento=NoLettAccDescrizioni(trasp_rs("descrizione_EN"))
 																CostoPagamento=trasp_rs("costo")
 
 																TipoCosto=trasp_rs("TipoCosto")

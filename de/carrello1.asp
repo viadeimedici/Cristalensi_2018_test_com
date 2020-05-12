@@ -545,42 +545,42 @@
 					<div class="col-md-6" style="clear: both;">
 						<div class="panel panel-default payment-list">
 							<div class="panel-heading">
-								<h5>Shipping</h5>
+								<h5>Lieferungskosten</h5>
 							</div>
 							<ul class="list-group">
-								<li class="list-group-item"><strong>Insured Shipping in Italy</strong></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>For orders over 250&euro;:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>For orders under 250&euro;:</em><div style="float: right;"><em><strong>10&euro;</strong></em></div></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>Pick up in the store:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
+								<li class="list-group-item"><strong>Lieferungen in ganz Italien</strong></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>Bestellungen über 250&euro;:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>Bestellungen unter 250&euro;:</em><div style="float: right;"><em><strong>10&euro;</strong></em></div></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>Selbstabholer:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
 							</ul>
 						</div>
 						<div class="panel panel-default payment-list">
 							<div class="panel-heading">
-								<h5>Conditions for the return of goods: </h5>
+								<h5>Bedingungen für die Rücksendung von Waren: </h5>
 							</div>
 							<ul class="list-group">
-								<li class="list-group-item"><strong>Right to return goods within 14 days as law</strong></li>
+								<li class="list-group-item"><strong>Rückgaberecht innerhalb von 14 Tagen als Gesetz</strong></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="panel panel-default payment-list">
 							<div class="panel-heading">
-								<h5>Payment</h5>
+								<h5>Zahlungsweisen</h5>
 							</div>
 							<ul class="list-group">
-								<li class="list-group-item"><strong>SECURE PAYMENT</strong></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>Bank transfer:</em><div style="float: right;"><em><strong>-2%</strong></em></div></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>Credit cards:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
-								<li class="list-group-item"><i class="fa fa-check"></i> <em>Cash on delivery (only for Italy and order under 500&euro;):</em><div style="float: right;"><em><strong>6&euro;</strong></em></div></li>
+								<li class="list-group-item"><strong>Sichere Zahlungen</strong></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>Banküberweisung:</em><div style="float: right;"><em><strong>-2%</strong></em></div></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>Kreditkarten:</em><div style="float: right;"><em><strong>0&euro;</strong></em></div></li>
+								<li class="list-group-item"><i class="fa fa-check"></i> <em>Nachnahme (nur für Italien):</em><div style="float: right;"><em><strong>6&euro;</strong></em></div></li>
 							</ul>
 						</div>
 						<div class="panel panel-default payment-list">
 							<div class="panel-heading">
-								<h5>Custom quote</h5>
+								<h5>Benutzerdefiniertes Angebot</h5>
 							</div>
 							<ul class="list-group">
-								<li class="list-group-item"><strong>For orders over 1500&uro; quotes and personalized discounts</strong></li>
+								<li class="list-group-item"><strong>Für Bestellungen über 1500€ Angebote und personalisierte Rabatte</strong></li>
 							</ul>
 						</div>
 					</div>

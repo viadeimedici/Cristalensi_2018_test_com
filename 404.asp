@@ -35,7 +35,7 @@
     <!--[if lt IE 9]><script src="javascripts/html5shiv.js"></script><![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,600,700" rel="stylesheet">
     <!--#include virtual="/inc_funzioni_head.asp"-->
-    <link rel="canonical" href="https://www.cristalensi.it/404.asp"/>
+    <link rel="canonical" href="https://www.cristalensi.com/404.asp"/>
 </head>
 
 <body>
@@ -45,7 +45,7 @@
         <div class="col-md-12">
             <!--#include virtual="inc_slider.asp"-->
             <div class="row top-buffer" itemscope itemtype="http://schema.org/WebSite">
-              <link itemprop="url" href="https://www.cristalensi.it/"/>
+              <link itemprop="url" href="https://www.cristalensi.com/"/>
                 <div class="col-md-8">
                     <h1 class="slogan">This page doesn't exist on Cristalensi</h1>
                     <p class="main-description">
@@ -62,7 +62,7 @@
                     <div class="panel panel-default user-comment" itemprop="review" itemscope itemtype="http://schema.org/Review">
                         <!-- Default panel contents -->
                         <div class="panel-heading">
-                            <h5><i class="fa fa-users"></i> Dicono di noi...</h5>
+                            <h5><i class="fa fa-users"></i> Reviews...</h5>
                         </div>
                         <ul class="list-group">
                             <%Do While not com_rs.EOF%>
@@ -75,13 +75,13 @@
                             end if
                             cr_rs.close
                             %>
-                            <li class="list-group-item"><i class="fa fa-user"></i> <em><span itemprop="description"><%=Left(NoHTML(com_rs("Testo")), 90)%>...</span><span itemprop="author" style="display: none;"><%=NomeIscritto%></span> <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">Voto: <meta itemprop="worstRating" content = "1"><span itemprop="ratingValue"><%=com_rs("Valutazione")%></span>/<span itemprop="bestRating">5</span></span></em></li>
+                            <li class="list-group-item"><i class="fa fa-user"></i> <em><span itemprop="description"><%=Left(NoHTML(com_rs("Testo")), 90)%>...</span><span itemprop="author" style="display: none;"><%=NomeIscritto%></span> <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">Raiting: <meta itemprop="worstRating" content = "1"><span itemprop="ratingValue"><%=com_rs("Valutazione")%></span>/<span itemprop="bestRating">5</span></span></em></li>
                             <%
                             com_rs.movenext
             								loop
                             %>
                         </ul>
-                        <div class="panel-footer"><a href="commenti_elenco.asp" class="btn btn-default">leggi tutti i commenti <i class="fa fa-chevron-right"></i></a></div>
+                        <div class="panel-footer"><a href="/commenti_elenco.asp" class="btn btn-default">read all reviews <i class="fa fa-chevron-right"></i></a></div>
                     </div>
                 </div>
                 <%
@@ -90,13 +90,13 @@
                 %>
             </div>
             <div class="row top-buffer">
-                <!--<div class="col-xl-12 clearfix">
+                <div class="col-xl-12 clearfix">
                     <h4 class="subtitle"><div class="dot"></div><span>What lamp are you looking for?</span></h4>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/images/home-lampade-da-interno.jpg)" title="Indoor Lighting and Interior Lamps"><img alt="Indoor lighting" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(/images/home-lampade-da-interno.jpg)" title="Indoor Lighting and Interior Lamps"><img alt="Indoor lighting" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -110,7 +110,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/images/home-lampade-da-esterno.jpg)" title="Outdoor Lighting and Exterior Lamps"><img alt="Outdoor Lighting" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(/images/home-lampade-da-esterno.jpg)" title="Outdoor Lighting and Exterior Lamps"><img alt="Outdoor Lighting" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -124,7 +124,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/images/home-ventilatori.jpg)" title="Cooling fans"><img alt="Cooling fans" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(/images/home-ventilatori.jpg)" title="Cooling fans"><img alt="Cooling fans" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -138,7 +138,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/images/home-lampadine.jpg)" title="Light bulbs, Drivers and Led Strip Bar"><img alt="Lampadine" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(/images/home-lampadine.jpg)" title="Light bulbs, Drivers and Led Strip Bar"><img alt="Lampadine" src="/images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -148,12 +148,12 @@
                             </div>
                         </div>
                     </article>
-                </div>-->
+                </div>
             </div>
 
         </div>
     </div>
-    <!--#include virtual="inc_footer.asp"-->
+    <!--#include virtual="/inc_footer.asp"-->
     <script type='text/javascript' src='/javascripts/camera.min.js'></script>
     <script type='text/javascript' src='/javascripts/jquery.easing.1.3.min.js'></script>
     <script>
@@ -169,4 +169,4 @@
 		});
 	</script>
 </body>
-<!--#include virtual="inc_strClose.asp"-->
+<!--#include virtual="/inc_strClose.asp"-->

@@ -440,8 +440,8 @@
 														if trasp_rs.recordcount>0 then
 															Do while not trasp_rs.EOF
 															PkIdSpedizione=trasp_rs("pkid")
-															NomeSpedizione=trasp_rs("nome")
-															DescrizioneSpedizione=NoLettAccDescrizioni(trasp_rs("descrizione"))
+															NomeSpedizione=trasp_rs("nome_EN")
+															DescrizioneSpedizione=NoLettAccDescrizioni(trasp_rs("descrizione_EN"))
 															CostoSpedizione=trasp_rs("costo")
 
 															TipoCosto=trasp_rs("TipoCosto")
