@@ -79,7 +79,7 @@ az_rs.close
                 <li class="active" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><span itemprop="name"><%=titolo_produttore%></span><meta itemprop="position" content="3" /></li>
             </ol>
             <h1 class="title"><%=titolo_produttore%></h1>
-            <div class="description">
+            <!--<div class="description">
               <div class="readmore">
                 <img src="https://www.cristalensi.it/public/<%=file_img%>" class="hidden-xs" style="float: left; background: #ccc; margin-right: 10px;" alt="List of lighting products of <%=titolo_produttore%>" />
                 <h2>Selection of lighting products of <%=titolo_produttore%> catalog</h2>
@@ -91,7 +91,7 @@ az_rs.close
                 <%end if%>
 
               </div>
-            </div>
+            </div>-->
             <a name="inizioelenco"></a>
         </div>
         <div class="col-md-3">

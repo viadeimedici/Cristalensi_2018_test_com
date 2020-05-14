@@ -40,7 +40,7 @@ if id>0 then
 			if pr_rs.recordcount>0 then
 				produttore=pr_rs("titolo")
 				url_produttore="/lighting-brands/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore)
-				Consegna=pr_rs("Consegna")
+				Consegna=pr_rs("Consegna_en")
 			end if
 			pr_rs.close
 		end if
