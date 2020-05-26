@@ -16,7 +16,7 @@
                   Tel.: <span itemprop="telephone">0571.911163</span><br />
                   E-mail: <span itemprop="email">info@cristalensi.it</span>
                 </p>
-                <h4>Contatti Social</h4>
+                <h4>Social</h4>
                 <p class="social">
                     <a href="https://www.facebook.com/CristalensiLampadari/" target="_blank" rel="nofollow"><i class="fa fa-facebook-square"></i></a>
                     <a href="https://www.youtube.com/channel/UCsP3WTO0PryxgRq6OymSfpA/videos" target="_blank" rel="nofollow"><i class="fa fa-youtube-square"></i></a>
@@ -94,14 +94,22 @@
     nome=request("nome")
     telefono=request("telefono")
     richiesta=request("richiesta")
-    if InStr(richiesta, "http")>0 or InStr(richiesta, "www")>0 or InStr(richiesta, "href")>0 then
+    test_spam=request("test_spam")
+
+    if InStr(richiesta, "http")>0 or InStr(richiesta, "www")>0 or InStr(richiesta, "href")>0 or InStr(nome, "http")>0 or InStr(nome, "www")>0 or InStr(nome, "href")>0 or Len(test_spam)>0 then
       invioemail="no"
     Else
       invioemail="si"
     end if
+
+    if Len(telefono)>0 then
+      if InStr(telefono, "a")>0 or InStr(telefono, "b")>0 or InStr(telefono, "c")>0 or InStr(telefono, "d")>0 or InStr(telefono, "e")>0 or InStr(telefono, "f")>0 or InStr(telefono, "g")>0 or InStr(telefono, "h")>0 or InStr(telefono, "i")>0 or InStr(telefono, "l")>0 or InStr(telefono, "m")>0 or InStr(telefono, "n")>0 or InStr(telefono, "o")>0 or InStr(telefono, "p")>0 or InStr(telefono, "q")>0 or InStr(telefono, "r")>0 or InStr(telefono, "s")>0 or InStr(telefono, "t")>0 or InStr(telefono, "u")>0 or InStr(telefono, "v")>0 or InStr(telefono, "w")>0 or InStr(telefono, "z")>0 then
+        invioemail="no"
+      end if
+    end if
     ip=Request.ServerVariables("REMOTE_ADDR")
 
-    if email<>"" and invioemail="si" and ip<>"194.226.137.235" then
+    if email<>"" and invioemail="si" then
 
   		data=date()
 
@@ -283,6 +291,7 @@
     function verifica_request() {
 
     email=document.requestform.email.value;
+    telefono=document.requestform.telefono.value;
     richiesta=document.requestform.richiesta.value;
 
     if (email==""){
@@ -292,6 +301,10 @@
     if (email.indexOf("@")==-1 || email.indexOf(".")==-1){
     alert("ATTENTION! \"e-mail\" is not correct.");
     return false;
+    }
+    if ((isNan(telefono)) && (telefono.length>0)){
+      alert(" \"Phone\" must have only numbers.");
+      return false;
     }
     if (richiesta.indexOf("https")>-1 || richiesta.indexOf("http")>-1 || richiesta.indexOf("www")>-1 || richiesta.indexOf("href")>-1){
     alert("ATTENTION! You can not submit name or url of web sites.");
@@ -321,7 +334,7 @@
           <div class="form-group">
               <label for="nome" class="col-sm-4 control-label">Name and Surname</label>
               <div class="col-sm-8">
-                  <input type="text" class="form-control" id="nome" name="nome">
+                  <input type="text" class="form-control" id="nome" name="nome"><input type="text" style="display: none;" name="test_spam" value="" />
               </div>
           </div>
           <div class="form-group">
@@ -360,10 +373,15 @@
     nome=request("nome")
     telefono=request("telefono")
     richiesta=request("richiesta")
-    if InStr(richiesta, "http")>0 or InStr(richiesta, "www")>0 or InStr(richiesta, "href")>0 then
+    if InStr(richiesta, "http")>0 or InStr(richiesta, "www")>0 or InStr(richiesta, "href")>0 or InStr(nome, "http")>0 or InStr(nome, "www")>0 or InStr(nome, "href")>0 then
       invioemail="no"
     Else
       invioemail="si"
+    end if
+    if Len(telefono)>0 then
+      if InStr(telefono, "a")>0 or InStr(telefono, "b")>0 or InStr(telefono, "c")>0 or InStr(telefono, "d")>0 or InStr(telefono, "e")>0 or InStr(telefono, "f")>0 or InStr(telefono, "g")>0 or InStr(telefono, "h")>0 or InStr(telefono, "i")>0 or InStr(telefono, "l")>0 or InStr(telefono, "m")>0 or InStr(telefono, "n")>0 or InStr(telefono, "o")>0 or InStr(telefono, "p")>0 or InStr(telefono, "q")>0 or InStr(telefono, "r")>0 or InStr(telefono, "s")>0 or InStr(telefono, "t")>0 or InStr(telefono, "u")>0 or InStr(telefono, "v")>0 or InStr(telefono, "w")>0 or InStr(telefono, "z")>0 then
+        invioemail="no"
+      end if
     end if
     ip=Request.ServerVariables("REMOTE_ADDR")
 
@@ -529,6 +547,7 @@
     function verifica_request_prev() {
 
     email=document.requestprev.email.value;
+    telefono=document.requestform.telefono.value;
     richiesta=document.requestprev.richiesta.value;
 
     if (email==""){
@@ -538,6 +557,10 @@
     if (email.indexOf("@")==-1 || email.indexOf(".")==-1){
     alert("ATTENTION! \"e-mail\" is not correct.");
     return false;
+    }
+    if ((isNan(telefono)) && (telefono.length>0)){
+      alert(" \"Phone\" must have only numbers.");
+      return false;
     }
     if (richiesta.indexOf("https")>-1 || richiesta.indexOf("http")>-1 || richiesta.indexOf("www")>-1 || richiesta.indexOf("href")>-1){
     alert("ATTENTION! You can not submit name or url of web sites.");
@@ -604,10 +627,15 @@ if ric=1 then
   nome=request("nome")
   telefono=request("telefono")
   richiesta=request("richiesta")
-  if InStr(richiesta, "http")>0 or InStr(richiesta, "www")>0 or InStr(richiesta, "href")>0 then
+  if InStr(richiesta, "http")>0 or InStr(richiesta, "www")>0 or InStr(richiesta, "href")>0 or InStr(nome, "http")>0 or InStr(nome, "www")>0 or InStr(nome, "href")>0 then
     invioemail="no"
   Else
     invioemail="si"
+  end if
+  if Len(telefono)>0 then
+    if InStr(telefono, "a")>0 or InStr(telefono, "b")>0 or InStr(telefono, "c")>0 or InStr(telefono, "d")>0 or InStr(telefono, "e")>0 or InStr(telefono, "f")>0 or InStr(telefono, "g")>0 or InStr(telefono, "h")>0 or InStr(telefono, "i")>0 or InStr(telefono, "l")>0 or InStr(telefono, "m")>0 or InStr(telefono, "n")>0 or InStr(telefono, "o")>0 or InStr(telefono, "p")>0 or InStr(telefono, "q")>0 or InStr(telefono, "r")>0 or InStr(telefono, "s")>0 or InStr(telefono, "t")>0 or InStr(telefono, "u")>0 or InStr(telefono, "v")>0 or InStr(telefono, "w")>0 or InStr(telefono, "z")>0 then
+      invioemail="no"
+    end if
   end if
   ip=Request.ServerVariables("REMOTE_ADDR")
 
@@ -773,6 +801,7 @@ end if
   function verifica_request() {
 
   email=document.requestform.email.value;
+  telefono=document.requestform.telefono.value;
   richiesta=document.requestform.richiesta.value;
 
   if (email==""){
@@ -782,6 +811,10 @@ end if
   if (email.indexOf("@")==-1 || email.indexOf(".")==-1){
   alert("ATTENTION! \"e-mail\" is not correct.");
   return false;
+  }
+  if ((isNan(telefono)) && (telefono.length>0)){
+    alert(" \"Phone\" must have only numbers.");
+    return false;
   }
   if (richiesta.indexOf("https")>-1 || richiesta.indexOf("http")>-1 || richiesta.indexOf("www")>-1 || richiesta.indexOf("href")>-1){
   alert("ATTENTION! You can not submit name or url of web sites.");
