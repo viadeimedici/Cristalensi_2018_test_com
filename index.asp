@@ -56,7 +56,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/images/home-lampade-da-interno.jpg)" title="Indoor Lighting and Interior Lamps"><img alt="Indoor lighting" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/1ng-indoor-lighting.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/home-lampade-da-interno.jpg)" title="Indoor Lighting and Interior Lamps"><img alt="Indoor lighting" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -70,7 +70,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/images/home-lampade-da-esterno.jpg)" title="Outdoor Lighting and Exterior Lamps"><img alt="Outdoor Lighting" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/2ng-outdoor-lighting.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/home-lampade-da-esterno.jpg)" title="Outdoor Lighting and Exterior Lamps"><img alt="Outdoor Lighting" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -84,7 +84,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/images/home-ventilatori.jpg)" title="Cooling fans"><img alt="Cooling fans" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/3ng-cooling-fans.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/home-ventilatori.jpg)" title="Cooling fans"><img alt="Cooling fans" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -98,7 +98,7 @@
                 <div class="col-xs-6 col-sm-4 col-md-3 ">
                     <article class="col-item">
                         <div class="photo">
-                            <a href="/interior-exterior-lighting/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/images/home-lampadine.jpg)" title="Light bulbs, Drivers and Led Strip Bar"><img alt="Lampadine" src="images/blank.png"></a>
+                            <a href="/interior-exterior-lighting/4ng-light-bulbs.asp" class="prod-img-replace" style="background-image: url(https://www.cristalensi.it/public/home-lampadine.jpg)" title="Light bulbs, Drivers and Led Strip Bar"><img alt="Lampadine" src="images/blank.png"></a>
                         </div>
                         <div class="info">
                             <div class="row">
@@ -330,8 +330,8 @@
             end if
             prod_rs.close
             %>
-            <div class="row top-buffer hidden-xs" itemscope itemtype="http://schema.org/WebSite">
-              <link itemprop="url" href="https://www.cristalensi.it/"/>
+            <div class="row top-buffer hidden-xs" itemscope itemtype="https://schema.org/WebSite">
+              <link itemprop="url" href="https://www.cristalensi.com/"/>
                 <div class="col-md-8">
                     <h2 class="slogan">Cristalensi, online store of lights<br />Showroom of lamps for over 50 years!</h2>
                     <p class="main-description">
@@ -348,7 +348,7 @@
                 if com_rs.recordcount>0 then
                 %>
                 <div class="col-md-4 ">
-                    <div class="panel panel-default user-comment" itemprop="review" itemscope itemtype="http://schema.org/Review">
+                    <div class="panel panel-default user-comment" itemprop="review" itemscope itemtype="https://schema.org/Review">
                         <!-- Default panel contents -->
                         <div class="panel-heading">
                             <h5><i class="fa fa-users"></i> Reviews...</h5>
@@ -364,7 +364,7 @@
                             end if
                             cr_rs.close
                             %>
-                            <li class="list-group-item"><i class="fa fa-user"></i> <em><span itemprop="description"><%=Left(NoHTML(com_rs("Testo")), 90)%>...</span><span itemprop="author" style="display: none;"><%=NomeIscritto%></span> <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">Raiting: <meta itemprop="worstRating" content = "1"><span itemprop="ratingValue"><%=com_rs("Valutazione")%></span>/<span itemprop="bestRating">5</span></span></em></li>
+                            <li class="list-group-item"><i class="fa fa-user"></i> <em><span itemprop="description"><%=Left(NoHTML(com_rs("Testo")), 90)%>...</span><span itemprop="author" style="display: none;"><%=NomeIscritto%></span> <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">Raiting: <meta itemprop="worstRating" content = "1"><span itemprop="ratingValue"><%=com_rs("Valutazione")%></span>/<span itemprop="bestRating">5</span></span></em></li>
                             <%
                             com_rs.movenext
                             loop
