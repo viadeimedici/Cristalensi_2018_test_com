@@ -46,10 +46,10 @@ if order="" then order=1
 
 if cat>0 then
 Set cs=Server.CreateObject("ADODB.Recordset")
-sql = "SELECT Categorie1.PkId as PkId_1, Categorie1.Titolo as Titolo_1, Categorie2.PkId as PkId_2, Categorie2.Titolo as Titolo_2 "
+sql = "SELECT Categorie1.PkId as PkId_1, Categorie1.Titolo_EN as Titolo_1, Categorie2.PkId as PkId_2, Categorie2.Titolo_EN as Titolo_2 "
 sql = sql + "FROM Categorie1 INNER JOIN Categorie2 ON Categorie1.PkId = Categorie2.Fkcategoria1 "
 sql = sql + "WHERE Categorie2.PkId = "&cat&" "
-sql = sql + "ORDER BY Categorie1.Titolo ASC, Categorie2.Titolo ASC"
+sql = sql + "ORDER BY Categorie1.Titolo_EN ASC, Categorie2.Titolo_EN ASC"
 cs.Open sql, conn, 1, 1
 if cs.recordcount>0 then
 	title=cs("Titolo_1") & " " & cs("Titolo_2")
@@ -61,15 +61,15 @@ end if
 <html>
 
 <head>
-    <title><%if cat>0 then%>Ricerca<%if titolo<>"" then%><%=" "&titolo&" "%><%end if%><%=" "&title%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%> articoli illuminazione<%else%>Ricerca<%=" "&titolo%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%> articoli illuminazione per esterni lampade per interni<%end if%></title>
+    <title><%if cat>0 then%>Ricerca<%if titolo<>"" then%><%=" "&titolo&" "%><%end if%><%=" "&title%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%> lighting articles<%else%>Search<%=" "&titolo%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%> outdoor lighting articles indoor lamps<%end if%></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<%if cat>0 then%>
-	    <meta name="description" content="Fai una ricerca nel catalogo di Cristalensi per <%=title%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%>, <%if titolo<>"" then%><%=titolo%>, <%end if%>troverai un ampio numero di prodotti da cui scegliere per arredare la tua casa, il tuo ufficio, il giardino e tutti gli esterni dell'abitazione">
+	    <meta name="description" content="Search the Cristalensi catalog for <%=title%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%>, <%if titolo<>"" then%><%=titolo%>, <%end if%>you will find a large number of products to choose from to furnish your home, your office, the garden and all the exterior of the home">
 		<%else%>
-	    <meta name="description" content="Fai una ricerca <%if titolo<>"" then%>per <%=titolo%> <%end if%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%>nel catalogo di Cristalensi, showroom vicino Firenze, vende lampade e lampadari on line, prodotti per illuminazione da interno, illuminazione da esterno, lampadari, piantane, plafoniere, lampade da esterno, ventilatori, lampade per bambini e lampade per il bagno, prodotti in molti stili dal moderno al classico.">
+	    <meta name="description" content="Search <%if titolo<>"" then%>per <%=titolo%> <%end if%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%>in the Cristalensi catalog, showroom near Florence, sell lamps and chandeliers online, products for indoor lighting, outdoor lighting.">
 	  <%end if%>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Le migliori offerte di prodotti per illuminazione, lampadari in offerta: da Cristalensi trovate lampade in offerta.">
+    <meta property="og:description" content="The best offers of lighting products, chandeliers on offer: from Cristalensi you will find lamps on offer.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -101,7 +101,7 @@ end if
         }
     </style>
 		<%if p>0 then%>
-		<link rel="canonical" href="https://www.cristalensi.it/ricerca_avanzata_elenco.asp?cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&titolo=<%=titolo%>&prezzo_da=<%=prezzo_da%>&prezzo_a=<%=prezzo_a%>&order=<%=order%>"/>
+		<link rel="canonical" href="https://www.cristalensi.com/ricerca_avanzata_elenco.asp?cat=<%=cat%>&FkProduttore=<%=FkProduttore%>&titolo=<%=titolo%>&prezzo_da=<%=prezzo_da%>&prezzo_a=<%=prezzo_a%>&order=<%=order%>"/>
 		<%end if%>
 		<!--#include virtual="/inc_funzioni_head.asp"-->
 </head>
@@ -117,14 +117,14 @@ end if
         <div class="col-xl-12">
             <ol class="breadcrumb">
                 <li><a href="/"><i class="fa fa-home"></i></a></li>
-                <li class="active">Ricerca prodotti</li>
+                <li class="active">Products search</li>
             </ol>
 
 						<%if titolo<>"" or prezzo_da<>0 or prezzo_a<>0 or title<>"" or produttore<>"" then%>
 						<h1 class="title">
-						Ricerca prodotti
-						 - Hai cercato: <%if titolo<>"" then%> <%=titolo%><%end if%><%if prezzo_da<>0 or prezzo_a<>0 then%> - Prezzo da <%=prezzo_da%> a <%=prezzo_a%><%end if%>
-						<%if title<>"" then%><br />Categoria: <%=title%><%end if%><%if produttore<>"" then%><br />Produttore: <%=produttore%><%end if%>
+						Products search
+						 - You searched: <%if titolo<>"" then%> <%=titolo%><%end if%><%if prezzo_da<>0 or prezzo_a<>0 then%> - Price from <%=prezzo_da%> to <%=prezzo_a%><%end if%>
+						<%if title<>"" then%><br />Category: <%=title%><%end if%><%if produttore<>"" then%><br />Brand: <%=produttore%><%end if%>
 						</h1>
 						<%end if%>
 
@@ -143,14 +143,14 @@ end if
                     <ul class="list-unstyled side-list">
                         <%
                         Do While not tip_rs.EOF
-                          Titolo_1=tip_rs("Titolo_1")
-                          Titolo_2=tip_rs("Titolo_2")
-                          Url=tip_rs("Url")
-                          Title=tip_rs("Title")
+                          Titolo_1=tip_rs("Titolo_1_en")
+                          Titolo_2=tip_rs("Titolo_2_en")
+                          Url=tip_rs("Url_en")
+                          Title=tip_rs("Title_en")
                           'Description=tip_rs("Description")
                           'Descrizione=tip_rs("Descrizione")
                         %>
-                        <li><a href="/illuminazione-interni-ed-esterni/<%=Url%>" title="<%=Titolo_2%>"><%=Titolo_1%></a></li>
+                        <li><a href="/interior-exterior-lighting/<%=Url%>" title="<%=Titolo_2%>"><%=Titolo_1%></a></li>
                         <%
                         tip_rs.movenext
                         loop
@@ -167,8 +167,8 @@ end if
 				<%
 					'if FkProduttore>0 and order=1 then order=5
 
-					if order=1 then ordine="Titolo ASC"
-					if order=2 then ordine="Titolo DESC"
+					if order=1 then ordine="Titolo_en ASC"
+					if order=2 then ordine="Titolo_en DESC"
 					if order=3 then ordine="PrezzoProdotto ASC, PrezzoListino ASC"
 					if order=4 then ordine="PrezzoProdotto DESC, PrezzoListino DESC"
 
@@ -188,7 +188,7 @@ end if
 						sql = sql + "AND FkProduttore="&FkProduttore&" "
 					end if
 					if titolo<>"" then
-						sql = sql + "AND (CodiceArticolo LIKE '%"&titolo&"%' OR CodiceArticolo_Azienda LIKE '%"&titolo&"%' OR Titolo LIKE '%"&titolo&"%') "
+						sql = sql + "AND (CodiceArticolo LIKE '%"&titolo&"%' OR CodiceArticolo_Azienda LIKE '%"&titolo&"%' OR Titolo_en LIKE '%"&titolo&"%') "
 					end if
 					sql = sql + "AND Offerta<10 "
 					sql = sql + "ORDER BY "&ordine&""
@@ -230,8 +230,8 @@ end if
 								Do while not prod_rs.EOF
 
                   id=prod_rs("pkid")
-                  titolo_prodotto=prod_rs("titolo")
-                  NomePagina=prod_rs("NomePagina")
+                  titolo_prodotto=prod_rs("titolo_en")
+                  NomePagina=prod_rs("NomePagina_en")
                   if Len(NomePagina)>0 then
                     NomePagina="public/pagine/"&NomePagina
                     'NomePagina="/public/pagine/scheda_prodotto.asp?id="&id
@@ -344,7 +344,7 @@ end if
 		<div class="container content">
 			<div class="col-xl-12">
 					<h2 class="title">
-					Ricerca avanzata
+					Advanced search
 					</h2>
 					<form class="form-horizontal" method="post" action="/ricerca_avanzata_elenco.asp" name="newsform">
 					<div class="col-lg-6">

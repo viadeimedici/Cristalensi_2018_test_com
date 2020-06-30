@@ -65,12 +65,12 @@ end if
 		<title><%if cat>0 then%>Suche<%if titolo<>"" then%><%=" "&titolo&" "%><%end if%><%=" "&title%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%> Beleuchtungsartikel<%else%>Suche<%=" "&titolo%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%> Außenbeleuchtung Artikel Innenleuchten<%end if%></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<%if cat>0 then%>
-	    <meta name="description" content="Fai una ricerca nel catalogo di Cristalensi per <%=title%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%>, <%if titolo<>"" then%><%=titolo%>, <%end if%>troverai un ampio numero di prodotti da cui scegliere per arredare la tua casa, il tuo ufficio, il giardino e tutti gli esterni dell'abitazione">
+	    <meta name="description" content="Durchsuchen Sie den Cristalensi-Katalog nach <%=title%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%>, <%if titolo<>"" then%><%=titolo%>, <%end if%>Sie finden eine große Anzahl von Produkten zur Auswahl, um Ihr Zuhause, Ihr Büro, den Garten und das gesamte Äußere des Hauses einzurichten">
 		<%else%>
-	    <meta name="description" content="Fai una ricerca <%if titolo<>"" then%>per <%=titolo%> <%end if%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%>nel catalogo di Cristalensi, showroom vicino Firenze, vende lampade e lampadari on line, prodotti per illuminazione da interno, illuminazione da esterno, lampadari, piantane, plafoniere, lampade da esterno, ventilatori, lampade per bambini e lampade per il bagno, prodotti in molti stili dal moderno al classico.">
+	    <meta name="description" content="Mach eine Suche <%if titolo<>"" then%>per <%=titolo%> <%end if%><%if produttore<>"" then%><%=" "&produttore&" "%><%end if%>Im Cristalensi-Katalog, Ausstellungsraum in der Nähe von Florenz, werden Lampen und Kronleuchter online verkauft, Produkte für die Innenbeleuchtung und Außenbeleuchtung.">
 	  <%end if%>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="Le migliori offerte di prodotti per illuminazione, lampadari in offerta: da Cristalensi trovate lampade in offerta.">
+    <meta property="og:description" content="Die besten Angebote für Beleuchtungsprodukte, Kronleuchter im Angebot: Bei Cristalensi finden Sie Lampen im Angebot.">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -146,7 +146,7 @@ end if
                         Do While not tip_rs.EOF
                           Titolo_1=tip_rs("Titolo_1_de")
                           Titolo_2=tip_rs("Titolo_2_de")
-                          Url=tip_rs("Url")
+                          Url=tip_rs("Url_de")
                           Title=tip_rs("Title_de")
                           'Description=tip_rs("Description")
                           'Descrizione=tip_rs("Descrizione")
