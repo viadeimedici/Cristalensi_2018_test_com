@@ -27,6 +27,7 @@ if id>0 then
 		if fkproduttore="" then fkproduttore=0
 		NomePagina=prod_rs("NomePagina")
 
+		Consegna=prod_rs("Consegna_de")
 
 		offerta=prod_rs("offerta")
 		if offerta="" then offerta=0
@@ -40,7 +41,9 @@ if id>0 then
 			if pr_rs.recordcount>0 then
 				produttore=pr_rs("titolo")
 				url_produttore="/lichtmarken/"&ConvertiTitoloInUrlProduttore(produttore, fkproduttore)
-				Consegna=pr_rs("Consegna_de")
+				if Consegna="" or IsNull(Consegna) then
+					Consegna=pr_rs("Consegna_de")
+				end if
 			end if
 			pr_rs.close
 		end if
@@ -62,7 +65,7 @@ if id>0 then
 		if gr_rs.recordcount>0 then
 		  Titolo_1_gr=gr_rs("Titolo_1_de")
 		  Titolo_2_gr=gr_rs("Titolo_2_de")
-		  Url_gr=gr_rs("Url")
+		  Url_gr=gr_rs("Url_de")
 		end if
 		gr_rs.close
 
@@ -72,7 +75,7 @@ if id>0 then
 		if tr_rs.recordcount>0 then
 		  Titolo_1_tip=tr_rs("Titolo_1_de")
 		  Titolo_2_tip=tr_rs("Titolo_2_de")
-		  Url_tip=tr_rs("Url")
+		  Url_tip=tr_rs("Url_de")
 		end if
 		tr_rs.close
 
@@ -82,8 +85,8 @@ if id>0 then
 		if cr_rs.recordcount>0 then
 		  Titolo_1_cat=cr_rs("Titolo_1_de")
 		  Titolo_2_cat=cr_rs("Titolo_2_de")
-		  Url_cat=cr_rs("Url")
-		  Title_cat=cr_rs("Title")
+		  Url_cat=cr_rs("Url_de")
+		  Title_cat=cr_rs("Title_de")
 		end if
 		cr_rs.close
 
