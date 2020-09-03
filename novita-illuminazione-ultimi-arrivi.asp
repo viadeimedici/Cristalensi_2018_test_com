@@ -132,7 +132,7 @@ Items with elegant design by leading brands and manufacturers, but also products
                     end if
 
                     Set img_rs = Server.CreateObject("ADODB.Recordset")
-                    sql = "SELECT * FROM Immagini WHERE Record="&id&" AND Tabella='Prodotti' Order by PkId_Contatore ASC"
+                    sql = "SELECT * FROM Immagini WHERE Record="&id&" AND Tabella='Prodotti' Order by Ordine ASC, PkId_Contatore ASC"
                     img_rs.open sql,conn, 1, 1
 
                     if img_rs.recordcount>0 then
